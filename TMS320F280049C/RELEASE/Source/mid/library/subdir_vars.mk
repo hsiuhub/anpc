@@ -6,27 +6,21 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/library/mid_library_adc.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/library/mid_library_uart.c 
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/mid/library/mid_library_adc.c 
 
 C_DEPS += \
-./Source/mid/library/mid_library_adc.d \
-./Source/mid/library/mid_library_uart.d 
+./Source/mid/library/mid_library_adc.d 
 
 OBJS += \
-./Source/mid/library/mid_library_adc.obj \
-./Source/mid/library/mid_library_uart.obj 
+./Source/mid/library/mid_library_adc.obj 
 
 OBJS__QUOTED += \
-"Source\mid\library\mid_library_adc.obj" \
-"Source\mid\library\mid_library_uart.obj" 
+"Source\mid\library\mid_library_adc.obj" 
 
 C_DEPS__QUOTED += \
-"Source\mid\library\mid_library_adc.d" \
-"Source\mid\library\mid_library_uart.d" 
+"Source\mid\library\mid_library_adc.d" 
 
 C_SRCS__QUOTED += \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/library/mid_library_adc.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/library/mid_library_uart.c" 
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/mid/library/mid_library_adc.c" 
 
 

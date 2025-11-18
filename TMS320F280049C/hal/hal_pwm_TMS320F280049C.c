@@ -74,31 +74,10 @@ void pwm_hal_Setup1phasePWM(uint32_t lowFreqBase,
                                           EPWM_AQ_OUTPUT_NO_CHANGE_UP_T2 |
                                           EPWM_AQ_OUTPUT_NO_CHANGE_DOWN_T2);
 
-#if SCENARIO_LFPWM_MODE == LFPWM_INDEPENDENT
-
-    EPWM_setActionQualifierActionComplete(lowFreqBase, EPWM_AQ_OUTPUT_B,
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_ZERO |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_PERIOD |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_UP_CMPA |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_DOWN_CMPA |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_UP_CMPB |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_DOWN_CMPB);
-    EPWM_setAdditionalActionQualifierActionComplete(lowFreqBase,
-                                          EPWM_AQ_OUTPUT_B,
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_UP_T1 |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_DOWN_T1 |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_UP_T2 |
-                                          EPWM_AQ_OUTPUT_NO_CHANGE_DOWN_T2);
-
-#endif
-
     //
     // SW Action Shadow to active at CTR = 0
     //
     EPWM_setActionQualifierContSWForceShadowMode(lowFreqBase, EPWM_AQ_SW_SH_LOAD_ON_CNTR_ZERO);
-
-
-#if SCENARIO_LFPWM_MODE == LFPWM_COMPLEMENTARY
 
     //
     // Configure AHC mode with suitable dead time
@@ -113,7 +92,6 @@ void pwm_hal_Setup1phasePWM(uint32_t lowFreqBase,
     EPWM_setDeadBandDelayPolarity(lowFreqBase, EPWM_DB_FED, EPWM_DB_POLARITY_ACTIVE_LOW);
     EPWM_setDeadBandDelayPolarity(lowFreqBase, EPWM_DB_RED, EPWM_DB_POLARITY_ACTIVE_HIGH);
 
-#endif
 
     //
     // HIGH Frequency PWM configuration
@@ -125,6 +103,7 @@ void pwm_hal_Setup1phasePWM(uint32_t lowFreqBase,
     EPWM_setPeriodLoadMode(highFreqBase, EPWM_PERIOD_SHADOW_LOAD);
     EPWM_setTimeBasePeriod(highFreqBase, pwm_period_ticks >> 1);
     EPWM_setTimeBaseCounter(highFreqBase, 0);
+   // EPWM_setPhaseShift(base3A, 0);
     EPWM_setTimeBaseCounterMode(highFreqBase, EPWM_COUNTER_MODE_UP_DOWN);
     EPWM_setClockPrescaler(highFreqBase, EPWM_CLOCK_DIVIDER_1, EPWM_HSCLOCK_DIVIDER_1);
 
@@ -273,6 +252,25 @@ void pwm_hal_SetupPWMforTrip(uint32_t base)
     //
     EPWM_clearTripZoneFlag(base, EPWM_TZ_FLAG_DCAEVT1);
 
+
+#if ANPC_FAULT_PROTECTION_EN == 1U
+
+    //
+    //
+    // Enable OSHT1/2/3 Trip
+    //
+    EPWM_enableTripZoneSignals(base, EPWM_TZ_SIGNAL_OSHT1);
+    EPWM_enableTripZoneSignals(base, EPWM_TZ_SIGNAL_OSHT2);
+    EPWM_enableTripZoneSignals(base, EPWM_TZ_SIGNAL_OSHT3);
+
+    //
+    // Clear any spurious OSHT1/2/3 trips
+    //
+    EPWM_clearOneShotTripZoneFlag(base, EPWM_TZ_OST_FLAG_OST1);
+    EPWM_clearOneShotTripZoneFlag(base, EPWM_TZ_OST_FLAG_OST2);
+    EPWM_clearOneShotTripZoneFlag(base, EPWM_TZ_OST_FLAG_OST3);
+
+#endif
 
     //
     // Configuration to make PWMxA/B outputs ACTIVE LOW at trip conditions

@@ -46,7 +46,6 @@ void main(void)
     bsp_InitSYSTEM();
     bsp_InitTIMER();
     bsp_InitADC();
-    bsp_InitDAC();
 
     anpc_InitAnpc();
 
@@ -55,7 +54,6 @@ void main(void)
     bsp_InitDGPIO();
     bsp_InitPWM();
     bsp_InitINTERRUPT();
-    bsp_InitUART();
 
     state_InitStateMachine();
 
@@ -64,13 +62,12 @@ void main(void)
 
 #ifndef CONFIG_VIRTUAL_MAIN
 
-    while(1)
+    while (1)
     {
         timer1kHz_Process();
 
         timer10Hz_Process();
 
-        bsp_Uart1RxProcess();
     }
 
 #endif

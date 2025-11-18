@@ -38,22 +38,22 @@ typedef union
 {
     struct StateFlag
     {
-        bit_t system_init_finish    : 1;     // 0
-        bit_t wait_for_softstart    : 1;     // 1
-        bit_t soft_start_on         : 1;     // 2
-        bit_t pwm_kickoff           : 1;     // 3
-        bit_t control_en            : 1;     // 4
-        bit_t phase_open            : 1;     // 5
-        bit_t Reserved5             : 1;     // 6
-        bit_t Reserved6             : 1;     // 7
-        bit_t Reserved7             : 1;     // 8
-        bit_t Reserved8             : 1;     // 9
-        bit_t Reserved9             : 1;     // 10
-        bit_t Reserved10            : 1;     // 11
-        bit_t Reserved11            : 1;     // 12
-        bit_t Reserved12            : 1;     // 13
-        bit_t Reserved13            : 1;     // 14
-        bit_t Reserved14            : 1;     // 15
+        bit_t system_init_finish    : 1;    // 0
+        bit_t wait_for_softstart    : 1;    // 1
+        bit_t soft_start_on         : 1;    // 2
+        bit_t pwm_kickoff           : 1;    // 3
+        bit_t control_en            : 1;    // 4
+        bit_t Reserved4             : 1;    // 5
+        bit_t Reserved5             : 1;    // 6
+        bit_t Reserved6             : 1;    // 7
+        bit_t Reserved7             : 1;    // 8
+        bit_t Reserved8             : 1;    // 9
+        bit_t Reserved9             : 1;    // 10
+        bit_t Reserved10            : 1;    // 11
+        bit_t Reserved11            : 1;    // 12
+        bit_t Reserved12            : 1;    // 13
+        bit_t Reserved13            : 1;    // 14
+        bit_t Reserved14            : 1;    // 15
     }bits;
 
     word_t Word;

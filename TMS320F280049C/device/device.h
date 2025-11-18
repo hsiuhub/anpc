@@ -53,8 +53,6 @@
 // Defines for pin numbers and other GPIO configuration
 //
 //*****************************************************************************
-//#define EVM_BOARD_OSC_20MHZ
-
 #ifdef _LAUNCHXL_F280049C
 //
 // LaunchPad
@@ -265,37 +263,23 @@
 //
 //*****************************************************************************
 //
-// XTAL on controlCARD and Launchpad. For use with SysCtl_getClock().
+// 20MHz XTAL on controlCARD and Launchpad. For use with SysCtl_getClock().
 //
-#ifndef EVM_BOARD_OSC_20MHZ
-#define DEVICE_OSCSRC_FREQ          16000000U
-#else
 #define DEVICE_OSCSRC_FREQ          20000000U
-#endif
 
 //
 // Define to pass to SysCtl_setClock(). Will configure the clock as follows:
-// PLLSYSCLK = (XTAL_OSC) * 10 (IMULT) * 1 (FMULT) / 2 (PLLCLK_BY_2)
+// PLLSYSCLK = 20MHz (XTAL_OSC) * 10 (IMULT) * 1 (FMULT) / 2 (PLLCLK_BY_2)
 //
-#ifndef EVM_BOARD_OSC_20MHZ
-#define DEVICE_SETCLOCK_CFG         (SYSCTL_OSCSRC_XTAL | SYSCTL_IMULT(12) | \
-                                     SYSCTL_FMULT_1_2 | SYSCTL_SYSDIV(2) |   \
-                                     SYSCTL_PLL_ENABLE)
-#else
 #define DEVICE_SETCLOCK_CFG         (SYSCTL_OSCSRC_XTAL | SYSCTL_IMULT(10) |  \
                                      SYSCTL_FMULT_NONE | SYSCTL_SYSDIV(2) |   \
                                      SYSCTL_PLL_ENABLE)
-#endif
 
 //
 // 100MHz SYSCLK frequency based on the above DEVICE_SETCLOCK_CFG. Update the
 // code below if a different clock configuration is used!
 //
-#ifndef EVM_BOARD_OSC_20MHZ
-#define DEVICE_SYSCLK_FREQ          ((DEVICE_OSCSRC_FREQ * (12 + 0.5)) / 2)
-#else
 #define DEVICE_SYSCLK_FREQ          ((DEVICE_OSCSRC_FREQ * 10 * 1) / 2)
-#endif
 
 //
 // 25MHz LSPCLK frequency based on the above DEVICE_SYSCLK_FREQ and a default

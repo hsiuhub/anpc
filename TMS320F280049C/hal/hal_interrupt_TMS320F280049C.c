@@ -85,9 +85,9 @@ void isr_hal_SetupInterrupt(void)
 __attribute__((ramfunc))
 interrupt void ISR1(void)
 {
-//    dgpio_hal_Set_Debug1();
+    dgpio_hal_SetDebugGPIO();
     ISR1_Callback();
-//    dgpio_hal_Clear_Debug1();
+    dgpio_hal_ClearDebugGPIO();
 
     isr_hal_ClearISR1InterruptFlag();
 }
@@ -96,8 +96,7 @@ __attribute__((ramfunc))
 interrupt void ISR2(void)
 {
     EINT;
-
-//    dgpio_hal_Set_Debug2();
+//    dgpio_hal_SetDebugGPIO();
     ISR2_Callback();
-//    dgpio_hal_Clear_Debug2();
+//    dgpio_hal_ClearDebugGPIO();
 }

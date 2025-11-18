@@ -1,0 +1,11 @@
+****************************************
+<<<<<<<< Error Message ID: 1137 >>>>>>>>
+input file D:/15_Delta/14. ANPC Converter/ANPC_3Layer/SIMPLIS/PWM function/SIMPLIS_Data/ANPC_PWM_TI.deck, line 14,
+    .node_map Load 101
+
+Invalid node mapping.  ''101'' is not a
+node defined in the same circuit.  The
+circuit name is MAIN CIRCUIT.
+
+
+

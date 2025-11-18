@@ -15,7 +15,7 @@
 //-----------------------------------------------------------------------------
 //  DEFINES
 //-----------------------------------------------------------------------------
-#define EvtSta(reg)     math_TestBit((reg), 15)
+#define EvtSta(reg)     TestBit((reg), 15)
 #define SetEvtSta(reg)  (reg) = 0x8000
 #define ClrEvtSta(reg)  (reg) = 0x0000
 
@@ -38,9 +38,7 @@ typedef enum
     EVENT_VBUS_OVP,
     EVENT_VBUS_UVP,
     EVENT_I_OCP,
-    EVENT_PIN_OPP,
     EVENT_TEMP_OTP,
-    EVENT_VREF,
 
     /* Standby Events */
     EVENT_START_SM_OK,
@@ -71,10 +69,7 @@ extern bit_t EvtIsRvy;
 //-----------------------------------------------------------------------------
 bit_t event_TimerIsMatch(word_t* TmrPtr, word_t MchPnt);
 void event_EventIsMatch(word_t* StaAndTmr, word_t HpnMchPnt, word_t RvyMchPnt);
-void event_MonitorEvents_Every1ms(void);
-void event_AcDropout_Detection(void);
-void event_PhaseDrop_Detection(void);
-void event_PhaseOpen_Detection(void);
+void event_MonitorEvents(void);
 void event_ResetEventVariables(void);
 
 

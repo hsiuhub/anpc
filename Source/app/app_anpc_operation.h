@@ -26,9 +26,6 @@
 //-----------------------------------------------------------------------------
 void anpc_SoftStart_VbusAdjustment(void);
 void anpc_SoftStart_ConstantCurrent(void);
-void anpc_Load_Judgment(void);
-void anpc_Vbus_PIControl_Change(void);
-void anpc_Current_Control_Change(void);
 void anpc_ResetOperationVariables(void);
 
 

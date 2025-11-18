@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>anpc_F280049</name>
+	<name>anpcinv_F280049</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -28,7 +28,7 @@
 		<link>
 			<name>Source</name>
 			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Source</locationURI>
+			<location>D:/Willis/Code/ANPC_3Layer/Source</location>
 		</link>
 	</linkedResources>
 	<variableList>
@@ -39,10 +39,6 @@
 		<variable>
 			<name>POWERSUITE_ROOT</name>
 			<value>$%7BCOM_TI_DIGITAL_POWER_C2000WARE_SDK_SOFTWARE_PACKAGE_INSTALL_DIR%7D/powerSUITE</value>
-		</variable>
-		<variable>
-			<name>copy_PARENT</name>
-			<value>file:/D:/Willis/Code/2.%20GitLab/anpc-3layer</value>
 		</variable>
 	</variableList>
 </projectDescription>

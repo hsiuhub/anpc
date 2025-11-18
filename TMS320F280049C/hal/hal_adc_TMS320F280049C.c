@@ -184,6 +184,20 @@ void adc_hal_SetupADC(void)
                  ADC_HAL_ACQPS_SYS_CLKS);
 
     //
+    // Setting up the SOCs for 1.65V_1S/2S sampling
+    //
+    ADC_setupSOC(ADC_HAL_REF1_BASE,
+                  ADC_HAL_REF1_SOC_NO,
+                  ADC_HAL_SOC_TRIG,
+                  ADC_HAL_REF1_PIN,
+                  ADC_HAL_ACQPS_SYS_CLKS);
+    ADC_setupSOC(ADC_HAL_REF2_BASE,
+                  ADC_HAL_REF2_SOC_NO,
+                  ADC_HAL_SOC_TRIG,
+                  ADC_HAL_REF2_PIN,
+                  ADC_HAL_ACQPS_SYS_CLKS);
+
+    //
     // Setting up the SOCs for Temperature sampling
     //
     ADC_setupSOC(ADC_HAL_TEMP_AMB_BASE,
@@ -206,16 +220,6 @@ void adc_hal_SetupADC(void)
                  ADC_HAL_SOC_TRIG,
                  ADC_HAL_TEMP_C_PIN,
                  ADC_HAL_ACQPS_SYS_CLKS);
-
-    //
-    // Setting up the SOC for 1.65Vref sampling
-    //
-    ADC_setupSOC(ADC_HAL_VREF_BASE,
-                 ADC_HAL_VREF_SOC_NO,
-                 ADC_HAL_SOC_TRIG,
-                 ADC_HAL_VREF_PIN,
-                 ADC_HAL_ACQPS_SYS_CLKS);
-
 
     //
     // Set ADC_HAL_INTERRUPT_SOC of ADC_HAL_INTERRUPT_BASE to set
@@ -258,14 +262,6 @@ void adc_hal_ForceAllSOCs(void)
 
     ADC_forceSOC(ADC_HAL_VBUSP_BASE, ADC_HAL_VBUSP_SOC_NO);
     ADC_forceSOC(ADC_HAL_VBUSN_BASE, ADC_HAL_VBUSN_SOC_NO);
-
-    ADC_forceSOC(ADC_HAL_TEMP_A_BASE, ADC_HAL_TEMP_A_SOC_NO);
-    ADC_forceSOC(ADC_HAL_TEMP_B_BASE, ADC_HAL_TEMP_B_SOC_NO);
-    ADC_forceSOC(ADC_HAL_TEMP_C_BASE, ADC_HAL_TEMP_C_SOC_NO);
-    ADC_forceSOC(ADC_HAL_TEMP_AMB_BASE, ADC_HAL_TEMP_AMB_SOC_NO);
-
-    ADC_forceSOC(ADC_HAL_VREF_BASE, ADC_HAL_VREF_SOC_NO);
-
 }
 
 bool adc_hal_ConversionComplete(void)

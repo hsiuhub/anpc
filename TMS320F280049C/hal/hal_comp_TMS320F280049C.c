@@ -89,9 +89,9 @@ void comp_hal_SetupBoardProtection_CMPSS(void)
     //
     // Setting up CMPSS modules for 3-phase over-current protection
     //
-    comp_hal_SetupCMPSS(COMP_HAL_A_BASE, ANPC_I_HWOCP, ANPC_IA_MAX_SENSE);
-    comp_hal_SetupCMPSS(COMP_HAL_B_BASE, ANPC_I_HWOCP, ANPC_IB_MAX_SENSE);
-    comp_hal_SetupCMPSS(COMP_HAL_C_BASE, ANPC_I_HWOCP, ANPC_IC_MAX_SENSE);
+    comp_hal_SetupCMPSS(COMP_HAL_A_BASE, ANPC_I_HWOCP, ANPC_I_MAX_SENSE);
+    comp_hal_SetupCMPSS(COMP_HAL_B_BASE, ANPC_I_HWOCP, ANPC_I_MAX_SENSE);
+    comp_hal_SetupCMPSS(COMP_HAL_C_BASE, ANPC_I_HWOCP, ANPC_I_MAX_SENSE);
 
 }
 

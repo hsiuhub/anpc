@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?ccsproject version="1.0"?>
 <projectOptions>
+	<ccsVariant value="0:Eclipse-based"/>
+	<ccsVersion value="12.4.0"/>
+	<deviceVariant value="TMS320C28XX.TMS320F280049C"/>
 	<deviceFamily value="C2000"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="22.6.0.LTS"/>
+	<isElfFormat value="true"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=anpcinv_f28004x.projectspec.anpcinv_F28004x"/>
+	<sourceLookupPath value="${C2000WARE_DLIB_ROOT}"/>
+	<origin value="C:\ti\C2000Ware_DigitalPower_SDK_5_00_00_00\solutions\tida_010210\f28004x\ccs\anpcinv_f28004x.projectspec"/>
+	<filesToOpen value=""/>
 	<connection value="common/targetdb/connections/TIXDS110_Connection.xml"/>
 	<isTargetManual value="false"/>
-	<activeTargetConfiguration value="TMS320F280049C.ccxml"/>
 </projectOptions>

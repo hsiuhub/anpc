@@ -39,7 +39,12 @@ void bsp_InitPWM(void)
     pwm_hal_SetupBoardProtection_EPWMXbar();
     pwm_hal_SetupBoardProtection_PWMTrip();
 
+#if ANPC_LAB >= 4U
+    //
+    // Initialize dead-band for soft-start in PFC labs
+    //
     pwm_hal_UpdatePWMDeadBand(VICtrl.Deadband);
+#endif
 
     //
     // Enable PWM Clocks

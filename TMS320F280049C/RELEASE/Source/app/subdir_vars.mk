@@ -6,19 +6,18 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_anpc_control.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_anpc_main.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_anpc_operation.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_event.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_isr1.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_isr2.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_math_ctrl_lib.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_physical_parameter.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_protection.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_state.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_timer_10Hz.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_timer_1kHz.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_uart_communication.c 
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_anpc_control.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_anpc_main.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_anpc_operation.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_event.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_isr1.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_isr2.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_math_ctrl_lib.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_physical_parameter.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_protection.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_state.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_timer_10Hz.c \
+D:/15_Delta/14.\ ANPC\ Converter/ANPC_3Layer/Source/app/app_timer_1kHz.c 
 
 C_DEPS += \
 ./Source/app/app_anpc_control.d \
@@ -32,8 +31,7 @@ C_DEPS += \
 ./Source/app/app_protection.d \
 ./Source/app/app_state.d \
 ./Source/app/app_timer_10Hz.d \
-./Source/app/app_timer_1kHz.d \
-./Source/app/app_uart_communication.d 
+./Source/app/app_timer_1kHz.d 
 
 OBJS += \
 ./Source/app/app_anpc_control.obj \
@@ -47,8 +45,7 @@ OBJS += \
 ./Source/app/app_protection.obj \
 ./Source/app/app_state.obj \
 ./Source/app/app_timer_10Hz.obj \
-./Source/app/app_timer_1kHz.obj \
-./Source/app/app_uart_communication.obj 
+./Source/app/app_timer_1kHz.obj 
 
 OBJS__QUOTED += \
 "Source\app\app_anpc_control.obj" \
@@ -62,8 +59,7 @@ OBJS__QUOTED += \
 "Source\app\app_protection.obj" \
 "Source\app\app_state.obj" \
 "Source\app\app_timer_10Hz.obj" \
-"Source\app\app_timer_1kHz.obj" \
-"Source\app\app_uart_communication.obj" 
+"Source\app\app_timer_1kHz.obj" 
 
 C_DEPS__QUOTED += \
 "Source\app\app_anpc_control.d" \
@@ -77,22 +73,20 @@ C_DEPS__QUOTED += \
 "Source\app\app_protection.d" \
 "Source\app\app_state.d" \
 "Source\app\app_timer_10Hz.d" \
-"Source\app\app_timer_1kHz.d" \
-"Source\app\app_uart_communication.d" 
+"Source\app\app_timer_1kHz.d" 
 
 C_SRCS__QUOTED += \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_anpc_control.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_anpc_main.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_anpc_operation.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_event.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_isr1.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_isr2.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_math_ctrl_lib.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_physical_parameter.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_protection.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_state.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_timer_10Hz.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_timer_1kHz.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_uart_communication.c" 
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_anpc_control.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_anpc_main.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_anpc_operation.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_event.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_isr1.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_isr2.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_math_ctrl_lib.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_physical_parameter.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_protection.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_state.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_timer_10Hz.c" \
+"D:/15_Delta/14. ANPC Converter/ANPC_3Layer/Source/app/app_timer_1kHz.c" 
 
 

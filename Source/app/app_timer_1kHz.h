@@ -14,7 +14,7 @@
 //-----------------------------------------------------------------------------
 //  DEFINES
 //-----------------------------------------------------------------------------
-#define TIMER_FREQ                  MCU_CPUTIMER0_FREQ
+#define TIMER_FREQ                  1000
 
 #define TIMER_0S                    ((TIMER_FREQ / 1000) * 0)
 #define TIMER_1MS                   ((TIMER_FREQ / 1000) * 1)

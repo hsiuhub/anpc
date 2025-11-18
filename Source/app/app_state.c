@@ -51,31 +51,17 @@ static void state_Standby(StateEvent event)
         case EVENT_ON_ENTRY:
 
             CurrentState = STATE_STANDBY;
+            Debug_output.Debug_1 = 4095 * 0.2;
 
-#if SCENARIO_DACA_STATE == DACA_STATE_ENABLE
-            DAC_MID_A_OUT(4095 * 0.2);
-#endif
-
-#if SCENARIO_ANPC_TEST == ANPC_TEST_EPWMTEST
-
-            pwm_mid_ClearAllPWMTrips();
-
-#else
             pwm_mid_ForceOSTPWM();
-
-#endif
-            dgpio_mid_Clear_RelayOn();
-            dgpio_mid_Clear_FanCtrl();
+            dgpio_mid_DisableInrushRelay();
+            dgpio_mid_DisableFan();
 
             break;
 
         case EVENT_START_SM_OK:
 
-#if SCENARIO_ANPC_TEST != ANPC_TEST_EPWMTEST
-
-            state_ChangeState(state_Precharge);
-
-#endif
+            state_ChangeState(state_Precharge);            
 
             break;
 
@@ -94,20 +80,17 @@ static void state_Precharge(StateEvent event)
         case EVENT_ON_ENTRY:
 
             CurrentState = STATE_PRECHARGE;
-
-#if SCENARIO_DACA_STATE == DACA_STATE_ENABLE
-            DAC_MID_A_OUT(4095 * 0.4);
-#endif
+            Debug_output.Debug_1 = 4095 * 0.4;
 
             pwm_mid_ForceOSTPWM();
-            dgpio_mid_Clear_RelayOn();
-            dgpio_mid_Clear_FanCtrl();
+            dgpio_mid_DisableInrushRelay();
+            dgpio_mid_DisableFan();
 
             break;
 
         case EVENT_PRECHARGE_OK:
 
-            dgpio_mid_Set_RelayOn();
+            dgpio_mid_EnableInrushRelay();
             StateFlag.bits.wait_for_softstart = 1;
 
             break;
@@ -117,7 +100,7 @@ static void state_Precharge(StateEvent event)
             //SPLL_3PH_SRF_reset(&Spll.srf);
             //SPLL_3PH_DDSRF_reset(&Spll.ddsrf);
 
-            VICtrl.Vbus_ref = PhyValue.Vbus.avg;
+            VICtrl.Vbus_ref = PhyValue.Vbus.raw;
             state_ChangeState(state_SoftStart);
 
             break;
@@ -146,21 +129,13 @@ static void state_Precharge(StateEvent event)
             state_ChangeState(state_Shutdown);
             break;
 
-        case EVENT_PIN_OPP:
-            state_ChangeState(state_Shutdown);
-            break;
-
         case EVENT_TEMP_OTP:
-            state_ChangeState(state_Shutdown);
-            break;
-
-        case EVENT_VREF:
             state_ChangeState(state_Shutdown);
             break;
 
         case EVENT_ON_EXIT:
 
-            dgpio_mid_Set_FanCtrl();
+            dgpio_mid_EnableFan();
 
             break;
 
@@ -176,13 +151,10 @@ static void state_SoftStart(StateEvent event)
         case EVENT_ON_ENTRY:
 
             CurrentState = STATE_SOFTSTART;
+            Debug_output.Debug_1 = 4095 * 0.6;
 
-#if SCENARIO_DACA_STATE == DACA_STATE_ENABLE
-            DAC_MID_A_OUT(4095 * 0.6);
-#endif
-
-            dgpio_mid_Set_RelayOn();
-            dgpio_mid_Set_FanCtrl();
+            dgpio_mid_EnableInrushRelay();
+            dgpio_mid_EnableFan();
 
             StateFlag.bits.pwm_kickoff = 1;
             StateFlag.bits.soft_start_on = 1;
@@ -219,15 +191,7 @@ static void state_SoftStart(StateEvent event)
             state_ChangeState(state_Shutdown);
             break;
 
-        case EVENT_PIN_OPP:
-            state_ChangeState(state_Shutdown);
-            break;
-
         case EVENT_TEMP_OTP:
-            state_ChangeState(state_Shutdown);
-            break;
-
-        case EVENT_VREF:
             state_ChangeState(state_Shutdown);
             break;
 
@@ -246,13 +210,10 @@ static void state_Normal_Operation(StateEvent event)
         case EVENT_ON_ENTRY:
 
             CurrentState = STATE_NORMAL_OPERATION;
+            Debug_output.Debug_1 = 4095 * 0.8;
 
-#if SCENARIO_DACA_STATE == DACA_STATE_ENABLE
-            DAC_MID_A_OUT(4095 * 0.8);
-#endif
-
-            dgpio_mid_Set_RelayOn();
-            dgpio_mid_Set_FanCtrl();
+            dgpio_mid_EnableInrushRelay();
+            dgpio_mid_EnableFan();
 
             break;
 
@@ -284,15 +245,7 @@ static void state_Normal_Operation(StateEvent event)
             state_ChangeState(state_Shutdown);
             break;
 
-        case EVENT_PIN_OPP:
-            state_ChangeState(state_Shutdown);
-            break;
-
         case EVENT_TEMP_OTP:
-            state_ChangeState(state_Shutdown);
-            break;
-
-        case EVENT_VREF:
             state_ChangeState(state_Shutdown);
             break;
 
@@ -311,20 +264,14 @@ static void state_Shutdown(StateEvent event)
         case EVENT_ON_ENTRY:
 
             CurrentState = STATE_SHUTDOWN;
-
-#if SCENARIO_DACA_STATE == DACA_STATE_ENABLE
-            DAC_MID_A_OUT(4095 * 1.0);
-#endif
+            Debug_output.Debug_1 = 4095 * 1.0;
 
             pwm_mid_ForceOSTPWM();
-            dgpio_mid_Clear_RelayOn();
-            dgpio_mid_Clear_FanCtrl();
+            dgpio_mid_DisableInrushRelay();
+            dgpio_mid_DisableFan();
 
-            StateFlag.bits.system_init_finish = 0;
-            StateFlag.bits.wait_for_softstart = 0;
-            StateFlag.bits.soft_start_on = 0;
-            StateFlag.bits.pwm_kickoff = 0;
             StateFlag.bits.control_en = 0;
+            StateFlag.bits.system_init_finish = 0;
 
             break;
 

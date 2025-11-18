@@ -45,12 +45,13 @@
 #define ADC_MID_VBUSP_FB    ADC_readResult(ADC_HAL_VBUSP_RESULT_BASE, ADC_HAL_VBUSP_SOC_NO)
 #define ADC_MID_VBUSN_FB    ADC_readResult(ADC_HAL_VBUSN_RESULT_BASE, ADC_HAL_VBUSN_SOC_NO)
 
+#define ADC_MID_VREF1_FB    ADC_readResult(ADC_HAL_REF1_RESULT_BASE, ADC_HAL_REF1_SOC_NO)
+#define ADC_MID_VREF2_FB    ADC_readResult(ADC_HAL_REF2_RESULT_BASE, ADC_HAL_REF2_SOC_NO)
+
 #define ADC_MID_TEMP_A_FB   ADC_readResult(ADC_HAL_TEMP_A_RESULT_BASE, ADC_HAL_TEMP_A_SOC_NO)
 #define ADC_MID_TEMP_B_FB   ADC_readResult(ADC_HAL_TEMP_B_RESULT_BASE, ADC_HAL_TEMP_B_SOC_NO)
 #define ADC_MID_TEMP_C_FB   ADC_readResult(ADC_HAL_TEMP_C_RESULT_BASE, ADC_HAL_TEMP_C_SOC_NO)
 #define ADC_MID_TEMP_AMB_FB ADC_readResult(ADC_HAL_TEMP_AMB_RESULT_BASE, ADC_HAL_TEMP_AMB_SOC_NO)
-
-#define ADC_MID_VREF_FB     ADC_readResult(ADC_HAL_VREF_RESULT_BASE, ADC_HAL_VREF_SOC_NO)
 
 
 #elif defined CONFIG_VIRTUAL
@@ -85,6 +86,8 @@
 //  PUBLIC FUNCTIONS DECLARATION
 //-----------------------------------------------------------------------------
 void bsp_InitADC(void);
+void adc_mid_ForceAllSOCs(void);
+bool adc_mid_ConversionComplete(void);
 
 
 

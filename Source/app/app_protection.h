@@ -35,17 +35,12 @@
 #define VBUSN_SWUVP         ANPC_VBUSN_SWUVP
 #define VBUSN_SWUVP_R       ANPC_VBUSN_SWUVP_R
 
-#define PIN_SWOPP           ANPC_PIN_SWOPP
-#define PIN_SWOPP_R         ANPC_PIN_SWOPP_R
-
 #define TEMPA_SWOTP         ANPC_TEMPA_SWOTP
 #define TEMPA_SWOTP_R       ANPC_TEMPA_SWOTP_R
 #define TEMPB_SWOTP         ANPC_TEMPB_SWOTP
 #define TEMPB_SWOTP_R       ANPC_TEMPB_SWOTP_R
 #define TEMPC_SWOTP         ANPC_TEMPC_SWOTP
 #define TEMPC_SWOTP_R       ANPC_TEMPC_SWOTP_R
-#define TEMPAMB_SWOTP       ANPC_TEMPAMB_SWOTP
-#define TEMPAMB_SWOTP_R     ANPC_TEMPAMB_SWOTP_R
 
 
 //-----------------------------------------------------------------------------
@@ -55,39 +50,39 @@ typedef union
 {
     struct ProtectFlag_bit
     {
-        bit_t Vgrid_swOVP   : 1;    // 0
-        bit_t Vgrid_swUVP   : 1;    // 1
-        bit_t Vgrid_swLoss  : 1;    // 2
-        bit_t Vgrid_swFreq  : 1;    // 3
-        bit_t Vbusp_swOVP   : 1;    // 4
-        bit_t Vbusn_swOVP   : 1;    // 5
-        bit_t Vbusp_swUVP   : 1;    // 6
-        bit_t Vbusn_swUVP   : 1;    // 7
-        bit_t IA_hwOCP      : 1;    // 8
-        bit_t IB_hwOCP      : 1;    // 9
-        bit_t IC_hwOCP      : 1;    // 10
-        bit_t Pin_swOPP     : 1;    // 11
-        bit_t TempA_swOTP   : 1;    // 12
-        bit_t TempB_swOTP   : 1;    // 13
-        bit_t TempC_swOTP   : 1;    // 14
-        bit_t TempAMB_swOTP : 1;    // 15
+        bit_t Vgrid_swOVP     : 1;    // 0
+        bit_t Vgrid_swUVP     : 1;    // 1
+        bit_t Vgrid_swLoss    : 1;    // 2
+        bit_t Vgrid_swFreq    : 1;    // 3
+        bit_t Vbusp_swOVP     : 1;    // 4
+        bit_t Vbusn_swOVP     : 1;    // 5
+        bit_t Vbusp_swUVP     : 1;    // 6
+        bit_t Vbusn_swUVP     : 1;    // 7
+        bit_t IA_hwOCP        : 1;    // 8
+        bit_t IB_hwOCP        : 1;    // 9
+        bit_t IC_hwOCP        : 1;    // 10
+        bit_t TempA_swOTP     : 1;    // 11
+        bit_t TempB_swOTP     : 1;    // 12
+        bit_t TempC_swOTP     : 1;    // 13
+        bit_t Reserved1       : 1;    // 14
+        bit_t Reserved2       : 1;    // 15
 
-        bit_t Vref          : 1;    // 16
-        bit_t Reserved1     : 1;    // 17
-        bit_t Reserved2     : 1;    // 18
-        bit_t Reserved3     : 1;    // 19
-        bit_t Reserved4     : 1;    // 20
-        bit_t Reserved5     : 1;    // 21
-        bit_t Reserved6     : 1;    // 22
-        bit_t Reserved7     : 1;    // 23
-        bit_t Reserved8     : 1;    // 24
-        bit_t Reserved9     : 1;    // 25
-        bit_t Reserved10    : 1;    // 26
-        bit_t Reserved11    : 1;    // 27
-        bit_t Reserved12    : 1;    // 28
-        bit_t Reserved13    : 1;    // 29
-        bit_t Reserved14    : 1;    // 30
-        bit_t Reserved15    : 1;    // 31
+        bit_t DSATA           : 1;    // 16
+        bit_t DSATB           : 1;    // 17
+        bit_t DSATC           : 1;    // 18
+        bit_t Vref1           : 1;    // 19
+        bit_t Vref2           : 1;    // 20
+        bit_t Reserved5       : 1;    // 21
+        bit_t Reserved6       : 1;    // 22
+        bit_t Reserved7       : 1;    // 23
+        bit_t Reserved8       : 1;    // 24
+        bit_t Reserved9       : 1;    // 25
+        bit_t Reserved10      : 1;    // 26
+        bit_t Reserved11      : 1;    // 27
+        bit_t Reserved12      : 1;    // 28
+        bit_t Reserved13      : 1;    // 29
+        bit_t Reserved14      : 1;    // 30
+        bit_t Reserved15      : 1;    // 31
     }bits;
 
     struct ProtectFlag_word
@@ -110,7 +105,6 @@ void protect_CheckAllProtection(void);
 void protect_CheckGridVoltageProtection(void);
 void protect_CheckBusVoltageProtection(void);
 void protect_CheckCurrentProtection(void);
-void protect_CheckPowerProtection(void);
 void protect_CheckTemperatureProtection(void);
 void protect_CheckOtherProtection(void);
 

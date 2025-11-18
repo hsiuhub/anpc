@@ -6,7 +6,6 @@
 //-----------------------------------------------------------------------------
 //  INCLUDES
 //-----------------------------------------------------------------------------
-#include "app_anpc_operation.h"
 #include "app_timer_10Hz.h"
 
 
@@ -21,8 +20,7 @@
 void timer10Hz_Callback(void)
 {
 
-    anpc_Load_Judgment();
-    anpc_Current_Control_Change();
+
 }
 
 

@@ -12,26 +12,156 @@
 
 
 //-----------------------------------------------------------------------------
-//  DEFINES
-//-----------------------------------------------------------------------------
-#ifdef CONFIG_TMS320F280049C
-
-#define GET_MID_INPUT_SIGNAL()      GPIO_readPin(GPIO_HAL_INPUT_SIGNAL)
-#define GET_MID_BULK_OK()           GPIO_readPin(GPIO_HAL_BULK_OK)
-#define GET_MID_RELAY_ON()          GPIO_readPin(GPIO_HAL_RELAY_ON)
-#define GET_MID_FAN_CTRL()          GPIO_readPin(GPIO_HAL_FAN_CTRL)
-#define GET_MID_LOAD_JUDGE()        GPIO_readPin(GPIO_HAL_LOAD_JUDGE)
-#define GET_MID_DEBUG_1()           GPIO_readPin(GPIO_HAL_DEBUG_1)
-#define GET_MID_DEBUG_2()           GPIO_readPin(GPIO_HAL_DEBUG_2)
-
-#elif defined CONFIG_VIRTUAL
-
-#endif
-
-//-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DECLARATION
 //-----------------------------------------------------------------------------
 void bsp_InitDGPIO(void);
+
+
+//-----------------------------------------------------------------------------
+//  PRIVATE FUNCTIONS DEFINITION
+//-----------------------------------------------------------------------------
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_EnablePhaseRelay)
+static inline void dgpio_mid_EnablePhaseRelay(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_EnablePhaseRelay();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_EnablePhaseRelay();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_DisablePhaseRelay)
+static inline void dgpio_mid_DisablePhaseRelay(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_DisablePhaseRelay();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_DisablePhaseRelay();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_EnableInrushRelay)
+static inline void dgpio_mid_EnableInrushRelay(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_EnableInrushRelay();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_EnableInrushRelay();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_DisableInrushRelay)
+static inline void dgpio_mid_DisableInrushRelay(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_DisableInrushRelay();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_DisableInrushRelay();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_EnableFan)
+static inline void dgpio_mid_EnableFan(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_EnableFan();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_EnableFan();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_DisableFan)
+static inline void dgpio_mid_DisableFan(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_DisableFan();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_DisableFan();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_SetDebugGPIO)
+static inline void dgpio_mid_SetDebugGPIO(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_SetDebugGPIO();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_SetDebugGPIO();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_ClearDebugGPIO)
+static inline void dgpio_mid_ClearDebugGPIO(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_ClearDebugGPIO();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_ClearDebugGPIO();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_ToggleDebugGPIO)
+static inline void dgpio_mid_ToggleDebugGPIO(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_ToggleDebugGPIO();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_ToggleDebugGPIO();
+
+#endif
+
+}
+
+#pragma FUNC_ALWAYS_INLINE(dgpio_mid_ToggleHBGPIO)
+static inline void dgpio_mid_ToggleHBGPIO(void)
+{
+
+#ifdef CONFIG_TMS320F280049C
+    dgpio_hal_ToggleHBGPIO();
+
+#elif defined CONFIG_VIRTUAL
+    dgpio_hal_ToggleHBGPIO();
+
+#endif
+
+}
+
+
+
 
 
 

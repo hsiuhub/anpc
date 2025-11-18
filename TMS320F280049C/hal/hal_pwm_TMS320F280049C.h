@@ -127,61 +127,6 @@ static inline void pwm_hal_ForceOSTPWM(void)
     EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_C_BASE, EPWM_TZ_FORCE_EVENT_OST);
 }
 
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTHFPWM)
-static inline void pwm_hal_ForceOSTHFPWM(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_A_BASE, EPWM_TZ_FORCE_EVENT_OST);
-    EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_B_BASE, EPWM_TZ_FORCE_EVENT_OST);
-    EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_C_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTHFPWM_A)
-static inline void pwm_hal_ForceOSTHFPWM_A(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_A_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTHFPWM_B)
-static inline void pwm_hal_ForceOSTHFPWM_B(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_B_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTHFPWM_C)
-static inline void pwm_hal_ForceOSTHFPWM_C(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_HIGH_FREQ_C_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTLFPWM)
-static inline void pwm_hal_ForceOSTLFPWM(void)
-{
-    //
-    // Forcing OSTs for low-frequency operating PWM modules at initialization
-    //
-    EPWM_forceTripZoneEvent(EPWM_HAL_LOW_FREQ_A_BASE, EPWM_TZ_FORCE_EVENT_OST);
-    EPWM_forceTripZoneEvent(EPWM_HAL_LOW_FREQ_B_BASE, EPWM_TZ_FORCE_EVENT_OST);
-    EPWM_forceTripZoneEvent(EPWM_HAL_LOW_FREQ_C_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTLFPWM_A)
-static inline void pwm_hal_ForceOSTLFPWM_A(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_LOW_FREQ_A_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTLFPWM_B)
-static inline void pwm_hal_ForceOSTLFPWM_B(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_LOW_FREQ_B_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ForceOSTLFPWM_C)
-static inline void pwm_hal_ForceOSTLFPWM_C(void)
-{
-    EPWM_forceTripZoneEvent(EPWM_HAL_LOW_FREQ_C_BASE, EPWM_TZ_FORCE_EVENT_OST);
-}
-
 #pragma FUNC_ALWAYS_INLINE(pwm_hal_Get_FaultAFlag)
 static inline bool pwm_hal_Get_FaultAFlag(void)
 {
@@ -206,22 +151,10 @@ static inline void pwm_hal_AQ_SW_PWMXA_HIGH(uint32_t base)
      EPWM_setActionQualifierContSWForceAction(base, EPWM_AQ_OUTPUT_A, EPWM_AQ_SW_OUTPUT_HIGH);
 }
 
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_AQ_SW_PWMXB_HIGH)
-static inline void pwm_hal_AQ_SW_PWMXB_HIGH(uint32_t base)
-{
-     EPWM_setActionQualifierContSWForceAction(base, EPWM_AQ_OUTPUT_B, EPWM_AQ_SW_OUTPUT_HIGH);
-}
-
 #pragma FUNC_ALWAYS_INLINE(pwm_hal_AQ_SW_PWMXA_LOW)
 static inline void pwm_hal_AQ_SW_PWMXA_LOW(uint32_t base)
 {
      EPWM_setActionQualifierContSWForceAction(base, EPWM_AQ_OUTPUT_A, EPWM_AQ_SW_OUTPUT_LOW);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_AQ_SW_PWMXB_LOW)
-static inline void pwm_hal_AQ_SW_PWMXB_LOW(uint32_t base)
-{
-     EPWM_setActionQualifierContSWForceAction(base, EPWM_AQ_OUTPUT_B, EPWM_AQ_SW_OUTPUT_LOW);
 }
 
 #pragma FUNC_ALWAYS_INLINE(pwm_hal_UpdateCMPA)
@@ -263,57 +196,9 @@ static inline void pwm_hal_ClearAllPWMTrips(void)
     pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_C_BASE);
 }
 
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearHFPWMTrips)
-static inline void pwm_hal_ClearHFPWMTrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_A_BASE);
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_B_BASE);
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_C_BASE);
-}
 
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearHFPWMATrips)
-static inline void pwm_hal_ClearHFPWMATrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_A_BASE);
-}
 
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearHFPWMBTrips)
-static inline void pwm_hal_ClearHFPWMBTrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_B_BASE);
-}
 
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearHFPWMCTrips)
-static inline void pwm_hal_ClearHFPWMCTrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_HIGH_FREQ_C_BASE);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearLFPWMTrips)
-static inline void pwm_hal_ClearLFPWMTrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_LOW_FREQ_A_BASE);
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_LOW_FREQ_B_BASE);
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_LOW_FREQ_C_BASE);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearLFPWMATrips)
-static inline void pwm_hal_ClearLFPWMATrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_LOW_FREQ_A_BASE);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearLFPWMBTrips)
-static inline void pwm_hal_ClearLFPWMBTrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_LOW_FREQ_B_BASE);
-}
-
-#pragma FUNC_ALWAYS_INLINE(pwm_hal_ClearLFPWMCTrips)
-static inline void pwm_hal_ClearLFPWMCTrips(void)
-{
-    pwm_hal_ClearPWMTripFlags(EPWM_HAL_LOW_FREQ_C_BASE);
-}
 
 
 

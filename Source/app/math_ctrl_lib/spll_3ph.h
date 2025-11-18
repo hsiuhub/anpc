@@ -8,7 +8,6 @@
 //-----------------------------------------------------------------------------
 //  INCLUDES
 //-----------------------------------------------------------------------------
-#include "stdint.h"
 
 
 //-----------------------------------------------------------------------------
@@ -17,9 +16,11 @@
 #ifndef C2000_IEEE754_TYPES
 #define C2000_IEEE754_TYPES
 #ifdef __TI_EABI__
+typedef int             int32_t;
 typedef float           float32_t;
-typedef long double     float64_t;
+typedef double          float64_t;
 #else // TI COFF
+typedef int             int32_t;
 typedef float           float32_t;
 typedef long double     float64_t;
 #endif // __TI_EABI__
@@ -313,18 +314,6 @@ static inline void SPLL_3PH_DDSRF_init(float32_t grid_freq, float32_t delta_t, f
     spll_obj->theta[1] = (float32_t)(0.0);
 
     spll_obj->delta_t = delta_t;
-}
-
-static inline void SPLL_3PH_SRF_freq_update(float32_t grid_freq, SPLL_3PH_SRF *spll_obj)
-{
-
-    spll_obj->fn = (float32_t)(grid_freq);
-}
-
-static inline void SPLL_3PH_DDSRF_freq_update(float32_t grid_freq, SPLL_3PH_DDSRF *spll_obj)
-{
-
-    spll_obj->fn = (float32_t)(grid_freq);
 }
 
 

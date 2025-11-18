@@ -31,6 +31,22 @@
 void bsp_InitINTERRUPT(void);
 
 
+//-----------------------------------------------------------------------------
+//  PRIVATE FUNCTIONS DEFINITION
+//-----------------------------------------------------------------------------
+#pragma FUNC_ALWAYS_INLINE(isr_mid_ClearPWMInterruptFlag)
+static inline void isr_mid_ClearPWMInterruptFlag(uint32_t base)
+{
+#ifdef CONFIG_TMS320F280049C
+    isr_hal_ClearPWMInterruptFlag(base);
+
+#elif defined CONFIG_VIRTUAL
+
+#endif
+
+}
+
+
 
 
 

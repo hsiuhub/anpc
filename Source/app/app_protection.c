@@ -24,76 +24,61 @@
 //
 // Fault status variables
 //
-ProtectFlag_Struct ProtectFlag  = {.DWord = 0};
+ProtectFlag_Struct ProtectFlag = {.DWord = 0};
 
 
-wordtype_t Vgrid_swOVP_count    = {.word = 0};
-wordtype_t VgridA_swUVP_count   = {.word = 0};
-wordtype_t VgridB_swUVP_count   = {.word = 0};
-wordtype_t VgridC_swUVP_count   = {.word = 0};
-wordtype_t Vgrid_swFreqH_count  = {.word = 0};
-wordtype_t Vgrid_swFreqL_count  = {.word = 0};
-wordtype_t Vbusp_swOVP_count    = {.word = 0};
-wordtype_t Vbusn_swOVP_count    = {.word = 0};
-wordtype_t Vbusp_swUVP_count    = {.word = 0};
-wordtype_t Vbusn_swUVP_count    = {.word = 0};
-wordtype_t IA_hwOCP_count       = {.word = 0};
-wordtype_t IB_hwOCP_count       = {.word = 0};
-wordtype_t IC_hwOCP_count       = {.word = 0};
-wordtype_t Pin_swOPP_count      = {.word = 0};
-wordtype_t TempA_swOTP_count    = {.word = 0};
-wordtype_t TempB_swOTP_count    = {.word = 0};
-wordtype_t TempC_swOTP_count    = {.word = 0};
-wordtype_t TempAMB_swOTP_count  = {.word = 0};
-wordtype_t Vref_count           = {.word = 0};
+wordtype_t Vgrid_swOVP_count  = {.word = 0};
+wordtype_t VgridA_swUVP_count = {.word = 0};
+wordtype_t VgridB_swUVP_count = {.word = 0};
+wordtype_t VgridC_swUVP_count = {.word = 0};
+wordtype_t Vgrid_swFreqH_count= {.word = 0};
+wordtype_t Vgrid_swFreqL_count= {.word = 0};
+wordtype_t Vbusp_swOVP_count  = {.word = 0};
+wordtype_t Vbusn_swOVP_count  = {.word = 0};
+wordtype_t Vbusp_swUVP_count  = {.word = 0};
+wordtype_t Vbusn_swUVP_count  = {.word = 0};
+wordtype_t IA_hwOCP_count     = {.word = 0};
+wordtype_t IB_hwOCP_count     = {.word = 0};
+wordtype_t IC_hwOCP_count     = {.word = 0};
+wordtype_t TempA_swOTP_count  = {.word = 0};
+wordtype_t TempB_swOTP_count  = {.word = 0};
+wordtype_t TempC_swOTP_count  = {.word = 0};
 
-bit_t Vgrid_swOVP_Hpntrigger    = 0;
-bit_t Vgrid_swOVP_Rvytrigger    = 0;
-bit_t VgridA_swUVP_Hpntrigger   = 0;
-bit_t VgridA_swUVP_Rvytrigger   = 0;
-bit_t VgridB_swUVP_Hpntrigger   = 0;
-bit_t VgridB_swUVP_Rvytrigger   = 0;
-bit_t VgridC_swUVP_Hpntrigger   = 0;
-bit_t VgridC_swUVP_Rvytrigger   = 0;
-bit_t Vgrid_swFreqH_Hpntrigger  = 0;
-bit_t Vgrid_swFreqH_Rvytrigger  = 0;
-bit_t Vgrid_swFreqL_Hpntrigger  = 0;
-bit_t Vgrid_swFreqL_Rvytrigger  = 0;
+bit_t Vgrid_swOVP_Hpntrigger  = 0;
+bit_t Vgrid_swOVP_Rvytrigger  = 0;
+bit_t VgridA_swUVP_Hpntrigger = 0;
+bit_t VgridA_swUVP_Rvytrigger = 0;
+bit_t VgridB_swUVP_Hpntrigger = 0;
+bit_t VgridB_swUVP_Rvytrigger = 0;
+bit_t VgridC_swUVP_Hpntrigger = 0;
+bit_t VgridC_swUVP_Rvytrigger = 0;
+bit_t Vgrid_swFreqH_Hpntrigger= 0;
+bit_t Vgrid_swFreqH_Rvytrigger= 0;
+bit_t Vgrid_swFreqL_Hpntrigger= 0;
+bit_t Vgrid_swFreqL_Rvytrigger= 0;
 
-bit_t Vbusp_swOVP_Hpntrigger    = 0;
-bit_t Vbusp_swOVP_Rvytrigger    = 0;
-bit_t Vbusn_swOVP_Hpntrigger    = 0;
-bit_t Vbusn_swOVP_Rvytrigger    = 0;
-bit_t Vbusp_swUVP_Hpntrigger    = 0;
-bit_t Vbusp_swUVP_Rvytrigger    = 0;
-bit_t Vbusn_swUVP_Hpntrigger    = 0;
-bit_t Vbusn_swUVP_Rvytrigger    = 0;
+bit_t Vbusp_swOVP_Hpntrigger  = 0;
+bit_t Vbusp_swOVP_Rvytrigger  = 0;
+bit_t Vbusn_swOVP_Hpntrigger  = 0;
+bit_t Vbusn_swOVP_Rvytrigger  = 0;
+bit_t Vbusp_swUVP_Hpntrigger  = 0;
+bit_t Vbusp_swUVP_Rvytrigger  = 0;
+bit_t Vbusn_swUVP_Hpntrigger  = 0;
+bit_t Vbusn_swUVP_Rvytrigger  = 0;
 
-bit_t IA_hwOCP_Hpntrigger       = 0;
-bit_t IA_hwOCP_Rvytrigger       = 0;
-bit_t IB_hwOCP_Hpntrigger       = 0;
-bit_t IB_hwOCP_Rvytrigger       = 0;
-bit_t IC_hwOCP_Hpntrigger       = 0;
-bit_t IC_hwOCP_Rvytrigger       = 0;
+bit_t IA_hwOCP_Hpntrigger     = 0;
+bit_t IA_hwOCP_Rvytrigger     = 0;
+bit_t IB_hwOCP_Hpntrigger     = 0;
+bit_t IB_hwOCP_Rvytrigger     = 0;
+bit_t IC_hwOCP_Hpntrigger     = 0;
+bit_t IC_hwOCP_Rvytrigger     = 0;
 
-bit_t Pin_swOPP_Hpntrigger      = 0;
-bit_t Pin_swOPP_Rvytrigger      = 0;
-
-bit_t TempA_swOTP_Hpntrigger    = 0;
-bit_t TempA_swOTP_Rvytrigger    = 0;
-bit_t TempB_swOTP_Hpntrigger    = 0;
-bit_t TempB_swOTP_Rvytrigger    = 0;
-bit_t TempC_swOTP_Hpntrigger    = 0;
-bit_t TempC_swOTP_Rvytrigger    = 0;
-bit_t TempAMB_swOTP_Hpntrigger  = 0;
-bit_t TempAMB_swOTP_Rvytrigger  = 0;
-
-bit_t Vref_Hpntrigger           = 0;
-bit_t Vref_Rvytrigger           = 0;
-
-bit_t VgridA_swUVP_implicit_flag= 0;
-bit_t VgridB_swUVP_implicit_flag= 0;
-bit_t VgridC_swUVP_implicit_flag= 0;
+bit_t TempA_swOTP_Hpntrigger  = 0;
+bit_t TempA_swOTP_Rvytrigger  = 0;
+bit_t TempB_swOTP_Hpntrigger  = 0;
+bit_t TempB_swOTP_Rvytrigger  = 0;
+bit_t TempC_swOTP_Hpntrigger  = 0;
+bit_t TempC_swOTP_Rvytrigger  = 0;
 
 
 //-----------------------------------------------------------------------------
@@ -101,16 +86,12 @@ bit_t VgridC_swUVP_implicit_flag= 0;
 //-----------------------------------------------------------------------------
 void protect_CheckAllProtection(void)
 {
-#if SCENARIO_ANPC_TEST != ANPC_TEST_EPWMTEST
-
     protect_CheckGridVoltageProtection();
     protect_CheckBusVoltageProtection();
     protect_CheckCurrentProtection();
-    protect_CheckPowerProtection();
     protect_CheckTemperatureProtection();
     protect_CheckOtherProtection();
-
-#endif
+    Debug_output.Debug_3 = ProtectFlag.word.low;
 }
 
 void protect_CheckGridVoltageProtection(void)
@@ -120,7 +101,7 @@ void protect_CheckGridVoltageProtection(void)
     EvtIsRvy = (PhyValue.VgridA.peak < VGRID_SWOVP_R) && (PhyValue.VgridB.peak < VGRID_SWOVP_R) && (PhyValue.VgridC.peak < VGRID_SWOVP_R);
 
     Vgrid_swOVP_count.word++;
-    event_EventIsMatch(&Vgrid_swOVP_count.word, TIMER_100MS, TIMER_5MS);
+    event_EventIsMatch(&Vgrid_swOVP_count.word, TIMER_40MS, TIMER_5MS);
     if(Vgrid_swOVP_count.bits.b15)
     {
         Vgrid_swOVP_Rvytrigger = 0;
@@ -131,10 +112,6 @@ void protect_CheckGridVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vgrid_swOVP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.1);
-#endif
             state_ReportEvent(EVENT_VGRID_OVP);
         }
     }
@@ -157,7 +134,7 @@ void protect_CheckGridVoltageProtection(void)
                ((PhyValue.VgridA.raw < 0) && (PhyValue.VgridA.raw < -VGRID_SWUVP_R));
 
     VgridA_swUVP_count.word++;
-    event_EventIsMatch(&VgridA_swUVP_count.word, TIMER_50MS, TIMER_0S);
+    event_EventIsMatch(&VgridA_swUVP_count.word, TIMER_10MS, TIMER_0S);
 
     if(VgridA_swUVP_count.bits.b15)
     {
@@ -166,11 +143,10 @@ void protect_CheckGridVoltageProtection(void)
         {
             VgridA_swUVP_Hpntrigger = 1;
 
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.2);
-#endif
+            pwm_mid_ForceOSTPWM();
 
-            VgridA_swUVP_implicit_flag = 1;
+            ProtectFlag.bits.Vgrid_swUVP = 1;
+            state_ReportEvent(EVENT_VGRID_UVP);
         }
     }
     else
@@ -180,7 +156,7 @@ void protect_CheckGridVoltageProtection(void)
         {
             VgridA_swUVP_Rvytrigger = 1;
             if(state_IsStandby())
-                VgridA_swUVP_implicit_flag = 0;
+                ProtectFlag.bits.Vgrid_swUVP = 0;
         }
     }
 
@@ -192,7 +168,7 @@ void protect_CheckGridVoltageProtection(void)
                ((PhyValue.VgridB.raw < 0) && (PhyValue.VgridB.raw < -VGRID_SWUVP_R));
 
     VgridB_swUVP_count.word++;
-    event_EventIsMatch(&VgridB_swUVP_count.word, TIMER_50MS, TIMER_0S);
+    event_EventIsMatch(&VgridB_swUVP_count.word, TIMER_10MS, TIMER_0S);
 
     if(VgridB_swUVP_count.bits.b15)
     {
@@ -201,11 +177,10 @@ void protect_CheckGridVoltageProtection(void)
         {
             VgridB_swUVP_Hpntrigger = 1;
 
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.2);
-#endif
+            pwm_mid_ForceOSTPWM();
 
-            VgridB_swUVP_implicit_flag = 1;
+            ProtectFlag.bits.Vgrid_swUVP = 1;
+            state_ReportEvent(EVENT_VGRID_UVP);
         }
     }
     else
@@ -215,7 +190,7 @@ void protect_CheckGridVoltageProtection(void)
         {
             VgridB_swUVP_Rvytrigger = 1;
             if(state_IsStandby())
-                VgridB_swUVP_implicit_flag = 0;
+                ProtectFlag.bits.Vgrid_swUVP = 0;
         }
     }
 
@@ -227,7 +202,7 @@ void protect_CheckGridVoltageProtection(void)
                ((PhyValue.VgridC.raw < 0) && (PhyValue.VgridC.raw < -VGRID_SWUVP_R));
 
     VgridC_swUVP_count.word++;
-    event_EventIsMatch(&VgridC_swUVP_count.word, TIMER_50MS, TIMER_0S);
+    event_EventIsMatch(&VgridC_swUVP_count.word, TIMER_10MS, TIMER_0S);
 
     if(VgridC_swUVP_count.bits.b15)
     {
@@ -236,11 +211,10 @@ void protect_CheckGridVoltageProtection(void)
         {
             VgridC_swUVP_Hpntrigger = 1;
 
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.2);
-#endif
+            pwm_mid_ForceOSTPWM();
 
-            VgridC_swUVP_implicit_flag = 1;
+            ProtectFlag.bits.Vgrid_swUVP = 1;
+            state_ReportEvent(EVENT_VGRID_UVP);
         }
     }
     else
@@ -250,33 +224,16 @@ void protect_CheckGridVoltageProtection(void)
         {
             VgridC_swUVP_Rvytrigger = 1;
             if(state_IsStandby())
-                VgridC_swUVP_implicit_flag = 0;
+                ProtectFlag.bits.Vgrid_swUVP = 0;
         }
     }
 
-
-    /* Real Vgrid UVP */
-    if( ((VgridA_swUVP_implicit_flag == 1) && (VgridB_swUVP_implicit_flag == 1)) ||
-        ((VgridB_swUVP_implicit_flag == 1) && (VgridC_swUVP_implicit_flag == 1)) ||
-        ((VgridC_swUVP_implicit_flag == 1) && (VgridA_swUVP_implicit_flag == 1))   )
-    {
-        pwm_mid_ForceOSTPWM();
-        ProtectFlag.bits.Vgrid_swUVP = 1;
-        state_ReportEvent(EVENT_VGRID_UVP);
-    }
-    else
-    {
-        ProtectFlag.bits.Vgrid_swUVP = 0;
-    }
-
-
-
     /* Vgrid SW Frequency Error (High) */
-    EvtIsHpn = (PhyValue.fgrid.avg > VGRID_SWFREQH) && (state_IsStandby() == 0);
-    EvtIsRvy = (PhyValue.fgrid.avg < VGRID_SWFREQH_R);
+    EvtIsHpn = (PhyValue.fgrid > VGRID_SWFREQH) && (state_IsStandby() == 0);
+    EvtIsRvy = (PhyValue.fgrid < VGRID_SWFREQH_R);
 
     Vgrid_swFreqH_count.word++;
-    event_EventIsMatch(&Vgrid_swFreqH_count.word, TIMER_100MS, TIMER_40MS);
+    event_EventIsMatch(&Vgrid_swFreqH_count.word, TIMER_40MS, TIMER_40MS);
 
     if(Vgrid_swFreqH_count.bits.b15)
     {
@@ -288,10 +245,6 @@ void protect_CheckGridVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vgrid_swFreq = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.3);
-#endif
             state_ReportEvent(EVENT_VGRID_FREQ);
         }
     }
@@ -307,11 +260,11 @@ void protect_CheckGridVoltageProtection(void)
     }
 
     /* Vgrid SW Frequency Error (Low) */
-    EvtIsHpn = (PhyValue.fgrid.avg < VGRID_SWFREQL) && (state_IsStandby() == 0);
-    EvtIsRvy = (PhyValue.fgrid.avg > VGRID_SWFREQL_R);
+    EvtIsHpn = (PhyValue.fgrid < VGRID_SWFREQL) && (state_IsStandby() == 0);
+    EvtIsRvy = (PhyValue.fgrid > VGRID_SWFREQL_R);
 
     Vgrid_swFreqL_count.word++;
-    event_EventIsMatch(&Vgrid_swFreqL_count.word, TIMER_100MS, TIMER_40MS);
+    event_EventIsMatch(&Vgrid_swFreqL_count.word, TIMER_40MS, TIMER_40MS);
 
     if(Vgrid_swFreqL_count.bits.b15)
     {
@@ -323,10 +276,6 @@ void protect_CheckGridVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vgrid_swFreq = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.3);
-#endif
             state_ReportEvent(EVENT_VGRID_FREQ);
         }
     }
@@ -351,7 +300,7 @@ void protect_CheckBusVoltageProtection(void)
     EvtIsRvy = (PhyValue.Vbusp.raw < VBUSP_SWOVP_R);
 
     Vbusp_swOVP_count.word++;
-    event_EventIsMatch(&Vbusp_swOVP_count.word, TIMER_10MS, TIMER_10MS);
+    event_EventIsMatch(&Vbusp_swOVP_count.word, TIMER_5MS, TIMER_5MS);
 
     if(Vbusp_swOVP_count.bits.b15)
     {
@@ -363,10 +312,6 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusp_swOVP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.4);
-#endif
             state_ReportEvent(EVENT_VBUS_OVP);
         }
     }
@@ -386,7 +331,7 @@ void protect_CheckBusVoltageProtection(void)
     EvtIsRvy = (PhyValue.Vbusn.raw < VBUSN_SWOVP_R);
 
     Vbusn_swOVP_count.word++;
-    event_EventIsMatch(&Vbusn_swOVP_count.word, TIMER_10MS, TIMER_10MS);
+    event_EventIsMatch(&Vbusn_swOVP_count.word, TIMER_5MS, TIMER_5MS);
 
     if(Vbusn_swOVP_count.bits.b15)
     {
@@ -398,10 +343,6 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusn_swOVP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.4);
-#endif
             state_ReportEvent(EVENT_VBUS_OVP);
         }
     }
@@ -421,7 +362,7 @@ void protect_CheckBusVoltageProtection(void)
     EvtIsRvy = (PhyValue.Vbusp.raw > VBUSP_SWUVP_R);
 
     Vbusp_swUVP_count.word++;
-    event_EventIsMatch(&Vbusp_swUVP_count.word, TIMER_10MS, TIMER_10MS);
+    event_EventIsMatch(&Vbusp_swUVP_count.word, TIMER_5MS, TIMER_5MS);
 
     if(Vbusp_swUVP_count.bits.b15)
     {
@@ -433,10 +374,6 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusp_swUVP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.5);
-#endif
             state_ReportEvent(EVENT_VBUS_UVP);
         }
     }
@@ -456,7 +393,7 @@ void protect_CheckBusVoltageProtection(void)
     EvtIsRvy = (PhyValue.Vbusn.raw > VBUSN_SWUVP_R);
 
     Vbusn_swUVP_count.word++;
-    event_EventIsMatch(&Vbusn_swUVP_count.word, TIMER_10MS, TIMER_10MS);
+    event_EventIsMatch(&Vbusn_swUVP_count.word, TIMER_5MS, TIMER_5MS);
 
     if(Vbusn_swUVP_count.bits.b15)
     {
@@ -468,10 +405,6 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusn_swUVP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.5);
-#endif
             state_ReportEvent(EVENT_VBUS_UVP);
         }
     }
@@ -495,7 +428,7 @@ void protect_CheckCurrentProtection(void)
     EvtIsRvy = !EvtIsHpn;
 
     IA_hwOCP_count.word++;
-    event_EventIsMatch(&IA_hwOCP_count.word, TIMER_5MS, TIMER_5MS);
+    event_EventIsMatch(&IA_hwOCP_count.word, TIMER_1MS, TIMER_1MS);
 
     if(IA_hwOCP_count.bits.b15)
     {
@@ -507,10 +440,6 @@ void protect_CheckCurrentProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.IA_hwOCP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.6);
-#endif
             state_ReportEvent(EVENT_I_OCP);
         }
     }
@@ -531,7 +460,7 @@ void protect_CheckCurrentProtection(void)
     EvtIsRvy = !EvtIsHpn;
 
     IB_hwOCP_count.word++;
-    event_EventIsMatch(&IB_hwOCP_count.word, TIMER_5MS, TIMER_5MS);
+    event_EventIsMatch(&IB_hwOCP_count.word, TIMER_1MS, TIMER_1MS);
 
     if(IB_hwOCP_count.bits.b15)
     {
@@ -543,10 +472,6 @@ void protect_CheckCurrentProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.IB_hwOCP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.7);
-#endif
             state_ReportEvent(EVENT_I_OCP);
         }
     }
@@ -567,7 +492,7 @@ void protect_CheckCurrentProtection(void)
     EvtIsRvy = !EvtIsHpn;
 
     IC_hwOCP_count.word++;
-    event_EventIsMatch(&IC_hwOCP_count.word, TIMER_5MS, TIMER_5MS);
+    event_EventIsMatch(&IC_hwOCP_count.word, TIMER_1MS, TIMER_1MS);
 
     if(IC_hwOCP_count.bits.b15)
     {
@@ -579,10 +504,6 @@ void protect_CheckCurrentProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.IC_hwOCP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.8);
-#endif
             state_ReportEvent(EVENT_I_OCP);
         }
     }
@@ -599,56 +520,18 @@ void protect_CheckCurrentProtection(void)
 
 }
 
-void protect_CheckPowerProtection(void)
-{
-    /* Pin SW OPP */
-    EvtIsHpn = (PhyValue.Pin > PIN_SWOPP);
-    EvtIsRvy = (PhyValue.Pin < PIN_SWOPP_R);
-
-    Pin_swOPP_count.word++;
-    event_EventIsMatch(&Pin_swOPP_count.word, TIMER_100MS, TIMER_50MS);
-
-    if(Pin_swOPP_count.bits.b15)
-    {
-        Pin_swOPP_Rvytrigger = 0;
-        if(Pin_swOPP_Hpntrigger == 0)
-        {
-            Pin_swOPP_Hpntrigger = 1;
-
-            pwm_mid_ForceOSTPWM();
-
-            ProtectFlag.bits.Pin_swOPP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.9);
-#endif
-            state_ReportEvent(EVENT_PIN_OPP);
-        }
-    }
-    else
-    {
-        Pin_swOPP_Hpntrigger = 0;
-        if(Pin_swOPP_Rvytrigger == 0)
-        {
-            Pin_swOPP_Rvytrigger = 1;
-            if(state_IsStandby())
-                ProtectFlag.bits.Pin_swOPP = 0;
-        }
-    }
-}
-
 void protect_CheckTemperatureProtection(void)
 {
 
-#if ANPC_TEMP_PROTECTION_EN == 1
+#if (ANPC_TEMP_PROTECTION_EN == 1U)
     //
     // Sense the temperature values
     //
-    phyvalue_Read_Temperature_All();
+    phyvalue_ReadTemperature();
 
     /* Phase A Temperature SW OTP */
-    EvtIsHpn = (PhyValue.TempA.raw > ANPC_TEMPA_SWOTP);
-    EvtIsRvy = (PhyValue.TempA.raw <= ANPC_TEMPA_SWOTP);
+    EvtIsHpn = (PhyValue.TempA.raw_pu > ANPC_TEMP_MAX);
+    EvtIsRvy = (PhyValue.TempA.raw_pu <= ANPC_TEMP_MAX);
 
     TempA_swOTP_count.word++;
     event_EventIsMatch(&TempA_swOTP_count.word, TIMER_40MS, TIMER_40MS);
@@ -663,10 +546,6 @@ void protect_CheckTemperatureProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.TempA_swOTP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 1.0);
-#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -682,8 +561,8 @@ void protect_CheckTemperatureProtection(void)
     }
 
     /* Phase B Temperature SW OTP */
-    EvtIsHpn = (PhyValue.TempB.raw_pu > ANPC_TEMPB_SWOTP);
-    EvtIsRvy = (PhyValue.TempB.raw_pu <= ANPC_TEMPB_SWOTP);
+    EvtIsHpn = (PhyValue.TempB.raw_pu > ANPC_TEMP_MAX);
+    EvtIsRvy = (PhyValue.TempB.raw_pu <= ANPC_TEMP_MAX);
 
     TempB_swOTP_count.word++;
     event_EventIsMatch(&TempB_swOTP_count.word, TIMER_40MS, TIMER_40MS);
@@ -698,10 +577,6 @@ void protect_CheckTemperatureProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.TempB_swOTP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 1.0);
-#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -717,8 +592,8 @@ void protect_CheckTemperatureProtection(void)
     }
 
     /* Phase C Temperature SW OTP */
-    EvtIsHpn = (PhyValue.TempC.raw_pu > ANPC_TEMPC_SWOTP);
-    EvtIsRvy = (PhyValue.TempC.raw_pu <= ANPC_TEMPC_SWOTP);
+    EvtIsHpn = (PhyValue.TempC.raw_pu > ANPC_TEMP_MAX);
+    EvtIsRvy = (PhyValue.TempC.raw_pu <= ANPC_TEMP_MAX);
 
     TempC_swOTP_count.word++;
     event_EventIsMatch(&TempC_swOTP_count.word, TIMER_40MS, TIMER_40MS);
@@ -733,10 +608,6 @@ void protect_CheckTemperatureProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.TempC_swOTP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 1.0);
-#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -751,41 +622,6 @@ void protect_CheckTemperatureProtection(void)
         }
     }
 
-    /* Ambient Temperature SW OTP */
-    EvtIsHpn = (PhyValue.TempAmbient.raw_pu > ANPC_TEMPAMB_SWOTP);
-    EvtIsRvy = (PhyValue.TempAmbient.raw_pu <= ANPC_TEMPAMB_SWOTP);
-
-    TempAMB_swOTP_count.word++;
-    event_EventIsMatch(&TempAMB_swOTP_count.word, TIMER_40MS, TIMER_40MS);
-
-    if(TempAMB_swOTP_count.bits.b15)
-    {
-        TempAMB_swOTP_Rvytrigger = 0;
-        if(TempAMB_swOTP_Hpntrigger == 0)
-        {
-            TempAMB_swOTP_Hpntrigger = 1;
-
-            pwm_mid_ForceOSTPWM();
-
-            ProtectFlag.bits.TempAMB_swOTP = 1;
-
-#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 1.0);
-#endif
-            state_ReportEvent(EVENT_TEMP_OTP);
-        }
-    }
-    else
-    {
-        TempAMB_swOTP_Hpntrigger = 0;
-        if(TempAMB_swOTP_Rvytrigger == 0)
-        {
-            TempAMB_swOTP_Rvytrigger = 1;
-            if(state_IsStandby())
-                ProtectFlag.bits.TempAMB_swOTP = 0;
-        }
-    }
-
 #endif
 
 }
@@ -793,38 +629,63 @@ void protect_CheckTemperatureProtection(void)
 void protect_CheckOtherProtection(void)
 {
 
-#if ANPC_VREF_PROTECTION_EN == 1
-    //
-    // Check Input and output voltage references are within margin of 1.65V
-    //
-    EvtIsHpn = fabsf(PhyValue.Vref.avg_pu - 0.5) > ANPC_REF_MARGIN;
-    EvtIsRvy = !EvtIsHpn;
+#if ANPC_FAULT_PROTECTION_EN == 1U
 
-    Vref_count.word++;
-    event_EventIsMatch(&Vref_count.word, TIMER_10MS, TIMER_10MS);
-
-    if(Vref_count.bits.b15)
+    if(pwm_mid_Get_FaultAFlag())
     {
-        Vref_Rvytrigger = 0;
-        if(Vref_Hpntrigger == 0)
-        {
-            Vref_Hpntrigger = 1;
-
-            pwm_mid_ForceOSTPWM();
-
-            ProtectFlag.bits.Vref = 1;
-            state_ReportEvent(EVENT_VREF);
-        }
+        ProtectFlag.bits.DSATA = 1;
     }
     else
     {
-        Vref_Hpntrigger = 0;
-        if(Vref_Rvytrigger == 0)
-        {
-            Vref_Rvytrigger = 1;
-            if(state_IsStandby())
-                ProtectFlag.bits.Vref = 0;
-        }
+        ProtectFlag.bits.DSATA = 0;
+    }
+
+    if(pwm_mid_Get_FaultBFlag())
+    {
+        ProtectFlag.bits.DSATB = 1;
+    }
+    else
+    {
+        ProtectFlag.bits.DSATB = 0;
+    }
+
+    if(pwm_mid_Get_FaultCFlag())
+    {
+        ProtectFlag.bits.DSATC = 1;
+    }
+    else
+    {
+        ProtectFlag.bits.DSATC = 0;
+    }
+
+#else
+    ProtectFlag.bits.DSATA = 0;
+    ProtectFlag.bits.DSATB = 0;
+    ProtectFlag.bits.DSATC = 0;
+#endif
+
+#if (ANPC_REF_PROTECTION_EN == 1U)
+    //
+    // Check Input and output voltage references are within margin of 1.65V
+    //
+    if(fabsf(PhyValue.Vref1.raw_pu - 0.5f) > ANPC_REF_MARGIN)
+    {
+        pwm_mid_ForceOSTPWM();
+        ProtectFlag.bits.Vref1 = 1;
+    }
+    else
+    {
+        ProtectFlag.bits.Vref1 = 0;
+    }
+
+    if(fabsf(PhyValue.Vref2.raw_pu - 0.5f) > ANPC_REF_MARGIN)
+    {
+        pwm_mid_ForceOSTPWM();
+        ProtectFlag.bits.Vref2 = 1;
+    }
+    else
+    {
+        ProtectFlag.bits.Vref2 = 0;
     }
 
 #endif
@@ -867,12 +728,9 @@ void protect_ResetProtectVariables(void)
     IA_hwOCP_count.word     = 0;
     IB_hwOCP_count.word     = 0;
     IC_hwOCP_count.word     = 0;
-    Pin_swOPP_count.word    = 0;
     TempA_swOTP_count.word  = 0;
     TempB_swOTP_count.word  = 0;
     TempC_swOTP_count.word  = 0;
-    TempAMB_swOTP_count.word= 0;
-    Vref_count.word         = 0;
 
     Vgrid_swOVP_Hpntrigger  = 0;
     Vgrid_swOVP_Rvytrigger  = 0;
@@ -903,18 +761,10 @@ void protect_ResetProtectVariables(void)
     IC_hwOCP_Hpntrigger     = 0;
     IC_hwOCP_Rvytrigger     = 0;
 
-    Pin_swOPP_Hpntrigger    = 0;
-    Pin_swOPP_Rvytrigger    = 0;
-
     TempA_swOTP_Hpntrigger  = 0;
     TempA_swOTP_Rvytrigger  = 0;
     TempB_swOTP_Hpntrigger  = 0;
     TempB_swOTP_Rvytrigger  = 0;
     TempC_swOTP_Hpntrigger  = 0;
     TempC_swOTP_Rvytrigger  = 0;
-    TempAMB_swOTP_Hpntrigger= 0;
-    TempAMB_swOTP_Rvytrigger= 0;
-
-    Vref_Hpntrigger         = 0;
-    Vref_Rvytrigger         = 0;
 }

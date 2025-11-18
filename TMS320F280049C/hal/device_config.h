@@ -34,13 +34,11 @@
 #include "hal_adc_TMS320F280049C.h"
 #include "hal_clb_TMS320F280049C.h"
 #include "hal_comp_TMS320F280049C.h"
-#include "hal_dac_TMS320F280049C.h"
 #include "hal_dgpio_TMS320F280049C.h"
 #include "hal_interrupt_TMS320F280049C.h"
 #include "hal_pwm_TMS320F280049C.h"
 #include "hal_system_TMS320F280049C.h"
 #include "hal_timer_TMS320F280049C.h"
-#include "hal_uart_TMS320F280049C.h"
 
 
 

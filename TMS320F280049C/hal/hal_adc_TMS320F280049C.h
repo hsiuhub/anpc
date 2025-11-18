@@ -73,12 +73,12 @@
 
 #define ADC_HAL_VBUSP_BASE              ADCA_BASE
 #define ADC_HAL_VBUSP_RESULT_BASE       ADCARESULT_BASE
-#define ADC_HAL_VBUSP_PIN               ADC_CH_ADCIN3
+#define ADC_HAL_VBUSP_PIN               ADC_CH_ADCIN0
 #define ADC_HAL_VBUSP_SOC_NO            ADC_SOC_NUMBER0
 
 #define ADC_HAL_VBUSN_BASE              ADCA_BASE
 #define ADC_HAL_VBUSN_RESULT_BASE       ADCARESULT_BASE
-#define ADC_HAL_VBUSN_PIN               ADC_CH_ADCIN8
+#define ADC_HAL_VBUSN_PIN               ADC_CH_ADCIN1
 #define ADC_HAL_VBUSN_SOC_NO            ADC_SOC_NUMBER1
 
 #define ADC_HAL_TEMP_A_BASE             ADCC_BASE
@@ -98,13 +98,18 @@
 
 #define ADC_HAL_TEMP_AMB_BASE           ADCC_BASE
 #define ADC_HAL_TEMP_AMB_RESULT_BASE    ADCCRESULT_BASE
-#define ADC_HAL_TEMP_AMB_PIN            ADC_CH_ADCIN8
+#define ADC_HAL_TEMP_AMB_PIN            ADC_CH_ADCIN0
 #define ADC_HAL_TEMP_AMB_SOC_NO         ADC_SOC_NUMBER1
 
-#define ADC_HAL_VREF_BASE               ADCC_BASE
-#define ADC_HAL_VREF_RESULT_BASE        ADCCRESULT_BASE
-#define ADC_HAL_VREF_PIN                ADC_CH_ADCIN14
-#define ADC_HAL_VREF_SOC_NO             ADC_SOC_NUMBER0
+#define ADC_HAL_REF1_BASE               ADCA_BASE
+#define ADC_HAL_REF1_RESULT_BASE        ADCARESULT_BASE
+#define ADC_HAL_REF1_PIN                ADC_CH_ADCIN3
+#define ADC_HAL_REF1_SOC_NO             ADC_SOC_NUMBER5
+
+#define ADC_HAL_REF2_BASE               ADCC_BASE
+#define ADC_HAL_REF2_RESULT_BASE        ADCCRESULT_BASE
+#define ADC_HAL_REF2_PIN                ADC_CH_ADCIN3
+#define ADC_HAL_REF2_SOC_NO             ADC_SOC_NUMBER0
 
 #define ADC_HAL_INTERRUPT_BASE          ADCB_BASE
 #define ADC_HAL_INTERRUPT_SOC           ADC_SOC_NUMBER14

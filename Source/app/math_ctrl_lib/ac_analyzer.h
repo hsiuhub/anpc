@@ -9,7 +9,6 @@
 //  INCLUDES
 //-----------------------------------------------------------------------------
 #include <math.h>
-#include "stdint.h"
 
 
 //-----------------------------------------------------------------------------
@@ -17,14 +16,20 @@
 //-----------------------------------------------------------------------------
 #ifndef C2000_IEEE754_TYPES
 #define C2000_IEEE754_TYPES
+
 #ifdef __TI_EABI__
+typedef int             int32_t;
 typedef float           float32_t;
-typedef long double     float64_t;
+typedef double          float64_t;
+
 #else // TI COFF
+typedef int             int32_t;
 typedef float           float32_t;
 typedef long double     float64_t;
+
 #endif // __TI_EABI__
 #endif // C2000_IEEE754_TYPES
+
 
 
 //-----------------------------------------------------------------------------
@@ -44,8 +49,6 @@ typedef volatile struct {
     float32_t ac_freq_avg;      //!< Output: Signal Freq
     int32_t  zcd;               //!< Output: Zero Cross detected
  
-    float32_t V_sum;
-    float32_t V_dc_comp;
     float32_t V_sqr_sum;        //!< Internal: running sum for vacc square calculation over one sine cycle
     float32_t I_sqr_sum;        //!< Internal: running sum for Iacc_rms calculation over one sine cycle
     float32_t P_sum;            //!< Internal: running sum for Pacc_rms calculation over one sine cycle
@@ -71,7 +74,6 @@ static inline void acAnalyzer_Operate(AcHandle_Struct *ac)
 {
     ac->sign_now = (ac->v > ac->threshold) ? 1 : 0;
     ac->sample_num++;
-    ac->V_sum = ac->V_sum + ac->v;
     ac->V_sqr_sum = ac->V_sqr_sum + (ac->v * ac->v);
     ac->I_sqr_sum = ac->I_sqr_sum + (ac->i * ac->i);
     ac->P_sum = ac->P_sum + (ac->v * ac->i);
@@ -90,7 +92,6 @@ static inline void acAnalyzer_Operate(AcHandle_Struct *ac)
             ac->zcd = 1;
             ac->inverse_sample_num = (1.0f)/(ac->sample_num);
             ac->sqrt_inverse_sample_num = sqrtf(ac->inverse_sample_num);
-            ac->V_dc_comp = ac->V_sum * ac->inverse_sample_num;
             ac->V_rms = sqrtf(ac->V_sqr_sum) * ac->sqrt_inverse_sample_num;
             ac->I_rms = sqrtf(ac->I_sqr_sum) * ac->sqrt_inverse_sample_num;
             ac->P_rms_sum_mul = ac->P_rms_sum_mul + (ac->P_sum * ac->inverse_sample_num);
@@ -100,14 +101,14 @@ static inline void acAnalyzer_Operate(AcHandle_Struct *ac)
 
             ac->mul_update++;
 
-            if(ac->mul_update >= 32)
+            if(ac->mul_update >= 4)
             {
                 ac->mul_update = 0;
                 ac->P_rms_sum_mul = 0;
-                ac->VA_rms = ac->VA_sum_mul * (0.03125);
+                ac->VA_rms = ac->VA_sum_mul * (0.25);
                 ac->VA_sum_mul = 0;
                 ac->PF = ac->P_rms / ac->VA_rms;
-                ac->ac_freq_avg = ac->ac_freq_sum * 0.03125;
+                ac->ac_freq_avg = ac->ac_freq_sum * 0.25;
                 ac->ac_freq_sum = 0;
             }
 
@@ -117,7 +118,6 @@ static inline void acAnalyzer_Operate(AcHandle_Struct *ac)
             ac->V_sqr_sum = 0;
             ac->I_sqr_sum = 0;
             ac->P_sum = 0;
-            ac->V_sum = 0;
         }
         else
         {
@@ -149,8 +149,6 @@ static inline void acAnalyzer_Operate(AcHandle_Struct *ac)
         ac->ac_freq_avg = 0;
         ac->zcd         = 0;
 
-        ac->V_sum       = 0;
-        ac->V_dc_comp   = 0;
         ac->V_sqr_sum   = 0;
         ac->I_sqr_sum   = 0;
         ac->P_sum       = 0;        
@@ -174,8 +172,6 @@ static inline void acAnalyzer_Reset(AcHandle_Struct *ac)
     ac->ac_freq         = 0;
     ac->zcd             = 0;
 
-    ac->V_sum           = 0;
-    ac->V_dc_comp       = 0;
     ac->V_sqr_sum       = 0;
     ac->I_sqr_sum       = 0;
     ac->P_sum           = 0;

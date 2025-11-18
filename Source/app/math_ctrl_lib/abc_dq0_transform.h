@@ -8,7 +8,6 @@
 //-----------------------------------------------------------------------------
 //  INCLUDES
 //-----------------------------------------------------------------------------
-#include "stdint.h"
 
 
 //-----------------------------------------------------------------------------
@@ -17,9 +16,11 @@
 #ifndef C2000_IEEE754_TYPES
 #define C2000_IEEE754_TYPES
 #ifdef __TI_EABI__
+typedef int             int32_t;
 typedef float           float32_t;
-typedef long double     float64_t;
+typedef double          float64_t;
 #else // TI COFF
+typedef int             int32_t;
 typedef float           float32_t;
 typedef long double     float64_t;
 #endif // __TI_EABI__

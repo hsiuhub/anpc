@@ -11,7 +11,6 @@
 #include "abc_dq0_transform.h"
 #include "ac_analyzer.h"
 #include "digit_ctrl.h"
-#include "lookup_table.h"
 #include "rampgen.h"
 #include "spll_3ph.h"
 
@@ -31,8 +30,6 @@
 #define MATH_SQRT3      1.732
 #define MATH_PI         3.1415926
 #define MATH_TWOPI      (2 * MATH_PI)
-
-#define DIMENSION(x)    (sizeof(x)/sizeof(x[0]))
 
 /* Special Data Types */
 typedef unsigned        bit_t;
@@ -67,17 +64,14 @@ typedef union WordType
 } wordtype_t;
 
 /* Bit Handler */
-#define math_TestBit(reg, n)                ((reg) & (1L << (n)))
-#define math_SetBit(reg, n)                 ((reg) |= 1L << (n))
-#define math_ClearBit(reg, n)               ((reg) &= ~(1L << (n)))
+#define TestBit(reg, n)                 ((reg) & (1L << (n)))
+#define SetBit(reg, n)                  ((reg) |= 1L << (n))
+#define ClearBit(reg, n)                ((reg) &= ~(1L << (n)))
 
-#define math_TestWordBits(reg, mask)        (reg & (mask))
-#define math_ClearWordBits(reg, mask)       (reg &= ~(word_t)(mask))
-#define math_SetWordBits(reg, mask)         (reg |= (word_t)(mask))
+#define TestWordBits(reg, GetMask)      (reg & (GetMask))
+#define ClearWordBits(reg, ClrMask)     (reg &= ~(word_t)(ClrMask))
+#define SetWordBits(reg, SetMask)       (reg |= (word_t)(SetMask))
 
-#define math_GetLowByte(x)                  (x & 0xFF)
-#define math_GetHighByte(x)                 (x >> 8)
-#define math_BytesToWord(high,low)          (((int)high << 8) + low)
 
 
 
