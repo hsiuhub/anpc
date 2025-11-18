@@ -1,0 +1,15 @@
+Chip:
+SIMPLIS
+TMS320F280049C
+Peripheral:
+System
+DGPIO
+ADC
+Timer
+PWM
+Interrupt
+I2C
+UART
+Library:
+ADC
+End

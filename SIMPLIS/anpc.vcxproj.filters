@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\hal">
+      <UniqueIdentifier>{7fd76062-7e80-46c4-9190-638327720d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{8df8e70e-828c-43f6-a63c-485b6c0c11a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source\app">
+      <UniqueIdentifier>{58048a6d-3a48-44cd-bd0d-83bc4269e343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source\mid">
+      <UniqueIdentifier>{6ced47cd-5fbb-4cd4-ade7-4df933eb7288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source\mid\library">
+      <UniqueIdentifier>{8ec7bf27-172a-49cc-801b-9ddb37ae5d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source\mid\initial">
+      <UniqueIdentifier>{c12661f5-98c5-4935-a7d6-bb318e87790b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source\mid\general">
+      <UniqueIdentifier>{7f4cffe5-c22a-47a6-8818-64dfc36a274d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source\app\math_ctrl_lib">
+      <UniqueIdentifier>{e1e4bf3b-e778-414c-810e-0a6e58224c57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hal\device_config.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_adc_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_dgpio_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_interrupt_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_pwm_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_adc.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\general\mid_general.h">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\library\mid_library_adc.h">
+      <Filter>Source Files\Source\mid\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\math_ctrl_lib\abc_dq0_transform.h">
+      <Filter>Source Files\Source\app\math_ctrl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\math_ctrl_lib\digit_ctrl.h">
+      <Filter>Source Files\Source\app\math_ctrl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\math_ctrl_lib\ac_analyzer.h">
+      <Filter>Source Files\Source\app\math_ctrl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\math_ctrl_lib\rampgen.h">
+      <Filter>Source Files\Source\app\math_ctrl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\math_ctrl_lib\spll_3ph.h">
+      <Filter>Source Files\Source\app\math_ctrl_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_anpc_settings.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_clb.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_comp.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_dgpio.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_interrupt.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_pwm.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_system.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_timer.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_anpc_main.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_isr1.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_isr2.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_math_ctrl_lib.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_physical_parameter.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_protection.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_state.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_timer_1kHz.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_timer_10Hz.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_anpc_control.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_anpc_operation.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\app\app_event.h">
+      <Filter>Source Files\Source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="hal_timer_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="anpc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smx_dll.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="anpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anpc_setup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anpc_set_initial_condition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anpc_action.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anpc_teardown.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_adc_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_dgpio_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_interrupt_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_pwm_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_adc.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\general\mid_general.c">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\library\mid_library_adc.c">
+      <Filter>Source Files\Source\mid\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_clb.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_comp.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_dgpio.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_interrupt.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_pwm.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_system.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_timer.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_anpc_main.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_isr1.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_isr2.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_math_ctrl_lib.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_physical_parameter.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_protection.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_state.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_timer_1kHz.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_timer_10Hz.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_anpc_control.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_anpc_operation.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\app\app_event.c">
+      <Filter>Source Files\Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="hal_timer_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

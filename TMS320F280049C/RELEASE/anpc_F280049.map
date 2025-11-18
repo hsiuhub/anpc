@@ -1,0 +1,1115 @@
+******************************************************************************
+             TMS320C2000 Linker PC v22.6.2                     
+******************************************************************************
+>> Linked Tue Nov 18 13:15:22 2025
+
+OUTPUT FILE NAME:   <anpc_F280049.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00083c2c
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  RAMM0                 000000f5   0000030b  00000000  0000030b  RWIX
+  RAMLS2LS3LS4LS5       00009000   00002000  00000000  00002000  RWIX
+  RAMLS6                0000b000   00000800  00000000  00000800  RWIX
+  RAMGS0GS1             0000c000   00002000  00000f49  000010b7  RWIX
+  BEGIN                 00080000   00000002  00000002  00000000  RWIX
+  FLASH_BANK0_SEC0      00080002   00000ffe  00000000  00000ffe  RWIX
+  FLASH_BANK0_SEC1      00081000   00001000  00001000  00000000  RWIX
+  FLASH_BANK0_SEC2      00082000   00001000  00001000  00000000  RWIX
+  FLASH_BANK0_SEC3      00083000   00001500  00000cd8  00000828  RWIX
+  FLASH_BANK0_SEC4      00084500   00000500  00000134  000003cc  RWIX
+  FLASH_BANK0_SEC5      00085000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC6      00086000   00001000  00000f49  000000b7  RWIX
+  FLASH_BANK0_SEC7      00087000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC8      00088000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC9      00089000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC10     0008a000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC11     0008b000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC12     0008c000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC13     0008d000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC14     0008e000   00001000  00000000  00001000  RWIX
+  FLASH_BANK0_SEC15     0008f000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC0      00090000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC1      00091000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC2      00092000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC3      00093000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC4      00094000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC5      00095000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC6      00096000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC7      00097000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC8_9_10 00098000   00003000  00000000  00003000  RWIX
+  FLASH_BANK1_SEC11     0009b000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC12     0009c000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC13     0009d000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC14     0009e000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC15     0009f000   00001000  00000000  00001000  RWIX
+  RESET                 003fffc0   00000002  00000000  00000002  RWIX
+
+PAGE 1:
+  BOOT_RSVD             00000002   000000f3  00000000  000000f3  RWIX
+  RAMM1                 00000400   00000400  00000400  00000000  RWIX
+  RAMLS0LS1             00008000   00001000  00000165  00000e9b  RWIX
+  RAMLS7                0000b800   00000800  00000000  00000800  RWIX
+  RAMGS2                00010000   00002000  00000000  00002000  RWIX
+  RAMGS3                00012000   00002000  00000664  0000199c  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+codestart 
+*          0    00080000    00000002     
+                  00080000    00000002     f28004x_codestartbranch.obj (codestart)
+
+.cinit     0    00084600    00000034     
+                  00084600    00000021     (.cinit..data.load) [load image, compression = lzss]
+                  00084621    00000001     --HOLE-- [fill = 0]
+                  00084622    00000006     (__TI_handler_table)
+                  00084628    00000004     (.cinit..bss.load) [load image, compression = zero_init]
+                  0008462c    00000008     (__TI_cinit_table)
+
+.init_array 
+*          0    00081000    00000000     UNINITIALIZED
+
+.switch    0    00081000    00000020     
+                  00081000    00000020     app_uart_communication.obj (.switch:uart_SlaveToMaster)
+
+.reset     0    003fffc0    00000000     DSECT
+
+.stack     1    00000400    00000400     UNINITIALIZED
+                  00000400    00000400     --HOLE--
+
+.data      1    00008000    00000165     UNINITIALIZED
+                  00008000    00000064     mid_general_uart.obj (.data:rx_buffer1)
+                  00008064    00000064     mid_general_uart.obj (.data:tx_buffer1)
+                  000080c8    00000020     hal_clb_TMS320F280049C.obj (.data:TILE1HLCInstr)
+                  000080e8    00000016     mid_general_uart.obj (.data)
+                  000080fe    00000002     rts2800_fpu32_eabi.lib : _lock.c.obj (.data:_lock)
+                  00008100    0000003e     app_protection.obj (.data)
+                  0000813e    00000002     rts2800_fpu32_eabi.lib : _lock.c.obj (.data:_unlock)
+                  00008140    0000001b     app_event.obj (.data)
+                  0000815b    00000001     app_state.obj (.data)
+                  0000815c    00000006     rts2800_fpu32_eabi.lib : exit.c.obj (.data)
+                  00008162    00000002     app_physical_parameter.obj (.data)
+                  00008164    00000001     app_uart_communication.obj (.data)
+
+.const     0    00084500    00000100     
+                  00084500    00000100     app_uart_communication.obj (.const:Crc8Table)
+
+.TI.ramfunc 
+*          0    00086000    0000091c     RUN ADDR = 0000c000
+                  00086000    000008d3     hal_interrupt_TMS320F280049C.obj (.TI.ramfunc:retain)
+                  000868d3    00000045     driverlib_eabi.lib : flash.obj (.TI.ramfunc:Flash_initModule)
+                  00086918    00000004                        : sysctl.obj (.TI.ramfunc)
+
+ramfuncs   0    0008691c    0000062d     RUN ADDR = 0000c91c
+                  0008691c    0000062d     hal_interrupt_TMS320F280049C.obj (ramfuncs:retain)
+
+.const_cla 
+*          0    00009000    00000000     UNINITIALIZED
+
+isrcodefuncs 
+*          0    00009000    00000000     UNINITIALIZED
+
+dclfuncs   0    00009000    00000000     UNINITIALIZED
+
+Cla1Prog   0    00009000    00000000     UNINITIALIZED
+
+.text.1    0    00081020    00000fe0     
+                  00081020    00000638     app_protection.obj (.text)
+                  00081658    00000559     app_physical_parameter.obj (.text)
+                  00081bb1    0000039c     app_event.obj (.text)
+                  00081f4d    000000b3     driverlib_eabi.lib : sysctl.obj (.text:SysCtl_setClock)
+
+.text.2    0    00082000    00001000     
+                  00082000    000004bf     app_uart_communication.obj (.text)
+                  000824bf    0000027d     hal_clb_TMS320F280049C.obj (.text)
+                  0008273c    00000227     app_anpc_control.obj (.text)
+                  00082963    00000202     app_anpc_operation.obj (.text)
+                  00082b65    000001fc     hal_pwm_TMS320F280049C.obj (.text)
+                  00082d61    00000183     app_state.obj (.text)
+                  00082ee4    00000114     hal_adc_TMS320F280049C.obj (.text)
+                  00082ff8    00000008     rts2800_fpu32_eabi.lib : copy_decompress_none.c.obj (.text:decompress:none)
+
+.text.3    0    00083000    00000cd8     
+                  00083000    00000140     device.obj (.text)
+                  00083140    00000110     hal_dgpio_TMS320F280049C.obj (.text)
+                  00083250    000000f2     mid_library_uart.obj (.text)
+                  00083342    000000b7     driverlib_eabi.lib : sysctl.obj (.text:SysCtl_isPLLValid)
+                  000833f9    0000009e     mid_general_uart.obj (.text)
+                  00083497    00000096     hal_uart_TMS320F280049C.obj (.text)
+                  0008352d    00000072     hal_comp_TMS320F280049C.obj (.text)
+                  0008359f    00000069     hal_timer_TMS320F280049C.obj (.text)
+                  00083608    00000062     rts2800_fpu32_eabi.lib : s_tanf.c.obj (.text)
+                  0008366a    00000059     driverlib_eabi.lib : clb.obj (.text:CLB_configCounterLoadMatch)
+                  000836c3    00000059     app_anpc_main.obj (.text)
+                  0008371c    00000058     hal_interrupt_TMS320F280049C.obj (.text)
+                  00083774    00000041     driverlib_eabi.lib : interrupt.obj (.text:Interrupt_initModule)
+                  000837b5    0000003f                        : gpio.obj (.text:GPIO_setPadConfig)
+                  000837f4    0000003e                        : sysctl.obj (.text:SysCtl_pollX1Counter)
+                  00083832    0000003d     hal_dac_TMS320F280049C.obj (.text)
+                  0008386f    00000037     driverlib_eabi.lib : sysctl.obj (.text:SysCtl_selectXTAL)
+                  000838a6    00000036                        : interrupt.obj (.text:Interrupt_enable)
+                  000838dc    00000031     mid_initial_pwm.obj (.text)
+                  0008390d    00000030     driverlib_eabi.lib : adc.obj (.text:ADC_setVREF)
+                  0008393d    00000030                        : gpio.obj (.text:GPIO_setPinConfig)
+                  0008396d    0000002f                        : xbar.obj (.text:XBAR_getInputFlagStatus)
+                  0008399c    0000002e     rts2800_fpu32_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss)
+                  000839ca    0000002d     driverlib_eabi.lib : sysctl.obj (.text:SysCtl_selectOscSource)
+                  000839f7    0000002b                        : xbar.obj (.text:XBAR_setCLBMuxConfig)
+                  00083a22    0000002b                        : xbar.obj (.text:XBAR_setEPWMMuxConfig)
+                  00083a4d    0000002b     rts2800_fpu32_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit)
+                  00083a78    00000029                            : exit.c.obj (.text)
+                  00083aa1    00000028     driverlib_eabi.lib : xbar.obj (.text:XBAR_clearInputFlag)
+                  00083ac9    00000023                        : sci.obj (.text:SCI_setConfig)
+                  00083aec    00000022                        : gpio.obj (.text:GPIO_setQualificationMode)
+                  00083b0e    00000021                        : gpio.obj (.text:GPIO_setAnalogMode)
+                  00083b2f    00000020                        : gpio.obj (.text:GPIO_setDirectionMode)
+                  00083b4f    00000020                        : sci.obj (.text:SCI_getInterruptStatus)
+                  00083b6f    0000001e                        : sysctl.obj (.text:SysCtl_selectXTALSingleEnded)
+                  00083b8d    0000001d     rts2800_fpu32_eabi.lib : memcpy.c.obj (.text)
+                  00083baa    0000001c     driverlib_eabi.lib : sci.obj (.text:SCI_clearInterruptStatus)
+                  00083bc6    0000001b                        : adc.obj (.text:ADC_setOffsetTrimAll)
+                  00083be1    00000019                        : cmpss.obj (.text:CMPSS_configFilterHigh)
+                  00083bfa    00000019                        : cmpss.obj (.text:CMPSS_configFilterLow)
+                  00083c13    00000019     rts2800_fpu32_fast_supplement_eabi.lib : div_f32.obj (.text)
+                  00083c2c    00000017     rts2800_fpu32_eabi.lib : boot28.asm.obj (.text)
+                  00083c43    00000015     driverlib_eabi.lib : interrupt.obj (.text:Interrupt_initVectorTable)
+                  00083c58    00000013     app_timer_1kHz.obj (.text)
+                  00083c6b    0000000c     driverlib_eabi.lib : interrupt.obj (.text:Interrupt_defaultHandler)
+                  00083c77    0000000c     rts2800_fpu32_eabi.lib : args_main.c.obj (.text)
+                  00083c83    0000000a     driverlib_eabi.lib : interrupt.obj (.text:Interrupt_illegalOperationHandler)
+                  00083c8d    0000000a                        : interrupt.obj (.text:Interrupt_nmiHandler)
+                  00083c97    00000009     hal_system_TMS320F280049C.obj (.text)
+                  00083ca0    00000009     rts2800_fpu32_eabi.lib : _lock.c.obj (.text)
+                  00083ca9    00000008     f28004x_codestartbranch.obj (.text)
+                  00083cb1    00000007     mid_initial_uart.obj (.text)
+                  00083cb8    00000007     rts2800_fpu32_eabi.lib : memset.c.obj (.text)
+                  00083cbf    00000006     driverlib_eabi.lib : cputimer.obj (.text:CPUTimer_setEmulationMode)
+                  00083cc5    00000006     rts2800_fpu32_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI)
+                  00083ccb    00000005     app_timer_10Hz.obj (.text)
+                  00083cd0    00000005     mid_initial_dgpio.obj (.text)
+                  00083cd5    00000002     rts2800_fpu32_eabi.lib : pre_init.c.obj (.text)
+                  00083cd7    00000001                            : startup.c.obj (.text)
+
+.bss       1    00012000    00000664     UNINITIALIZED
+                  00012000    0000042e     app_physical_parameter.obj (.bss)
+                  0001242e    0000000c     app_uart_communication.obj (.bss:AdvTxBuf)
+                  0001243a    00000004     app_state.obj (.bss)
+                  0001243e    00000002     app_event.obj (.bss)
+                  00012440    00000222     app_anpc_control.obj (.bss)
+                  00012662    00000002     app_uart_communication.obj (.bss)
+
+MODULE SUMMARY
+
+       Module                             code    ro data   rw data
+       ------                             ----    -------   -------
+    .\Source\app\
+       app_physical_parameter.obj         1369    0         1072   
+       app_protection.obj                 1592    0         62     
+       app_uart_communication.obj         1215    288       15     
+       app_anpc_control.obj               551     0         546    
+       app_event.obj                      924     0         29     
+       app_anpc_operation.obj             514     0         0      
+       app_state.obj                      387     0         5      
+       app_anpc_main.obj                  89      0         0      
+       app_timer_1kHz.obj                 19      0         0      
+       app_timer_10Hz.obj                 5       0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             6665    288       1729   
+                                                                   
+    .\Source\mid\general\
+       mid_general_uart.obj               158     0         222    
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             158     0         222    
+                                                                   
+    .\Source\mid\initial\
+       mid_initial_pwm.obj                49      0         0      
+       mid_initial_uart.obj               7       0         0      
+       mid_initial_dgpio.obj              5       0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             61      0         0      
+                                                                   
+    .\Source\mid\library\
+       mid_library_uart.obj               242     0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             242     0         0      
+                                                                   
+    .\device\
+       device.obj                         320     0         0      
+       f28004x_codestartbranch.obj        10      0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             330     0         0      
+                                                                   
+    .\hal\
+       hal_interrupt_TMS320F280049C.obj   7768    0         0      
+       hal_clb_TMS320F280049C.obj         637     0         32     
+       hal_pwm_TMS320F280049C.obj         508     0         0      
+       hal_adc_TMS320F280049C.obj         276     0         0      
+       hal_dgpio_TMS320F280049C.obj       272     0         0      
+       hal_uart_TMS320F280049C.obj        150     0         0      
+       hal_comp_TMS320F280049C.obj        114     0         0      
+       hal_timer_TMS320F280049C.obj       105     0         0      
+       hal_dac_TMS320F280049C.obj         61      0         0      
+       hal_system_TMS320F280049C.obj      9       0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             9900    0         32     
+                                                                   
+    ../libraries/FPUfastRTS/rts2800_fpu32_fast_supplement_eabi.lib
+       div_f32.obj                        25      0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             25      0         0      
+                                                                   
+    C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/TMS320F280049C/device/driverlib/ccs/Release/driverlib_eabi.lib
+       sysctl.obj                         562     0         0      
+       gpio.obj                           210     0         0      
+       xbar.obj                           173     0         0      
+       interrupt.obj                      172     0         0      
+       flash.obj                          138     0         0      
+       sci.obj                            95      0         0      
+       clb.obj                            89      0         0      
+       adc.obj                            75      0         0      
+       cmpss.obj                          50      0         0      
+       cputimer.obj                       6       0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             1570    0         0      
+                                                                   
+    C:/ti/ccs2030/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/lib/rts2800_fpu32_eabi.lib
+       s_tanf.c.obj                       98      0         0      
+       exit.c.obj                         41      0         6      
+       copy_decompress_lzss.c.obj         46      0         0      
+       autoinit.c.obj                     43      0         0      
+       memcpy.c.obj                       29      0         0      
+       boot28.asm.obj                     23      0         0      
+       _lock.c.obj                        9       0         4      
+       args_main.c.obj                    12      0         0      
+       copy_decompress_none.c.obj         8       0         0      
+       memset.c.obj                       7       0         0      
+       copy_zero_init.c.obj               6       0         0      
+       pre_init.c.obj                     2       0         0      
+       startup.c.obj                      1       0         0      
+    +--+----------------------------------+-------+---------+---------+
+       Total:                             325     0         10     
+                                                                   
+       Stack:                             0       0         1024   
+       Linker Generated:                  0       51        0      
+    +--+----------------------------------+-------+---------+---------+
+       Grand Total:                       19276   339       3017   
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 0008462c records: 2, size/record: 4, table size: 8
+	.data: load addr=00084600, load size=00000021 bytes, run addr=00008000, run size=00000165 bytes, compression=lzss
+	.bss: load addr=00084628, load size=00000004 bytes, run addr=00012000, run size=00000664 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00084622 records: 3, size/record: 2, table size: 6
+	index: 0, handler: __TI_decompress_lzss
+	index: 1, handler: __TI_decompress_none
+	index: 2, handler: __TI_zero_init
+
+
+GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
+
+address     data page           name
+--------    ----------------    ----
+00000400      10 (00000400)     __stack
+
+000080c8     203 (000080c0)     TILE1HLCInstr
+000080fe     203 (000080c0)     _lock
+
+00008100     204 (00008100)     Vgrid_swOVP_count
+00008101     204 (00008100)     VgridA_swUVP_count
+00008102     204 (00008100)     VgridB_swUVP_count
+00008103     204 (00008100)     VgridC_swUVP_count
+00008104     204 (00008100)     Vgrid_swFreqH_count
+00008105     204 (00008100)     Vgrid_swFreqL_count
+00008106     204 (00008100)     Vbusp_swOVP_count
+00008107     204 (00008100)     Vbusn_swOVP_count
+00008108     204 (00008100)     Vbusp_swUVP_count
+00008109     204 (00008100)     Vbusn_swUVP_count
+0000810a     204 (00008100)     IA_hwOCP_count
+0000810b     204 (00008100)     IB_hwOCP_count
+0000810c     204 (00008100)     IC_hwOCP_count
+0000810d     204 (00008100)     Pin_swOPP_count
+0000810e     204 (00008100)     TempA_swOTP_count
+0000810f     204 (00008100)     TempB_swOTP_count
+00008110     204 (00008100)     TempC_swOTP_count
+00008111     204 (00008100)     TempAMB_swOTP_count
+00008112     204 (00008100)     Vref_count
+00008113     204 (00008100)     Vgrid_swOVP_Hpntrigger
+00008114     204 (00008100)     Vgrid_swOVP_Rvytrigger
+00008115     204 (00008100)     VgridA_swUVP_Hpntrigger
+00008116     204 (00008100)     VgridA_swUVP_Rvytrigger
+00008117     204 (00008100)     VgridB_swUVP_Hpntrigger
+00008118     204 (00008100)     VgridB_swUVP_Rvytrigger
+00008119     204 (00008100)     VgridC_swUVP_Hpntrigger
+0000811a     204 (00008100)     VgridC_swUVP_Rvytrigger
+0000811b     204 (00008100)     Vgrid_swFreqH_Hpntrigger
+0000811c     204 (00008100)     Vgrid_swFreqH_Rvytrigger
+0000811d     204 (00008100)     Vgrid_swFreqL_Hpntrigger
+0000811e     204 (00008100)     Vgrid_swFreqL_Rvytrigger
+0000811f     204 (00008100)     Vbusp_swOVP_Hpntrigger
+00008120     204 (00008100)     Vbusp_swOVP_Rvytrigger
+00008121     204 (00008100)     Vbusn_swOVP_Hpntrigger
+00008122     204 (00008100)     Vbusn_swOVP_Rvytrigger
+00008123     204 (00008100)     Vbusp_swUVP_Hpntrigger
+00008124     204 (00008100)     Vbusp_swUVP_Rvytrigger
+00008125     204 (00008100)     Vbusn_swUVP_Hpntrigger
+00008126     204 (00008100)     Vbusn_swUVP_Rvytrigger
+00008127     204 (00008100)     IA_hwOCP_Hpntrigger
+00008128     204 (00008100)     IA_hwOCP_Rvytrigger
+00008129     204 (00008100)     IB_hwOCP_Hpntrigger
+0000812a     204 (00008100)     IB_hwOCP_Rvytrigger
+0000812b     204 (00008100)     IC_hwOCP_Hpntrigger
+0000812c     204 (00008100)     IC_hwOCP_Rvytrigger
+0000812d     204 (00008100)     Pin_swOPP_Hpntrigger
+0000812e     204 (00008100)     Pin_swOPP_Rvytrigger
+0000812f     204 (00008100)     TempA_swOTP_Hpntrigger
+00008130     204 (00008100)     TempA_swOTP_Rvytrigger
+00008131     204 (00008100)     TempB_swOTP_Hpntrigger
+00008132     204 (00008100)     TempB_swOTP_Rvytrigger
+00008133     204 (00008100)     TempC_swOTP_Hpntrigger
+00008134     204 (00008100)     TempC_swOTP_Rvytrigger
+00008135     204 (00008100)     TempAMB_swOTP_Hpntrigger
+00008136     204 (00008100)     TempAMB_swOTP_Rvytrigger
+00008137     204 (00008100)     Vref_Hpntrigger
+00008138     204 (00008100)     Vref_Rvytrigger
+00008139     204 (00008100)     VgridA_swUVP_implicit_flag
+0000813a     204 (00008100)     VgridB_swUVP_implicit_flag
+0000813b     204 (00008100)     VgridC_swUVP_implicit_flag
+0000813c     204 (00008100)     ProtectFlag
+0000813e     204 (00008100)     _unlock
+
+00008140     205 (00008140)     Vac_ok_count
+00008141     205 (00008140)     Precharge_ok_count
+00008142     205 (00008140)     WaitForSoftstart_count
+00008143     205 (00008140)     Softstart_ok_count
+00008144     205 (00008140)     Vac_dropout_count
+00008145     205 (00008140)     PhaseDrop_count
+00008146     205 (00008140)     PhaseOpenA_count
+00008147     205 (00008140)     PhaseOpenB_count
+00008148     205 (00008140)     PhaseOpenC_count
+00008149     205 (00008140)     Vac_ok_Hpntrigger
+0000814a     205 (00008140)     Vac_ok_Rvytrigger
+0000814b     205 (00008140)     Precharge_ok_Hpntrigger
+0000814c     205 (00008140)     Precharge_ok_Rvytrigger
+0000814d     205 (00008140)     WaitForSoftstart_Hpntrigger
+0000814e     205 (00008140)     WaitForSoftstart_Rvytrigger
+0000814f     205 (00008140)     Softstart_ok_Hpntrigger
+00008150     205 (00008140)     Softstart_ok_Rvytrigger
+00008151     205 (00008140)     Vac_dropout_Hpntrigger
+00008152     205 (00008140)     Vac_dropout_Rvytrigger
+00008153     205 (00008140)     PhaseDrop_Hpntrigger
+00008154     205 (00008140)     PhaseDrop_Rvytrigger
+00008155     205 (00008140)     PhaseOpenA_Hpntrigger
+00008156     205 (00008140)     PhaseOpenA_Rvytrigger
+00008157     205 (00008140)     PhaseOpenB_Hpntrigger
+00008158     205 (00008140)     PhaseOpenB_Rvytrigger
+00008159     205 (00008140)     PhaseOpenC_Hpntrigger
+0000815a     205 (00008140)     PhaseOpenC_Rvytrigger
+0000815b     205 (00008140)     StateFlag
+0000815c     205 (00008140)     __TI_enable_exit_profile_output
+0000815e     205 (00008140)     __TI_cleanup_ptr
+00008160     205 (00008140)     __TI_dtors_ptr
+00008162     205 (00008140)     Calibration_count
+00008164     205 (00008140)     is_adv_data_ready
+
+00012000     480 (00012000)     PhyCoeff
+
+00012040     481 (00012040)     AcValue
+
+00012100     484 (00012100)     PhyValue
+
+0001242e     490 (00012400)     AdvTxBuf
+0001243a     490 (00012400)     CurrentState
+0001243e     490 (00012400)     EvtIsHpn
+0001243f     490 (00012400)     EvtIsRvy
+
+00012440     491 (00012440)     DQValue
+
+000124c0     493 (000124c0)     Spll
+
+00012540     495 (00012540)     VICtrl
+
+00012662     499 (00012640)     Io_Status
+00012663     499 (00012640)     AdvDebugCmd
+
+00084500    2114 (00084500)     Crc8Table
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+page  address   name                                 
+----  -------   ----                                 
+0     00083bc6  ADC_setOffsetTrimAll                 
+0     0008390d  ADC_setVREF                          
+1     00012040  AcValue                              
+1     00012663  AdvDebugCmd                          
+1     0001242e  AdvTxBuf                             
+0     00083a78  C$$EXIT                              
+0     0008366a  CLB_configCounterLoadMatch           
+0     00083be1  CMPSS_configFilterHigh               
+0     00083bfa  CMPSS_configFilterLow                
+0     00083cbf  CPUTimer_setEmulationMode            
+1     00008162  Calibration_count                    
+abs   00000000  Cla1ConstLoadSize                    
+0     00009000  Cla1ConstLoadStart                   
+0     00009000  Cla1ConstRunStart                    
+abs   00000000  Cla1ProgLoadSize                     
+0     00009000  Cla1ProgLoadStart                    
+0     00009000  Cla1ProgRunStart                     
+0     00084500  Crc8Table                            
+1     0001243a  CurrentState                         
+1     00012440  DQValue                              
+0     00083013  Device_enableAllPeripherals          
+0     000830ea  Device_init                          
+0     00083003  Device_initGPIO                      
+1     0001243e  EvtIsHpn                             
+1     0001243f  EvtIsRvy                             
+0     0000c8d3  Flash_initModule                     
+0     00083b0e  GPIO_setAnalogMode                   
+0     00083b2f  GPIO_setDirectionMode                
+0     000837b5  GPIO_setPadConfig                    
+0     0008393d  GPIO_setPinConfig                    
+0     00083aec  GPIO_setQualificationMode            
+1     00008127  IA_hwOCP_Hpntrigger                  
+1     00008128  IA_hwOCP_Rvytrigger                  
+1     0000810a  IA_hwOCP_count                       
+1     00008129  IB_hwOCP_Hpntrigger                  
+1     0000812a  IB_hwOCP_Rvytrigger                  
+1     0000810b  IB_hwOCP_count                       
+1     0000812b  IC_hwOCP_Hpntrigger                  
+1     0000812c  IC_hwOCP_Rvytrigger                  
+1     0000810c  IC_hwOCP_count                       
+0     0000c000  ISR1                                 
+0     0000c91c  ISR2                                 
+0     00083c6b  Interrupt_defaultHandler             
+0     000838a6  Interrupt_enable                     
+0     00083c83  Interrupt_illegalOperationHandler    
+0     00083774  Interrupt_initModule                 
+0     00083c43  Interrupt_initVectorTable            
+0     00083c8d  Interrupt_nmiHandler                 
+1     00012662  Io_Status                            
+1     00008153  PhaseDrop_Hpntrigger                 
+1     00008154  PhaseDrop_Rvytrigger                 
+1     00008145  PhaseDrop_count                      
+1     00008155  PhaseOpenA_Hpntrigger                
+1     00008156  PhaseOpenA_Rvytrigger                
+1     00008146  PhaseOpenA_count                     
+1     00008157  PhaseOpenB_Hpntrigger                
+1     00008158  PhaseOpenB_Rvytrigger                
+1     00008147  PhaseOpenB_count                     
+1     00008159  PhaseOpenC_Hpntrigger                
+1     0000815a  PhaseOpenC_Rvytrigger                
+1     00008148  PhaseOpenC_count                     
+1     00012000  PhyCoeff                             
+1     00012100  PhyValue                             
+1     0000812d  Pin_swOPP_Hpntrigger                 
+1     0000812e  Pin_swOPP_Rvytrigger                 
+1     0000810d  Pin_swOPP_count                      
+1     0000814b  Precharge_ok_Hpntrigger              
+1     0000814c  Precharge_ok_Rvytrigger              
+1     00008141  Precharge_ok_count                   
+1     0000813c  ProtectFlag                          
+abs   00086f49  RamfuncsLoadEnd                      
+abs   00000f49  RamfuncsLoadSize                     
+abs   00086000  RamfuncsLoadStart                    
+abs   0000cf49  RamfuncsRunEnd                       
+abs   00000f49  RamfuncsRunSize                      
+abs   0000c000  RamfuncsRunStart                     
+0     00083baa  SCI_clearInterruptStatus             
+0     00083b4f  SCI_getInterruptStatus               
+0     00083ac9  SCI_setConfig                        
+1     0000814f  Softstart_ok_Hpntrigger              
+1     00008150  Softstart_ok_Rvytrigger              
+1     00008143  Softstart_ok_count                   
+1     000124c0  Spll                                 
+1     0000815b  StateFlag                            
+0     0000c918  SysCtl_delay                         
+0     00083342  SysCtl_isPLLValid                    
+0     000839ca  SysCtl_selectOscSource               
+0     0008386f  SysCtl_selectXTAL                    
+0     00083b6f  SysCtl_selectXTALSingleEnded         
+0     00081f4d  SysCtl_setClock                      
+1     000080c8  TILE1HLCInstr                        
+1     00008135  TempAMB_swOTP_Hpntrigger             
+1     00008136  TempAMB_swOTP_Rvytrigger             
+1     00008111  TempAMB_swOTP_count                  
+1     0000812f  TempA_swOTP_Hpntrigger               
+1     00008130  TempA_swOTP_Rvytrigger               
+1     0000810e  TempA_swOTP_count                    
+1     00008131  TempB_swOTP_Hpntrigger               
+1     00008132  TempB_swOTP_Rvytrigger               
+1     0000810f  TempB_swOTP_count                    
+1     00008133  TempC_swOTP_Hpntrigger               
+1     00008134  TempC_swOTP_Rvytrigger               
+1     00008110  TempC_swOTP_count                    
+1     00012540  VICtrl                               
+1     00008151  Vac_dropout_Hpntrigger               
+1     00008152  Vac_dropout_Rvytrigger               
+1     00008144  Vac_dropout_count                    
+1     00008149  Vac_ok_Hpntrigger                    
+1     0000814a  Vac_ok_Rvytrigger                    
+1     00008140  Vac_ok_count                         
+1     00008121  Vbusn_swOVP_Hpntrigger               
+1     00008122  Vbusn_swOVP_Rvytrigger               
+1     00008107  Vbusn_swOVP_count                    
+1     00008125  Vbusn_swUVP_Hpntrigger               
+1     00008126  Vbusn_swUVP_Rvytrigger               
+1     00008109  Vbusn_swUVP_count                    
+1     0000811f  Vbusp_swOVP_Hpntrigger               
+1     00008120  Vbusp_swOVP_Rvytrigger               
+1     00008106  Vbusp_swOVP_count                    
+1     00008123  Vbusp_swUVP_Hpntrigger               
+1     00008124  Vbusp_swUVP_Rvytrigger               
+1     00008108  Vbusp_swUVP_count                    
+1     00008115  VgridA_swUVP_Hpntrigger              
+1     00008116  VgridA_swUVP_Rvytrigger              
+1     00008101  VgridA_swUVP_count                   
+1     00008139  VgridA_swUVP_implicit_flag           
+1     00008117  VgridB_swUVP_Hpntrigger              
+1     00008118  VgridB_swUVP_Rvytrigger              
+1     00008102  VgridB_swUVP_count                   
+1     0000813a  VgridB_swUVP_implicit_flag           
+1     00008119  VgridC_swUVP_Hpntrigger              
+1     0000811a  VgridC_swUVP_Rvytrigger              
+1     00008103  VgridC_swUVP_count                   
+1     0000813b  VgridC_swUVP_implicit_flag           
+1     0000811b  Vgrid_swFreqH_Hpntrigger             
+1     0000811c  Vgrid_swFreqH_Rvytrigger             
+1     00008104  Vgrid_swFreqH_count                  
+1     0000811d  Vgrid_swFreqL_Hpntrigger             
+1     0000811e  Vgrid_swFreqL_Rvytrigger             
+1     00008105  Vgrid_swFreqL_count                  
+1     00008113  Vgrid_swOVP_Hpntrigger               
+1     00008114  Vgrid_swOVP_Rvytrigger               
+1     00008100  Vgrid_swOVP_count                    
+1     00008137  Vref_Hpntrigger                      
+1     00008138  Vref_Rvytrigger                      
+1     00008112  Vref_count                           
+1     0000814d  WaitForSoftstart_Hpntrigger          
+1     0000814e  WaitForSoftstart_Rvytrigger          
+1     00008142  WaitForSoftstart_count               
+0     00083aa1  XBAR_clearInputFlag                  
+0     0008396d  XBAR_getInputFlagStatus              
+0     000839f7  XBAR_setCLBMuxConfig                 
+0     00083a22  XBAR_setEPWMMuxConfig                
+0     0008462c  __TI_CINIT_Base                      
+0     00084634  __TI_CINIT_Limit                     
+0     00084634  __TI_CINIT_Warm                      
+0     00084622  __TI_Handler_Table_Base              
+0     00084628  __TI_Handler_Table_Limit             
+1     00000800  __TI_STACK_END                       
+abs   00000400  __TI_STACK_SIZE                      
+0     00083a4d  __TI_auto_init_nobinit_nopinit       
+1     0000815e  __TI_cleanup_ptr                     
+0     0008399c  __TI_decompress_lzss                 
+0     00082ff8  __TI_decompress_none                 
+1     00008160  __TI_dtors_ptr                       
+1     0000815c  __TI_enable_exit_profile_output      
+abs   ffffffff  __TI_pprof_out_hndl                  
+abs   ffffffff  __TI_prof_data_size                  
+abs   ffffffff  __TI_prof_data_start                 
+0     00083cc5  __TI_zero_init                       
+0     00083c13  __c28xabi_divf                       
+n/a   UNDEFED   __c_args__                           
+0     00083000  __error__                            
+1     00000400  __stack                              
+0     00083c77  _args_main                           
+0     00083c2c  _c_int00                             
+1     000080fe  _lock                                
+0     00083ca8  _nop                                 
+0     00083ca4  _register_lock                       
+0     00083ca0  _register_unlock                     
+0     00083cd7  _system_post_cinit                   
+0     00083cd5  _system_pre_init                     
+1     0000813e  _unlock                              
+0     00083a78  abort                                
+0     00082ff4  adc_hal_ConversionComplete           
+0     00082f9f  adc_hal_ForceAllSOCs                 
+0     00082ee4  adc_hal_SetupADC                     
+0     00083832  adc_hal_Setup_DAC                    
+0     00082ff4  adc_mid_ConversionComplete           
+0     00082f9f  adc_mid_ForceAllSOCs                 
+0     000829e6  anpc_Current_Control_Change          
+0     000829e1  anpc_Load_Judgment                   
+0     000829e0  anpc_ResetOperationVariables         
+0     000829c3  anpc_SoftStart_ConstantCurrent       
+0     0008298c  anpc_SoftStart_VbusAdjustment        
+0     00082963  anpc_Vbus_PIControl_Change           
+0     00082ee4  bsp_InitADC                          
+0     00082587  bsp_InitCLB                          
+0     00083582  bsp_InitCOMP                         
+0     00083832  bsp_InitDAC                          
+0     00083cd0  bsp_InitDGPIO                        
+0     00083741  bsp_InitINTERRUPT                    
+0     000838dc  bsp_InitPWM                          
+0     00083c97  bsp_InitSYSTEM                       
+0     0008359f  bsp_InitTIMER                        
+0     00083cb1  bsp_InitUART                         
+0     00083492  bsp_Uart1CheckRxTimeOut              
+0     00083480  bsp_Uart1HwError                     
+0     00083426  bsp_Uart1ReceiveDataFunc             
+0     0008346f  bsp_Uart1RxProcess                   
+0     00083410  bsp_Uart1SetTransmitData             
+0     000833fe  bsp_Uart1TransmitData                
+0     000824bf  clb_hal_InitTile1                    
+0     00082587  clb_hal_SetupCLB                     
+0     00080000  code_start                           
+0     00083582  comp_hal_SetupBoardProtection_CMPSS  
+0     0008352d  comp_hal_SetupCMPSS                  
+0     0008273c  ctrl_ResetControlVariables           
+0     000831a6  dgpio_hal_Setup_3phasePWM_GPIO       
+0     00083197  dgpio_hal_Setup_Board_GPIOs          
+0     0008318b  dgpio_hal_Setup_BulkOk_GPIO          
+0     0008317d  dgpio_hal_Setup_Debug1_GPIO          
+0     00083170  dgpio_hal_Setup_Debug2_GPIO          
+0     00083162  dgpio_hal_Setup_FanCtrl_GPIO         
+0     0008315a  dgpio_hal_Setup_InputSignal_GPIO     
+0     0008314c  dgpio_hal_Setup_LoadJudge_GPIO       
+0     00083140  dgpio_hal_Setup_RelayOn_GPIO         
+0     00081e6e  event_AcDropout_Detection            
+0     00081bd6  event_EventIsMatch                   
+0     00081d43  event_MonitorEvents_Every1ms         
+0     00081cf2  event_PhaseDrop_Detection            
+0     00081bf0  event_PhaseOpen_Detection            
+0     00081bb8  event_ResetEventVariables            
+0     00081bb1  event_TimerIsMatch                   
+0     00083a7a  exit                                 
+1     00008164  is_adv_data_ready                    
+0     00083741  isr_hal_SetupInterrupt               
+0     0008371c  isr_hal_SetupPWMInterruptGeneration  
+abs   00009000  isrcodefuncsLoadEnd                  
+abs   00000000  isrcodefuncsLoadSize                 
+abs   00009000  isrcodefuncsLoadStart                
+abs   00009000  isrcodefuncsRunEnd                   
+abs   00000000  isrcodefuncsRunSize                  
+abs   00009000  isrcodefuncsRunStart                 
+0     000836e3  main                                 
+0     00083b8d  memcpy                               
+0     00083cb8  memset                               
+0     000819f2  phyvalue_CalibrateOffset             
+0     000816e0  phyvalue_ResetAcValues               
+0     000817fc  phyvalue_ResetAllPhysicalValues      
+0     00081674  phyvalue_ResetNotchCoefficient       
+0     00081658  phyvalue_ResetOnePhysicalValue       
+0     0008164f  protect_CheckAllProtection           
+0     000814a6  protect_CheckBusVoltageProtection    
+0     00081380  protect_CheckCurrentProtection       
+0     000810db  protect_CheckGridVoltageProtection   
+0     000810da  protect_CheckOtherProtection         
+0     0008106e  protect_CheckPowerProtection         
+0     0008106d  protect_CheckTemperatureProtection   
+0     00081069  protect_GetProtectFlagDWord          
+0     00081065  protect_GetProtectFlagH              
+0     00081061  protect_GetProtectFlagL              
+0     0008105c  protect_ResetProtectFlag             
+0     00081020  protect_ResetProtectVariables        
+0     00082d58  pwm_hal_DisablePWMCLKCounting        
+0     00082d50  pwm_hal_EnablePWMCLKCounting         
+0     00082c3b  pwm_hal_Setup1phasePWM               
+0     00082ca9  pwm_hal_Setup3phasePWM               
+0     00082bfd  pwm_hal_SetupBoardProtection_EPWMXbar
+0     00082bc4  pwm_hal_SetupBoardProtection_PWMTrip 
+0     00082ba1  pwm_hal_SetupEPWMtoTriggerADCSOC     
+0     00082b65  pwm_hal_SetupPWMforTrip              
+0     00082e51  state_ChangeState                    
+0     00082ee0  state_GetCurrentState                
+0     00082ed8  state_InitStateMachine               
+0     00082ecc  state_IsNormalOperation              
+0     00082ec4  state_IsPrecharge                    
+0     00082ebc  state_IsShutdown                     
+0     00082eb4  state_IsSoftStart                    
+0     00082eac  state_IsStandby                      
+0     00082ea7  state_ReportEvent                    
+0     00082ea3  state_ResetStateFlag                 
+0     00082e9f  state_SetCurrentState                
+0     00083c97  system_hal_SetupDevice               
+0     00083608  tanf                                 
+0     00083ccb  timer10Hz_Callback                   
+0     00083c58  timer1kHz_Callback                   
+0     0008359f  timer_hal_SetupTimer                 
+0     000833f9  uart1_Init                           
+0     000820a4  uart_Adjust_IaControl                
+0     00082064  uart_Adjust_IbControl                
+0     00082024  uart_Adjust_IcControl                
+0     0008212b  uart_Adjust_VbusControl              
+0     000820eb  uart_Adjust_VbusNonLinearGain        
+0     0008216b  uart_Adjust_VbusRef                  
+0     00083321  uart_CheckRxLinkHealth               
+0     000823df  uart_Crc8Calculation                 
+0     00083250  uart_DiscardAllRxData                
+0     00083313  uart_DiscardAllTxData                
+0     000832fa  uart_GetTxSendDataInSequence         
+0     000832cb  uart_Init                            
+0     000832b1  uart_LoadTxInnerBuf                  
+0     00082493  uart_MasterToSlave                   
+0     00083278  uart_ReadRxInnerBuf                  
+0     0008325d  uart_ReceiveRxData                   
+0     000822e3  uart_ReturnAdcValue_Phase3           
+0     00082341  uart_Return_Adc_Phase1               
+0     00082312  uart_Return_Adc_Phase2               
+0     000821e8  uart_Return_IoStatus                 
+0     0008224c  uart_Return_ProtectFlag              
+0     000823ba  uart_Return_Rms_Phase1               
+0     00082395  uart_Return_Rms_Phase2               
+0     00082370  uart_Return_Rms_Phase3               
+0     000821a3  uart_Return_State                    
+0     000822aa  uart_Return_Temperature1             
+0     0008228f  uart_Return_Temperature2             
+0     00082274  uart_Return_Temperature3             
+0     00082259  uart_Return_Temperature4             
+0     000822c5  uart_Return_Vbus                     
+0     000821b2  uart_Return_Vbusn                    
+0     000821cd  uart_Return_Vbusp                    
+0     00082000  uart_SetTxData                       
+0     000823e5  uart_SlaveToMaster                   
+0     0008201c  uart_TriggerTxFlag                   
+0     00082015  uart_TxProcess                       
+0     000834b6  uart_hal_Setup                       
+0     00083497  uart_hal_SetupGPIO                   
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+page  address   name                                 
+----  -------   ----                                 
+0     00009000  Cla1ConstLoadStart                   
+0     00009000  Cla1ConstRunStart                    
+0     00009000  Cla1ProgLoadStart                    
+0     00009000  Cla1ProgRunStart                     
+0     0000c000  ISR1                                 
+0     0000c8d3  Flash_initModule                     
+0     0000c918  SysCtl_delay                         
+0     0000c91c  ISR2                                 
+0     00080000  code_start                           
+0     00081020  protect_ResetProtectVariables        
+0     0008105c  protect_ResetProtectFlag             
+0     00081061  protect_GetProtectFlagL              
+0     00081065  protect_GetProtectFlagH              
+0     00081069  protect_GetProtectFlagDWord          
+0     0008106d  protect_CheckTemperatureProtection   
+0     0008106e  protect_CheckPowerProtection         
+0     000810da  protect_CheckOtherProtection         
+0     000810db  protect_CheckGridVoltageProtection   
+0     00081380  protect_CheckCurrentProtection       
+0     000814a6  protect_CheckBusVoltageProtection    
+0     0008164f  protect_CheckAllProtection           
+0     00081658  phyvalue_ResetOnePhysicalValue       
+0     00081674  phyvalue_ResetNotchCoefficient       
+0     000816e0  phyvalue_ResetAcValues               
+0     000817fc  phyvalue_ResetAllPhysicalValues      
+0     000819f2  phyvalue_CalibrateOffset             
+0     00081bb1  event_TimerIsMatch                   
+0     00081bb8  event_ResetEventVariables            
+0     00081bd6  event_EventIsMatch                   
+0     00081bf0  event_PhaseOpen_Detection            
+0     00081cf2  event_PhaseDrop_Detection            
+0     00081d43  event_MonitorEvents_Every1ms         
+0     00081e6e  event_AcDropout_Detection            
+0     00081f4d  SysCtl_setClock                      
+0     00082000  uart_SetTxData                       
+0     00082015  uart_TxProcess                       
+0     0008201c  uart_TriggerTxFlag                   
+0     00082024  uart_Adjust_IcControl                
+0     00082064  uart_Adjust_IbControl                
+0     000820a4  uart_Adjust_IaControl                
+0     000820eb  uart_Adjust_VbusNonLinearGain        
+0     0008212b  uart_Adjust_VbusControl              
+0     0008216b  uart_Adjust_VbusRef                  
+0     000821a3  uart_Return_State                    
+0     000821b2  uart_Return_Vbusn                    
+0     000821cd  uart_Return_Vbusp                    
+0     000821e8  uart_Return_IoStatus                 
+0     0008224c  uart_Return_ProtectFlag              
+0     00082259  uart_Return_Temperature4             
+0     00082274  uart_Return_Temperature3             
+0     0008228f  uart_Return_Temperature2             
+0     000822aa  uart_Return_Temperature1             
+0     000822c5  uart_Return_Vbus                     
+0     000822e3  uart_ReturnAdcValue_Phase3           
+0     00082312  uart_Return_Adc_Phase2               
+0     00082341  uart_Return_Adc_Phase1               
+0     00082370  uart_Return_Rms_Phase3               
+0     00082395  uart_Return_Rms_Phase2               
+0     000823ba  uart_Return_Rms_Phase1               
+0     000823df  uart_Crc8Calculation                 
+0     000823e5  uart_SlaveToMaster                   
+0     00082493  uart_MasterToSlave                   
+0     000824bf  clb_hal_InitTile1                    
+0     00082587  bsp_InitCLB                          
+0     00082587  clb_hal_SetupCLB                     
+0     0008273c  ctrl_ResetControlVariables           
+0     00082963  anpc_Vbus_PIControl_Change           
+0     0008298c  anpc_SoftStart_VbusAdjustment        
+0     000829c3  anpc_SoftStart_ConstantCurrent       
+0     000829e0  anpc_ResetOperationVariables         
+0     000829e1  anpc_Load_Judgment                   
+0     000829e6  anpc_Current_Control_Change          
+0     00082b65  pwm_hal_SetupPWMforTrip              
+0     00082ba1  pwm_hal_SetupEPWMtoTriggerADCSOC     
+0     00082bc4  pwm_hal_SetupBoardProtection_PWMTrip 
+0     00082bfd  pwm_hal_SetupBoardProtection_EPWMXbar
+0     00082c3b  pwm_hal_Setup1phasePWM               
+0     00082ca9  pwm_hal_Setup3phasePWM               
+0     00082d50  pwm_hal_EnablePWMCLKCounting         
+0     00082d58  pwm_hal_DisablePWMCLKCounting        
+0     00082e51  state_ChangeState                    
+0     00082e9f  state_SetCurrentState                
+0     00082ea3  state_ResetStateFlag                 
+0     00082ea7  state_ReportEvent                    
+0     00082eac  state_IsStandby                      
+0     00082eb4  state_IsSoftStart                    
+0     00082ebc  state_IsShutdown                     
+0     00082ec4  state_IsPrecharge                    
+0     00082ecc  state_IsNormalOperation              
+0     00082ed8  state_InitStateMachine               
+0     00082ee0  state_GetCurrentState                
+0     00082ee4  adc_hal_SetupADC                     
+0     00082ee4  bsp_InitADC                          
+0     00082f9f  adc_hal_ForceAllSOCs                 
+0     00082f9f  adc_mid_ForceAllSOCs                 
+0     00082ff4  adc_hal_ConversionComplete           
+0     00082ff4  adc_mid_ConversionComplete           
+0     00082ff8  __TI_decompress_none                 
+0     00083000  __error__                            
+0     00083003  Device_initGPIO                      
+0     00083013  Device_enableAllPeripherals          
+0     000830ea  Device_init                          
+0     00083140  dgpio_hal_Setup_RelayOn_GPIO         
+0     0008314c  dgpio_hal_Setup_LoadJudge_GPIO       
+0     0008315a  dgpio_hal_Setup_InputSignal_GPIO     
+0     00083162  dgpio_hal_Setup_FanCtrl_GPIO         
+0     00083170  dgpio_hal_Setup_Debug2_GPIO          
+0     0008317d  dgpio_hal_Setup_Debug1_GPIO          
+0     0008318b  dgpio_hal_Setup_BulkOk_GPIO          
+0     00083197  dgpio_hal_Setup_Board_GPIOs          
+0     000831a6  dgpio_hal_Setup_3phasePWM_GPIO       
+0     00083250  uart_DiscardAllRxData                
+0     0008325d  uart_ReceiveRxData                   
+0     00083278  uart_ReadRxInnerBuf                  
+0     000832b1  uart_LoadTxInnerBuf                  
+0     000832cb  uart_Init                            
+0     000832fa  uart_GetTxSendDataInSequence         
+0     00083313  uart_DiscardAllTxData                
+0     00083321  uart_CheckRxLinkHealth               
+0     00083342  SysCtl_isPLLValid                    
+0     000833f9  uart1_Init                           
+0     000833fe  bsp_Uart1TransmitData                
+0     00083410  bsp_Uart1SetTransmitData             
+0     00083426  bsp_Uart1ReceiveDataFunc             
+0     0008346f  bsp_Uart1RxProcess                   
+0     00083480  bsp_Uart1HwError                     
+0     00083492  bsp_Uart1CheckRxTimeOut              
+0     00083497  uart_hal_SetupGPIO                   
+0     000834b6  uart_hal_Setup                       
+0     0008352d  comp_hal_SetupCMPSS                  
+0     00083582  bsp_InitCOMP                         
+0     00083582  comp_hal_SetupBoardProtection_CMPSS  
+0     0008359f  bsp_InitTIMER                        
+0     0008359f  timer_hal_SetupTimer                 
+0     00083608  tanf                                 
+0     0008366a  CLB_configCounterLoadMatch           
+0     000836e3  main                                 
+0     0008371c  isr_hal_SetupPWMInterruptGeneration  
+0     00083741  bsp_InitINTERRUPT                    
+0     00083741  isr_hal_SetupInterrupt               
+0     00083774  Interrupt_initModule                 
+0     000837b5  GPIO_setPadConfig                    
+0     00083832  adc_hal_Setup_DAC                    
+0     00083832  bsp_InitDAC                          
+0     0008386f  SysCtl_selectXTAL                    
+0     000838a6  Interrupt_enable                     
+0     000838dc  bsp_InitPWM                          
+0     0008390d  ADC_setVREF                          
+0     0008393d  GPIO_setPinConfig                    
+0     0008396d  XBAR_getInputFlagStatus              
+0     0008399c  __TI_decompress_lzss                 
+0     000839ca  SysCtl_selectOscSource               
+0     000839f7  XBAR_setCLBMuxConfig                 
+0     00083a22  XBAR_setEPWMMuxConfig                
+0     00083a4d  __TI_auto_init_nobinit_nopinit       
+0     00083a78  C$$EXIT                              
+0     00083a78  abort                                
+0     00083a7a  exit                                 
+0     00083aa1  XBAR_clearInputFlag                  
+0     00083ac9  SCI_setConfig                        
+0     00083aec  GPIO_setQualificationMode            
+0     00083b0e  GPIO_setAnalogMode                   
+0     00083b2f  GPIO_setDirectionMode                
+0     00083b4f  SCI_getInterruptStatus               
+0     00083b6f  SysCtl_selectXTALSingleEnded         
+0     00083b8d  memcpy                               
+0     00083baa  SCI_clearInterruptStatus             
+0     00083bc6  ADC_setOffsetTrimAll                 
+0     00083be1  CMPSS_configFilterHigh               
+0     00083bfa  CMPSS_configFilterLow                
+0     00083c13  __c28xabi_divf                       
+0     00083c2c  _c_int00                             
+0     00083c43  Interrupt_initVectorTable            
+0     00083c58  timer1kHz_Callback                   
+0     00083c6b  Interrupt_defaultHandler             
+0     00083c77  _args_main                           
+0     00083c83  Interrupt_illegalOperationHandler    
+0     00083c8d  Interrupt_nmiHandler                 
+0     00083c97  bsp_InitSYSTEM                       
+0     00083c97  system_hal_SetupDevice               
+0     00083ca0  _register_unlock                     
+0     00083ca4  _register_lock                       
+0     00083ca8  _nop                                 
+0     00083cb1  bsp_InitUART                         
+0     00083cb8  memset                               
+0     00083cbf  CPUTimer_setEmulationMode            
+0     00083cc5  __TI_zero_init                       
+0     00083ccb  timer10Hz_Callback                   
+0     00083cd0  bsp_InitDGPIO                        
+0     00083cd5  _system_pre_init                     
+0     00083cd7  _system_post_cinit                   
+0     00084500  Crc8Table                            
+0     00084622  __TI_Handler_Table_Base              
+0     00084628  __TI_Handler_Table_Limit             
+0     0008462c  __TI_CINIT_Base                      
+0     00084634  __TI_CINIT_Limit                     
+0     00084634  __TI_CINIT_Warm                      
+1     00000400  __stack                              
+1     00000800  __TI_STACK_END                       
+1     000080c8  TILE1HLCInstr                        
+1     000080fe  _lock                                
+1     00008100  Vgrid_swOVP_count                    
+1     00008101  VgridA_swUVP_count                   
+1     00008102  VgridB_swUVP_count                   
+1     00008103  VgridC_swUVP_count                   
+1     00008104  Vgrid_swFreqH_count                  
+1     00008105  Vgrid_swFreqL_count                  
+1     00008106  Vbusp_swOVP_count                    
+1     00008107  Vbusn_swOVP_count                    
+1     00008108  Vbusp_swUVP_count                    
+1     00008109  Vbusn_swUVP_count                    
+1     0000810a  IA_hwOCP_count                       
+1     0000810b  IB_hwOCP_count                       
+1     0000810c  IC_hwOCP_count                       
+1     0000810d  Pin_swOPP_count                      
+1     0000810e  TempA_swOTP_count                    
+1     0000810f  TempB_swOTP_count                    
+1     00008110  TempC_swOTP_count                    
+1     00008111  TempAMB_swOTP_count                  
+1     00008112  Vref_count                           
+1     00008113  Vgrid_swOVP_Hpntrigger               
+1     00008114  Vgrid_swOVP_Rvytrigger               
+1     00008115  VgridA_swUVP_Hpntrigger              
+1     00008116  VgridA_swUVP_Rvytrigger              
+1     00008117  VgridB_swUVP_Hpntrigger              
+1     00008118  VgridB_swUVP_Rvytrigger              
+1     00008119  VgridC_swUVP_Hpntrigger              
+1     0000811a  VgridC_swUVP_Rvytrigger              
+1     0000811b  Vgrid_swFreqH_Hpntrigger             
+1     0000811c  Vgrid_swFreqH_Rvytrigger             
+1     0000811d  Vgrid_swFreqL_Hpntrigger             
+1     0000811e  Vgrid_swFreqL_Rvytrigger             
+1     0000811f  Vbusp_swOVP_Hpntrigger               
+1     00008120  Vbusp_swOVP_Rvytrigger               
+1     00008121  Vbusn_swOVP_Hpntrigger               
+1     00008122  Vbusn_swOVP_Rvytrigger               
+1     00008123  Vbusp_swUVP_Hpntrigger               
+1     00008124  Vbusp_swUVP_Rvytrigger               
+1     00008125  Vbusn_swUVP_Hpntrigger               
+1     00008126  Vbusn_swUVP_Rvytrigger               
+1     00008127  IA_hwOCP_Hpntrigger                  
+1     00008128  IA_hwOCP_Rvytrigger                  
+1     00008129  IB_hwOCP_Hpntrigger                  
+1     0000812a  IB_hwOCP_Rvytrigger                  
+1     0000812b  IC_hwOCP_Hpntrigger                  
+1     0000812c  IC_hwOCP_Rvytrigger                  
+1     0000812d  Pin_swOPP_Hpntrigger                 
+1     0000812e  Pin_swOPP_Rvytrigger                 
+1     0000812f  TempA_swOTP_Hpntrigger               
+1     00008130  TempA_swOTP_Rvytrigger               
+1     00008131  TempB_swOTP_Hpntrigger               
+1     00008132  TempB_swOTP_Rvytrigger               
+1     00008133  TempC_swOTP_Hpntrigger               
+1     00008134  TempC_swOTP_Rvytrigger               
+1     00008135  TempAMB_swOTP_Hpntrigger             
+1     00008136  TempAMB_swOTP_Rvytrigger             
+1     00008137  Vref_Hpntrigger                      
+1     00008138  Vref_Rvytrigger                      
+1     00008139  VgridA_swUVP_implicit_flag           
+1     0000813a  VgridB_swUVP_implicit_flag           
+1     0000813b  VgridC_swUVP_implicit_flag           
+1     0000813c  ProtectFlag                          
+1     0000813e  _unlock                              
+1     00008140  Vac_ok_count                         
+1     00008141  Precharge_ok_count                   
+1     00008142  WaitForSoftstart_count               
+1     00008143  Softstart_ok_count                   
+1     00008144  Vac_dropout_count                    
+1     00008145  PhaseDrop_count                      
+1     00008146  PhaseOpenA_count                     
+1     00008147  PhaseOpenB_count                     
+1     00008148  PhaseOpenC_count                     
+1     00008149  Vac_ok_Hpntrigger                    
+1     0000814a  Vac_ok_Rvytrigger                    
+1     0000814b  Precharge_ok_Hpntrigger              
+1     0000814c  Precharge_ok_Rvytrigger              
+1     0000814d  WaitForSoftstart_Hpntrigger          
+1     0000814e  WaitForSoftstart_Rvytrigger          
+1     0000814f  Softstart_ok_Hpntrigger              
+1     00008150  Softstart_ok_Rvytrigger              
+1     00008151  Vac_dropout_Hpntrigger               
+1     00008152  Vac_dropout_Rvytrigger               
+1     00008153  PhaseDrop_Hpntrigger                 
+1     00008154  PhaseDrop_Rvytrigger                 
+1     00008155  PhaseOpenA_Hpntrigger                
+1     00008156  PhaseOpenA_Rvytrigger                
+1     00008157  PhaseOpenB_Hpntrigger                
+1     00008158  PhaseOpenB_Rvytrigger                
+1     00008159  PhaseOpenC_Hpntrigger                
+1     0000815a  PhaseOpenC_Rvytrigger                
+1     0000815b  StateFlag                            
+1     0000815c  __TI_enable_exit_profile_output      
+1     0000815e  __TI_cleanup_ptr                     
+1     00008160  __TI_dtors_ptr                       
+1     00008162  Calibration_count                    
+1     00008164  is_adv_data_ready                    
+1     00012000  PhyCoeff                             
+1     00012040  AcValue                              
+1     00012100  PhyValue                             
+1     0001242e  AdvTxBuf                             
+1     0001243a  CurrentState                         
+1     0001243e  EvtIsHpn                             
+1     0001243f  EvtIsRvy                             
+1     00012440  DQValue                              
+1     000124c0  Spll                                 
+1     00012540  VICtrl                               
+1     00012662  Io_Status                            
+1     00012663  AdvDebugCmd                          
+abs   00000000  Cla1ConstLoadSize                    
+abs   00000000  Cla1ProgLoadSize                     
+abs   00000000  isrcodefuncsLoadSize                 
+abs   00000000  isrcodefuncsRunSize                  
+abs   00000400  __TI_STACK_SIZE                      
+abs   00000f49  RamfuncsLoadSize                     
+abs   00000f49  RamfuncsRunSize                      
+abs   00009000  isrcodefuncsLoadEnd                  
+abs   00009000  isrcodefuncsLoadStart                
+abs   00009000  isrcodefuncsRunEnd                   
+abs   00009000  isrcodefuncsRunStart                 
+abs   0000c000  RamfuncsRunStart                     
+abs   0000cf49  RamfuncsRunEnd                       
+abs   00086000  RamfuncsLoadStart                    
+abs   00086f49  RamfuncsLoadEnd                      
+abs   ffffffff  __TI_pprof_out_hndl                  
+abs   ffffffff  __TI_prof_data_size                  
+abs   ffffffff  __TI_prof_data_start                 
+n/a   UNDEFED   __c_args__                           
+
+[327 symbols]
