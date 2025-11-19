@@ -1,14 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\",
+  "WorkspaceRootPath": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\hal\\hal_timer_SIMPLIS.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|solutionrelative:hal\\hal_timer_SIMPLIS.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\Source\\mid\\initial\\mid_initial_dac.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\hal\\hal_timer_SIMPLIS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|solutionrelative:hal\\hal_timer_SIMPLIS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\Source\\app\\app_event.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\anpc_action.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|solutionrelative:anpc_action.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\hal\\hal_dac_SIMPLIS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|solutionrelative:hal\\hal_dac_SIMPLIS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\hal\\hal_dac_SIMPLIS.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C786DBE-B0C3-4591-9F74-7DF20ED4620E}|anpc.vcxproj|solutionrelative:hal\\hal_dac_SIMPLIS.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +33,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "hal_timer_SIMPLIS.c",
-              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\hal\\hal_timer_SIMPLIS.c",
-              "RelativeDocumentMoniker": "hal\\hal_timer_SIMPLIS.c",
-              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\hal\\hal_timer_SIMPLIS.c",
-              "RelativeToolTip": "hal\\hal_timer_SIMPLIS.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-19T05:18:01.589Z",
+              "Title": "mid_initial_dac.h",
+              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\Source\\mid\\initial\\mid_initial_dac.h",
+              "RelativeDocumentMoniker": "..\\Source\\mid\\initial\\mid_initial_dac.h",
+              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\Source\\mid\\initial\\mid_initial_dac.h",
+              "RelativeToolTip": "..\\Source\\mid\\initial\\mid_initial_dac.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAjwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T08:46:27.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "hal_timer_SIMPLIS.h",
-              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\hal\\hal_timer_SIMPLIS.h",
-              "RelativeDocumentMoniker": "hal\\hal_timer_SIMPLIS.h",
-              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Compare Version\\ANPC_3Layer\\SIMPLIS\\hal\\hal_timer_SIMPLIS.h",
-              "RelativeToolTip": "hal\\hal_timer_SIMPLIS.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "app_event.c",
+              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\Source\\app\\app_event.c",
+              "RelativeDocumentMoniker": "..\\Source\\app\\app_event.c",
+              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\Source\\app\\app_event.c",
+              "RelativeToolTip": "..\\Source\\app\\app_event.c",
+              "ViewState": "AgIAAKMBAAAAAAAAAADwv7IBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-19T08:46:24.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "anpc_action.c",
+              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\anpc_action.c",
+              "RelativeDocumentMoniker": "anpc_action.c",
+              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\anpc_action.c",
+              "RelativeToolTip": "anpc_action.c",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAjwBABAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-19T08:39:10.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "hal_dac_SIMPLIS.h",
+              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\hal\\hal_dac_SIMPLIS.h",
+              "RelativeDocumentMoniker": "hal\\hal_dac_SIMPLIS.h",
+              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\hal\\hal_dac_SIMPLIS.h",
+              "RelativeToolTip": "hal\\hal_dac_SIMPLIS.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-19T05:18:00.621Z",
+              "WhenOpened": "2025-11-19T08:38:45.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "hal_dac_SIMPLIS.c",
+              "DocumentMoniker": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\hal\\hal_dac_SIMPLIS.c",
+              "RelativeDocumentMoniker": "hal\\hal_dac_SIMPLIS.c",
+              "ToolTip": "C:\\SIMPLIS simulation\\ANPC Phase Loss DLL\\anpc\\SIMPLIS\\hal\\hal_dac_SIMPLIS.c",
+              "RelativeToolTip": "hal\\hal_dac_SIMPLIS.c",
+              "ViewState": "AgIAACkAAAAAAAAAAAAjwDwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-19T08:38:45.639Z",
               "EditorCaption": ""
             }
           ]

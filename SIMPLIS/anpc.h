@@ -56,10 +56,19 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus DEBUG_1_bus_p;
 	p_smx_dll_bus DEBUG_2_bus_p;
 	p_smx_dll_bus DEBUG_3_bus_p;
+
+
 	p_smx_dll_bus DAC_A_BASE;
 	p_smx_dll_bus DAC_B_BASE;
 	p_smx_dll_bus DAC_EN;
 
+	p_smx_dll_bus INPUT_SIGNAL;
+	p_smx_dll_bus BULK_OK;
+	p_smx_dll_bus RELAY_ON;
+	p_smx_dll_bus FAN_CTRL;
+	p_smx_dll_bus LOAD_JUDGE;
+	p_smx_dll_bus DEBUG_1;
+	p_smx_dll_bus DEBUG_2;
 } s_anpc_output_bus_pointers, *p_anpc_output_bus_pointers;
 
 
@@ -69,7 +78,8 @@ typedef struct Debug_Output
 	SMX_DLL_UINT16 Debug_1;
 	SMX_DLL_UINT16 Debug_2;
 	SMX_DLL_UINT16 Debug_3;
-
+	SMX_DLL_UINT16 DAC_A_OUT;
+	SMX_DLL_UINT16 DAC_B_OUT;
 } Debug_Output;
 
 extern Debug_Output Debug_output;

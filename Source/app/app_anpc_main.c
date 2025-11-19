@@ -55,7 +55,7 @@ void main(void)
     bsp_InitDGPIO();
     bsp_InitPWM();
     bsp_InitINTERRUPT();
-    bsp_InitUART();
+    //bsp_InitUART();
 
     state_InitStateMachine();
 

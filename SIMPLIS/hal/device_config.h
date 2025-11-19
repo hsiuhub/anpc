@@ -35,10 +35,14 @@
 
 #include "app_anpc_settings.h"
 #include "hal_adc_SIMPLIS.h"
+#include "hal_comp_SIMPLIS.h"
+#include "hal_dac_SIMPLIS.h"
 #include "hal_dgpio_SIMPLIS.h"
 #include "hal_interrupt_SIMPLIS.h"
 #include "hal_pwm_SIMPLIS.h"
+#include "hal_system_SIMPLIS.h"
 #include "hal_timer_SIMPLIS.h"
+
 
 
 

@@ -167,6 +167,9 @@
     <ClInclude Include="..\Source\mid\initial\mid_initial_dac.h">
       <Filter>Source Files\Source\mid\initial</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_dgpio_Modify.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="anpc.c">

@@ -27,9 +27,20 @@ typedef struct DGPIO_Output
 	SMX_DLL_UINT16 Debug_IO;
 	SMX_DLL_UINT16 HB_IO;
 
+	// New version parameter defined
+	SMX_DLL_UINT16 HAL_INPUT_SIGNAL;
+	SMX_DLL_UINT16 HAL_BULK_OK;
+	SMX_DLL_UINT16 HAL_RELAY_ON;
+	SMX_DLL_UINT16 HAL_FAN_CTRL;
+	SMX_DLL_UINT16 HAL_LOAD_JUDGE;
+	SMX_DLL_UINT16 HAL_DEBUG_1;
+	SMX_DLL_UINT16 HAL_DEBUG_2;
+
 } DGPIO_Output;
 
 extern DGPIO_Output DGPIO_output;
+
+
 
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DECLARATION
@@ -45,6 +56,24 @@ void dgpio_hal_ClearDebugGPIO(void);
 void dgpio_hal_ToggleDebugGPIO(void);
 void dgpio_hal_ToggleHBGPIO(void);
 void dgpio_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
+
+
+void dgpio_hal_Set_BulkOk(void);
+void dgpio_hal_Clear_BulkOk(void);
+void dgpio_hal_Set_RelayOn(void);
+void dgpio_hal_Clear_RelayOn(void);
+void dgpio_hal_Set_FanCtrl(void);
+void dgpio_hal_Clear_FanCtrl(void);
+void dgpio_hal_Set_LoadJudge(void);
+void dgpio_hal_Clear_LoadJudge(void);
+void dgpio_hal_Set_Debug1(void);
+void dgpio_hal_Clear_Debug1(void);
+void dgpio_hal_Toggle_Debug1(void);
+void dgpio_hal_Set_Debug2(void);
+void dgpio_hal_Clear_Debug2(void);
+void dgpio_hal_Toggle_Debug2(void);
+
+
 
 
 
