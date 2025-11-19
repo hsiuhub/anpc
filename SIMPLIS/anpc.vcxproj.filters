@@ -35,26 +35,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hal\device_config.h">
-      <Filter>Source Files\hal</Filter>
-    </ClInclude>
-    <ClInclude Include="hal\hal_adc_SIMPLIS.h">
-      <Filter>Source Files\hal</Filter>
-    </ClInclude>
-    <ClInclude Include="hal\hal_dgpio_SIMPLIS.h">
-      <Filter>Source Files\hal</Filter>
-    </ClInclude>
-    <ClInclude Include="hal\hal_interrupt_SIMPLIS.h">
-      <Filter>Source Files\hal</Filter>
-    </ClInclude>
-    <ClInclude Include="hal\hal_pwm_SIMPLIS.h">
-      <Filter>Source Files\hal</Filter>
-    </ClInclude>
     <ClInclude Include="..\Source\mid\initial\mid_initial_adc.h">
       <Filter>Source Files\Source\mid\initial</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\mid\general\mid_general.h">
-      <Filter>Source Files\Source\mid\general</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\mid\library\mid_library_adc.h">
       <Filter>Source Files\Source\mid\library</Filter>
@@ -134,14 +116,56 @@
     <ClInclude Include="..\Source\app\app_event.h">
       <Filter>Source Files\Source\app</Filter>
     </ClInclude>
-    <ClInclude Include="hal_timer_SIMPLIS.h">
-      <Filter>Source Files\hal</Filter>
-    </ClInclude>
     <ClInclude Include="anpc.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="smx_dll.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_comp_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_dac_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_system_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_timer_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\device_config.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_adc_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_dgpio_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_interrupt_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\hal_pwm_SIMPLIS.h">
+      <Filter>Source Files\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\general\mid_general_adc.h">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\general\mid_general_comp.h">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\general\mid_general_dgpio.h">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\general\mid_general_interrupt.h">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\general\mid_general_pwm.h">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\mid\initial\mid_initial_dac.h">
+      <Filter>Source Files\Source\mid\initial</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -160,23 +184,8 @@
     <ClCompile Include="anpc_teardown.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hal\hal_adc_SIMPLIS.c">
-      <Filter>Source Files\hal</Filter>
-    </ClCompile>
-    <ClCompile Include="hal\hal_dgpio_SIMPLIS.c">
-      <Filter>Source Files\hal</Filter>
-    </ClCompile>
-    <ClCompile Include="hal\hal_interrupt_SIMPLIS.c">
-      <Filter>Source Files\hal</Filter>
-    </ClCompile>
-    <ClCompile Include="hal\hal_pwm_SIMPLIS.c">
-      <Filter>Source Files\hal</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\mid\initial\mid_initial_adc.c">
       <Filter>Source Files\Source\mid\initial</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\mid\general\mid_general.c">
-      <Filter>Source Files\Source\mid\general</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\mid\library\mid_library_adc.c">
       <Filter>Source Files\Source\mid\library</Filter>
@@ -238,8 +247,47 @@
     <ClCompile Include="..\Source\app\app_event.c">
       <Filter>Source Files\Source\app</Filter>
     </ClCompile>
-    <ClCompile Include="hal_timer_SIMPLIS.c">
+    <ClCompile Include="hal\hal_comp_SIMPLIS.c">
       <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_dac_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_system_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_timer_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_adc_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_dgpio_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_interrupt_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\hal_pwm_SIMPLIS.c">
+      <Filter>Source Files\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\general\mid_general_adc.c">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\general\mid_general_comp.c">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\general\mid_general_dgpio.c">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\general\mid_general_interrupt.c">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\general\mid_general_pwm.c">
+      <Filter>Source Files\Source\mid\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\mid\initial\mid_initial_dac.c">
+      <Filter>Source Files\Source\mid\initial</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

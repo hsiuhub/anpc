@@ -29,10 +29,15 @@
     <ClInclude Include="..\Source\app\math_ctrl_lib\ac_analyzer.h" />
     <ClInclude Include="..\Source\app\math_ctrl_lib\rampgen.h" />
     <ClInclude Include="..\Source\app\math_ctrl_lib\spll_3ph.h" />
-    <ClInclude Include="..\Source\mid\general\mid_general.h" />
+    <ClInclude Include="..\Source\mid\general\mid_general_adc.h" />
+    <ClInclude Include="..\Source\mid\general\mid_general_comp.h" />
+    <ClInclude Include="..\Source\mid\general\mid_general_dgpio.h" />
+    <ClInclude Include="..\Source\mid\general\mid_general_interrupt.h" />
+    <ClInclude Include="..\Source\mid\general\mid_general_pwm.h" />
     <ClInclude Include="..\Source\mid\initial\mid_initial_adc.h" />
     <ClInclude Include="..\Source\mid\initial\mid_initial_clb.h" />
     <ClInclude Include="..\Source\mid\initial\mid_initial_comp.h" />
+    <ClInclude Include="..\Source\mid\initial\mid_initial_dac.h" />
     <ClInclude Include="..\Source\mid\initial\mid_initial_dgpio.h" />
     <ClInclude Include="..\Source\mid\initial\mid_initial_interrupt.h" />
     <ClInclude Include="..\Source\mid\initial\mid_initial_pwm.h" />
@@ -41,10 +46,13 @@
     <ClInclude Include="..\Source\mid\library\mid_library_adc.h" />
     <ClInclude Include="hal\device_config.h" />
     <ClInclude Include="hal\hal_adc_SIMPLIS.h" />
+    <ClInclude Include="hal\hal_comp_SIMPLIS.h" />
+    <ClInclude Include="hal\hal_dac_SIMPLIS.h" />
     <ClInclude Include="hal\hal_dgpio_SIMPLIS.h" />
     <ClInclude Include="hal\hal_interrupt_SIMPLIS.h" />
     <ClInclude Include="hal\hal_pwm_SIMPLIS.h" />
-    <ClInclude Include="hal_timer_SIMPLIS.h" />
+    <ClInclude Include="hal\hal_system_SIMPLIS.h" />
+    <ClInclude Include="hal\hal_timer_SIMPLIS.h" />
     <ClInclude Include="smx_dll.h" />
     <ClInclude Include="anpc.h" />
   </ItemGroup>
@@ -61,10 +69,15 @@
     <ClCompile Include="..\Source\app\app_state.c" />
     <ClCompile Include="..\Source\app\app_timer_10Hz.c" />
     <ClCompile Include="..\Source\app\app_timer_1kHz.c" />
-    <ClCompile Include="..\Source\mid\general\mid_general.c" />
+    <ClCompile Include="..\Source\mid\general\mid_general_adc.c" />
+    <ClCompile Include="..\Source\mid\general\mid_general_comp.c" />
+    <ClCompile Include="..\Source\mid\general\mid_general_dgpio.c" />
+    <ClCompile Include="..\Source\mid\general\mid_general_interrupt.c" />
+    <ClCompile Include="..\Source\mid\general\mid_general_pwm.c" />
     <ClCompile Include="..\Source\mid\initial\mid_initial_adc.c" />
     <ClCompile Include="..\Source\mid\initial\mid_initial_clb.c" />
     <ClCompile Include="..\Source\mid\initial\mid_initial_comp.c" />
+    <ClCompile Include="..\Source\mid\initial\mid_initial_dac.c" />
     <ClCompile Include="..\Source\mid\initial\mid_initial_dgpio.c" />
     <ClCompile Include="..\Source\mid\initial\mid_initial_interrupt.c" />
     <ClCompile Include="..\Source\mid\initial\mid_initial_pwm.c" />
@@ -77,13 +90,13 @@
     <ClCompile Include="anpc_set_initial_condition.c" />
     <ClCompile Include="anpc_action.c" />
     <ClCompile Include="hal\hal_adc_SIMPLIS.c" />
+    <ClCompile Include="hal\hal_comp_SIMPLIS.c" />
+    <ClCompile Include="hal\hal_dac_SIMPLIS.c" />
     <ClCompile Include="hal\hal_dgpio_SIMPLIS.c" />
     <ClCompile Include="hal\hal_interrupt_SIMPLIS.c" />
     <ClCompile Include="hal\hal_pwm_SIMPLIS.c" />
-    <ClCompile Include="hal_timer_SIMPLIS.c">
-      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
-      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
-    </ClCompile>
+    <ClCompile Include="hal\hal_system_SIMPLIS.c" />
+    <ClCompile Include="hal\hal_timer_SIMPLIS.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -95,13 +108,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>

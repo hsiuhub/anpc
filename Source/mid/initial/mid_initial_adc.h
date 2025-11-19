@@ -72,6 +72,8 @@
 
 #define ADC_MID_VREF1_FB    Adc_hal_Result.Vref1
 #define ADC_MID_VREF2_FB    Adc_hal_Result.Vref2
+#define ADC_MID_VREF_FB     Adc_hal_Result.Vref_FB
+
 
 #define ADC_MID_TEMP_A_FB   Adc_hal_Result.Temp_a
 #define ADC_MID_TEMP_B_FB   Adc_hal_Result.Temp_b

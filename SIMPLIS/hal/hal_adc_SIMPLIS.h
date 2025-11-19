@@ -33,6 +33,8 @@ typedef struct
     SMX_DLL_DOUBLE Temp_amb;
     SMX_DLL_DOUBLE Vref1;
     SMX_DLL_DOUBLE Vref2;
+    SMX_DLL_DOUBLE Vref_FB;
+
 
 } ADC_hal_Result_Struct;
 

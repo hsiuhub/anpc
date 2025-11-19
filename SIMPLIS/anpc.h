@@ -29,6 +29,7 @@ typedef struct t_anpc_input_bus_pointers {
 	p_smx_dll_bus ADC_TEMP_AMB_bus_p;
 	p_smx_dll_bus ADC_VREF1_bus_p;
 	p_smx_dll_bus ADC_VREF2_bus_p;
+	p_smx_dll_bus ADC_VREF_FB;
 	p_smx_dll_bus HW_1MHZ_bus_p;
 	p_smx_dll_bus PWM_ISR_bus_p;
 	p_smx_dll_bus TIMER_ISR_bus_p;
@@ -55,8 +56,13 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus DEBUG_1_bus_p;
 	p_smx_dll_bus DEBUG_2_bus_p;
 	p_smx_dll_bus DEBUG_3_bus_p;
+	p_smx_dll_bus DAC_A_BASE;
+	p_smx_dll_bus DAC_B_BASE;
+	p_smx_dll_bus DAC_EN;
 
 } s_anpc_output_bus_pointers, *p_anpc_output_bus_pointers;
+
+
 
 typedef struct Debug_Output
 {

@@ -1,65 +1,794 @@
-﻿  app_event.c
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(108,53): warning C4244: '=': 將 'double' 轉換為 'volatile float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(111,57): warning C4244: '=': 將 'double' 轉換為 'volatile float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(198,41): warning C4244: '=': 將 'float32_t' 轉換為 'volatile int32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(199,46): warning C4244: '=': 將 'float32_t' 轉換為 'volatile int32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(45,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(69,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_comp.h(23,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_comp.h(36,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_comp.h(49,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_comp.h(65,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(23,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(37,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(51,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(65,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(79,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(93,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(107,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(121,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(135,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_dgpio.h(149,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_interrupt.h(37,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(47,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(61,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(75,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(89,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(103,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(117,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(131,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(145,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\mid\initial\mid_initial_pwm.h(159,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(132,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(135,99): warning C4244: '=': 將 'SMX_DLL_DOUBLE' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(136,99): warning C4244: '=': 將 'SMX_DLL_DOUBLE' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(137,99): warning C4244: '=': 將 'SMX_DLL_DOUBLE' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(155,37): warning C4305: '=': 從 'double' 轉換為 'float32_t'，是由較大的類型轉換為較小的類型，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(181,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(184,34): warning C4013: '__divf32' 未定義; 假設 extern 傳回整數
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(217,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(237,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(268,52): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(269,52): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(270,52): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(272,60): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(273,60): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_physical_parameter.h(274,60): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(167,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(262,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(274,29): warning C4013: '__sinpuf32' 未定義; 假設 extern 傳回整數
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(274,48): warning C4244: '=': 將 'int' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(275,31): warning C4013: '__cospuf32' 未定義; 假設 extern 傳回整數
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(275,50): warning C4244: '=': 將 'int' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(277,60): warning C4244: '=': 將 'int' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(278,62): warning C4244: '=': 將 'int' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(280,60): warning C4244: '=': 將 'int' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(281,62): warning C4244: '=': 將 'int' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(294,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(327,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(375,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(385,106): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(386,106): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(399,9): warning C4068: 未知的 pragma 'FUNC_ALWAYS_INLINE'
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_anpc_control.h(428,47): warning C4244: '=': 將 'double' 轉換為 'float32_t'，由於類型不同，可能導致資料遺失
-D:\15_Delta\14. ANPC Converter\ANPC_3Layer\Source\app\app_event.c(95,55): warning C4244: '=': 將 'float32_t' 轉換為 'SMX_DLL_UINT16'，由於類型不同，可能導致資料遺失
-  anpc.vcxproj -> D:\15_Delta\14. ANPC Converter\ANPC_3Layer\SIMPLIS\build\Debug\anpc.dll
+﻿  app_anpc_control.c
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(202,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(203,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(96,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(114,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(127,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(35,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(48,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(61,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(58,5): warning C4013: 'dgpio_hal_Set_RelayOn' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(64,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(72,5): warning C4013: 'dgpio_hal_Clear_RelayOn' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(86,5): warning C4013: 'dgpio_hal_Set_FanCtrl' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(92,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(100,5): warning C4013: 'dgpio_hal_Clear_FanCtrl' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(106,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(114,5): warning C4013: 'dgpio_hal_Set_LoadJudge' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(120,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(128,5): warning C4013: 'dgpio_hal_Clear_LoadJudge' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(134,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(142,5): warning C4013: 'dgpio_hal_Set_Debug1' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(148,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(156,5): warning C4013: 'dgpio_hal_Clear_Debug1' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(162,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(170,5): warning C4013: 'dgpio_hal_Toggle_Debug1' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(176,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(184,5): warning C4013: 'dgpio_hal_Set_Debug2' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(190,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(198,5): warning C4013: 'dgpio_hal_Clear_Debug2' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(204,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(212,5): warning C4013: 'dgpio_hal_Toggle_Debug2' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_interrupt.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(59,5): warning C4013: 'pwm_hal_DisableHFPWM_A' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(87,5): warning C4013: 'pwm_hal_DisableHFPWM_B' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(101,5): warning C4013: 'pwm_hal_DisableHFPWM_C' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(115,5): warning C4013: 'pwm_hal_DisableLFPWM' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(129,5): warning C4013: 'pwm_hal_DisableLFPWM_A' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(143,5): warning C4013: 'pwm_hal_DisableLFPWM_B' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(157,5): warning C4013: 'pwm_hal_DisableLFPWM_C' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(300,5): warning C4013: 'pwm_hal_EnableHFPWM' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(316,5): warning C4013: 'pwm_hal_EnableHFPWMA' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(333,5): warning C4013: 'pwm_hal_EnableHFPWMB' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(350,5): warning C4013: 'pwm_hal_EnableHFPWMC' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(367,5): warning C4013: 'pwm_hal_EnableLFPWM' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(384,5): warning C4013: 'pwm_hal_EnableLFPWMA' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(401,5): warning C4013: 'pwm_hal_EnableLFPWMB' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(418,5): warning C4013: 'pwm_hal_EnableLFPWMC' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(188,115): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(189,115): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(190,115): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(193,115): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(194,115): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(195,115): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(202,97): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(203,97): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(204,97): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(207,112): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(208,112): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(214,32): warning C4305: '=': truncation from 'double' to 'float32_t'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(218,28): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(257,68): warning C4244: 'function': conversion from 'SMX_DLL_DOUBLE' to 'int16_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(258,68): warning C4244: 'function': conversion from 'SMX_DLL_DOUBLE' to 'int16_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(259,68): warning C4244: 'function': conversion from 'SMX_DLL_DOUBLE' to 'int16_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(260,74): warning C4244: 'function': conversion from 'SMX_DLL_DOUBLE' to 'int16_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(263,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(274,30): warning C4013: '__divf32' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(348,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(416,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(451,40): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(452,40): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(453,40): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(455,48): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(456,48): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_physical_parameter.h(457,48): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(280,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(285,19): warning C4013: '__sinpuf32' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(285,19): warning C4244: '=': conversion from 'int' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(286,21): warning C4013: '__cospuf32' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(286,21): warning C4244: '=': conversion from 'int' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(288,19): warning C4244: '=': conversion from 'int' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(289,21): warning C4244: '=': conversion from 'int' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(291,19): warning C4244: '=': conversion from 'int' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(292,21): warning C4244: '=': conversion from 'int' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(301,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(341,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(366,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(373,83): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(374,83): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(410,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(436,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(437,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(438,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(454,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(522,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\app_anpc_control.h(576,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+  mid_initial_dac.c
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(202,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(203,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(96,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(114,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(127,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_dac.c')
+  
+  hal_comp_SIMPLIS.c
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(202,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(203,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(96,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(114,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(127,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_comp_SIMPLIS.c')
+  
+  hal_dac_SIMPLIS.c
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(202,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(203,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(96,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(114,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(127,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_dac_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\SIMPLIS\hal\hal_dac_SIMPLIS.c(57,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\SIMPLIS\hal\hal_dac_SIMPLIS.c(67,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\SIMPLIS\hal\hal_dac_SIMPLIS.c(72,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+  hal_timer_SIMPLIS.c
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(202,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\ac_analyzer.h(203,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(96,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(114,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(127,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\digit_ctrl.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(35,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(48,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_comp.h(61,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(58,5): warning C4013: 'dgpio_hal_Set_RelayOn' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(64,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(72,5): warning C4013: 'dgpio_hal_Clear_RelayOn' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(86,5): warning C4013: 'dgpio_hal_Set_FanCtrl' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(92,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(100,5): warning C4013: 'dgpio_hal_Clear_FanCtrl' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(106,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(114,5): warning C4013: 'dgpio_hal_Set_LoadJudge' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(120,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(128,5): warning C4013: 'dgpio_hal_Clear_LoadJudge' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(134,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(142,5): warning C4013: 'dgpio_hal_Set_Debug1' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(148,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(156,5): warning C4013: 'dgpio_hal_Clear_Debug1' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(162,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(170,5): warning C4013: 'dgpio_hal_Toggle_Debug1' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(176,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(184,5): warning C4013: 'dgpio_hal_Set_Debug2' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(190,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(198,5): warning C4013: 'dgpio_hal_Clear_Debug2' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(204,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_dgpio.h(212,5): warning C4013: 'dgpio_hal_Toggle_Debug2' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_interrupt.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(59,5): warning C4013: 'pwm_hal_DisableHFPWM_A' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(87,5): warning C4013: 'pwm_hal_DisableHFPWM_B' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(101,5): warning C4013: 'pwm_hal_DisableHFPWM_C' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(115,5): warning C4013: 'pwm_hal_DisableLFPWM' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(129,5): warning C4013: 'pwm_hal_DisableLFPWM_A' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(143,5): warning C4013: 'pwm_hal_DisableLFPWM_B' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(157,5): warning C4013: 'pwm_hal_DisableLFPWM_C' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(300,5): warning C4013: 'pwm_hal_EnableHFPWM' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(316,5): warning C4013: 'pwm_hal_EnableHFPWMA' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(333,5): warning C4013: 'pwm_hal_EnableHFPWMB' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(350,5): warning C4013: 'pwm_hal_EnableHFPWMC' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(367,5): warning C4013: 'pwm_hal_EnableLFPWM' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(384,5): warning C4013: 'pwm_hal_EnableLFPWMA' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(401,5): warning C4013: 'pwm_hal_EnableLFPWMB' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\Source\mid\general\mid_general_pwm.h(418,5): warning C4013: 'pwm_hal_EnableLFPWMC' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+  Generating Code...
+     Creating library C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\SIMPLIS\build\Debug\anpc.lib and object C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\SIMPLIS\build\Debug\anpc.exp
+app_anpc_main.obj : error LNK2019: unresolved external symbol _bsp_InitUART referenced in function _main
+app_anpc_operation.obj : error LNK2019: unresolved external symbol _dgpio_hal_Clear_LoadJudge referenced in function _dgpio_mid_Clear_LoadJudge
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_DisableHFPWM_A referenced in function _pwm_mid_ForceOSTHFPWM_A
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_DisableHFPWM_B referenced in function _pwm_mid_ForceOSTHFPWM_B
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_DisableHFPWM_C referenced in function _pwm_mid_ForceOSTHFPWM_C
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_DisableLFPWM_A referenced in function _pwm_mid_ForceOSTLFPWM_A
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_DisableLFPWM_B referenced in function _pwm_mid_ForceOSTLFPWM_B
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_DisableLFPWM_C referenced in function _pwm_mid_ForceOSTLFPWM_C
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_EnableHFPWMA referenced in function _pwm_mid_ClearHFPWMATrips
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_EnableHFPWMB referenced in function _pwm_mid_ClearHFPWMBTrips
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_EnableHFPWMC referenced in function _pwm_mid_ClearHFPWMCTrips
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_EnableLFPWMA referenced in function _pwm_mid_ClearLFPWMATrips
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_EnableLFPWMB referenced in function _pwm_mid_ClearLFPWMBTrips
+app_event.obj : error LNK2019: unresolved external symbol _pwm_hal_EnableLFPWMC referenced in function _pwm_mid_ClearLFPWMCTrips
+app_event.obj : error LNK2019: unresolved external symbol _DAC_MID_A_OUT referenced in function _event_PhaseOpen_Detection
+app_state.obj : error LNK2001: unresolved external symbol _DAC_MID_A_OUT
+app_protection.obj : error LNK2019: unresolved external symbol _DAC_MID_B_OUT referenced in function _protect_CheckBusVoltageProtection
+app_state.obj : error LNK2019: unresolved external symbol _dgpio_hal_Set_RelayOn referenced in function _dgpio_mid_Set_RelayOn
+app_state.obj : error LNK2019: unresolved external symbol _dgpio_hal_Clear_RelayOn referenced in function _dgpio_mid_Clear_RelayOn
+app_state.obj : error LNK2019: unresolved external symbol _dgpio_hal_Set_FanCtrl referenced in function _dgpio_mid_Set_FanCtrl
+app_state.obj : error LNK2019: unresolved external symbol _dgpio_hal_Clear_FanCtrl referenced in function _dgpio_mid_Clear_FanCtrl
+app_timer_1kHz.obj : error LNK2019: unresolved external symbol _bsp_Uart1CheckRxTimeOut referenced in function _timer1kHz_Callback
+app_timer_1kHz.obj : error LNK2019: unresolved external symbol _uart_TxProcess referenced in function _timer1kHz_Callback
+hal_interrupt_SIMPLIS.obj : error LNK2019: unresolved external symbol ___divf32 referenced in function _phyvalue_RawToAvg_VoltageCurrent
+C:\SIMPLIS simulation\ANPC Compare Version\ANPC_3Layer\SIMPLIS\build\Debug\anpc.dll : fatal error LNK1120: 23 unresolved externals
