@@ -34,6 +34,14 @@
 
 #define AC_FREQ_DIFFERENCE      2
 
+#ifdef CONFIG_VIRTUAL
+static inline float __divf32(float num, float den)
+{
+    return num / den;
+}
+#endif
+
+
 //-----------------------------------------------------------------------------
 //  VARIABLES
 //-----------------------------------------------------------------------------

@@ -21,23 +21,24 @@
 //-----------------------------------------------------------------------------
 //  VARIABLES
 //-----------------------------------------------------------------------------
-//typedef struct COMP_Output
-//{
-//	//SMX_DLL_UINT16 HF_Duty_a;
-//
-//} COMP_Output;
-//
-//extern COMP_Output COMP_output;
+typedef struct COMP_Output
+{
+	SMX_DLL_UINT16 hal_comp_IA_OCP_Flag;
+	SMX_DLL_UINT16 hal_comp_IB_OCP_Flag;
+	SMX_DLL_UINT16 hal_comp_IC_OCP_Flag;
+} COMP_Output;
+
+extern COMP_Output COMP_output;
 
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DECLARATION
 //-----------------------------------------------------------------------------
 
-static bool hal_comp_IA_OCP_Flag = false;
-static bool hal_comp_IB_OCP_Flag = false;
-static bool hal_comp_IC_OCP_Flag = false;
-
-
+bool comp_hal_Get_IA_OCPFlag(void);
+bool comp_hal_Get_IB_OCPFlag(void);
+bool comp_hal_Get_IC_OCPFlag(void);
+void comp_hal_ClearAllFaultFlags(void);
+void comp_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
 
 
 #endif

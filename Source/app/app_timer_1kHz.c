@@ -12,8 +12,8 @@
 #include "app_protection.h"
 #include "app_state.h"
 #include "app_timer_1kHz.h"
-#include "app_uart_communication.h"
-#include "mid_general_uart.h"
+//#include "app_uart_communication.h"
+//#include "mid_general_uart.h"
 
 
 //-----------------------------------------------------------------------------
@@ -45,8 +45,8 @@ void timer1kHz_Callback(void)
 
     anpc_Vbus_PIControl_Change();
 
-    uart_TxProcess();
-    bsp_Uart1CheckRxTimeOut();
+    //uart_TxProcess();
+    //bsp_Uart1CheckRxTimeOut();
 
 }
 

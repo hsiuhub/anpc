@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\15_Delta\14. ANPC Converter\ANPC_3Layer\SIMPLIS\build\Debug\anpc.dll</FullPath>
+      <FullPath>C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Debug\anpc.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -27,7 +27,7 @@ static inline bool comp_mid_get_IA_OCPFlag(void)
     return comp_hal_Get_IA_OCPFlag();
 
 #elif defined CONFIG_VIRTUAL
-    return hal_comp_IA_OCP_Flag;
+    return comp_hal_Get_IA_OCPFlag();;
 #endif
 
 }
@@ -40,7 +40,7 @@ static inline bool comp_mid_get_IB_OCPFlag(void)
     return comp_hal_Get_IB_OCPFlag();
 
 #elif defined CONFIG_VIRTUAL
-    return hal_comp_IB_OCP_Flag;
+    return comp_hal_Get_IB_OCPFlag();;
 #endif
 
 }
@@ -53,7 +53,7 @@ static inline bool comp_mid_get_IC_OCPFlag(void)
     return comp_hal_Get_IC_OCPFlag();
 
 #elif defined CONFIG_VIRTUAL
-    return hal_comp_IC_OCP_Flag;
+    return comp_hal_Get_IC_OCPFlag();;;
 #endif
 
 }
@@ -66,9 +66,7 @@ static inline void comp_mid_ClearAllFaultFlags(void)
     comp_hal_ClearAllFaultFlags();
 
 #elif defined CONFIG_VIRTUAL
-    hal_comp_IA_OCP_Flag = false;
-    hal_comp_IB_OCP_Flag = false;
-    hal_comp_IC_OCP_Flag = false;
+    comp_hal_ClearAllFaultFlags();
 #endif
 
 }

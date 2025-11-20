@@ -15,7 +15,7 @@
 #include "mid_general_dgpio.h"
 #include "mid_general_interrupt.h"
 #include "mid_general_pwm.h"
-#include "mid_general_uart.h"
+//#include "mid_general_uart.h"
 
 #include "mid_initial_adc.h"
 #include "mid_initial_clb.h"
@@ -26,10 +26,10 @@
 #include "mid_initial_pwm.h"
 #include "mid_initial_system.h"
 #include "mid_initial_timer.h"
-#include "mid_initial_uart.h"
+//#include "mid_initial_uart.h"
 
 #include "mid_library_adc.h"
-#include "mid_library_uart.h"
+//#include "mid_library_uart.h"
 
 
 //-----------------------------------------------------------------------------

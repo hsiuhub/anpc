@@ -87,6 +87,9 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus duty_B;
 	p_smx_dll_bus duty_C;
 
+	p_smx_dll_bus comp_IA_OCP_Flag;
+	p_smx_dll_bus comp_IB_OCP_Flag;
+	p_smx_dll_bus comp_IC_OCP_Flag;
 } s_anpc_output_bus_pointers, *p_anpc_output_bus_pointers;
 
 
