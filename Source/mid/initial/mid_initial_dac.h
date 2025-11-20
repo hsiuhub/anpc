@@ -22,8 +22,8 @@
 
 #elif defined CONFIG_VIRTUAL
 
-#define DAC_MID_A_OUT(value)    (DAC_output.DAC_HAL_A_BASE = (value))
-#define DAC_MID_B_OUT(value)    (DAC_output.DAC_HAL_B_BASE = (value))
+#define DAC_MID_A_OUT(value)    (DAC_output.HAL_DAC_A_BASE = (value))
+#define DAC_MID_B_OUT(value)    (DAC_output.HAL_DAC_B_BASE = (value))
 
 
 #endif

@@ -25,16 +25,14 @@
 //-----------------------------------------------------------------------------
 typedef struct PWM_Output
 {
-	SMX_DLL_UINT16 HF_Duty_a;
-	SMX_DLL_UINT16 HF_Duty_b;
-	SMX_DLL_UINT16 HF_Duty_c;
-	SMX_DLL_UINT16 LF_Duty_a;
-	SMX_DLL_UINT16 LF_Duty_b;
-	SMX_DLL_UINT16 LF_Duty_c;
-	SMX_DLL_UINT16 HF_Deadband;
-	SMX_DLL_UINT16 PWM_En;
+    SMX_DLL_UINT16 HAL_HF_Duty_a;
+    SMX_DLL_UINT16 HAL_HF_Duty_b;
+    SMX_DLL_UINT16 HAL_HF_Duty_c;
+    SMX_DLL_UINT16 HAL_LF_Duty_a;
+    SMX_DLL_UINT16 HAL_LF_Duty_b;
+    SMX_DLL_UINT16 HAL_LF_Duty_c;
+    SMX_DLL_UINT16 HAL_HF_DeadBand;
 
-    SMX_DLL_UINT16 HAL_DeadBand_ns;
     SMX_DLL_UINT16 HAL_Enable_HFPWM_A;
     SMX_DLL_UINT16 HAL_Enable_HFPWM_B;
     SMX_DLL_UINT16 HAL_Enable_HFPWM_C;

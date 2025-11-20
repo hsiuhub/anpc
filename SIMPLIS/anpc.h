@@ -40,14 +40,6 @@ typedef struct t_anpc_input_bus_pointers {
 
 typedef struct t_anpc_output_bus_pointers {
 
-	p_smx_dll_bus HF_DUTY_A_bus_p;
-	p_smx_dll_bus HF_DUTY_B_bus_p;
-	p_smx_dll_bus HF_DUTY_C_bus_p;
-	p_smx_dll_bus LF_DUTY_A_bus_p;
-	p_smx_dll_bus LF_DUTY_B_bus_p;
-	p_smx_dll_bus LF_DUTY_C_bus_p;
-	p_smx_dll_bus HF_DEADBAND_bus_p;
-	p_smx_dll_bus PWM_EN_bus_p;
 	p_smx_dll_bus PHASE_RELAY_bus_p;
 	p_smx_dll_bus INRUSH_RELAY_bus_p;
 	p_smx_dll_bus FAN_bus_p;
@@ -70,8 +62,6 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus DEBUG_1;
 	p_smx_dll_bus DEBUG_2;
 
-	p_smx_dll_bus DeadBand_ns;
-
 	p_smx_dll_bus Enable_HFPWM_A;
 	p_smx_dll_bus Enable_HFPWM_B;
 	p_smx_dll_bus Enable_HFPWM_C;
@@ -83,9 +73,13 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus Force_LFPWM_B_High;
 	p_smx_dll_bus Force_LFPWM_C_High;
 
-	p_smx_dll_bus duty_A;
-	p_smx_dll_bus duty_B;
-	p_smx_dll_bus duty_C;
+	p_smx_dll_bus HF_Duty_a;
+	p_smx_dll_bus HF_Duty_b;
+	p_smx_dll_bus HF_Duty_c;
+	p_smx_dll_bus LF_Duty_a;
+	p_smx_dll_bus LF_Duty_b;
+	p_smx_dll_bus LF_Duty_c;
+	p_smx_dll_bus HF_DeadBand;
 
 	p_smx_dll_bus comp_IA_OCP_Flag;
 	p_smx_dll_bus comp_IB_OCP_Flag;

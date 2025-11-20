@@ -23,9 +23,9 @@
 //-----------------------------------------------------------------------------
 typedef struct DAC_Output
 {
-	SMX_DLL_DOUBLE DAC_HAL_A_BASE;
-	SMX_DLL_DOUBLE DAC_HAL_B_BASE;
-	SMX_DLL_DOUBLE DAC_HAL_EN;
+	SMX_DLL_DOUBLE HAL_DAC_A_BASE;
+	SMX_DLL_DOUBLE HAL_DAC_B_BASE;
+	SMX_DLL_DOUBLE HAL_DAC_EN;
 
 } DAC_Output;
 
@@ -36,7 +36,7 @@ extern DAC_Output DAC_output;
 //-----------------------------------------------------------------------------
 void DAC_hal_EnablePWM(void);
 void DAC_hal_DisablePWM(void);
-void dac_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
+void dac_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
 
 
 #endif
