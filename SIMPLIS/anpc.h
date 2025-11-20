@@ -69,6 +69,24 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus LOAD_JUDGE;
 	p_smx_dll_bus DEBUG_1;
 	p_smx_dll_bus DEBUG_2;
+
+	p_smx_dll_bus DeadBand_ns;
+
+	p_smx_dll_bus Enable_HFPWM_A;
+	p_smx_dll_bus Enable_HFPWM_B;
+	p_smx_dll_bus Enable_HFPWM_C;
+	p_smx_dll_bus Enable_LFPWM_A;
+	p_smx_dll_bus Enable_LFPWM_B;
+	p_smx_dll_bus Enable_LFPWM_C;
+
+	p_smx_dll_bus Force_LFPWM_A_High;
+	p_smx_dll_bus Force_LFPWM_B_High;
+	p_smx_dll_bus Force_LFPWM_C_High;
+
+	p_smx_dll_bus duty_A;
+	p_smx_dll_bus duty_B;
+	p_smx_dll_bus duty_C;
+
 } s_anpc_output_bus_pointers, *p_anpc_output_bus_pointers;
 
 

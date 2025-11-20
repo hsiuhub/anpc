@@ -19,7 +19,7 @@ void bsp_InitCOMP(void)
     comp_hal_SetupBoardProtection_CMPSS();
 
 #elif defined CONFIG_VIRTUAL
-
+    comp_mid_ClearAllFaultFlags();
 #endif
 
 }

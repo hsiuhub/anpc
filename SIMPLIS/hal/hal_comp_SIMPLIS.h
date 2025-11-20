@@ -33,8 +33,9 @@
 //  PUBLIC FUNCTIONS DECLARATION
 //-----------------------------------------------------------------------------
 
-//void pwm_hal_UpdatePWMDeadBand(float32_t deadband);
-
+static bool hal_comp_IA_OCP_Flag = false;
+static bool hal_comp_IB_OCP_Flag = false;
+static bool hal_comp_IC_OCP_Flag = false;
 
 
 
