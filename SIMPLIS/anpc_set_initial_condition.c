@@ -44,6 +44,9 @@ void anpc_set_initial_condition(p_smx_dll_simulation_context context_p, p_smx_dl
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_Duty_c, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: LF_Duty_c (Init).");
     }
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Enable_ALL_PWM, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Enable_ALL_PWM (Init).");
+    }
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Enable_HFPWM_A, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Enable_HFPWM_A (Init).");
     }
@@ -62,15 +65,15 @@ void anpc_set_initial_condition(p_smx_dll_simulation_context context_p, p_smx_dl
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Enable_LFPWM_C, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Enable_LFPWM_C (Init).");
     }
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_A_High, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Force_LFPWM_A_High (Init).");
-    }
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_B_High, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Force_LFPWM_B_High (Init).");
-    }
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_C_High, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Force_LFPWM_C_High (Init).");
-    }
+    //if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_A_High, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+    //    context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Force_LFPWM_A_High (Init).");
+    //}
+    //if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_B_High, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+    //    context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Force_LFPWM_B_High (Init).");
+    //}
+    //if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_C_High, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+    //    context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Force_LFPWM_C_High (Init).");
+    //}
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->HF_DeadBand, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: HF_DeadBand (Init).");
     }
@@ -78,25 +81,25 @@ void anpc_set_initial_condition(p_smx_dll_simulation_context context_p, p_smx_dl
     // ============================================================
     // Initial relay control
     // ============================================================
-	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->PHASE_RELAY_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Phase_Relay.");
-	}
+	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->PHASE_RELAY_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Phase_Relay.");
+	//}
 
-	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->INRUSH_RELAY_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Inrush_Relay.");
-	}
+	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->INRUSH_RELAY_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Inrush_Relay.");
+	//}
 
-	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->FAN_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Fan.");
-	}
+	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->FAN_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Fan.");
+	//}
 
-	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DEBUG_IO_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Debug_IO.");
-	}
+	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DEBUG_IO_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Debug_IO.");
+	//}
 
-	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->HB_IO_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: HB_IO.");
-	}
+	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->HB_IO_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: HB_IO.");
+	//}
 
 	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DEBUG_1_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
 	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Debug_1.");
@@ -106,10 +109,29 @@ void anpc_set_initial_condition(p_smx_dll_simulation_context context_p, p_smx_dl
 	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Debug_2.");
 	//}
 
-	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DEBUG_3_bus_p, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
-	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: Debug_3.");
-	//}
+	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->BULK_OK, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: BULK_OK.");
+	}
 
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->RELAY_ON, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: RELAY_ON.");
+    }
+
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->FAN_CTRL, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: FAN_CTRL.");
+    }
+
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LOAD_JUDGE, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: LOAD_JUDGE.");
+    }
+
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DEBUG_1, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DEBUG_1.");
+    }
+
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DEBUG_2, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DEBUG_2.");
+    }
 
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_A_BASE, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_A_BASE.");
@@ -117,5 +139,15 @@ void anpc_set_initial_condition(p_smx_dll_simulation_context context_p, p_smx_dl
 
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_B_BASE, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_B_BASE.");
+    }
+
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->comp_IA_OCP_Flag, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: comp_IA_OCP_Flag.");
+    }
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->comp_IB_OCP_Flag, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: comp_IB_OCP_Flag.");
+    }
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->comp_IC_OCP_Flag, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: comp_IC_OCP_Flag.");
     }
 }

@@ -34,6 +34,7 @@ void pwm_hal_UpdatePWMDeadBand(float32_t deadband)
 
 void pwm_hal_DisablePWM(void)
 {
+    PWM_output.HAL_Enable_ALL_PWM = 0;
 	PWM_output.HAL_Enable_HFPWM_A = 0;
 	PWM_output.HAL_Enable_HFPWM_B = 0;
 	PWM_output.HAL_Enable_HFPWM_C = 0;
@@ -105,9 +106,13 @@ void pwm_hal_SetLFPWM(uint32_t phase)
 
 void pwm_hal_ClearLFPWM(uint32_t phase)
 {
-	if (phase == 1)      PWM_output.HAL_Force_LFPWM_A_High = 0;
-	else if (phase == 2) PWM_output.HAL_Force_LFPWM_B_High = 0;
-	else if (phase == 3) PWM_output.HAL_Force_LFPWM_C_High = 0;
+	//if (phase == 1)      PWM_output.HAL_Force_LFPWM_A_High = 0;
+	//else if (phase == 2) PWM_output.HAL_Force_LFPWM_B_High = 0;
+	//else if (phase == 3) PWM_output.HAL_Force_LFPWM_C_High = 0;
+
+    if (phase == 1)      PWM_output.HAL_Force_LFPWM_A_High = 0;
+    else if (phase == 2) PWM_output.HAL_Force_LFPWM_B_High = 0;
+    else if (phase == 3) PWM_output.HAL_Force_LFPWM_C_High = 0;
 }
 
 void pwm_hal_UpdateDuty(uint32_t phase, float32_t duty)
@@ -129,6 +134,7 @@ void pwm_hal_EnablePWM(void)
 	PWM_output.HAL_Enable_LFPWM_A = 1;
 	PWM_output.HAL_Enable_LFPWM_B = 1;
 	PWM_output.HAL_Enable_LFPWM_C = 1;
+    PWM_output.HAL_Enable_ALL_PWM = 1;
 }
 
 void pwm_hal_EnableHFPWM(void)
@@ -175,6 +181,15 @@ void pwm_hal_EnableLFPWMC(void)
 	PWM_output.HAL_Enable_LFPWM_C = 1;
 }
 
+void pwm_hal_Setup3phasePWM(void)
+{
+    PWM_output.HAL_Enable_ALL_PWM = 1;
+}
+
+
+// ============================================================
+// 
+// ============================================================
 void pwm_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
 {
     SMX_DLL_ERROR rv = SMX_DLL_NO_ERROR;
@@ -222,6 +237,11 @@ void pwm_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device dev
     // ============================================================
     // 2. HF PWM Enable
     // ============================================================
+    conversion.uint16 = PWM_output.HAL_Enable_ALL_PWM;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Enable_ALL_PWM, &(conversion), 1e-9))) {
+        context_p->funcs->fatal_error(device_p, "Error: Enable_ALL_PWM write failed.");
+    }
+    
     conversion.uint16 = PWM_output.HAL_Enable_HFPWM_A;
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Enable_HFPWM_A, &(conversion), 1e-9))) {
         context_p->funcs->fatal_error(device_p, "Error: Enable_HFPWM_A write failed.");
@@ -258,20 +278,20 @@ void pwm_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device dev
     // ============================================================
     // 4. Force High AQ SW High
     // ============================================================
-    conversion.uint16 = PWM_output.HAL_Force_LFPWM_A_High;
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_A_High, &(conversion), 1e-9))) {
-        context_p->funcs->fatal_error(device_p, "Error: Force_LFPWM_A_High write failed.");
-    }
+    //conversion.uint16 = PWM_output.HAL_Force_LFPWM_A_High;
+    //if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_A_High, &(conversion), 1e-9))) {
+    //    context_p->funcs->fatal_error(device_p, "Error: Force_LFPWM_A_High write failed.");
+    //}
 
-    conversion.uint16 = PWM_output.HAL_Force_LFPWM_B_High;
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_B_High, &(conversion), 1e-9))) {
-        context_p->funcs->fatal_error(device_p, "Error: Force_LFPWM_B_High write failed.");
-    }
+    //conversion.uint16 = PWM_output.HAL_Force_LFPWM_B_High;
+    //if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_B_High, &(conversion), 1e-9))) {
+    //    context_p->funcs->fatal_error(device_p, "Error: Force_LFPWM_B_High write failed.");
+    //}
 
-    conversion.uint16 = PWM_output.HAL_Force_LFPWM_C_High;
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_C_High, &(conversion), 1e-9))) {
-        context_p->funcs->fatal_error(device_p, "Error: Force_LFPWM_C_High write failed.");
-    }
+    //conversion.uint16 = PWM_output.HAL_Force_LFPWM_C_High;
+    //if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->Force_LFPWM_C_High, &(conversion), 1e-9))) {
+    //    context_p->funcs->fatal_error(device_p, "Error: Force_LFPWM_C_High write failed.");
+    //}
 
     // ============================================================
     // 5. DeadBand

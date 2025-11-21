@@ -10,50 +10,32 @@
  *	Buses without a width are assumed to be pins, identical to a bus of width 1.
  */
 static char* anpc_input_specs[]  = {
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vbusp,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vbusn,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vgrid_a,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vgrid_b,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vgrid_c,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_a,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_b,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_c,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_I_a,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_I_b,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_I_c,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_a,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_b,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_c,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_amb,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vref1,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(ADC_Vref2,12)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(HW_1MHz,2)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(PWM_Isr,2)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(Timer_Isr,2)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(Timer_1kHz,2)
-	,
-	SMX_DLL_CREATE_BUS_SPEC(Timer_10Hz,2)
-	,
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vbusp,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vbusn,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vgrid_a,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vgrid_b,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vgrid_c,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_a,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_b,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_c,12),
+	
+	SMX_DLL_CREATE_BUS_SPEC(ADC_I_a,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_I_b,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_I_c,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_a,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_b,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_c,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Temp_amb,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vref1,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_Vref2,12),
+	SMX_DLL_CREATE_BUS_SPEC(ADC_VREF_FB,12),
+
+	SMX_DLL_CREATE_BUS_SPEC(HW_1MHz,2),
+	SMX_DLL_CREATE_BUS_SPEC(PWM_Isr,2),
+	SMX_DLL_CREATE_BUS_SPEC(Timer_Isr,2),
+	SMX_DLL_CREATE_BUS_SPEC(Timer_1kHz,2),
+	SMX_DLL_CREATE_BUS_SPEC(Timer_10Hz,2),
+	
 	NULL
 };
 
@@ -75,30 +57,38 @@ static char* anpc_output_specs[] = {
 	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_a, 12),
 	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_b, 12),
 	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_c, 12),
-	SMX_DLL_CREATE_BUS_SPEC(HF_DeadBand, 12),
-
+	SMX_DLL_CREATE_BUS_SPEC(HF_deadband, 12),
+	
 	// High Frequency PWM Enable
-	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_A, 1),
-	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_B, 1),
-	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_C, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_all_PWM, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_a, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_b, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_c, 1),
 
 	// Low Frequency PWM Enable
-	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_A, 1),
-	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_B, 1),
-	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_C, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_a, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_b, 1),
+	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_c, 1),
 
-	// Force High Flags
-	SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_A_High, 1),
-	SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_B_High, 1),
-	SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_C_High, 1),
+	//// Force High Flags
+	//SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_A_High, 1),
+	//SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_B_High, 1),
+	//SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_C_High, 1),
 	
 	// Relay Control
-	SMX_DLL_CREATE_BUS_SPEC(Phase_Relay,1),
-	SMX_DLL_CREATE_BUS_SPEC(Inrush_Relay,1),
-	
-	SMX_DLL_CREATE_BUS_SPEC(Fan,1),
-	SMX_DLL_CREATE_BUS_SPEC(Debug_IO,1),
-	SMX_DLL_CREATE_BUS_SPEC(HB_IO,1),
+	//SMX_DLL_CREATE_BUS_SPEC(Phase_Relay,1),
+	//SMX_DLL_CREATE_BUS_SPEC(Inrush_Relay,1),
+	//SMX_DLL_CREATE_BUS_SPEC(Fan,1),
+	//SMX_DLL_CREATE_BUS_SPEC(Debug_IO,1),
+	//SMX_DLL_CREATE_BUS_SPEC(HB_IO,1),
+
+	SMX_DLL_CREATE_BUS_SPEC(BULK_ok,1),
+	SMX_DLL_CREATE_BUS_SPEC(RELAY_on,1),
+	SMX_DLL_CREATE_BUS_SPEC(FAN_ctrl,1),
+
+	SMX_DLL_CREATE_BUS_SPEC(LOAD_judge,1),
+	SMX_DLL_CREATE_BUS_SPEC(debug_1,1),
+	SMX_DLL_CREATE_BUS_SPEC(debug_2,1),
 
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_1,12),
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_2,12),
@@ -106,6 +96,11 @@ static char* anpc_output_specs[] = {
 
 	SMX_DLL_CREATE_BUS_SPEC(DAC_A_OUT,12),
 	SMX_DLL_CREATE_BUS_SPEC(DAC_B_OUT,12),
+
+	SMX_DLL_CREATE_BUS_SPEC(comp_IA_OCP_flag,12),
+	SMX_DLL_CREATE_BUS_SPEC(comp_IB_OCP_flag,12),
+	SMX_DLL_CREATE_BUS_SPEC(comp_IC_OCP_flag,12),
+	
 	NULL
 };
 
@@ -380,6 +375,10 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 		context_p->funcs->fatal_error(device_p, "Unable to locate INPUT bus by name: ADC_Vref2");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "ADC_VREF_FB", SMX_DLL_DIRECTION_INPUT, &(input_bus_pointers_p->ADC_VREF_FB_bus_p))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate INPUT bus by name: ADC_VREF_FB");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
 	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HW_1MHz", SMX_DLL_DIRECTION_INPUT, &(input_bus_pointers_p->HW_1MHZ_bus_p))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate INPUT bus by name: HW_1MHz");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
@@ -405,79 +404,85 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 	// ============================================================
 	// PWM Control
 	// ============================================================
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_HF_Duty_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_Duty_a))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HF_Duty_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_Duty_a))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_HF_Duty_a");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_HF_Duty_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_Duty_b))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HF_Duty_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_Duty_b))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_HF_Duty_b");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_HF_Duty_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_Duty_c))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HF_Duty_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_Duty_c))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_HF_Duty_c");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_LF_Duty_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_a))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_a))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_a");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_LF_Duty_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_b))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_b))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_b");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_LF_Duty_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_c))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_c))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_c");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
+
 	// ============================================================
 	// 3. HF PWM Enable
 	// ============================================================
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Enable_HFPWM_A", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_HFPWM_A))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_all_PWM", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_ALL_PWM))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: Enable_all_PWM");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_HFPWM_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_HFPWM_A))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Enable_HFPWM_A");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Enable_HFPWM_B", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_HFPWM_B))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_HFPWM_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_HFPWM_B))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Enable_HFPWM_B");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Enable_HFPWM_C", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_HFPWM_C))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_HFPWM_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_HFPWM_C))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Enable_HFPWM_C");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
+
 	// ============================================================
 	// 4. LF PWM Enable
 	// ============================================================
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Enable_LFPWM_A", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_LFPWM_A))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_LFPWM_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_LFPWM_A))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Enable_LFPWM_A");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Enable_LFPWM_B", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_LFPWM_B))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_LFPWM_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_LFPWM_B))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Enable_LFPWM_B");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Enable_LFPWM_C", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_LFPWM_C))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Enable_LFPWM_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Enable_LFPWM_C))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Enable_LFPWM_C");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
 	// ============================================================
 	// 5. Force High
 	// ============================================================
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Force_LFPWM_A_High", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Force_LFPWM_A_High))) {
-		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Force_LFPWM_A_High");
-		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
-	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Force_LFPWM_B_High", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Force_LFPWM_B_High))) {
-		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Force_LFPWM_B_High");
-		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
-	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_Force_LFPWM_C_High", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Force_LFPWM_C_High))) {
-		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Force_LFPWM_C_High");
-		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
-	}
+	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Force_LFPWM_A_High", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Force_LFPWM_A_High))) {
+	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Force_LFPWM_A_High");
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Force_LFPWM_B_High", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Force_LFPWM_B_High))) {
+	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Force_LFPWM_B_High");
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Force_LFPWM_C_High", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->Force_LFPWM_C_High))) {
+	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_Force_LFPWM_C_High");
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
 	// ============================================================
 	// 6. DeadBand
 	// ============================================================
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HAL_DeadBand", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_DeadBand))) {
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HF_deadband", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->HF_DeadBand))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_DeadBand");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
@@ -486,26 +491,59 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 	// ============================================================
 	// Relay Control
 	// ============================================================
-	if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Phase_Relay", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->PHASE_RELAY_bus_p ) ) ) {
-		context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Phase_Relay" );
+	//if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Phase_Relay", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->PHASE_RELAY_bus_p ) ) ) {
+	//	context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Phase_Relay" );
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Inrush_Relay", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->INRUSH_RELAY_bus_p ) ) ) {
+	//	context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Inrush_Relay" );
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Fan", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->FAN_bus_p ) ) ) {
+	//	context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Fan" );
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "BULK_ok", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->BULK_OK))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: BULK_ok");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Inrush_Relay", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->INRUSH_RELAY_bus_p ) ) ) {
-		context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Inrush_Relay" );
+
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "RELAY_on", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->RELAY_ON))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: RELAY_on");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Fan", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->FAN_bus_p ) ) ) {
-		context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Fan" );
+
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "FAN_ctrl", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->FAN_CTRL))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: FAN_ctrl");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Debug_IO", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->DEBUG_IO_bus_p ) ) ) {
-		context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Debug_IO" );
+
+	// ============================================================
+	// Debug
+	// ============================================================
+	//if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Debug_IO", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->DEBUG_IO_bus_p ) ) ) {
+	//	context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: Debug_IO" );
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HB_IO", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->HB_IO_bus_p ) ) ) {
+	//	context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: HB_IO" );
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LOAD_judge", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LOAD_JUDGE))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: LOAD_judge");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "HB_IO", SMX_DLL_DIRECTION_OUTPUT, &( output_bus_pointers_p->HB_IO_bus_p ) ) ) {
-		context_p->funcs->fatal_error( device_p, "Unable to locate OUTPUT bus by name: HB_IO" );
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "debug_1", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->DEBUG_1))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: debug_1");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "debug_2", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->DEBUG_2))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: debug_1");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+
 	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "Debug_1", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->DEBUG_1_bus_p))) {
 	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: Debug_1");
 	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
@@ -526,6 +564,22 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: DAC_B_OUT");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
+	// ============================================================
+	// OCP Flad
+	// ============================================================
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "comp_IA_OCP_flag", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->comp_IA_OCP_Flag))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: comp_IA_OCP_Flag");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "comp_IB_OCP_flag", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->comp_IB_OCP_Flag))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: comp_IB_OCP_Flag");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "comp_IC_OCP_flag", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->comp_IC_OCP_Flag))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: comp_IC_OCP_Flag");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+
 
 
 	// retrieve parameter values

@@ -44,7 +44,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_control.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_anpc_control.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -369,7 +375,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_main.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_main.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_anpc_main.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -694,7 +706,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_anpc_operation.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_anpc_operation.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_anpc_operation.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1043,7 +1061,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_event.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_event.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_event.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1374,7 +1398,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_isr1.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_isr1.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_isr1.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1723,7 +1753,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_isr2.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_isr2.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_isr2.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2054,7 +2090,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_physical_parameter.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_physical_parameter.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_physical_parameter.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2322,7 +2364,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_protection.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_protection.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_protection.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2575,7 +2623,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_state.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_state.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_state.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2900,7 +2954,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_timer_10Hz.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_timer_10Hz.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -3069,7 +3129,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/app/app_timer_1kHz.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/app/app_timer_1kHz.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -3456,7 +3522,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_t
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_dgpio.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/mid/general/mid_general_dgpio.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/general/mid_general_dgpio.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/mid/general/mid_general_dgpio.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -3886,7 +3958,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -4258,7 +4336,6 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ct
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/library/mid_library_adc.c')
   
-  anpc.c
   anpc_action.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'anpc_action.c')
@@ -4305,7 +4382,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file 'anpc_action.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'anpc_action.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file 'anpc_action.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -4512,7 +4595,9 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(465,48): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'anpc_action.c')
   
-  anpc_set_initial_condition.c
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(330,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(335,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(340,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
   hal_adc_SIMPLIS.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'hal/hal_adc_SIMPLIS.c')
@@ -4606,9 +4691,6 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ct
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_dac_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_dac_SIMPLIS.c(65,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_dac_SIMPLIS.c(70,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_dac_SIMPLIS.c(75,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
   hal_dgpio_SIMPLIS.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'hal/hal_dgpio_SIMPLIS.c')
@@ -4686,7 +4768,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -5027,9 +5115,9 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_t
   (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(30,65): warning C4244: '=': conversion from 'float32_t' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(116,53): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(118,53): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(120,53): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(121,53): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(123,53): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(125,53): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
   hal_system_SIMPLIS.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'hal/hal_system_SIMPLIS.c')
@@ -5107,7 +5195,13 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_co
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(22,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(30,5): warning C4013: 'dgpio_hal_Set_BulkOk' undefined; assuming extern returning int
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(36,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+  (compiling source file 'hal/hal_timer_SIMPLIS.c')
+  
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(44,5): warning C4013: 'dgpio_hal_Clear_BulkOk' undefined; assuming extern returning int
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_dgpio.h(50,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -5232,8 +5326,8 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pw
   
      Creating library C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Release\anpc.lib and object C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Release\anpc.exp
   Generating code
-  2 of 148 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+  0 of 147 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   anpc.vcxproj -> C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Release\anpc.dll

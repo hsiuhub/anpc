@@ -47,7 +47,7 @@ void bsp_InitPWM(void)
     pwm_hal_EnablePWMCLKCounting();
 
 #elif defined CONFIG_VIRTUAL
-
+    
 #endif
 
 }

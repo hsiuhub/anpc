@@ -33,6 +33,8 @@ typedef struct PWM_Output
     SMX_DLL_UINT16 HAL_LF_Duty_c;
     SMX_DLL_UINT16 HAL_HF_DeadBand;
 
+    /*SMX_DLL_UINT16 HAL_Enable_ALL_PWM;*/
+    SMX_DLL_UINT16 HAL_Enable_ALL_PWM;
     SMX_DLL_UINT16 HAL_Enable_HFPWM_A;
     SMX_DLL_UINT16 HAL_Enable_HFPWM_B;
     SMX_DLL_UINT16 HAL_Enable_HFPWM_C;
@@ -86,6 +88,7 @@ void pwm_hal_EnableLFPWM(void);
 void pwm_hal_EnableLFPWMA(void);
 void pwm_hal_EnableLFPWMB(void);
 void pwm_hal_EnableLFPWMC(void);
+void pwm_hal_Setup3phasePWM(void);
 
 
 
