@@ -18,7 +18,6 @@ static char* anpc_input_specs[]  = {
 	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_a,12),
 	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_b,12),
 	SMX_DLL_CREATE_BUS_SPEC(ADC_Vanpc_c,12),
-	
 	SMX_DLL_CREATE_BUS_SPEC(ADC_I_a,12),
 	SMX_DLL_CREATE_BUS_SPEC(ADC_I_b,12),
 	SMX_DLL_CREATE_BUS_SPEC(ADC_I_c,12),
@@ -29,7 +28,6 @@ static char* anpc_input_specs[]  = {
 	SMX_DLL_CREATE_BUS_SPEC(ADC_Vref1,12),
 	SMX_DLL_CREATE_BUS_SPEC(ADC_Vref2,12),
 	SMX_DLL_CREATE_BUS_SPEC(ADC_VREF_FB,12),
-
 	SMX_DLL_CREATE_BUS_SPEC(HW_1MHz,2),
 	SMX_DLL_CREATE_BUS_SPEC(PWM_Isr,2),
 	SMX_DLL_CREATE_BUS_SPEC(Timer_Isr,2),
@@ -49,58 +47,44 @@ static char* anpc_input_specs[]  = {
  *	Buses without a width are assumed to be pins, identical to a bus of width 1.
  */
 static char* anpc_output_specs[] = {
-	// High Frequency Duty
 	SMX_DLL_CREATE_BUS_SPEC(HF_Duty_a, 12),
 	SMX_DLL_CREATE_BUS_SPEC(HF_Duty_b, 12),
 	SMX_DLL_CREATE_BUS_SPEC(HF_Duty_c, 12),
-
 	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_a, 12),
 	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_b, 12),
 	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_c, 12),
 	SMX_DLL_CREATE_BUS_SPEC(HF_deadband, 12),
-	
-	// High Frequency PWM Enable
 	SMX_DLL_CREATE_BUS_SPEC(Enable_all_PWM, 1),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_a, 1),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_b, 1),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_c, 1),
-
-	// Low Frequency PWM Enable
 	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_a, 1),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_b, 1),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_LFPWM_c, 1),
-
 	//// Force High Flags
 	//SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_A_High, 1),
 	//SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_B_High, 1),
 	//SMX_DLL_CREATE_BUS_SPEC(Force_LFPWM_C_High, 1),
-	
 	// Relay Control
 	//SMX_DLL_CREATE_BUS_SPEC(Phase_Relay,1),
 	//SMX_DLL_CREATE_BUS_SPEC(Inrush_Relay,1),
 	//SMX_DLL_CREATE_BUS_SPEC(Fan,1),
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_IO,1),
 	//SMX_DLL_CREATE_BUS_SPEC(HB_IO,1),
-
 	SMX_DLL_CREATE_BUS_SPEC(BULK_ok,1),
 	SMX_DLL_CREATE_BUS_SPEC(RELAY_on,1),
 	SMX_DLL_CREATE_BUS_SPEC(FAN_ctrl,1),
-
 	SMX_DLL_CREATE_BUS_SPEC(LOAD_judge,1),
 	SMX_DLL_CREATE_BUS_SPEC(debug_1,1),
 	SMX_DLL_CREATE_BUS_SPEC(debug_2,1),
-
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_1,12),
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_2,12),
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_3,12),
-
 	SMX_DLL_CREATE_BUS_SPEC(DAC_A_OUT,12),
 	SMX_DLL_CREATE_BUS_SPEC(DAC_B_OUT,12),
-
 	SMX_DLL_CREATE_BUS_SPEC(comp_IA_OCP_flag,12),
 	SMX_DLL_CREATE_BUS_SPEC(comp_IB_OCP_flag,12),
 	SMX_DLL_CREATE_BUS_SPEC(comp_IC_OCP_flag,12),
-	
 	NULL
 };
 
@@ -288,23 +272,28 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 		context_p->funcs->fatal_error( device_p, "Unable to malloc for default pointers." );
 		return SMX_DLL_ERROR_UNABLE_TO_ALLOCATE_MEMORY;
 	}
+	memset(default_pointers_p, 0, sizeof(s_anpc_parameter_values));
 	if( NULL == ( input_bus_pointers_p  = (s_anpc_input_bus_pointers* )malloc( sizeof( s_anpc_input_bus_pointers  ) ) ) ) {
 		context_p->funcs->fatal_error( device_p, "Unable to malloc for input bus pointers." );
 		return SMX_DLL_ERROR_UNABLE_TO_ALLOCATE_MEMORY;
 	}
+	memset(input_bus_pointers_p, 0, sizeof(s_anpc_parameter_values));
 	if( NULL == ( output_bus_pointers_p = (s_anpc_output_bus_pointers*)malloc( sizeof( s_anpc_output_bus_pointers ) ) ) ) {
 		context_p->funcs->fatal_error( device_p, "Unable to malloc for output bus pointers." );
 		return SMX_DLL_ERROR_UNABLE_TO_ALLOCATE_MEMORY;
 	}
+	memset(output_bus_pointers_p, 0, sizeof(s_anpc_parameter_values));
 	if( NULL == ( parameter_values_p    = (s_anpc_parameter_values*   )malloc( sizeof( s_anpc_parameter_values    ) ) ) ) {
 		context_p->funcs->fatal_error( device_p, "Unable to malloc for parameter_values." );
 		return SMX_DLL_ERROR_UNABLE_TO_ALLOCATE_MEMORY;
 	}
+	memset(parameter_values_p, 0, sizeof(s_anpc_parameter_values));
 
 	// assign pointers
 	default_pointers_p->input_bus_pointers_p  = input_bus_pointers_p;
 	default_pointers_p->output_bus_pointers_p = output_bus_pointers_p;
 	default_pointers_p->parameter_values_p    = parameter_values_p;
+
 
 	// retrieve input bus pointers, if necessary
 	if( SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "ADC_Vbusp", SMX_DLL_DIRECTION_INPUT, &( input_bus_pointers_p->ADC_VBUSP_bus_p ) ) ) {

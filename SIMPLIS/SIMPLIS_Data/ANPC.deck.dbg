@@ -1,10 +1,10 @@
->>> Fri Nov 21 17:34:10 2025, requesting 1 copy of simplis, maintenance version 2020.0201,  GRANTED.
->>> Fri Nov 21 17:34:10 2025, requesting 1 copy of simplis, maintenance version 2014.0301,  GRANTED.
->>> Fri Nov 21 17:34:20 2025, requesting 1 copy of system_designer, maintenance version 2020.0201,  GRANTED.
->>> Fri Nov 21 17:34:33 2025, requesting 1 copy of tran_sim, maintenance version 2020.0201,  GRANTED.
->>> Fri Nov 21 17:39:08 2025, Receive Abort Message.
->>> Fri Nov 21 17:39:08 2025, returning  1 copy of tran_sim.
+>>> Mon Nov 24 17:34:35 2025, requesting 1 copy of simplis, maintenance version 2020.0201,  GRANTED.
+>>> Mon Nov 24 17:34:35 2025, requesting 1 copy of simplis, maintenance version 2014.0301,  GRANTED.
+>>> Mon Nov 24 17:34:35 2025, requesting 1 copy of system_designer, maintenance version 2020.0201,  GRANTED.
+>>> Mon Nov 24 17:34:35 2025, requesting 1 copy of tran_sim, maintenance version 2020.0201,  GRANTED.
+>>> Mon Nov 24 17:35:05 2025, Receive Abort Message.
+>>> Mon Nov 24 17:35:05 2025, returning  1 copy of tran_sim.
 	*** Total number of topologies: 426
->>> Fri Nov 21 17:39:08 2025, returning  1 copy of simplis.
->>> Fri Nov 21 17:39:08 2025, returning  1 copy of simplis.
->>> Fri Nov 21 17:39:08 2025, returning  1 copy of system_designer.
+>>> Mon Nov 24 17:35:06 2025, returning  1 copy of simplis.
+>>> Mon Nov 24 17:35:06 2025, returning  1 copy of simplis.
+>>> Mon Nov 24 17:35:06 2025, returning  1 copy of system_designer.

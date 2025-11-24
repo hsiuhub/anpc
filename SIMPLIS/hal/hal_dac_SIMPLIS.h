@@ -34,8 +34,8 @@ extern DAC_Output DAC_output;
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DECLARATION
 //-----------------------------------------------------------------------------
-void DAC_hal_EnablePWM(void);
-void DAC_hal_DisablePWM(void);
+//void DAC_hal_EnablePWM(void);
+//void DAC_hal_DisablePWM(void);
 //void dac_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
 
 

@@ -49,9 +49,10 @@ typedef struct t_anpc_output_bus_pointers {
 	//p_smx_dll_bus DEBUG_2_bus_p;
 	//p_smx_dll_bus DEBUG_3_bus_p;
 
+	/*p_smx_dll_bus DAC_EN;*/
 	p_smx_dll_bus DAC_A_BASE;
 	p_smx_dll_bus DAC_B_BASE;
-	p_smx_dll_bus DAC_EN;
+	
 
 	p_smx_dll_bus BULK_OK;
 	p_smx_dll_bus RELAY_ON;

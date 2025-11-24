@@ -35,7 +35,7 @@ static void Set_PhyValue_Offset(void);
 
 /* Output */
 //static void debug_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
-
+static void dac_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p);
 
 //-----------------------------------------------------------------------------
 //  VARIABLES
@@ -139,6 +139,7 @@ void anpc_action(p_smx_dll_simulation_context context_p, p_smx_dll_device device
 			pwm_hal_Output(context_p, device_p);
 			dgpio_hal_Output(context_p, device_p);
 			/*debug_Output(context_p, device_p);*/
+			dac_Output(context_p, device_p);
 
 			HW_1MHz_prev = HW_1MHz;
 		}
@@ -161,9 +162,9 @@ static SMX_DLL_UINT16 Get_HW_1MHz(p_smx_dll_simulation_context context_p, p_smx_
 
 	default_pointers_p = (p_anpc_default_pointers)device_p->unmanaged_user_storage;
 
-
+	conversion_tmr.type = SMX_DLL_TYPE_8BIT;
 	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
-	conversion_tmr.type = SMX_DLL_TYPE_16BIT;
+	conversion_tmr.uint16 = 0;
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->HW_1MHZ_bus_p, &(conversion_tmr)))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during read_bus: HW_1MHz.");
 	}
@@ -327,10 +328,10 @@ static void dac_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device 
 	conversion.type = SMX_DLL_TYPE_16BIT;
 
 	// write to OUT bus
-	conversion.uint16 = DAC_output.HAL_DAC_EN;
-	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_EN, &(conversion), 1e-9))) {
-		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_EN.");
-	}
+	//conversion.uint16 = DAC_output.HAL_DAC_EN;
+	//if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_EN, &(conversion), 1e-9))) {
+	//	context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_EN.");
+	//}
 
 	conversion.uint16 = DAC_output.HAL_DAC_A_BASE;
 	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_A_BASE, &(conversion), 1e-9))) {

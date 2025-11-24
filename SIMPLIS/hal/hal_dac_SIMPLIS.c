@@ -31,15 +31,15 @@ DAC_Output DAC_output = { 0 };
 //  PUBLIC FUNCTIONS DEFINITION
 //-----------------------------------------------------------------------------
 
-void DAC_hal_EnablePWM(void)
-{
-	DAC_output.HAL_DAC_EN = 1;
-}
-
-void DAC_hal_DisablePWM(void)
-{
-	DAC_output.HAL_DAC_EN = 0;
-}
+//void DAC_hal_EnablePWM(void)
+//{
+//	DAC_output.HAL_DAC_EN = 1;
+//}
+//
+//void DAC_hal_DisablePWM(void)
+//{
+//	DAC_output.HAL_DAC_EN = 0;
+//}
 
 
 
