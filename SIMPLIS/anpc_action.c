@@ -342,7 +342,7 @@ static void dac_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device 
 	if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_B_BASE, &(conversion), 1e-9))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_B_OUT.");
 	}
-	DAC_MID_B_OUT(4095 * 0.2);
+	
 
 }
 

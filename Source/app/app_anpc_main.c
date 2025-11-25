@@ -14,6 +14,7 @@
 #include "app_state.h"
 #include "app_timer_1kHz.h"
 #include "app_timer_10Hz.h"
+#include "device_config.h"
 
 
 //-----------------------------------------------------------------------------
@@ -64,13 +65,13 @@ void main(void)
 
 #ifndef CONFIG_VIRTUAL_MAIN
 
-    while(1)
+    while (1)
     {
         timer1kHz_Process();
 
         timer10Hz_Process();
 
-        bsp_Uart1RxProcess();
+        //bsp_Uart1RxProcess();
     }
 
 #endif

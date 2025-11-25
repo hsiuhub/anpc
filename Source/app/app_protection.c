@@ -133,7 +133,7 @@ void protect_CheckGridVoltageProtection(void)
             ProtectFlag.bits.Vgrid_swOVP = 1;
 
 #if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.1);
+            DAC_MID_B_OUT(4095 * 1.0);
 #endif
             state_ReportEvent(EVENT_VGRID_OVP);
         }
@@ -202,7 +202,7 @@ void protect_CheckGridVoltageProtection(void)
             VgridB_swUVP_Hpntrigger = 1;
 
 #if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.2);
+            DAC_MID_B_OUT(4095 * 0.3);
 #endif
 
             VgridB_swUVP_implicit_flag = 1;
@@ -237,7 +237,7 @@ void protect_CheckGridVoltageProtection(void)
             VgridC_swUVP_Hpntrigger = 1;
 
 #if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.2);
+            DAC_MID_B_OUT(4095 * 0.3);
 #endif
 
             VgridC_swUVP_implicit_flag = 1;
@@ -470,7 +470,7 @@ void protect_CheckBusVoltageProtection(void)
             ProtectFlag.bits.Vbusn_swUVP = 1;
 
 #if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.5);
+            DAC_MID_B_OUT(4095 * 0.6);
 #endif
             state_ReportEvent(EVENT_VBUS_UVP);
         }
@@ -509,7 +509,7 @@ void protect_CheckCurrentProtection(void)
             ProtectFlag.bits.IA_hwOCP = 1;
 
 #if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
-            DAC_MID_B_OUT(4095 * 0.6);
+            
 #endif
             state_ReportEvent(EVENT_I_OCP);
         }
@@ -917,4 +917,8 @@ void protect_ResetProtectVariables(void)
 
     Vref_Hpntrigger         = 0;
     Vref_Rvytrigger         = 0;
+}
+
+void protect_InitProtect(void)
+{
 }

@@ -8,20 +8,21 @@
 //-----------------------------------------------------------------------------
 #include "mid_general_adc.h"
 
+// External Variables
+
 
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DEFINITION
 //-----------------------------------------------------------------------------
 void adc_mid_ForceAllSOCs(void)
 {
-
 #ifdef CONFIG_TMS320F280049C
+
     adc_hal_ForceAllSOCs();
 
 #elif defined CONFIG_VIRTUAL
 
 #endif
-
 }
 
 bool adc_mid_ConversionComplete(void)

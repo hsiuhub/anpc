@@ -88,7 +88,7 @@ static inline void isr1_Run_CompleteSystem(void)
     phyvalue_Read_VoltageCurrent();
     phyvalue_RawToAvg_VoltageCurrent();
     phyvalue_PuToReal_VoltageCurrent();
-    DAC_MID_B_OUT(4095 * 0.6);
+    /*DAC_MID_B_OUT(4095 * 0.6);*/
     // ==================================================
     // Transform From ABC Axis to DQ Axis
     // ==================================================
@@ -161,7 +161,7 @@ static inline void isr1_Run_CompleteSystem(void)
             VICtrl.Ia_amp_ratio_ref = VICtrl.Ia_amp_ratio_cmd;
             VICtrl.Ib_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
             VICtrl.Ic_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
-            DAC_MID_B_OUT(4095 * 1);
+            DAC_MID_B_OUT(4095 * 1.0);
         }
         else
         {

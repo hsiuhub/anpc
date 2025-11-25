@@ -361,7 +361,7 @@ Property name="VOH" value="5" autopos=1 normal=Left rotated=Left visible=0 font=
 Property name="VOL" value="0" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndSymbol
 .Symbol
-Attributes format=1.0 revision=8 name="DLL_DEVICE_ANPC_310826820_Y" description="ANPC (v1) (GNDREF)"
+Attributes format=1.0 revision=8 name="DLL_DEVICE_ANPC_310826820_Y" description="ANPC (v1) (GNDREF)(2)"
 Segment x1=0 y1=0 x2=2520 y2=0 
 Segment x1=0 y1=3360 x2=0 y2=0 
 Segment x1=2520 y1=0 x2=2520 y2=3360 
@@ -5352,7 +5352,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E2" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="4.57m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vgrid_a_fb" pin2="0" pin3="#Vgrid_a" pin4="#N"
 .EndInstance
 .Instance
@@ -5361,7 +5361,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E3" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="4.57m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vgrid_b_fb" pin2="0" pin3="#Vgrid_b" pin4="#N"
 .EndInstance
 .Instance
@@ -5370,7 +5370,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E4" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="4.57m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vgrid_c_fb" pin2="0" pin3="#Vgrid_c" pin4="#N"
 .EndInstance
 .Instance
@@ -5379,7 +5379,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E5" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="3.833m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/469}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vbusp_fb" pin2="0" pin3="#Vbusp" pin4="0"
 .EndInstance
 .Instance
@@ -5388,7 +5388,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E6" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="4.57m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vanpc_c_fb" pin2="0" pin3="#Vanpc_c" pin4="0"
 .EndInstance
 .Instance
@@ -5397,7 +5397,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E7" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="3.833m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/469}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vbusn_fb" pin2="0" pin3="0" pin4="#Vbusn"
 .EndInstance
 .Instance
@@ -5406,7 +5406,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E8" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="4.57m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vanpc_b_fb" pin2="0" pin3="#Vanpc_b" pin4="0"
 .EndInstance
 .Instance
@@ -5415,7 +5415,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E9" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="4.57m" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vanpc_a_fb" pin2="0" pin3="#Vanpc_a" pin4="0"
 .EndInstance
 .Instance
@@ -5424,7 +5424,7 @@ Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 lin
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="REF" value="H1" autopos=1 normal=Bottom rotated=Right font=Default order=1
-Property name="value" value="54.67m" autopos=1 normal=Top rotated=Right font=Default order=2
+Property name="value" value="{1/49.75}" autopos=1 normal=Top rotated=Right font=Default order=2
 Netnames pin1="#I_a_fb" pin2="0" pin3="#SW_a" pin4="334"
 .EndInstance
 .Instance
@@ -5433,7 +5433,7 @@ Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 lin
 Property name="ref" value="H2" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="54.67m" autopos=1 normal=Top rotated=Right font=Default order=2
+Property name="value" value="{1/51.55}" autopos=1 normal=Top rotated=Right font=Default order=2
 Netnames pin1="#I_b_fb" pin2="0" pin3="#SW_b" pin4="341"
 .EndInstance
 .Instance
@@ -5442,7 +5442,7 @@ Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 lin
 Property name="ref" value="H3" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="54.67m" autopos=1 normal=Top rotated=Right font=Default order=2
+Property name="value" value="{1/52.36}" autopos=1 normal=Top rotated=Right font=Default order=2
 Netnames pin1="#I_c_fb" pin2="0" pin3="#SW_c" pin4="348"
 .EndInstance
 .Instance
@@ -18072,12 +18072,12 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=".simulator SIMPLIS\n*.ac DEC 25 1k 1Meg\n.options\n+ PSP_NPT=100001\n+ POP_ITRMAX=20\n+ POP_OUTPUT_CYCLES=5\n+ SNAPSHOT_INTVL=0\n+ SNAPSHOT_NPT=11\n+ MIN_AVG_TOPOLOGY_DUR=1a\n+ AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128\n*.pop TRIG_GATE={TRIG_GATE} TRIG_COND=0_TO_1 MAX_PERIOD=1u CONVERGENCE=1p CYCLES_BEFORE_LAUNCH=5 TD_RUN_AFTER_POP_FAILS=-1\n.tran 450m 0\n\n.simulator DEFAULT\n.var Vin=400\n.var Vin_pk=Vin/1.732*1.414\n.var VLL_pk=Vin*1.414/2\n"
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=6559 y=13504 zoomlevel=31 zoom=8 snapgrid=120 offsetX=10986 offsetY=2515
+View x=5519 y=-2515 zoomlevel=33 zoom=9 snapgrid=120 offsetX=10986 offsetY=2515
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro" type=value
 Property name="CurrentMeasureItem" value="Mean|0|0|0|" type=value
 Property name="GUID" value="{b18f6b6a-2205-454f-81e5-1684e6a8fe1d}" type=value
 Property name="last_hierarchical_path" value="PWM function\\" type=value
-Property name="UserVersion" value="545" type=value
-Property name="WriteLog" value="545/0/1582545/0" type=value
+Property name="UserVersion" value="549" type=value
+Property name="WriteLog" value="549/0/1591345/0" type=value
 .EndSchematic
 .EndComponent
