@@ -4631,8 +4631,8 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(465,48): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(336,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(341,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(323,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\anpc_action.c(328,32): warning C4244: '=': conversion from 'SMX_DLL_DOUBLE' to 'SMX_DLL_UINT16', possible loss of data
   hal_adc_SIMPLIS.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'hal/hal_adc_SIMPLIS.c')

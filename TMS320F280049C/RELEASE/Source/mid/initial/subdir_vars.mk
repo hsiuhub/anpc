@@ -6,16 +6,16 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_adc.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_clb.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_comp.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_dac.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_dgpio.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_interrupt.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_pwm.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_system.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_timer.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/mid/initial/mid_initial_uart.c 
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_adc.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_clb.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_comp.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_dac.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_dgpio.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_interrupt.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_pwm.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_system.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_timer.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/mid/initial/mid_initial_uart.c 
 
 C_DEPS += \
 ./Source/mid/initial/mid_initial_adc.d \
@@ -66,15 +66,15 @@ C_DEPS__QUOTED += \
 "Source\mid\initial\mid_initial_uart.d" 
 
 C_SRCS__QUOTED += \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_adc.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_clb.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_comp.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_dac.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_dgpio.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_interrupt.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_pwm.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_system.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_timer.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/mid/initial/mid_initial_uart.c" 
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_adc.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_clb.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_comp.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_dac.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_dgpio.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_interrupt.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_pwm.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_system.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_timer.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/mid/initial/mid_initial_uart.c" 
 
 

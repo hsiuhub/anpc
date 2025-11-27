@@ -55,6 +55,8 @@ bit_t PhaseOpenB_Rvytrigger         = 0;
 bit_t PhaseOpenC_Hpntrigger         = 0;
 bit_t PhaseOpenC_Rvytrigger         = 0;
 
+/* Debug Function */
+SMX_DLL_UINT16 phase_check_time = 0;
 
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DEFINITION
@@ -122,7 +124,7 @@ void event_MonitorEvents_Every1ms(void)
                (PhyValue.VgridC.rms >= ANPC_VPH_RMS_MIN) && (PhyValue.VgridC.rms <= ANPC_VPH_RMS_MAX) &&
                (PhyValue.fgrid.avg >= VGRID_SWFREQL_R) && (PhyValue.fgrid.avg <= VGRID_SWFREQH_R);
     EvtIsRvy = !EvtIsHpn;
-
+    phase_check_time;
     Vac_ok_count.word++;
     event_EventIsMatch(&Vac_ok_count.word, TIMER_50MS, TIMER_0S);
 

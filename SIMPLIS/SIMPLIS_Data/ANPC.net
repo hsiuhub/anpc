@@ -1,447 +1,448 @@
 * C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\ANPC.sxsch
 *#SIMETRIX
-.node_map LF_Duty_a 1271
-.node_map SW_Freq 1263
-.node_map DAC_Debug_1$4 1146
-.node_map ADC_Temp_a$11 1065
-.node_map DAC_HF_Deadband$8 990
-.node_map ADC_Vanpc_a$0 970
-.node_map DAC_LF_Duty_c$5 963
-.node_map ADC_Vgrid_b$10 932
-.node_map ADC_Vgrid_a$6 904
-.node_map LF_Duty_b 1270
-.node_map DAC_Debug_1$5 1147
-.node_map DAC_HF_Deadband$9 991
-.node_map ADC_Vanpc_a$1 971
-.node_map DAC_LF_Duty_c$6 964
-.node_map ADC_Vgrid_b$11 933
-.node_map ADC_Vgrid_a$7 905
-.node_map LF_Duty_c 1269
-.node_map DAC_Debug_1$6 1148
-.node_map ADC_Vanpc_a$2 972
-.node_map DAC_LF_Duty_c$7 965
-.node_map ADC_Vgrid_b$0 922
-.node_map ADC_Vgrid_a$8 906
-.node_map DAC_HF_Duty_b$10 872
-.node_map Enable_HFPWM_a 1273
-.node_map DAC_Debug_1$7 1149
-.node_map ADC_Vanpc_a$3 973
-.node_map DAC_LF_Duty_c$8 966
-.node_map ADC_Vgrid_b$1 923
-.node_map ADC_Vgrid_a$9 907
-.node_map DAC_HF_Duty_b$11 873
-.node_map Enable_HFPWM_b 1274
-.node_map DAC_Debug_2$0 1156
-.node_map DAC_Debug_1$8 1150
-.node_map ADC_Vanpc_a$4 974
-.node_map DAC_LF_Duty_c$9 967
-.node_map ADC_Vgrid_b$2 924
-.node_map Enable_HFPWM_c 1275
-.node_map BUS1$10 1182
-.node_map DAC_Debug_2$1 1157
-.node_map DAC_Debug_1$9 1151
-.node_map ADC_Vanpc_a$5 975
-.node_map ADC_Vgrid_b$3 925
-.node_map BUS1$11 1183
-.node_map DAC_Debug_2$2 1158
-.node_map ADC_Vanpc_a$6 976
-.node_map ADC_Vgrid_b$4 926
-.node_map HF_Duty_a 1266
-.node_map DAC_Debug_2$3 1159
-.node_map ADC_I_b$10 1040
-.node_map ADC_Vanpc_a$7 977
-.node_map ADC_Vgrid_b$5 927
-.node_map HF_Duty_b 1265
-.node_map I_b_fb 1234
-.node_map Vgrid_b_fb 1223
-.node_map DAC_Debug_2$4 1160
-.node_map ADC_I_b$11 1041
-.node_map ADC_Vanpc_b$0 994
-.node_map ADC_Vanpc_a$8 978
-.node_map ADC_Vgrid_b$6 928
-.node_map HF_Duty_c 1264
-.node_map DAC_Debug_2$5 1161
-.node_map ADC_Vanpc_b$1 995
-.node_map ADC_Vanpc_a$9 979
-.node_map ADC_Vgrid_b$7 929
-.node_map DAC_Debug_2$6 1162
-.node_map ADC_Vanpc_b$2 996
-.node_map ADC_Vgrid_c$0 946
-.node_map ADC_Vgrid_b$8 930
-.node_map Timer_1kHz$0 1168
-.node_map DAC_Debug_2$7 1163
-.node_map ADC_Vanpc_b$3 997
-.node_map ADC_Vgrid_c$1 947
-.node_map ADC_Vgrid_b$9 931
-.node_map Timer_1kHz$1 1169
-.node_map DAC_Debug_2$8 1164
-.node_map ADC_Temp_b$10 1076
-.node_map ADC_Vanpc_b$4 998
-.node_map DAC_HF_Deadband$10 992
-.node_map ADC_Vgrid_c$2 948
-.node_map DAC_Debug_2$9 1165
-.node_map ADC_Temp_b$11 1077
-.node_map ADC_Vanpc_b$5 999
-.node_map DAC_HF_Deadband$11 993
-.node_map ADC_Vgrid_c$3 949
-.node_map S1_a 1213
-.node_map ADC_Temp_a$0 1054
-.node_map ADC_Vanpc_b$6 1000
-.node_map ADC_Vgrid_c$4 950
-.node_map SW_a 1218
-.node_map S1_b 1214
-.node_map BUS1$0 1172
-.node_map ADC_Temp_a$1 1055
-.node_map ADC_Vanpc_b$7 1001
-.node_map ADC_Vgrid_c$5 951
-.node_map DAC_HF_Duty_c$10 896
-.node_map SW_b 1240
-.node_map S1_c 1215
-.node_map BUS1$1 1173
-.node_map ADC_Temp_a$2 1056
-.node_map ADC_Vanpc_c$0 1006
-.node_map ADC_Vanpc_b$8 1002
-.node_map ADC_Vgrid_c$6 952
-.node_map DAC_HF_Duty_c$11 897
-.node_map ADC_Vbusn$0 874
-.node_map SW_c 1242
-.node_map BUS1$2 1174
-.node_map ADC_Temp_a$3 1057
-.node_map ADC_Vanpc_c$1 1007
-.node_map ADC_Vanpc_b$9 1003
-.node_map ADC_Vgrid_c$7 953
-.node_map ADC_Vbusn$1 875
-.node_map BUS2$10 1194
-.node_map BUS1$3 1175
-.node_map ADC_Temp_a$4 1058
-.node_map ADC_Vanpc_c$2 1008
-.node_map ADC_Vgrid_c$8 954
-.node_map ADC_Vbusn$2 876
-.node_map BUS2$11 1195
-.node_map BUS1$4 1176
-.node_map ADC_Temp_a$5 1059
-.node_map ADC_Vanpc_c$3 1009
-.node_map ADC_Vgrid_c$9 955
-.node_map ADC_Vbusn$3 877
-.node_map BUS1$5 1177
-.node_map ADC_Temp_a$6 1060
-.node_map ADC_Vanpc_c$4 1010
-.node_map ADC_Vbusn$4 878
-.node_map I_c_fb 1253
-.node_map Vgrid_c_fb 1235
-.node_map BUS1$6 1178
-.node_map ADC_Temp_a$7 1061
-.node_map ADC_Vanpc_c$5 1011
-.node_map ADC_Vbusn$5 879
-.node_map PWM_EN 1272
-.node_map S2_a 1227
-.node_map BUS1$7 1179
-.node_map ADC_Temp_b$0 1066
-.node_map ADC_Temp_a$8 1062
-.node_map ADC_Vanpc_c$6 1012
-.node_map ADC_Vbusn$6 880
-.node_map ADC_Vbusp$10 860
-.node_map S2_b 1229
-.node_map BUS2$0 1184
-.node_map BUS1$8 1180
-.node_map ADC_Temp_b$1 1067
-.node_map ADC_Temp_a$9 1063
-.node_map ADC_I_a$0 1018
-.node_map ADC_Vanpc_c$7 1013
-.node_map ADC_Vbusn$7 881
-.node_map ADC_Vbusp$11 861
-.node_map DAC_HF_Duty_a$10 848
-.node_map S2_c 1231
-.node_map BUS2$1 1185
-.node_map BUS1$9 1181
-.node_map ADC_Temp_b$2 1068
-.node_map ADC_I_a$1 1019
-.node_map ADC_Vanpc_c$8 1014
-.node_map ADC_Vbusn$8 882
-.node_map DAC_HF_Duty_a$11 849
-.node_map Vgrid_a 1216
-.node_map BUS2$2 1186
-.node_map ADC_Vref1$0 1102
-.node_map ADC_Temp_b$3 1069
-.node_map ADC_I_a$2 1020
-.node_map ADC_Vanpc_c$9 1015
-.node_map ADC_Vbusn$9 883
-.node_map Vgrid_b 1225
-.node_map BUS2$3 1187
-.node_map ADC_Vref1$1 1103
-.node_map ADC_Temp_b$4 1070
-.node_map ADC_I_a$3 1021
-.node_map Vgrid_c 1238
-.node_map BUS2$4 1188
-.node_map ADC_Vref1$2 1104
-.node_map ADC_Temp_amb$0 1090
-.node_map ADC_Temp_b$5 1071
-.node_map ADC_I_a$4 1022
-.node_map BUS2$5 1189
-.node_map ADC_Vref1$3 1105
-.node_map ADC_Temp_amb$1 1091
-.node_map ADC_Temp_b$6 1072
-.node_map ADC_I_a$5 1023
-.node_map BUS2$6 1190
-.node_map ADC_Vref1$4 1106
-.node_map ADC_Temp_amb$2 1092
-.node_map ADC_Temp_b$7 1073
-.node_map ADC_I_a$6 1024
-.node_map S3_a 1246
-.node_map BUS2$7 1191
-.node_map ADC_Vref1$5 1107
-.node_map ADC_Temp_amb$3 1093
-.node_map ADC_Temp_c$0 1078
-.node_map ADC_Temp_b$8 1074
-.node_map ADC_I_a$7 1025
-.node_map ADC_Vbusn$10 884
-.node_map S3_b 1248
-.node_map BUS3$10 1206
-.node_map BUS3$0 1196
-.node_map BUS2$8 1192
-.node_map ADC_Vref1$6 1108
-.node_map ADC_Temp_amb$4 1094
-.node_map ADC_Temp_c$1 1079
-.node_map ADC_Temp_b$9 1075
-.node_map ADC_I_b$0 1030
-.node_map ADC_I_a$8 1026
-.node_map ADC_Vbusn$11 885
-.node_map S3_c 1250
-.node_map BUS3$11 1207
-.node_map BUS3$1 1197
-.node_map BUS2$9 1193
-.node_map ADC_Vref1$7 1109
-.node_map ADC_Temp_amb$5 1095
-.node_map ADC_Temp_c$2 1080
-.node_map ADC_I_b$1 1031
-.node_map ADC_I_a$9 1027
-.node_map ADC_Vbusp$0 850
-.node_map BUS3$2 1198
-.node_map PWM_Isr$0 1140
-.node_map ADC_Vref_FB$0 1126
-.node_map ADC_Vref2$0 1114
-.node_map ADC_Vref1$8 1110
-.node_map ADC_Temp_amb$6 1096
-.node_map ADC_Temp_c$3 1081
-.node_map ADC_I_b$2 1032
-.node_map ADC_Vbusp$1 851
-.node_map Temp_c_fb 1254
-.node_map BUS3$3 1199
-.node_map PWM_Isr$1 1141
-.node_map ADC_Vref_FB$1 1127
-.node_map ADC_Vref2$1 1115
-.node_map ADC_Vref1$9 1111
-.node_map ADC_Temp_amb$7 1097
-.node_map ADC_Temp_c$4 1082
-.node_map ADC_I_b$3 1033
-.node_map ADC_Vbusp$2 852
-.node_map DAC_HF_Duty_a$0 838
-.node_map BUS3$4 1200
-.node_map DAC_Debug_2$10 1166
-.node_map ADC_Vref_FB$2 1128
-.node_map ADC_Vref2$2 1116
-.node_map ADC_Temp_amb$8 1098
-.node_map ADC_Temp_c$5 1083
-.node_map ADC_I_b$4 1034
-.node_map ADC_Vbusp$3 853
-.node_map DAC_HF_Duty_a$1 839
-.node_map BUS3$5 1201
-.node_map DAC_Debug_2$11 1167
-.node_map ADC_Vref_FB$3 1129
-.node_map ADC_Vref2$3 1117
-.node_map ADC_Temp_amb$9 1099
-.node_map ADC_Temp_c$6 1084
-.node_map ADC_I_b$5 1035
-.node_map ADC_Vbusp$4 854
-.node_map DAC_HF_Duty_a$2 840
-.node_map BUS3$6 1202
-.node_map ADC_Vref_FB$4 1130
-.node_map ADC_Vref2$4 1118
-.node_map ADC_Temp_c$7 1085
-.node_map ADC_I_b$6 1036
-.node_map DAC_LF_Duty_a$10 920
-.node_map ADC_Vbusp$5 855
-.node_map DAC_HF_Duty_a$3 841
-.node_map S4_a 1258
-.node_map BUS3$7 1203
-.node_map ADC_Vref_FB$5 1131
-.node_map ADC_Vref2$5 1119
-.node_map ADC_Temp_c$8 1086
-.node_map ADC_I_b$7 1037
-.node_map DAC_LF_Duty_a$11 921
-.node_map ADC_Vbusp$6 856
-.node_map DAC_HF_Duty_a$4 842
-.node_map S4_b 1259
-.node_map BUS3$8 1204
-.node_map ADC_Vref_FB$6 1132
-.node_map ADC_Vref2$6 1120
-.node_map ADC_Vref1$10 1112
-.node_map ADC_Temp_c$9 1087
-.node_map ADC_I_c$0 1042
-.node_map ADC_I_b$8 1038
-.node_map ADC_Vbusp$7 857
-.node_map DAC_HF_Duty_a$5 843
-.node_map S4_c 1260
-.node_map BUS3$9 1205
-.node_map ADC_Vref_FB$7 1133
-.node_map ADC_Vref2$7 1121
-.node_map ADC_Vref1$11 1113
-.node_map ADC_I_c$1 1043
-.node_map ADC_I_b$9 1039
-.node_map ADC_Vbusp$8 858
-.node_map DAC_HF_Duty_a$6 844
-.node_map ADC_Vref_FB$8 1134
-.node_map ADC_Vref2$8 1122
-.node_map ADC_I_c$2 1044
-.node_map ADC_Vanpc_a$10 980
-.node_map ADC_Vbusp$9 859
-.node_map DAC_HF_Duty_a$7 845
-.node_map Temp_a_fb 1237
-.node_map ADC_Vref_FB$9 1135
-.node_map ADC_Vref2$9 1123
-.node_map ADC_I_c$3 1045
-.node_map ADC_Vanpc_a$11 981
-.node_map DAC_HF_Duty_b$0 862
-.node_map DAC_HF_Duty_a$8 846
-.node_map ADC_I_c$4 1046
-.node_map DAC_HF_Duty_b$1 863
-.node_map DAC_HF_Duty_a$9 847
-.node_map ADC_I_c$5 1047
-.node_map DAC_HF_Duty_b$2 864
-.node_map ADC_I_c$6 1048
-.node_map DAC_HF_Duty_b$3 865
-.node_map S5_a 1228
-.node_map ADC_I_c$7 1049
-.node_map DAC_HF_Duty_b$4 866
-.node_map S5_b 1230
-.node_map Vbusp_fb 1211
-.node_map ADC_I_c$8 1050
-.node_map DAC_HF_Duty_b$5 867
-.node_map S5_c 1232
-.node_map ADC_I_c$9 1051
-.node_map DAC_HF_Duty_b$6 868
-.node_map DAC_HF_Duty_b$7 869
-.node_map Fan 1279
-.node_map DAC_LF_Duty_b$10 944
-.node_map DAC_HF_Duty_c$0 886
-.node_map DAC_HF_Duty_b$8 870
-.node_map DAC_LF_Duty_b$11 945
-.node_map DAC_HF_Duty_c$1 887
-.node_map DAC_HF_Duty_b$9 871
-.node_map HW_1MHz$0 1138
-.node_map ADC_Vref2$10 1124
-.node_map DAC_HF_Duty_c$2 888
-.node_map HW_1MHz$1 1139
-.node_map ADC_Vref2$11 1125
-.node_map DAC_HF_Duty_c$3 889
-.node_map S6_a 1247
-.node_map ADC_Vanpc_b$10 1004
-.node_map DAC_HF_Duty_c$4 890
-.node_map S6_b 1249
-.node_map Temp_b_fb 1244
-.node_map Vbusn_fb 1224
-.node_map ADC_Vanpc_b$11 1005
-.node_map DAC_HF_Duty_c$5 891
-.node_map S6_c 1251
-.node_map DAC_Debug_1$10 1152
-.node_map DAC_HF_Duty_c$6 892
-.node_map DAC_Debug_1$11 1153
-.node_map DAC_HF_Duty_c$7 893
-.node_map DAC_HF_Duty_c$8 894
-.node_map DAC_HF_Duty_c$9 895
-.node_map Temp_amb_fb 1261
-.node_map Timer_Isr$0 1154
-.node_map DAC_LF_Duty_c$10 968
-.node_map Vref1_fb 1236
-.node_map Timer_Isr$1 1155
-.node_map DAC_LF_Duty_c$11 969
-.node_map ADC_Vanpc_c$10 1016
-.node_map ADC_Vanpc_c$11 1017
-.node_map TIMER_10Hz_CLK 1245
-.node_map ADC_Vref_FB$10 1136
-.node_map ADC_Vref_FB$11 1137
-.node_map HF_Deadband 1267
-.node_map Vbusn 1226
-.node_map Vanpc_c_fb 1262
-.node_map Vbusp 1208
-.node_map Vref2_fb 1243
-.node_map N 1219
-.node_map Timer_10Hz$0 1170
-.node_map TIMER_1kHz_CLK 1241
-.node_map Vref2 1220
-.node_map HW_CLK 1210
-.node_map Timer_10Hz$1 1171
-.node_map Count_EN 1255
-.node_map ADC_Vgrid_c$10 956
-.node_map DAC_LF_Duty_a$0 910
-.node_map Load 1268
-.node_map ADC_Vgrid_c$11 957
-.node_map DAC_LF_Duty_a$1 911
-.node_map DAC_LF_Duty_a$2 912
-.node_map Vanpc_a_fb 1252
-.node_map DAC_LF_Duty_a$3 913
-.node_map DAC_LF_Duty_a$4 914
-.node_map DAC_LF_Duty_a$5 915
-.node_map TIMER_10kHz_CLK 1233
-.node_map DAC_LF_Duty_a$6 916
-.node_map Enable_LFPWM_a 1276
-.node_map ADC_I_c$10 1052
-.node_map DAC_LF_Duty_a$7 917
-.node_map Enable_LFPWM_b 1277
-.node_map ADC_I_c$11 1053
-.node_map DAC_LF_Duty_b$0 934
-.node_map DAC_LF_Duty_a$8 918
-.node_map ADC_Vgrid_a$10 908
-.node_map Enable_LFPWM_c 1278
-.node_map ADC_Temp_amb$10 1100
-.node_map DAC_LF_Duty_b$1 935
-.node_map DAC_LF_Duty_a$9 919
-.node_map ADC_Vgrid_a$11 909
-.node_map ADC_Temp_amb$11 1101
-.node_map DAC_LF_Duty_b$2 936
-.node_map DAC_LF_Duty_b$3 937
-.node_map ADC_Temp_c$10 1088
-.node_map DAC_LF_Duty_b$4 938
-.node_map ADC_Temp_c$11 1089
-.node_map DAC_HF_Deadband$0 982
-.node_map DAC_LF_Duty_b$5 939
-.node_map DAC_HF_Deadband$1 983
-.node_map DAC_LF_Duty_b$6 940
-.node_map ADC_I_a$10 1028
-.node_map DAC_HF_Deadband$2 984
-.node_map DAC_LF_Duty_b$7 941
-.node_map ADC_Vgrid_a$0 898
-.node_map Vanpc_b_fb 1257
-.node_map Vgrid_a_fb 1212
-.node_map I_a_fb 1209
-.node_map ADC_I_a$11 1029
-.node_map DAC_HF_Deadband$3 985
-.node_map DAC_LF_Duty_c$0 958
-.node_map DAC_LF_Duty_b$8 942
-.node_map ADC_Vgrid_a$1 899
-.node_map DAC_Debug_1$0 1142
-.node_map DAC_HF_Deadband$4 986
-.node_map DAC_LF_Duty_c$1 959
-.node_map DAC_LF_Duty_b$9 943
-.node_map ADC_Vgrid_a$2 900
-.node_map ADC_CLK 1222
-.node_map Vanpc_a 1217
-.node_map DAC_Debug_1$1 1143
-.node_map DAC_HF_Deadband$5 987
-.node_map DAC_LF_Duty_c$2 960
-.node_map ADC_Vgrid_a$3 901
-.node_map Vanpc_b 1239
-.node_map DAC_Debug_1$2 1144
-.node_map DAC_HF_Deadband$6 988
-.node_map DAC_LF_Duty_c$3 961
-.node_map ADC_Vgrid_a$4 902
-.node_map Vanpc_c 1256
-.node_map Inrush_Relay 1221
-.node_map DAC_Debug_1$3 1145
-.node_map ADC_Temp_a$10 1064
-.node_map DAC_HF_Deadband$7 989
-.node_map DAC_LF_Duty_c$4 962
-.node_map ADC_Vgrid_a$5 903
+.node_map LF_Duty_a 1276
+.node_map SW_Freq 1268
+.node_map DAC_Debug_1$4 1150
+.node_map ADC_Temp_a$11 1069
+.node_map DAC_HF_Deadband$8 994
+.node_map ADC_Vanpc_a$0 974
+.node_map DAC_LF_Duty_c$5 967
+.node_map ADC_Vgrid_b$10 936
+.node_map ADC_Vgrid_a$6 908
+.node_map LF_Duty_b 1275
+.node_map DAC_Debug_1$5 1151
+.node_map DAC_HF_Deadband$9 995
+.node_map ADC_Vanpc_a$1 975
+.node_map DAC_LF_Duty_c$6 968
+.node_map ADC_Vgrid_b$11 937
+.node_map ADC_Vgrid_a$7 909
+.node_map LF_Duty_c 1274
+.node_map Vref_fb 1258
+.node_map DAC_Debug_1$6 1152
+.node_map ADC_Vanpc_a$2 976
+.node_map DAC_LF_Duty_c$7 969
+.node_map ADC_Vgrid_b$0 926
+.node_map ADC_Vgrid_a$8 910
+.node_map DAC_HF_Duty_b$10 876
+.node_map Enable_HFPWM_a 1278
+.node_map DAC_Debug_1$7 1153
+.node_map ADC_Vanpc_a$3 977
+.node_map DAC_LF_Duty_c$8 970
+.node_map ADC_Vgrid_b$1 927
+.node_map ADC_Vgrid_a$9 911
+.node_map DAC_HF_Duty_b$11 877
+.node_map Enable_HFPWM_b 1279
+.node_map DAC_Debug_2$0 1160
+.node_map DAC_Debug_1$8 1154
+.node_map ADC_Vanpc_a$4 978
+.node_map DAC_LF_Duty_c$9 971
+.node_map ADC_Vgrid_b$2 928
+.node_map Enable_HFPWM_c 1280
+.node_map BUS1$10 1186
+.node_map DAC_Debug_2$1 1161
+.node_map DAC_Debug_1$9 1155
+.node_map ADC_Vanpc_a$5 979
+.node_map ADC_Vgrid_b$3 929
+.node_map BUS1$11 1187
+.node_map DAC_Debug_2$2 1162
+.node_map ADC_Vanpc_a$6 980
+.node_map ADC_Vgrid_b$4 930
+.node_map HF_Duty_a 1271
+.node_map DAC_Debug_2$3 1163
+.node_map ADC_I_b$10 1044
+.node_map ADC_Vanpc_a$7 981
+.node_map ADC_Vgrid_b$5 931
+.node_map HF_Duty_b 1270
+.node_map I_b_fb 1238
+.node_map Vgrid_b_fb 1227
+.node_map DAC_Debug_2$4 1164
+.node_map ADC_I_b$11 1045
+.node_map ADC_Vanpc_b$0 998
+.node_map ADC_Vanpc_a$8 982
+.node_map ADC_Vgrid_b$6 932
+.node_map HF_Duty_c 1269
+.node_map DAC_Debug_2$5 1165
+.node_map ADC_Vanpc_b$1 999
+.node_map ADC_Vanpc_a$9 983
+.node_map ADC_Vgrid_b$7 933
+.node_map DAC_Debug_2$6 1166
+.node_map ADC_Vanpc_b$2 1000
+.node_map ADC_Vgrid_c$0 950
+.node_map ADC_Vgrid_b$8 934
+.node_map Timer_1kHz$0 1172
+.node_map DAC_Debug_2$7 1167
+.node_map ADC_Vanpc_b$3 1001
+.node_map ADC_Vgrid_c$1 951
+.node_map ADC_Vgrid_b$9 935
+.node_map Timer_1kHz$1 1173
+.node_map DAC_Debug_2$8 1168
+.node_map ADC_Temp_b$10 1080
+.node_map ADC_Vanpc_b$4 1002
+.node_map DAC_HF_Deadband$10 996
+.node_map ADC_Vgrid_c$2 952
+.node_map DAC_Debug_2$9 1169
+.node_map ADC_Temp_b$11 1081
+.node_map ADC_Vanpc_b$5 1003
+.node_map DAC_HF_Deadband$11 997
+.node_map ADC_Vgrid_c$3 953
+.node_map S1_a 1217
+.node_map ADC_Temp_a$0 1058
+.node_map ADC_Vanpc_b$6 1004
+.node_map ADC_Vgrid_c$4 954
+.node_map SW_a 1222
+.node_map S1_b 1218
+.node_map BUS1$0 1176
+.node_map ADC_Temp_a$1 1059
+.node_map ADC_Vanpc_b$7 1005
+.node_map ADC_Vgrid_c$5 955
+.node_map DAC_HF_Duty_c$10 900
+.node_map SW_b 1244
+.node_map S1_c 1219
+.node_map BUS1$1 1177
+.node_map ADC_Temp_a$2 1060
+.node_map ADC_Vanpc_c$0 1010
+.node_map ADC_Vanpc_b$8 1006
+.node_map ADC_Vgrid_c$6 956
+.node_map DAC_HF_Duty_c$11 901
+.node_map ADC_Vbusn$0 878
+.node_map SW_c 1246
+.node_map BUS1$2 1178
+.node_map ADC_Temp_a$3 1061
+.node_map ADC_Vanpc_c$1 1011
+.node_map ADC_Vanpc_b$9 1007
+.node_map ADC_Vgrid_c$7 957
+.node_map ADC_Vbusn$1 879
+.node_map BUS2$10 1198
+.node_map BUS1$3 1179
+.node_map ADC_Temp_a$4 1062
+.node_map ADC_Vanpc_c$2 1012
+.node_map ADC_Vgrid_c$8 958
+.node_map ADC_Vbusn$2 880
+.node_map BUS2$11 1199
+.node_map BUS1$4 1180
+.node_map ADC_Temp_a$5 1063
+.node_map ADC_Vanpc_c$3 1013
+.node_map ADC_Vgrid_c$9 959
+.node_map ADC_Vbusn$3 881
+.node_map BUS1$5 1181
+.node_map ADC_Temp_a$6 1064
+.node_map ADC_Vanpc_c$4 1014
+.node_map ADC_Vbusn$4 882
+.node_map I_c_fb 1257
+.node_map Vgrid_c_fb 1239
+.node_map BUS1$6 1182
+.node_map ADC_Temp_a$7 1065
+.node_map ADC_Vanpc_c$5 1015
+.node_map ADC_Vbusn$5 883
+.node_map PWM_EN 1277
+.node_map S2_a 1231
+.node_map BUS1$7 1183
+.node_map ADC_Temp_b$0 1070
+.node_map ADC_Temp_a$8 1066
+.node_map ADC_Vanpc_c$6 1016
+.node_map ADC_Vbusn$6 884
+.node_map ADC_Vbusp$10 864
+.node_map S2_b 1233
+.node_map BUS2$0 1188
+.node_map BUS1$8 1184
+.node_map ADC_Temp_b$1 1071
+.node_map ADC_Temp_a$9 1067
+.node_map ADC_I_a$0 1022
+.node_map ADC_Vanpc_c$7 1017
+.node_map ADC_Vbusn$7 885
+.node_map ADC_Vbusp$11 865
+.node_map DAC_HF_Duty_a$10 852
+.node_map S2_c 1235
+.node_map BUS2$1 1189
+.node_map BUS1$9 1185
+.node_map ADC_Temp_b$2 1072
+.node_map ADC_I_a$1 1023
+.node_map ADC_Vanpc_c$8 1018
+.node_map ADC_Vbusn$8 886
+.node_map DAC_HF_Duty_a$11 853
+.node_map Vgrid_a 1220
+.node_map BUS2$2 1190
+.node_map ADC_Vref1$0 1106
+.node_map ADC_Temp_b$3 1073
+.node_map ADC_I_a$2 1024
+.node_map ADC_Vanpc_c$9 1019
+.node_map ADC_Vbusn$9 887
+.node_map Vgrid_b 1229
+.node_map BUS2$3 1191
+.node_map ADC_Vref1$1 1107
+.node_map ADC_Temp_b$4 1074
+.node_map ADC_I_a$3 1025
+.node_map Vgrid_c 1242
+.node_map BUS2$4 1192
+.node_map ADC_Vref1$2 1108
+.node_map ADC_Temp_amb$0 1094
+.node_map ADC_Temp_b$5 1075
+.node_map ADC_I_a$4 1026
+.node_map BUS2$5 1193
+.node_map ADC_Vref1$3 1109
+.node_map ADC_Temp_amb$1 1095
+.node_map ADC_Temp_b$6 1076
+.node_map ADC_I_a$5 1027
+.node_map BUS2$6 1194
+.node_map ADC_Vref1$4 1110
+.node_map ADC_Temp_amb$2 1096
+.node_map ADC_Temp_b$7 1077
+.node_map ADC_I_a$6 1028
+.node_map S3_a 1250
+.node_map BUS2$7 1195
+.node_map ADC_Vref1$5 1111
+.node_map ADC_Temp_amb$3 1097
+.node_map ADC_Temp_c$0 1082
+.node_map ADC_Temp_b$8 1078
+.node_map ADC_I_a$7 1029
+.node_map ADC_Vbusn$10 888
+.node_map S3_b 1252
+.node_map BUS3$10 1210
+.node_map BUS3$0 1200
+.node_map BUS2$8 1196
+.node_map ADC_Vref1$6 1112
+.node_map ADC_Temp_amb$4 1098
+.node_map ADC_Temp_c$1 1083
+.node_map ADC_Temp_b$9 1079
+.node_map ADC_I_b$0 1034
+.node_map ADC_I_a$8 1030
+.node_map ADC_Vbusn$11 889
+.node_map S3_c 1254
+.node_map BUS3$11 1211
+.node_map BUS3$1 1201
+.node_map BUS2$9 1197
+.node_map ADC_Vref1$7 1113
+.node_map ADC_Temp_amb$5 1099
+.node_map ADC_Temp_c$2 1084
+.node_map ADC_I_b$1 1035
+.node_map ADC_I_a$9 1031
+.node_map ADC_Vbusp$0 854
+.node_map BUS3$2 1202
+.node_map PWM_Isr$0 1144
+.node_map ADC_Vref_FB$0 1130
+.node_map ADC_Vref2$0 1118
+.node_map ADC_Vref1$8 1114
+.node_map ADC_Temp_amb$6 1100
+.node_map ADC_Temp_c$3 1085
+.node_map ADC_I_b$2 1036
+.node_map ADC_Vbusp$1 855
+.node_map Temp_c_fb 1259
+.node_map BUS3$3 1203
+.node_map PWM_Isr$1 1145
+.node_map ADC_Vref_FB$1 1131
+.node_map ADC_Vref2$1 1119
+.node_map ADC_Vref1$9 1115
+.node_map ADC_Temp_amb$7 1101
+.node_map ADC_Temp_c$4 1086
+.node_map ADC_I_b$3 1037
+.node_map ADC_Vbusp$2 856
+.node_map DAC_HF_Duty_a$0 842
+.node_map BUS3$4 1204
+.node_map DAC_Debug_2$10 1170
+.node_map ADC_Vref_FB$2 1132
+.node_map ADC_Vref2$2 1120
+.node_map ADC_Temp_amb$8 1102
+.node_map ADC_Temp_c$5 1087
+.node_map ADC_I_b$4 1038
+.node_map ADC_Vbusp$3 857
+.node_map DAC_HF_Duty_a$1 843
+.node_map BUS3$5 1205
+.node_map DAC_Debug_2$11 1171
+.node_map ADC_Vref_FB$3 1133
+.node_map ADC_Vref2$3 1121
+.node_map ADC_Temp_amb$9 1103
+.node_map ADC_Temp_c$6 1088
+.node_map ADC_I_b$5 1039
+.node_map ADC_Vbusp$4 858
+.node_map DAC_HF_Duty_a$2 844
+.node_map BUS3$6 1206
+.node_map ADC_Vref_FB$4 1134
+.node_map ADC_Vref2$4 1122
+.node_map ADC_Temp_c$7 1089
+.node_map ADC_I_b$6 1040
+.node_map DAC_LF_Duty_a$10 924
+.node_map ADC_Vbusp$5 859
+.node_map DAC_HF_Duty_a$3 845
+.node_map S4_a 1263
+.node_map BUS3$7 1207
+.node_map ADC_Vref_FB$5 1135
+.node_map ADC_Vref2$5 1123
+.node_map ADC_Temp_c$8 1090
+.node_map ADC_I_b$7 1041
+.node_map DAC_LF_Duty_a$11 925
+.node_map ADC_Vbusp$6 860
+.node_map DAC_HF_Duty_a$4 846
+.node_map S4_b 1264
+.node_map BUS3$8 1208
+.node_map ADC_Vref_FB$6 1136
+.node_map ADC_Vref2$6 1124
+.node_map ADC_Vref1$10 1116
+.node_map ADC_Temp_c$9 1091
+.node_map ADC_I_c$0 1046
+.node_map ADC_I_b$8 1042
+.node_map ADC_Vbusp$7 861
+.node_map DAC_HF_Duty_a$5 847
+.node_map S4_c 1265
+.node_map BUS3$9 1209
+.node_map ADC_Vref_FB$7 1137
+.node_map ADC_Vref2$7 1125
+.node_map ADC_Vref1$11 1117
+.node_map ADC_I_c$1 1047
+.node_map ADC_I_b$9 1043
+.node_map ADC_Vbusp$8 862
+.node_map DAC_HF_Duty_a$6 848
+.node_map ADC_Vref_FB$8 1138
+.node_map ADC_Vref2$8 1126
+.node_map ADC_I_c$2 1048
+.node_map ADC_Vanpc_a$10 984
+.node_map ADC_Vbusp$9 863
+.node_map DAC_HF_Duty_a$7 849
+.node_map Temp_a_fb 1241
+.node_map ADC_Vref_FB$9 1139
+.node_map ADC_Vref2$9 1127
+.node_map ADC_I_c$3 1049
+.node_map ADC_Vanpc_a$11 985
+.node_map DAC_HF_Duty_b$0 866
+.node_map DAC_HF_Duty_a$8 850
+.node_map ADC_I_c$4 1050
+.node_map DAC_HF_Duty_b$1 867
+.node_map DAC_HF_Duty_a$9 851
+.node_map ADC_I_c$5 1051
+.node_map DAC_HF_Duty_b$2 868
+.node_map ADC_I_c$6 1052
+.node_map DAC_HF_Duty_b$3 869
+.node_map S5_a 1232
+.node_map ADC_I_c$7 1053
+.node_map DAC_HF_Duty_b$4 870
+.node_map S5_b 1234
+.node_map Vbusp_fb 1215
+.node_map ADC_I_c$8 1054
+.node_map DAC_HF_Duty_b$5 871
+.node_map S5_c 1236
+.node_map ADC_I_c$9 1055
+.node_map DAC_HF_Duty_b$6 872
+.node_map DAC_HF_Duty_b$7 873
+.node_map Fan 1284
+.node_map DAC_LF_Duty_b$10 948
+.node_map DAC_HF_Duty_c$0 890
+.node_map DAC_HF_Duty_b$8 874
+.node_map DAC_LF_Duty_b$11 949
+.node_map DAC_HF_Duty_c$1 891
+.node_map DAC_HF_Duty_b$9 875
+.node_map HW_1MHz$0 1142
+.node_map ADC_Vref2$10 1128
+.node_map DAC_HF_Duty_c$2 892
+.node_map HW_1MHz$1 1143
+.node_map ADC_Vref2$11 1129
+.node_map DAC_HF_Duty_c$3 893
+.node_map S6_a 1251
+.node_map ADC_Vanpc_b$10 1008
+.node_map DAC_HF_Duty_c$4 894
+.node_map S6_b 1253
+.node_map Temp_b_fb 1248
+.node_map Vbusn_fb 1228
+.node_map ADC_Vanpc_b$11 1009
+.node_map DAC_HF_Duty_c$5 895
+.node_map S6_c 1255
+.node_map DAC_Debug_1$10 1156
+.node_map DAC_HF_Duty_c$6 896
+.node_map DAC_Debug_1$11 1157
+.node_map DAC_HF_Duty_c$7 897
+.node_map DAC_HF_Duty_c$8 898
+.node_map DAC_HF_Duty_c$9 899
+.node_map Temp_amb_fb 1266
+.node_map Timer_Isr$0 1158
+.node_map DAC_LF_Duty_c$10 972
+.node_map Vref1_fb 1240
+.node_map Timer_Isr$1 1159
+.node_map DAC_LF_Duty_c$11 973
+.node_map ADC_Vanpc_c$10 1020
+.node_map ADC_Vanpc_c$11 1021
+.node_map TIMER_10Hz_CLK 1249
+.node_map ADC_Vref_FB$10 1140
+.node_map ADC_Vref_FB$11 1141
+.node_map HF_Deadband 1272
+.node_map Vbusn 1230
+.node_map Vanpc_c_fb 1267
+.node_map Vbusp 1212
+.node_map Vref2_fb 1247
+.node_map N 1223
+.node_map Timer_10Hz$0 1174
+.node_map TIMER_1kHz_CLK 1245
+.node_map Vref2 1224
+.node_map HW_CLK 1214
+.node_map Timer_10Hz$1 1175
+.node_map Count_EN 1260
+.node_map ADC_Vgrid_c$10 960
+.node_map DAC_LF_Duty_a$0 914
+.node_map Load 1273
+.node_map ADC_Vgrid_c$11 961
+.node_map DAC_LF_Duty_a$1 915
+.node_map DAC_LF_Duty_a$2 916
+.node_map Vanpc_a_fb 1256
+.node_map DAC_LF_Duty_a$3 917
+.node_map DAC_LF_Duty_a$4 918
+.node_map DAC_LF_Duty_a$5 919
+.node_map TIMER_10kHz_CLK 1237
+.node_map DAC_LF_Duty_a$6 920
+.node_map Enable_LFPWM_a 1281
+.node_map ADC_I_c$10 1056
+.node_map DAC_LF_Duty_a$7 921
+.node_map Enable_LFPWM_b 1282
+.node_map ADC_I_c$11 1057
+.node_map DAC_LF_Duty_b$0 938
+.node_map DAC_LF_Duty_a$8 922
+.node_map ADC_Vgrid_a$10 912
+.node_map Enable_LFPWM_c 1283
+.node_map ADC_Temp_amb$10 1104
+.node_map DAC_LF_Duty_b$1 939
+.node_map DAC_LF_Duty_a$9 923
+.node_map ADC_Vgrid_a$11 913
+.node_map ADC_Temp_amb$11 1105
+.node_map DAC_LF_Duty_b$2 940
+.node_map DAC_LF_Duty_b$3 941
+.node_map ADC_Temp_c$10 1092
+.node_map DAC_LF_Duty_b$4 942
+.node_map ADC_Temp_c$11 1093
+.node_map DAC_HF_Deadband$0 986
+.node_map DAC_LF_Duty_b$5 943
+.node_map DAC_HF_Deadband$1 987
+.node_map DAC_LF_Duty_b$6 944
+.node_map ADC_I_a$10 1032
+.node_map DAC_HF_Deadband$2 988
+.node_map DAC_LF_Duty_b$7 945
+.node_map ADC_Vgrid_a$0 902
+.node_map Vanpc_b_fb 1262
+.node_map Vgrid_a_fb 1216
+.node_map I_a_fb 1213
+.node_map ADC_I_a$11 1033
+.node_map DAC_HF_Deadband$3 989
+.node_map DAC_LF_Duty_c$0 962
+.node_map DAC_LF_Duty_b$8 946
+.node_map ADC_Vgrid_a$1 903
+.node_map DAC_Debug_1$0 1146
+.node_map DAC_HF_Deadband$4 990
+.node_map DAC_LF_Duty_c$1 963
+.node_map DAC_LF_Duty_b$9 947
+.node_map ADC_Vgrid_a$2 904
+.node_map ADC_CLK 1226
+.node_map Vanpc_a 1221
+.node_map DAC_Debug_1$1 1147
+.node_map DAC_HF_Deadband$5 991
+.node_map DAC_LF_Duty_c$2 964
+.node_map ADC_Vgrid_a$3 905
+.node_map Vanpc_b 1243
+.node_map DAC_Debug_1$2 1148
+.node_map DAC_HF_Deadband$6 992
+.node_map DAC_LF_Duty_c$3 965
+.node_map ADC_Vgrid_a$4 906
+.node_map Vanpc_c 1261
+.node_map Inrush_Relay 1225
+.node_map DAC_Debug_1$3 1149
+.node_map ADC_Temp_a$10 1068
+.node_map DAC_HF_Deadband$7 993
+.node_map DAC_LF_Duty_c$4 966
+.node_map ADC_Vgrid_a$5 907
 *.ac DEC 25 1k 1Meg
 .options
 + PSP_NPT=100001
@@ -458,48 +459,49 @@
 .var Vin_pk=Vin/1.732*1.414
 .var VLL_pk=Vin*1.414/2
 
-C1 1208 0 600u IC=0
-C2 0 1226 600u IC=0
-Co1 332 349 4.7u IC=0
-Co2 339 350 4.7u IC=0
-Co3 346 351 4.7u IC=0
-Co4 332 352 4.7u IC=0
-Co5 339 353 4.7u IC=0
-Co6 346 354 4.7u IC=0
-X$D1_a 335 1208 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D1_a'
-X$D1_b 336 1208 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D1_b'
-X$D1_c 337 1208 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D1_c'
-X$D2_a 1218 335 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D2_a'
-X$D2_b 1240 336 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D2_b'
-X$D2_c 1242 337 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D2_c'
-X$D3_a 342 1218 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D3_a'
-X$D3_b 343 1240 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D3_b'
-X$D3_c 344 1242 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D3_c'
-X$D4_a 1226 342 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D4_a'
-X$D4_b 1226 343 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D4_b'
-X$D4_c 1226 344 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D4_c'
-X$D5_a 0 335 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D5_a'
-X$D5_b 0 336 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D5_b'
-X$D5_c 0 337 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D5_c'
-X$D6_a 342 0 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D6_a'
-X$D6_b 343 0 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D6_b'
-X$D6_c 344 0 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D6_c'
-E1 1263 0 358 0 1k
-E10 1236 0 1220 0 1
-E11 1243 0 1220 0 1
-E12 1237 0 0 0 1
-E13 1244 0 0 0 1
-E14 1254 0 0 0 1
-E15 1261 0 0 0 1
-E2 1212 0 1216 1219 {1/407}
-E3 1223 0 1225 1219 {1/407}
-E4 1235 0 1238 1219 {1/407}
-E5 1211 0 1208 0 {1/469}
-E6 1262 0 1256 0 {1/407}
-E7 1224 0 0 1226 {1/469}
-E8 1257 0 1239 0 {1/407}
-E9 1252 0 1217 0 {1/407}
-X$H1 1209 0 1218 334 H1$TP_CCVS vars: gain={1/49.75}
+C1 1212 0 600u IC=0
+C2 0 1230 600u IC=0
+Co1 336 353 4.7u IC=0
+Co2 343 354 4.7u IC=0
+Co3 350 355 4.7u IC=0
+Co4 336 356 4.7u IC=0
+Co5 343 357 4.7u IC=0
+Co6 350 358 4.7u IC=0
+X$D1_a 339 1212 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D1_a'
+X$D1_b 340 1212 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D1_b'
+X$D1_c 341 1212 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D1_c'
+X$D2_a 1222 339 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D2_a'
+X$D2_b 1244 340 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D2_b'
+X$D2_c 1246 341 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D2_c'
+X$D3_a 346 1222 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D3_a'
+X$D3_b 347 1244 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D3_b'
+X$D3_c 348 1246 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D3_c'
+X$D4_a 1230 346 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D4_a'
+X$D4_b 1230 347 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D4_b'
+X$D4_c 1230 348 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D4_c'
+X$D5_a 0 339 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D5_a'
+X$D5_b 0 340 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D5_b'
+X$D5_c 0 341 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D5_c'
+X$D6_a 346 0 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D6_a'
+X$D6_b 347 0 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D6_b'
+X$D6_c 348 0 DIODE_SPICE_V3 vars: LIMIT_MAX_ROFF=1 TEMP=50 USER_DIODE_FWD_RES=193.029u LEVEL=0 USER_IC_A=1 USER_IC_B=1 USER_IC_C=1 USER_IC_D=1 USER_IC=1 DEVICE='IDEAL' VD_PEAK=1.2k LABEL='USER_LABEL' USER_DIODE_FWD_VOLTAGE=787.123m ID_PEAK=200 CONFIG=0 NUMSEG=2 IC_A=1 USER_DIODE_CJ=0 IC_B=1 IC_C=1 IC_D=1 MAX_ROFF=100Meg IC=1 ID0=-12.00000000000027u ID1=7.871229093045758n ID2=200.0000000000045 VD0=-1.200000000000027k VD1=787.1229093045758m USER_DIODE_OFF_RESISTANCE=1.93029Meg VD2=825.7287279363107m USE_EXTRACTED=1 REF='D6_c'
+E1 1268 0 362 0 1k
+E10 1240 0 1224 0 1
+E11 1247 0 1224 0 1
+E12 1241 0 0 0 1
+E13 1248 0 0 0 1
+E14 1259 0 0 0 1
+E15 1266 0 0 0 1
+E16 1258 0 1224 0 1
+E2 1216 0 1220 1223 {1/407}
+E3 1227 0 1229 1223 {1/407}
+E4 1239 0 1242 1223 {1/407}
+E5 1215 0 1212 0 {1/469}
+E6 1267 0 1261 0 {1/407}
+E7 1228 0 0 1230 {1/469}
+E8 1262 0 1243 0 {1/407}
+E9 1256 0 1221 0 {1/407}
+X$H1 1213 0 1222 338 H1$TP_CCVS vars: gain={1/49.75}
 .subckt H1$TP_CCVS 1 2 3 4
 .node_map P 1
 .node_map N 2
@@ -508,7 +510,7 @@ X$H1 1209 0 1218 334 H1$TP_CCVS vars: gain={1/49.75}
 H1 1 2 V1 {gain}
 V1 3 4 0
 .ends
-X$H2 1234 0 1240 341 H2$TP_CCVS vars: gain={1/51.55}
+X$H2 1238 0 1244 345 H2$TP_CCVS vars: gain={1/51.55}
 .subckt H2$TP_CCVS 1 2 3 4
 .node_map P 1
 .node_map N 2
@@ -517,7 +519,7 @@ X$H2 1234 0 1240 341 H2$TP_CCVS vars: gain={1/51.55}
 H1 1 2 V1 {gain}
 V1 3 4 0
 .ends
-X$H3 1253 0 1242 348 H3$TP_CCVS vars: gain={1/52.36}
+X$H3 1257 0 1246 352 H3$TP_CCVS vars: gain={1/52.36}
 .subckt H3$TP_CCVS 1 2 3 4
 .node_map P 1
 .node_map N 2
@@ -526,68 +528,68 @@ X$H3 1253 0 1242 348 H3$TP_CCVS vars: gain={1/52.36}
 H1 1 2 V1 {gain}
 V1 3 4 0
 .ends
-I1 329 1226 PWL NSEG=6 X0=0 Y0=0.125 X1=10u Y1=0.125 X2=250m Y2=0.125 X3=255m Y3=6.4 X4=550m Y4=6.4 X5=555m Y5=1 X6=600m Y6=1 
-V$IPROBE1 1216 330 0.0
+I1 333 1230 PWL NSEG=6 X0=0 Y0=0.125 X1=10u Y1=0.125 X2=250m Y2=0.125 X3=255m Y3=6.4 X4=550m Y4=6.4 X5=555m Y5=1 X6=600m Y6=1 
+V$IPROBE1 1220 334 0.0
 .PRINT I(V$IPROBE1)
 .GRAPH IPROBE1#P axisType="grid" axisName="Igrid" persistence=-1 curveLabel="Igrid_a" analysis="tran|pop" order="3" xLog="auto" yLog="lin" colour=16711680  nowarn=true disabled=false 
-V$IPROBE10 347 348 0.0
+V$IPROBE10 351 352 0.0
 .PRINT I(V$IPROBE10)
 .GRAPH IPROBE10#P axisType="grid" axisName="I" persistence=-1 curveLabel="I_c" analysis="tran|pop" order="4" xLog="auto" yLog="lin" colour=255  nowarn=true disabled=false 
-V$IPROBE2 1225 338 0.0
+V$IPROBE2 1229 342 0.0
 .PRINT I(V$IPROBE2)
 .GRAPH IPROBE2#P axisType="grid" axisName="Igrid" persistence=-1 curveLabel="Igrid_b" analysis="tran|pop" order="3" xLog="auto" yLog="lin" colour=32768  nowarn=true disabled=false 
-V$IPROBE3 1238 345 0.0
+V$IPROBE3 1242 349 0.0
 .PRINT I(V$IPROBE3)
 .GRAPH IPROBE3#P axisType="grid" axisName="Igrid" persistence=-1 curveLabel="Igrid_c" analysis="tran|pop" order="3" xLog="auto" yLog="lin" colour=255  nowarn=true disabled=false 
-V$IPROBE6 1208 329 0.0
+V$IPROBE6 1212 333 0.0
 .PRINT I(V$IPROBE6)
 .GRAPH IPROBE6#P axisType="grid" axisName="Iout" persistence=-1 curveLabel="Iout" analysis="tran|pop" order="12" xLog="auto" yLog="lin" colour=16711680  nowarn=true disabled=true 
-V$IPROBE8 333 334 0.0
+V$IPROBE8 337 338 0.0
 .PRINT I(V$IPROBE8)
 .GRAPH IPROBE8#P axisType="grid" axisName="I" persistence=-1 curveLabel="I_a" analysis="tran|pop" order="4" xLog="auto" yLog="lin" colour=16711680  nowarn=true disabled=false 
-V$IPROBE9 340 341 0.0
+V$IPROBE9 344 345 0.0
 .PRINT I(V$IPROBE9)
 .GRAPH IPROBE9#P axisType="grid" axisName="I" persistence=-1 curveLabel="I_b" analysis="tran|pop" order="4" xLog="auto" yLog="lin" colour=32768  nowarn=true disabled=false 
-La 332 333 340u IC=0
-La1 1217 332 22u IC=0
-Lb 339 340 340u IC=0
-Lb1 1239 339 22u IC=0
-Lc 346 347 340u IC=0
-Lc1 1256 346 22u IC=0
-E$Probe1$TP_DIFFPRB 1280 0 0 1226 1 
-.PRINT V(1280)
-.graph :1280 axisType="grid" axisName="Vbus" persistence=-1 curveLabel="Vbusn" analysis="tran|ac|pop" order="5" xLog="auto" yLog="lin" yUnit="V"  nowarn=true disabled=false 
+La 336 337 340u IC=0
+La1 1221 336 22u IC=0
+Lb 343 344 340u IC=0
+Lb1 1243 343 22u IC=0
+Lc 350 351 340u IC=0
+Lc1 1261 350 22u IC=0
+E$Probe1$TP_DIFFPRB 1285 0 0 1230 1 
+.PRINT V(1285)
+.graph :1285 axisType="grid" axisName="Vbus" persistence=-1 curveLabel="Vbusn" analysis="tran|ac|pop" order="5" xLog="auto" yLog="lin" yUnit="V"  nowarn=true disabled=false 
 .PRINT V(#S3_a)
 .GRAPH :#S3_a axisType="grid" axisName="S3_a" persistence=-1 curveLabel="S3_a" analysis="tran|pop" order="23" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe10  
 .PRINT V(#S4_a)
 .GRAPH :#S4_a axisType="grid" axisName="S4_a" persistence=-1 curveLabel="S4_a" analysis="tran|pop" order="24" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe11  
-E$Probe12$TP_DIFFPRB 1281 0 1256 0 1 
-.PRINT V(1281)
-.graph :1281 axisType="grid" axisName="Vanpc" persistence=-1 curveLabel="Vanpc_c" analysis="tran|pop" order="2" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe12$TP_DIFFPRB 1286 0 1261 0 1 
+.PRINT V(1286)
+.graph :1286 axisType="grid" axisName="Vanpc" persistence=-1 curveLabel="Vanpc_c" analysis="tran|pop" order="2" xLog="auto" yLog="auto"  nowarn=true disabled=false 
 .PRINT V(#S5_a)
 .GRAPH :#S5_a axisType="grid" axisName="S5_a" persistence=-1 curveLabel="S5_a" analysis="tran|pop" order="25" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe13  
 .PRINT V(#S6_a)
 .GRAPH :#S6_a axisType="grid" axisName="S6_a" persistence=-1 curveLabel="S6_a" analysis="tran|pop" order="26" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe14  
-E$Probe15$TP_DIFFPRB 1282 0 1217 0 1 
-.PRINT V(1282)
-.graph :1282 axisType="grid" axisName="Vanpc" persistence=-1 curveLabel="Vanpc_a" analysis="tran|pop" order="2" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe16$TP_DIFFPRB 1283 0 1239 0 1 
-.PRINT V(1283)
-.graph :1283 axisType="grid" axisName="Vanpc" persistence=-1 curveLabel="Vanpc_b" analysis="tran|pop" order="2" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe15$TP_DIFFPRB 1287 0 1221 0 1 
+.PRINT V(1287)
+.graph :1287 axisType="grid" axisName="Vanpc" persistence=-1 curveLabel="Vanpc_a" analysis="tran|pop" order="2" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe16$TP_DIFFPRB 1288 0 1243 0 1 
+.PRINT V(1288)
+.graph :1288 axisType="grid" axisName="Vanpc" persistence=-1 curveLabel="Vanpc_b" analysis="tran|pop" order="2" xLog="auto" yLog="auto"  nowarn=true disabled=false 
 .PRINT V(#HF_Duty_a)
 .GRAPH :#HF_Duty_a axisType="grid" axisName="HF_Duty" persistence=-1 curveLabel="HF_Duty_a" analysis="tran|pop" order="10" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe17  
 .PRINT V(#HF_Duty_b)
 .GRAPH :#HF_Duty_b axisType="grid" axisName="HF_Duty" persistence=-1 curveLabel="HF_Duty_b" analysis="tran|pop" order="10" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe19  
-E$Probe2$TP_DIFFPRB 1284 0 1208 0 1 
-.PRINT V(1284)
-.graph :1284 axisType="grid" axisName="Vbus" persistence=-1 curveLabel="Vbusp" analysis="tran|ac|pop" order="5" xLog="auto" yLog="lin" yUnit="V"  nowarn=true disabled=false 
+E$Probe2$TP_DIFFPRB 1289 0 1212 0 1 
+.PRINT V(1289)
+.graph :1289 axisType="grid" axisName="Vbus" persistence=-1 curveLabel="Vbusp" analysis="tran|ac|pop" order="5" xLog="auto" yLog="lin" yUnit="V"  nowarn=true disabled=false 
 .PRINT V(#LF_Duty_a)
 .GRAPH :#LF_Duty_a axisType="grid" axisName="LF_Duty" persistence=-1 curveLabel="LF_Duty_a" analysis="tran|pop" order="11" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe20  
 .PRINT V(#HF_Duty_c)
 .GRAPH :#HF_Duty_c axisType="grid" axisName="HF_Duty" persistence=-1 curveLabel="HF_Duty_c" analysis="tran|pop" order="10" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe21  
-E$Probe22$TP_DIFFPRB 1285 0 329 1226 1 
-.PRINT V(1285)
-.graph :1285 axisType="grid" axisName="Vbus" persistence=-1 curveLabel="Vbus" analysis="tran|ac|pop" order="20" xLog="auto" yLog="lin" yUnit="V"  nowarn=true disabled=true 
+E$Probe22$TP_DIFFPRB 1290 0 333 1230 1 
+.PRINT V(1290)
+.graph :1290 axisType="grid" axisName="Vbus" persistence=-1 curveLabel="Vbus" analysis="tran|ac|pop" order="20" xLog="auto" yLog="lin" yUnit="V"  nowarn=true disabled=true 
 .PRINT V(#PWM_EN)
 .GRAPH :#PWM_EN curveLabel= PWM_En nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe23  
 .PRINT V(#LF_Duty_b)
@@ -596,75 +598,79 @@ E$Probe22$TP_DIFFPRB 1285 0 329 1226 1
 .GRAPH :#LF_Duty_c axisType="grid" axisName="LF_Duty" persistence=-1 curveLabel="LF_Duty_c" analysis="tran|pop" order="11" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe25  
 .PRINT V(#Inrush_Relay)
 .GRAPH :#Inrush_Relay curveLabel= Inrush_Relay nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe27  
-E$Probe28$TP_DIFFPRB 1286 0 335 1218 1 
-.PRINT V(1286)
-.graph :1286 axisType="grid" axisName="Vds2" persistence=-1 curveLabel="Vds2" analysis="tran|pop" order="51" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe29$TP_DIFFPRB 1287 0 1208 335 1 
-.PRINT V(1287)
-.graph :1287 axisType="grid" axisName="Vds1" persistence=-1 curveLabel="Vds1" analysis="tran|pop" order="50" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-.PRINT V(694)
-.GRAPH :694 axisType="grid" axisName="Debug_1" persistence=-1 curveLabel="Debug_1" analysis="tran|pop" order="100" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe3  
-E$Probe30$TP_DIFFPRB 1288 0 1218 342 1 
-.PRINT V(1288)
-.graph :1288 axisType="grid" axisName="Vds3" persistence=-1 curveLabel="Vds3" analysis="tran|pop" order="52" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe31$TP_DIFFPRB 1289 0 342 1226 1 
-.PRINT V(1289)
-.graph :1289 axisType="grid" axisName="Vds4" persistence=-1 curveLabel="Vds4" analysis="tran|pop" order="53" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe32$TP_DIFFPRB 1290 0 335 0 1 
-.PRINT V(1290)
-.graph :1290 axisType="grid" axisName="Vds5" persistence=-1 curveLabel="Vds5" analysis="tran|pop" order="54" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe33$TP_DIFFPRB 1291 0 0 342 1 
+E$Probe28$TP_DIFFPRB 1291 0 339 1222 1 
 .PRINT V(1291)
-.graph :1291 axisType="grid" axisName="Vds6" persistence=-1 curveLabel="Vds6" analysis="tran|pop" order="55" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-.PRINT V(692)
-.GRAPH :692 axisType="grid" axisName="Debug_2" persistence=-1 curveLabel="Debug_2" analysis="tran|pop" order="101" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe4  
-E$Probe5$TP_DIFFPRB 1292 0 1216 1219 1 
+.graph :1291 axisType="grid" axisName="Vds2" persistence=-1 curveLabel="Vds2" analysis="tran|pop" order="51" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe29$TP_DIFFPRB 1292 0 1212 339 1 
 .PRINT V(1292)
-.graph :1292 axisType="grid" axisName="Vgrid" persistence=-1 curveLabel="Vgrid_a" analysis="tran|pop" order="1" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe6$TP_DIFFPRB 1293 0 1225 1219 1 
+.graph :1292 axisType="grid" axisName="Vds1" persistence=-1 curveLabel="Vds1" analysis="tran|pop" order="50" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.PRINT V(698)
+.GRAPH :698 axisType="grid" axisName="Debug_1" persistence=-1 curveLabel="Debug_1" analysis="tran|pop" order="100" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe3  
+E$Probe30$TP_DIFFPRB 1293 0 1222 346 1 
 .PRINT V(1293)
-.graph :1293 axisType="grid" axisName="Vgrid" persistence=-1 curveLabel="Vgrid_b" analysis="tran|pop" order="1" xLog="auto" yLog="auto"  nowarn=true disabled=false 
-E$Probe7$TP_DIFFPRB 1294 0 1238 1219 1 
+.graph :1293 axisType="grid" axisName="Vds3" persistence=-1 curveLabel="Vds3" analysis="tran|pop" order="52" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe31$TP_DIFFPRB 1294 0 346 1230 1 
 .PRINT V(1294)
-.graph :1294 axisType="grid" axisName="Vgrid" persistence=-1 curveLabel="Vgrid_c" analysis="tran|pop" order="1" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.graph :1294 axisType="grid" axisName="Vds4" persistence=-1 curveLabel="Vds4" analysis="tran|pop" order="53" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe32$TP_DIFFPRB 1295 0 339 0 1 
+.PRINT V(1295)
+.graph :1295 axisType="grid" axisName="Vds5" persistence=-1 curveLabel="Vds5" analysis="tran|pop" order="54" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe33$TP_DIFFPRB 1296 0 0 346 1 
+.PRINT V(1296)
+.graph :1296 axisType="grid" axisName="Vds6" persistence=-1 curveLabel="Vds6" analysis="tran|pop" order="55" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.PRINT V(#HW_1MHz$0)
+.GRAPH :#HW_1MHz$0 curveLabel= U28-D0 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe34  
+.PRINT V(#HW_1MHz$1)
+.GRAPH :#HW_1MHz$1 curveLabel= U28-D1 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe35  
+.PRINT V(696)
+.GRAPH :696 axisType="grid" axisName="Debug_2" persistence=-1 curveLabel="Debug_2" analysis="tran|pop" order="101" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe4  
+E$Probe5$TP_DIFFPRB 1297 0 1220 1223 1 
+.PRINT V(1297)
+.graph :1297 axisType="grid" axisName="Vgrid" persistence=-1 curveLabel="Vgrid_a" analysis="tran|pop" order="1" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe6$TP_DIFFPRB 1298 0 1229 1223 1 
+.PRINT V(1298)
+.graph :1298 axisType="grid" axisName="Vgrid" persistence=-1 curveLabel="Vgrid_b" analysis="tran|pop" order="1" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+E$Probe7$TP_DIFFPRB 1299 0 1242 1223 1 
+.PRINT V(1299)
+.graph :1299 axisType="grid" axisName="Vgrid" persistence=-1 curveLabel="Vgrid_c" analysis="tran|pop" order="1" xLog="auto" yLog="auto"  nowarn=true disabled=false 
 .PRINT V(#S1_a)
 .GRAPH :#S1_a axisType="grid" axisName="S1_a" persistence=-1 curveLabel="S1_a" analysis="tran|pop" order="21" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe8  
 .PRINT V(#S2_a)
 .GRAPH :#S2_a axisType="grid" axisName="S2_a" persistence=-1 curveLabel="S2_a" analysis="tran|pop" order="22" xLog="auto" yLog="auto"  nowarn=true disabled=false PROBEREF=Probe9  
-R14 1217 330 10
-R2 1239 338 10
-R3 1256 345 10
-Rbusn 0 1226 1Meg
-Rbusp 1208 0 1Meg
-Rco1 349 1219 550m
-Rco2 350 1219 550m
-Rco3 351 1219 550m
-Rco4 352 0 550m
-Rco5 353 0 550m
-Rco6 354 0 550m
-X$S1_a 1208 335 1213 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S1_b 1208 336 1214 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S1_c 1208 337 1215 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S2_a 335 1218 1227 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S2_b 336 1240 1229 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S2_c 337 1242 1231 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S3_a 1218 342 1246 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S3_b 1240 343 1248 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S3_c 1242 344 1250 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S4_a 342 1226 1258 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S4_b 343 1226 1259 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S4_c 344 1226 1260 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S5_a 335 0 1228 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S5_b 336 0 1230 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S5_c 337 0 1232 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S6_a 0 342 1247 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S6_b 0 343 1249 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S6_c 0 344 1251 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
-X$S7 330 1217 1221 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=500m HYSTWD=100u IC='OPEN' LOGIC='POS'
-X$S8 338 1239 1221 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=500m HYSTWD=100u IC='OPEN' LOGIC='POS'
-X$S9 345 1256 1221 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=500m HYSTWD=100u IC='OPEN' LOGIC='POS'
-X$U1 1233 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=100u WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
-X$U10 694 1142 1143 1144 1145 1146 1147 1148 1149 1150 1151 1152 1153 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U10
+R14 1221 334 10
+R2 1243 342 10
+R3 1261 349 10
+Rbusn 0 1230 1Meg
+Rbusp 1212 0 1Meg
+Rco1 353 1223 550m
+Rco2 354 1223 550m
+Rco3 355 1223 550m
+Rco4 356 0 550m
+Rco5 357 0 550m
+Rco6 358 0 550m
+X$S1_a 1212 339 1217 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S1_b 1212 340 1218 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S1_c 1212 341 1219 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S2_a 339 1222 1231 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S2_b 340 1244 1233 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S2_c 341 1246 1235 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S3_a 1222 346 1250 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S3_b 1244 347 1252 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S3_c 1246 348 1254 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S4_a 346 1230 1263 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S4_b 347 1230 1264 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S4_c 348 1230 1265 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S5_a 339 0 1232 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S5_b 340 0 1234 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S5_c 341 0 1236 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S6_a 0 346 1251 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S6_b 0 347 1253 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S6_c 0 348 1255 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=2 HYSTWD=100m IC='OPEN' LOGIC='POS'
+X$S7 334 1221 1225 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=500m HYSTWD=100u IC='OPEN' LOGIC='POS'
+X$S8 342 1243 1225 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=500m HYSTWD=100u IC='OPEN' LOGIC='POS'
+X$S9 349 1261 1225 0 SIMPLIS_VC_SWITCH vars: ROFF=1Meg RON=1m THRESHOLD=500m HYSTWD=100u IC='OPEN' LOGIC='POS'
+X$U1 1237 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=100u WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
+X$U10 698 1146 1147 1148 1149 1150 1151 1152 1153 1154 1155 1156 1157 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U10
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U10 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -728,7 +734,7 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U10
 
 
-X$U11 692 1156 1157 1158 1159 1160 1161 1162 1163 1164 1165 1166 1167 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U11
+X$U11 696 1160 1161 1162 1163 1164 1165 1166 1167 1168 1169 1170 1171 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U11
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U11 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -792,22 +798,22 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U11
 
 
-X$U13 1263 1271 1266 1272 1267 1268 1213 1227 1246 1258 1228 1247 688 687 686 685 ANPC_PWM_Javed
-X$U14 1263 1270 1265 1272 1267 1268 1214 1229 1248 1259 1230 1249 769 768 767 766 ANPC_PWM_Javed
-X$U15 564 0 1257 577 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U13 1268 1276 1271 1277 1272 1273 1217 1231 1250 1263 1232 1251 692 691 690 689 ANPC_PWM_Javed
+X$U14 1268 1275 1270 1277 1272 1273 1218 1233 1252 1264 1234 1253 773 772 771 770 ANPC_PWM_Javed
+X$U15 568 0 1262 581 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U16 1263 1269 1264 1272 1267 1268 1215 1231 1250 1260 1232 1251 818 817 816 815 ANPC_PWM_Javed
-X$U17 704 0 1262 715 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U16 1268 1274 1269 1277 1272 1273 1219 1235 1254 1265 1236 1255 822 821 820 819 ANPC_PWM_Javed
+X$U17 708 0 1267 719 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U18 568 0 1224 581 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U18 572 0 1228 585 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U19 381 0 1212 396 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U19 385 0 1216 400 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U2 379 0 1252 394 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U2 383 0 1256 398 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U20 562 0 1234 575 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U20 566 0 1238 579 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U21 1154 1155 1233 1255 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U21 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
+X$U21 1158 1159 1237 1260 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U21 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
 .SUBCKT SIMPLIS_DIGI1_D_UP_COUNTER_YX$U21 2001 2002 1001 1002 1003 100 vars: RIN=10Meg TH=2.5 HYSTWD=1.0 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=-1 IC=0
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -835,8 +841,8 @@ A_D_UP_COUNTER %%gnd_ref 100 [ 2001 2002 ] [ 1001 1002 1003 ] MODEL=MD_UP_COUNTE
 + RESET_TO={RESET_TO}
 .ENDS SIMPLIS_DIGI1_D_UP_COUNTER_YX$U21
 
-X$U22 1222 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=20u WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
-X$U23 1168 1169 1241 1255 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U23 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
+X$U22 1226 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=20u WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
+X$U23 1172 1173 1245 1260 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U23 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
 .SUBCKT SIMPLIS_DIGI1_D_UP_COUNTER_YX$U23 2001 2002 1001 1002 1003 100 vars: RIN=10Meg TH=2.5 HYSTWD=1.0 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=-1 IC=0
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -864,11 +870,11 @@ A_D_UP_COUNTER %%gnd_ref 100 [ 2001 2002 ] [ 1001 1002 1003 ] MODEL=MD_UP_COUNTE
 + RESET_TO={RESET_TO}
 .ENDS SIMPLIS_DIGI1_D_UP_COUNTER_YX$U23
 
-X$U24 377 0 1209 392 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U24 381 0 1213 396 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U25 702 0 1253 713 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U25 706 0 1257 717 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U26 1170 1171 1245 1255 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U26 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
+X$U26 1174 1175 1249 1260 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U26 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
 .SUBCKT SIMPLIS_DIGI1_D_UP_COUNTER_YX$U26 2001 2002 1001 1002 1003 100 vars: RIN=10Meg TH=2.5 HYSTWD=1.0 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=-1 IC=0
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -896,8 +902,8 @@ A_D_UP_COUNTER %%gnd_ref 100 [ 2001 2002 ] [ 1001 1002 1003 ] MODEL=MD_UP_COUNTE
 + RESET_TO={RESET_TO}
 .ENDS SIMPLIS_DIGI1_D_UP_COUNTER_YX$U26
 
-X$U27 1210 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=1u WIDTH=500n DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
-X$U28 1138 1139 1210 1255 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U28 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
+X$U27 1214 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=1u WIDTH=500n DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
+X$U28 1142 1143 1214 1260 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U28 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
 .SUBCKT SIMPLIS_DIGI1_D_UP_COUNTER_YX$U28 2001 2002 1001 1002 1003 100 vars: RIN=10Meg TH=2.5 HYSTWD=1.0 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=-1 IC=0
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -925,9 +931,9 @@ A_D_UP_COUNTER %%gnd_ref 100 [ 2001 2002 ] [ 1001 1002 1003 ] MODEL=MD_UP_COUNTE
 + RESET_TO={RESET_TO}
 .ENDS SIMPLIS_DIGI1_D_UP_COUNTER_YX$U28
 
-X$U3 1241 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=1m WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
+X$U3 1245 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=1m WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
 
-X$U31 850 851 852 853 854 855 856 857 858 859 860 861 874 875 876 877 878 879 880 881 882 883 884 885 898 899 900 901 902 903 904 905 906 907 908 909 922 923 924 925 926 927 928 929 930 931 932 933 946 947 948 949 950 951 952 953 954 955 956 957 970 971 972 973 974 975 976 977 978 979 980 981 994 995 996 997 998 999 1000 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 1095 1096 1097 1098 1099 1100 1101 1102 1103 1104 1105 1106 1107 1108 1109 1110 1111 1112 1113 1114 1115 1116 1117 1118 1119 1120 1121 1122 1123 1124 1125 1126 1127 1128 1129 1130 1131 1132 1133 1134 1135 1136 1137 1138 1139 1140 1141 1154 1155 1168 1169 1170 1171 838 839 840 841 842 843 844 845 846 847 848 849 862 863 864 865 866 867 868 869 870 871 872 873 886 887 888 889 890 891 892 893 894 895 896 897 910 911 912 913 914 915 916 917 918 919 920 921 934 935 936 937 938 939 940 941 942 943 944 945 958 959 960 961 962 963 964 965 966 967 968 969 982 983 984 985 986 987 988 989 990 991 992 993 1272 1273 1274 1275 1276 1277 1278 819 1221 1279 820 821 822 1142 1143 1144 1145 1146 1147 1148 1149 1150 1151 1152 1153 1156 1157 1158 1159 1160 1161 1162 1163 1164 1165 1166 1167 1172 1173 1174 1175 1176 1177 1178 1179 1180 1181 1182 1183 1184 1185 1186 1187 1188 1189 1190 1191 1192 1193 1194 1195 1196 1197 1198 1199 1200 1201 1202 1203 1204 1205 1206 1207 0 DLL_ANPCU31 vars:
+X$U31 854 855 856 857 858 859 860 861 862 863 864 865 878 879 880 881 882 883 884 885 886 887 888 889 902 903 904 905 906 907 908 909 910 911 912 913 926 927 928 929 930 931 932 933 934 935 936 937 950 951 952 953 954 955 956 957 958 959 960 961 974 975 976 977 978 979 980 981 982 983 984 985 998 999 1000 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 1095 1096 1097 1098 1099 1100 1101 1102 1103 1104 1105 1106 1107 1108 1109 1110 1111 1112 1113 1114 1115 1116 1117 1118 1119 1120 1121 1122 1123 1124 1125 1126 1127 1128 1129 1130 1131 1132 1133 1134 1135 1136 1137 1138 1139 1140 1141 1142 1143 1144 1145 1158 1159 1172 1173 1174 1175 842 843 844 845 846 847 848 849 850 851 852 853 866 867 868 869 870 871 872 873 874 875 876 877 890 891 892 893 894 895 896 897 898 899 900 901 914 915 916 917 918 919 920 921 922 923 924 925 938 939 940 941 942 943 944 945 946 947 948 949 962 963 964 965 966 967 968 969 970 971 972 973 986 987 988 989 990 991 992 993 994 995 996 997 1277 1278 1279 1280 1281 1282 1283 823 1225 1284 824 825 826 1146 1147 1148 1149 1150 1151 1152 1153 1154 1155 1156 1157 1160 1161 1162 1163 1164 1165 1166 1167 1168 1169 1170 1171 1176 1177 1178 1179 1180 1181 1182 1183 1184 1185 1186 1187 1188 1189 1190 1191 1192 1193 1194 1195 1196 1197 1198 1199 1200 1201 1202 1203 1204 1205 1206 1207 1208 1209 1210 1211 0 DLL_ANPCU31 vars:
 + STARTUP_DEBUG_DELAY=0
 + RIN=10Meg
 + ROUT=10
@@ -948,10 +954,10 @@ A_DLL_DEVICE %%gnd_ref 384 [ 227 228 229 230 231 232 233 234 235 236 237 238 239
 + VOL={VOL}
 + VOH={VOH}
 .ENDS DLL_ANPCU31
-X$U4 1245 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=100m WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
-X$U5 383 0 1211 398 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U4 1249 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=100m WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
+X$U5 387 0 1215 402 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U6 1140 1141 1222 1255 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U6 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
+X$U6 1144 1145 1226 1260 0 0 SIMPLIS_DIGI1_D_UP_COUNTER_YX$U6 vars: RIN=10Meg TH=2.5 HYSTWD=1 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=0 IC=0
 .SUBCKT SIMPLIS_DIGI1_D_UP_COUNTER_YX$U6 2001 2002 1001 1002 1003 100 vars: RIN=10Meg TH=2.5 HYSTWD=1.0 ROUT=10 VOL=0 VOH=5 MIN_CLK=10p TRIG_COND='0_TO_1' CLK_TO_OUT_DELAY=20p SETUP_TIME=10p HOLD_TIME=1p ENABLE_DELAY=10p RESET_DELAY=15p RESET_TYPE='ASYNC' RESET_LEVEL=1 RESET_TO=-1 IC=0
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -979,7 +985,7 @@ A_D_UP_COUNTER %%gnd_ref 100 [ 2001 2002 ] [ 1001 1002 1003 ] MODEL=MD_UP_COUNTE
 + RESET_TO={RESET_TO}
 .ENDS SIMPLIS_DIGI1_D_UP_COUNTER_YX$U6
 
-X$U7 1267 982 983 984 985 986 987 988 989 990 991 992 993 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U7
+X$U7 1272 986 987 988 989 990 991 992 993 994 995 996 997 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U7
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U7 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -1043,11 +1049,11 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U7
 
 
-X$U8 566 0 1223 579 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U8 570 0 1227 583 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U9 706 0 1235 717 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
+X$U9 710 0 1239 721 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
 + OFFSET=0 USE_RIN=0 RIN=10k
-X$U_ADC_1 874 875 876 877 878 879 880 881 882 883 884 885 670 676 682 568 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_1 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_1 878 879 880 881 882 883 884 885 886 887 888 889 674 680 686 572 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_1 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_1 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1087,7 +1093,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_1
 
-X$U_ADC_10 946 947 948 949 950 951 952 953 954 955 956 957 804 809 814 706 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_10 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_10 950 951 952 953 954 955 956 957 958 959 960 961 808 813 818 710 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_10 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_10 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1127,7 +1133,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_10
 
-X$U_ADC_11 898 899 900 901 902 903 904 905 906 907 908 909 514 522 530 381 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_11 902 903 904 905 906 907 908 909 910 911 912 913 518 526 534 385 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1167,7 +1173,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11
 
-X$U_ADC_12 1078 1079 1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 801 806 811 1254 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_12 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_12 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 805 810 815 1259 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_12 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_12 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1207,7 +1213,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_12
 
-X$U_ADC_13 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 666 672 678 1244 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_13 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_13 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 670 676 682 1248 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_13 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_13 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1247,7 +1253,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_13
 
-X$U_ADC_14 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 511 519 527 1237 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_14 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_14 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 515 523 531 1241 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_14 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_14 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1287,7 +1293,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_14
 
-X$U_ADC_15 1102 1103 1104 1105 1106 1107 1108 1109 1110 1111 1112 1113 665 671 677 1236 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_15 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_15 1106 1107 1108 1109 1110 1111 1112 1113 1114 1115 1116 1117 669 675 681 1240 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_15 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_15 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1327,7 +1333,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_15
 
-X$U_ADC_16 1114 1115 1116 1117 1118 1119 1120 1121 1122 1123 1124 1125 800 805 810 1243 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_16 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_16 1118 1119 1120 1121 1122 1123 1124 1125 1126 1127 1128 1129 804 809 814 1247 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_16 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_16 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1367,7 +1373,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_16
 
-X$U_ADC_17 1090 1091 1092 1093 1094 1095 1096 1097 1098 1099 1100 1101 510 518 526 1261 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_17 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_17 1094 1095 1096 1097 1098 1099 1100 1101 1102 1103 1104 1105 514 522 530 1266 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_17 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_17 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1407,7 +1413,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_17
 
-X$U_ADC_18 1126 1127 1128 1129 1130 1131 1132 1133 1134 1135 1136 1137 835 836 837 1220 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_18 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_18 1130 1131 1132 1133 1134 1135 1136 1137 1138 1139 1140 1141 839 840 841 1258 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_18 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_18 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1447,7 +1453,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_18
 
-X$U_ADC_2 970 971 972 973 974 975 976 977 978 979 980 981 513 521 529 379 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_2 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_2 974 975 976 977 978 979 980 981 982 983 984 985 517 525 533 383 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_2 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_2 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1487,7 +1493,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_2
 
-X$U_ADC_3 994 995 996 997 998 999 1000 1001 1002 1003 1004 1005 668 674 680 564 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_3 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_3 998 999 1000 1001 1002 1003 1004 1005 1006 1007 1008 1009 672 678 684 568 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_3 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_3 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1527,7 +1533,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_3
 
-X$U_ADC_4 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 803 808 813 704 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_4 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_4 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 807 812 817 708 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_4 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_4 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1567,7 +1573,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_4
 
-X$U_ADC_5 850 851 852 853 854 855 856 857 858 859 860 861 515 523 531 383 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_5 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_5 854 855 856 857 858 859 860 861 862 863 864 865 519 527 535 387 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_5 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_5 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1607,7 +1613,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_5
 
-X$U_ADC_6 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 512 520 528 377 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_6 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_6 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 516 524 532 381 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_6 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_6 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1647,7 +1653,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_6
 
-X$U_ADC_7 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 667 673 679 562 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_7 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_7 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 671 677 683 566 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_7 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_7 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1687,7 +1693,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_7
 
-X$U_ADC_8 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 802 807 812 702 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_8 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_8 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 806 811 816 706 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_8 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_8 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1727,7 +1733,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_8
 
-X$U_ADC_9 922 923 924 925 926 927 928 929 930 931 932 933 669 675 681 566 1222 1255 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_9 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+X$U_ADC_9 926 927 928 929 930 931 932 933 934 935 936 937 673 679 685 570 1226 1260 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_9 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_9 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
 .NODE_MAP D0 2001
 .NODE_MAP D1 2002
@@ -1767,7 +1773,7 @@ A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2
 + DATA_READY_DELAY={DATA_READY_DELAY}
 .ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_9
 
-X$U_DAC_3 1270 934 935 936 937 938 939 940 941 942 943 944 945 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_3
+X$U_DAC_3 1275 938 939 940 941 942 943 944 945 946 947 948 949 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_3
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_3 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -1831,7 +1837,7 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_3
 
 
-X$U_DAC_4 1269 958 959 960 961 962 963 964 965 966 967 968 969 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_4
+X$U_DAC_4 1274 962 963 964 965 966 967 968 969 970 971 972 973 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_4
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_4 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -1895,7 +1901,7 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_4
 
 
-X$U_DAC_5 1266 838 839 840 841 842 843 844 845 846 847 848 849 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_5
+X$U_DAC_5 1271 842 843 844 845 846 847 848 849 850 851 852 853 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_5
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_5 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -1959,7 +1965,7 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_5
 
 
-X$U_DAC_6 1271 910 911 912 913 914 915 916 917 918 919 920 921 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_6
+X$U_DAC_6 1276 914 915 916 917 918 919 920 921 922 923 924 925 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_6
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_6 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -2023,7 +2029,7 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_6
 
 
-X$U_DAC_7 1265 862 863 864 865 866 867 868 869 870 871 872 873 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_7
+X$U_DAC_7 1270 866 867 868 869 870 871 872 873 874 875 876 877 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_7
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_7 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -2087,7 +2093,7 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_7
 
 
-X$U_DAC_8 1264 886 887 888 889 890 891 892 893 894 895 896 897 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_8
+X$U_DAC_8 1269 890 891 892 893 894 895 896 897 898 899 900 901 0 SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_8
 .SUBCKT SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_8 2001 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 100
 .NODE_MAP D0 1001
 .NODE_MAP D1 1002
@@ -2151,22 +2157,22 @@ ROUT 2001 5002 10
 .ENDS SIMPLIS_DIGI1_D_D2A_CONVERTER_YX$U_DAC_8
 
 
-V1 579 0 1.65
-V10 575 0 1.65
-V11 392 0 1.65
-V12 713 0 1.65
-V13 581 0 1.65
-V14 396 0 1.65
-V15 1220 0 1.65
-V2 717 0 1.65
-V3 358 0 100
-V4 1255 0 5
-V5 1268 0 5
-V6 398 0 1.65
-V7 394 0 1.65
-V8 577 0 1.65
-V9 715 0 1.65
-X$Vgrid_a 331 1216 POWER_SUPPLY_SOURCE_AC_SURGESAG vars: 
+V1 583 0 1.65
+V10 579 0 1.65
+V11 396 0 1.65
+V12 717 0 1.65
+V13 585 0 1.65
+V14 400 0 1.65
+V15 1224 0 1.65
+V2 721 0 1.65
+V3 362 0 100
+V4 1260 0 5
+V5 1273 0 5
+V6 402 0 1.65
+V7 398 0 1.65
+V8 581 0 1.65
+V9 719 0 1.65
+X$Vgrid_a 335 1220 POWER_SUPPLY_SOURCE_AC_SURGESAG vars: 
 + AC_VOLTAGE1=0
 + AC_VOLTAGE2=219.4
 + AXIS_NAME_I=''
@@ -2225,7 +2231,7 @@ X$Vgrid_a 331 1216 POWER_SUPPLY_SOURCE_AC_SURGESAG vars:
 + VERT_ORDER_PH='1'
 + VERT_ORDER_V=''
 
-X$Vgrid_b 331 1225 POWER_SUPPLY_SOURCE_AC_SURGESAG vars: 
+X$Vgrid_b 335 1229 POWER_SUPPLY_SOURCE_AC_SURGESAG vars: 
 + AC_VOLTAGE1=0
 + AC_VOLTAGE2=219.4
 + AXIS_NAME_I=''
@@ -2284,7 +2290,7 @@ X$Vgrid_b 331 1225 POWER_SUPPLY_SOURCE_AC_SURGESAG vars:
 + VERT_ORDER_PH='1'
 + VERT_ORDER_V=''
 
-X$Vgrid_c 331 1238 POWER_SUPPLY_SOURCE_AC_SURGESAG vars: 
+X$Vgrid_c 335 1242 POWER_SUPPLY_SOURCE_AC_SURGESAG vars: 
 + AC_VOLTAGE1=0
 + AC_VOLTAGE2=219.4
 + AXIS_NAME_I=''

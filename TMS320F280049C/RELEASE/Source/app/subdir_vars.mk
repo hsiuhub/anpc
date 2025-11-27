@@ -6,19 +6,19 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_anpc_control.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_anpc_main.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_anpc_operation.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_event.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_isr1.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_isr2.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_math_ctrl_lib.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_physical_parameter.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_protection.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_state.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_timer_10Hz.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_timer_1kHz.c \
-C:/SIMPLIS\ simulation/ANPC\ Final\ Version/anpc-3layer/Source/app/app_uart_communication.c 
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_anpc_control.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_anpc_main.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_anpc_operation.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_event.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_isr1.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_isr2.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_math_ctrl_lib.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_physical_parameter.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_protection.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_state.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_timer_10Hz.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_timer_1kHz.c \
+C:/SIMPLIS\ simulation/ANPC\ Phase\ Loss\ DLL/anpc/Source/app/app_uart_communication.c 
 
 C_DEPS += \
 ./Source/app/app_anpc_control.d \
@@ -81,18 +81,18 @@ C_DEPS__QUOTED += \
 "Source\app\app_uart_communication.d" 
 
 C_SRCS__QUOTED += \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_anpc_control.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_anpc_main.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_anpc_operation.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_event.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_isr1.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_isr2.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_math_ctrl_lib.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_physical_parameter.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_protection.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_state.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_timer_10Hz.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_timer_1kHz.c" \
-"C:/SIMPLIS simulation/ANPC Final Version/anpc-3layer/Source/app/app_uart_communication.c" 
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_anpc_control.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_anpc_main.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_anpc_operation.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_event.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_isr1.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_isr2.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_math_ctrl_lib.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_physical_parameter.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_protection.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_state.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_timer_10Hz.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_timer_1kHz.c" \
+"C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/Source/app/app_uart_communication.c" 
 
 

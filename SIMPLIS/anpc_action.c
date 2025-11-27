@@ -12,7 +12,7 @@
 //  EXTERN FUNCTIONS
 //-----------------------------------------------------------------------------
 extern void main(void);
-
+extern StateFlag_Struct StateFlag;
 
 //-----------------------------------------------------------------------------
 //  PRIVATE FUNCTIONS DECLARATION
@@ -56,6 +56,7 @@ SMX_DLL_UINT16 Timer_isr = 0;
 SMX_DLL_UINT16 Timer_isr_prev = 0;
 
 /* Timer */
+SMX_DLL_UINT16 Timer_1kHz_time = 0;
 SMX_DLL_UINT16 Timer_1kHz = 0;
 SMX_DLL_UINT16 Timer_1kHz_prev = 0;
 SMX_DLL_UINT16 Timer_10Hz = 0;
@@ -64,6 +65,8 @@ SMX_DLL_UINT16 Timer_10Hz_prev = 0;
 /* Output */
 Debug_Output Debug_output = { 0 };
 
+/* Debug Function */
+SMX_DLL_UINT16 main_flag_time = 0;
 
 //-----------------------------------------------------------------------------
 //  DLL ACTION DIFINITION
@@ -78,10 +81,9 @@ void anpc_action(p_smx_dll_simulation_context context_p, p_smx_dll_device device
 	if (Action_Init_flag == 1)
 	{
 		Action_Init_flag = 0;
-		
 		main();
 		Set_PhyValue_Offset();
-
+		main_flag_time++;
 		return;
 	}
 
@@ -154,15 +156,11 @@ void anpc_action(p_smx_dll_simulation_context context_p, p_smx_dll_device device
 //-----------------------------------------------------------------------------
 static SMX_DLL_UINT16 Get_HW_1MHz(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
 {
-	s_smx_dll_bus_conversion
-		conversion_tmr;
-
-	p_anpc_default_pointers
-		default_pointers_p = NULL;
-
+	s_smx_dll_bus_conversion conversion_tmr;
+	p_anpc_default_pointers default_pointers_p = NULL;
 	default_pointers_p = (p_anpc_default_pointers)device_p->unmanaged_user_storage;
 
-	conversion_tmr.type = SMX_DLL_TYPE_8BIT;
+	conversion_tmr.type = SMX_DLL_TYPE_16BIT;
 	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
 	conversion_tmr.uint16 = 0;
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->HW_1MHZ_bus_p, &(conversion_tmr)))) {
@@ -175,17 +173,13 @@ static SMX_DLL_UINT16 Get_HW_1MHz(p_smx_dll_simulation_context context_p, p_smx_
 
 static SMX_DLL_UINT16 Get_PWM_isr(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
 {
-	s_smx_dll_bus_conversion
-		conversion_tmr;
-
-	p_anpc_default_pointers
-		default_pointers_p = NULL;
-
+	s_smx_dll_bus_conversion conversion_tmr;
+	p_anpc_default_pointers default_pointers_p = NULL;
 	default_pointers_p = (p_anpc_default_pointers)device_p->unmanaged_user_storage;
 
-
-	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
 	conversion_tmr.type = SMX_DLL_TYPE_16BIT;
+	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
+	conversion_tmr.uint16 = 0;
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->PWM_ISR_bus_p, &(conversion_tmr)))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during read_bus: PWM_isr.");
 	}
@@ -195,17 +189,13 @@ static SMX_DLL_UINT16 Get_PWM_isr(p_smx_dll_simulation_context context_p, p_smx_
 
 static SMX_DLL_UINT16 Get_Timer_isr(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
 {
-	s_smx_dll_bus_conversion
-		conversion_tmr;
-
-	p_anpc_default_pointers
-		default_pointers_p = NULL;
-
+	s_smx_dll_bus_conversion conversion_tmr;
+	p_anpc_default_pointers default_pointers_p = NULL;
 	default_pointers_p = (p_anpc_default_pointers)device_p->unmanaged_user_storage;
 
-
-	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
 	conversion_tmr.type = SMX_DLL_TYPE_16BIT;
+	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
+	conversion_tmr.uint16 = 0;
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->TIMER_ISR_bus_p, &(conversion_tmr)))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during read_bus: Timer_Isr.");
 	}
@@ -215,37 +205,29 @@ static SMX_DLL_UINT16 Get_Timer_isr(p_smx_dll_simulation_context context_p, p_sm
 
 static SMX_DLL_UINT16 Get_Timer_1kHz(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
 {
-	s_smx_dll_bus_conversion
-		conversion_tmr;
-
-	p_anpc_default_pointers
-		default_pointers_p = NULL;
-
+	s_smx_dll_bus_conversion conversion_tmr;
+	p_anpc_default_pointers default_pointers_p = NULL;
 	default_pointers_p = (p_anpc_default_pointers)device_p->unmanaged_user_storage;
 
-
-	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
 	conversion_tmr.type = SMX_DLL_TYPE_16BIT;
+	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
+	conversion_tmr.uint16 = 0;
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->TIMER_1KHZ_bus_p, &(conversion_tmr)))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during read_bus: Timer_1kHz.");
 	}
-
+	Timer_1kHz_time++;
 	return conversion_tmr.uint16;
 }
 
 static SMX_DLL_UINT16 Get_Timer_10Hz(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
 {
-	s_smx_dll_bus_conversion
-		conversion_tmr;
-
-	p_anpc_default_pointers
-		default_pointers_p = NULL;
-
+	s_smx_dll_bus_conversion conversion_tmr;
+	p_anpc_default_pointers default_pointers_p = NULL;
 	default_pointers_p = (p_anpc_default_pointers)device_p->unmanaged_user_storage;
 
-
-	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
 	conversion_tmr.type = SMX_DLL_TYPE_16BIT;
+	conversion_tmr.encoding = SMX_DLL_ENCODING_UNSIGNED;
+	conversion_tmr.uint16 = 0;
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->TIMER_10HZ_bus_p, &(conversion_tmr)))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during read_bus: Timer_10Hz.");
 	}
@@ -255,20 +237,25 @@ static SMX_DLL_UINT16 Get_Timer_10Hz(p_smx_dll_simulation_context context_p, p_s
 
 static void Set_PhyValue_Offset(void)
 {
-	PhyValue.IA_offset.raw_pu = 0.5;
-	PhyValue.IB_offset.raw_pu = 0.5;
-	PhyValue.IC_offset.raw_pu = 0.5;
+	PhyValue.IA_offset.raw_pu = 0.5f;
+	PhyValue.IB_offset.raw_pu = 0.5f;
+	PhyValue.IC_offset.raw_pu = 0.5f;
 
-	PhyValue.VanpcA_offset.raw_pu = 0.5;
-	PhyValue.VanpcB_offset.raw_pu = 0.5;
-	PhyValue.VanpcC_offset.raw_pu = 0.5;
+	PhyValue.VanpcA_offset.raw_pu = 0.5f;
+	PhyValue.VanpcB_offset.raw_pu = 0.5f;
+	PhyValue.VanpcC_offset.raw_pu = 0.5f;
 
-	PhyValue.VgridA_offset.raw_pu = 0.5;
-	PhyValue.VgridB_offset.raw_pu = 0.5;
-	PhyValue.VgridC_offset.raw_pu = 0.5;
+	PhyValue.VgridA_offset.raw_pu = 0.5f;
+	PhyValue.VgridB_offset.raw_pu = 0.5f;
+	PhyValue.VgridC_offset.raw_pu = 0.5f;
 
-	PhyValue.Vbusp_offset.raw_pu = 0.5;
-	PhyValue.Vbusn_offset.raw_pu = 0.5;
+	PhyValue.Vbusp_offset.raw_pu = 0.5f;
+	PhyValue.Vbusn_offset.raw_pu = 0.5f;
+	PhyValue.Vbus_offset.raw_pu = 0.5f;
+
+	PhyValue.Vref.raw_pu = 0.5f;
+	PhyValue.Vref_initial.raw_pu = 0.5f;
+
 }
 
 //static void debug_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device device_p)
