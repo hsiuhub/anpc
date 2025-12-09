@@ -100,14 +100,14 @@ static inline void acAnalyzer_Operate(AcHandle_Struct *ac)
 
             ac->mul_update++;
 
-            if(ac->mul_update >= 32)
+            if(ac-> mul_update >= 4)
             {
                 ac->mul_update = 0;
                 ac->P_rms_sum_mul = 0;
-                ac->VA_rms = ac->VA_sum_mul * (0.03125);
+                ac->VA_rms = ac->VA_sum_mul * (0.25);
                 ac->VA_sum_mul = 0;
                 ac->PF = ac->P_rms / ac->VA_rms;
-                ac->ac_freq_avg = ac->ac_freq_sum * 0.03125;
+                ac->ac_freq_avg = ac->ac_freq_sum * 0.25;
                 ac->ac_freq_sum = 0;
             }
 

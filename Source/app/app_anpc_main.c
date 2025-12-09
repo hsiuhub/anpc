@@ -27,7 +27,6 @@
 //-----------------------------------------------------------------------------
 
 /* Debug Function */
-SMX_DLL_UINT16 main_loop_time_check = 0;
 
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DECLARATION
@@ -63,7 +62,6 @@ void main(void)
     state_InitStateMachine();
 
     StateFlag.bits.system_init_finish = 1;
-    main_loop_time_check++;
 
 #ifndef CONFIG_VIRTUAL_MAIN
 

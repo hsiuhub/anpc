@@ -1,5 +1,6 @@
 ﻿  app_anpc_control.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
+  app_anpc_main.c
   (compiling source file '../Source/app/app_anpc_control.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
@@ -329,7 +330,6 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(522
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(576,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-  app_anpc_main.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
@@ -4368,10 +4368,6 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ct
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/library/mid_library_adc.c')
   
-  anpc.c
-  anpc_teardown.c
-  anpc_setup.c
-  anpc_set_initial_condition.c
   anpc_action.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'anpc_action.c')

@@ -34,7 +34,7 @@ static void state_Shutdown(StateEvent event);
 static event_handler_t pvHandleEvent;
 ANPC_State CurrentState;
 StateFlag_Struct StateFlag = {.Word = 0};
-
+SMX_DLL_UINT16 stage_check_time = 0;
 
 //-----------------------------------------------------------------------------
 //  PRIVATE FUNCTIONS DEFINITION
@@ -186,7 +186,7 @@ static void state_SoftStart(StateEvent event)
 
             StateFlag.bits.pwm_kickoff = 1;
             StateFlag.bits.soft_start_on = 1;
-
+            stage_check_time ++;
             break;
 
         case EVENT_SOFTSTART_OK:

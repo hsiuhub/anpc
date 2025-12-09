@@ -297,7 +297,7 @@ static inline void pwm_mid_ClearHFPWMTrips(void)
     pwm_hal_ClearHFPWMTrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableHFPWM();
+    /*pwm_hal_EnableHFPWM();*/
 
 #endif
 
@@ -313,7 +313,7 @@ static inline void pwm_mid_ClearHFPWMATrips(void)
     pwm_hal_ClearHFPWMATrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableHFPWMA();
+   /* pwm_hal_EnableHFPWMA();*/
 
 #endif
 
@@ -330,7 +330,7 @@ static inline void pwm_mid_ClearHFPWMBTrips(void)
     pwm_hal_ClearHFPWMBTrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableHFPWMB();
+    /*pwm_hal_EnableHFPWMB();*/
 
 #endif
 
@@ -347,7 +347,7 @@ static inline void pwm_mid_ClearHFPWMCTrips(void)
     pwm_hal_ClearHFPWMCTrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableHFPWMC();
+    /*pwm_hal_EnableHFPWMC();*/
 
 #endif
 
@@ -381,7 +381,7 @@ static inline void pwm_mid_ClearLFPWMATrips(void)
     pwm_hal_ClearLFPWMATrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableLFPWMA();
+    /*pwm_hal_EnableLFPWMA();*/
 
 #endif
 
@@ -398,7 +398,7 @@ static inline void pwm_mid_ClearLFPWMBTrips(void)
     pwm_hal_ClearLFPWMBTrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableLFPWMB();
+    /*pwm_hal_EnableLFPWMB();*/
 
 #endif
 
@@ -415,7 +415,7 @@ static inline void pwm_mid_ClearLFPWMCTrips(void)
     pwm_hal_ClearLFPWMCTrips();
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_EnableLFPWMC();
+    /*pwm_hal_EnableLFPWMC();*/
 
 #endif
 

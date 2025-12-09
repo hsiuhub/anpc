@@ -126,6 +126,6 @@ void adc_hal_SampleHold(p_smx_dll_simulation_context context_p, p_smx_dll_device
 	if (SMX_DLL_NO_ERROR != (context_p->funcs->read_bus(default_pointers_p->input_bus_pointers_p->ADC_VREF_FB_bus_p, &(conversion_adc)))) {
 		context_p->funcs->fatal_error(device_p, "Error occurred during read_bus: ADC_Vref_FB.");
 	}
-	Adc_hal_Result.Vref_FB = conversion_adc.uint16;
+			Adc_hal_Result.Vref_FB = conversion_adc.uint16;
 
 }
