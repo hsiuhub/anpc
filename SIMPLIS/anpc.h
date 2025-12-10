@@ -72,9 +72,12 @@ typedef struct t_anpc_output_bus_pointers {
 	p_smx_dll_bus HF_Duty_a;
 	p_smx_dll_bus HF_Duty_b;
 	p_smx_dll_bus HF_Duty_c;
-	p_smx_dll_bus LF_Duty_a;
-	p_smx_dll_bus LF_Duty_b;
-	p_smx_dll_bus LF_Duty_c;
+	p_smx_dll_bus LF_PWM_P_A;
+	p_smx_dll_bus LF_PWM_P_B;
+	p_smx_dll_bus LF_PWM_P_C;
+	p_smx_dll_bus LF_PWM_N_A;
+	p_smx_dll_bus LF_PWM_N_B;
+	p_smx_dll_bus LF_PWM_N_C;
 	p_smx_dll_bus HF_DeadBand;
 
 	p_smx_dll_bus comp_IA_OCP_Flag;

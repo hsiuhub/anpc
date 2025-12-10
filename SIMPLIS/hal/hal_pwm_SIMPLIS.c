@@ -84,35 +84,103 @@ void pwm_hal_DisableLFPWM_C(void)
 
 // ==========================================
 // pwm_mid_AQ_SW_PWMXA_HIGH -> pwm_hal_SetLFPWM
-void pwm_hal_SetLFPWM(uint32_t phase)
+//void pwm_hal_SetLFPWM(uint32_t phase)
+//{
+//	if (phase == 1) {
+//		PWM_output.HAL_LF_Duty_a = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+//		PWM_output.HAL_Enable_LFPWM_A = 1;
+//		PWM_output.HAL_Force_LFPWM_A_High = 1;
+//	}
+//	else if (phase == 2) {
+//		PWM_output.HAL_LF_Duty_b = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+//		PWM_output.HAL_Enable_LFPWM_B = 1;
+//		PWM_output.HAL_Force_LFPWM_B_High = 1;
+//	}
+//	else if (phase == 3) {
+//		PWM_output.HAL_LF_Duty_c = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+//		PWM_output.HAL_Enable_LFPWM_C = 1;
+//		PWM_output.HAL_Force_LFPWM_C_High = 1;
+//	}
+//}
+
+void pwm_hal_LF_PWMXA_HIGH(phase)
 {
-	if (phase == 1) {
-		PWM_output.HAL_LF_Duty_a = (uint16_t)PWM_HAL_OUT_RESOLUTION;
-		PWM_output.HAL_Enable_LFPWM_A = 1;
-		PWM_output.HAL_Force_LFPWM_A_High = 1;
-	}
-	else if (phase == 2) {
-		PWM_output.HAL_LF_Duty_b = (uint16_t)PWM_HAL_OUT_RESOLUTION;
-		PWM_output.HAL_Enable_LFPWM_B = 1;
-		PWM_output.HAL_Force_LFPWM_B_High = 1;
-	}
-	else if (phase == 3) {
-		PWM_output.HAL_LF_Duty_c = (uint16_t)PWM_HAL_OUT_RESOLUTION;
-		PWM_output.HAL_Enable_LFPWM_C = 1;
-		PWM_output.HAL_Force_LFPWM_C_High = 1;
-	}
+    if (phase == 1 && PWM_output.HAL_Enable_LFPWM_A == 1)
+    {
+        PWM_output.HAL_LF_PWM_P_A = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+    }
+    else if (phase == 2 && PWM_output.HAL_Enable_LFPWM_B == 1)
+    {
+        PWM_output.HAL_LF_PWM_P_B = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+    }
+    else if (phase == 3 && PWM_output.HAL_Enable_LFPWM_C == 1)
+    {
+        PWM_output.HAL_LF_PWM_P_C = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+    }
 }
 
+void pwm_hal_LF_PWMXB_HIGH(phase)
+{
+    if (phase == 1 && PWM_output.HAL_Enable_LFPWM_A == 1)
+    {
+        PWM_output.HAL_LF_PWM_N_A = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+    }
+    else if (phase == 2 && PWM_output.HAL_Enable_LFPWM_B == 1)
+    {
+        PWM_output.HAL_LF_PWM_N_B = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+    }
+    else if (phase == 3 && PWM_output.HAL_Enable_LFPWM_C == 1)
+    {
+        PWM_output.HAL_LF_PWM_N_C = (uint16_t)PWM_HAL_OUT_RESOLUTION;
+    }
+}
+
+void pwm_hal_LF_PWMXA_LOW(phase)
+{
+    if (phase == 1)
+    {
+        PWM_output.HAL_LF_PWM_P_A = 0;
+    }
+    else if (phase == 2)
+    {
+        PWM_output.HAL_LF_PWM_P_B = 0;
+    }
+    else if (phase == 3)
+    {
+        PWM_output.HAL_LF_PWM_P_C = 0;
+    }
+}
+
+void pwm_hal_LF_PWMXB_LOW(phase)
+{
+    if (phase == 1)
+    {
+        PWM_output.HAL_LF_PWM_N_A = 0;
+    }
+    else if (phase == 2)
+    {
+        PWM_output.HAL_LF_PWM_N_B = 0;
+    }
+    else if (phase == 3)
+    {
+        PWM_output.HAL_LF_PWM_N_C = 0;
+    }
+}
 
 void pwm_hal_ClearLFPWM(uint32_t phase)
 {
-	//if (phase == 1)      PWM_output.HAL_Force_LFPWM_A_High = 0;
-	//else if (phase == 2) PWM_output.HAL_Force_LFPWM_B_High = 0;
-	//else if (phase == 3) PWM_output.HAL_Force_LFPWM_C_High = 0;
-
-    if (phase == 1)      PWM_output.HAL_Force_LFPWM_A_High = 0;
-    else if (phase == 2) PWM_output.HAL_Force_LFPWM_B_High = 0;
-    else if (phase == 3) PWM_output.HAL_Force_LFPWM_C_High = 0;
+    if (phase == 1)
+    {
+        PWM_output.HAL_LF_PWM_P_A = 0; PWM_output.HAL_LF_PWM_N_A = 0;
+    }
+    else if (phase == 2)
+    {
+        PWM_output.HAL_LF_PWM_P_B = 0; PWM_output.HAL_LF_PWM_N_B = 0;
+    }
+    else if (phase == 3)
+    {
+        PWM_output.HAL_LF_PWM_P_C = 0; PWM_output.HAL_LF_PWM_N_C = 0;
+    }
 }
 
 void pwm_hal_UpdateDuty(uint32_t phase, float32_t duty)
@@ -219,18 +287,33 @@ void pwm_hal_Output(p_smx_dll_simulation_context context_p, p_smx_dll_device dev
     }
 
     // --- LF Phase ---
-    conversion.uint16 = PWM_output.HAL_LF_Duty_a;
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_Duty_a, &(conversion), 1e-9))) {
+    conversion.uint16 = PWM_output.HAL_LF_PWM_P_A;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_PWM_P_A, &(conversion), 1e-9))) {
         context_p->funcs->fatal_error(device_p, "Error: LF_Duty_a write failed.");
     }
 
-    conversion.uint16 = PWM_output.HAL_LF_Duty_b;
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_Duty_b, &(conversion), 1e-9))) {
+    conversion.uint16 = PWM_output.HAL_LF_PWM_P_B;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_PWM_P_B, &(conversion), 1e-9))) {
         context_p->funcs->fatal_error(device_p, "Error: LF_Duty_b write failed.");
     }
 
-    conversion.uint16 = PWM_output.HAL_LF_Duty_c;
-    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_Duty_c, &(conversion), 1e-9))) {
+    conversion.uint16 = PWM_output.HAL_LF_PWM_P_C;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_PWM_P_C, &(conversion), 1e-9))) {
+        context_p->funcs->fatal_error(device_p, "Error: LF_Duty_c write failed.");
+    }
+
+    conversion.uint16 = PWM_output.HAL_LF_PWM_N_A;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_PWM_N_A, &(conversion), 1e-9))) {
+        context_p->funcs->fatal_error(device_p, "Error: LF_Duty_a write failed.");
+    }
+
+    conversion.uint16 = PWM_output.HAL_LF_PWM_N_B;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_PWM_N_B, &(conversion), 1e-9))) {
+        context_p->funcs->fatal_error(device_p, "Error: LF_Duty_b write failed.");
+    }
+
+    conversion.uint16 = PWM_output.HAL_LF_PWM_N_C;
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->LF_PWM_N_C, &(conversion), 1e-9))) {
         context_p->funcs->fatal_error(device_p, "Error: LF_Duty_c write failed.");
     }
 

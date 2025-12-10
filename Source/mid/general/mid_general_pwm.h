@@ -210,7 +210,7 @@ static inline void pwm_mid_AQ_SW_PWMXA_HIGH(uint32_t base)
     pwm_hal_AQ_SW_PWMXA_HIGH(base);
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_SetLFPWM(base);
+    pwm_hal_LF_PWMXA_HIGH(base);
 
 #endif
 
@@ -224,7 +224,7 @@ static inline void pwm_mid_AQ_SW_PWMXB_HIGH(uint32_t base)
     pwm_hal_AQ_SW_PWMXB_HIGH(base);
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_SetLFPWM(base);
+    pwm_hal_LF_PWMXB_HIGH(base);
 
 #endif
 
@@ -238,7 +238,7 @@ static inline void pwm_mid_AQ_SW_PWMXA_LOW(uint32_t base)
     pwm_hal_AQ_SW_PWMXA_LOW(base);
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_ClearLFPWM(base);
+    pwm_hal_LF_PWMXA_LOW(base);
 
 #endif
 
@@ -252,7 +252,7 @@ static inline void pwm_mid_AQ_SW_PWMXB_LOW(uint32_t base)
     pwm_hal_AQ_SW_PWMXB_LOW(base);
 
 #elif defined CONFIG_VIRTUAL
-    pwm_hal_ClearLFPWM(base);
+    pwm_hal_LF_PWMXB_LOW(base);
 
 #endif
 

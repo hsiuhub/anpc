@@ -28,9 +28,13 @@ typedef struct PWM_Output
     SMX_DLL_UINT16 HAL_HF_Duty_a;
     SMX_DLL_UINT16 HAL_HF_Duty_b;
     SMX_DLL_UINT16 HAL_HF_Duty_c;
-    SMX_DLL_UINT16 HAL_LF_Duty_a;
-    SMX_DLL_UINT16 HAL_LF_Duty_b;
-    SMX_DLL_UINT16 HAL_LF_Duty_c;
+
+    SMX_DLL_UINT16 HAL_LF_PWM_P_A;
+    SMX_DLL_UINT16 HAL_LF_PWM_P_B;
+    SMX_DLL_UINT16 HAL_LF_PWM_P_C;
+    SMX_DLL_UINT16 HAL_LF_PWM_N_A;
+    SMX_DLL_UINT16 HAL_LF_PWM_N_B;
+    SMX_DLL_UINT16 HAL_LF_PWM_N_C;
     SMX_DLL_UINT16 HAL_HF_DeadBand;
 
     /*SMX_DLL_UINT16 HAL_Enable_ALL_PWM;*/
@@ -76,9 +80,13 @@ void pwm_hal_DisableLFPWM_B(void);
 void pwm_hal_DisableLFPWM_C(void);
 
 // ==========================================
-void pwm_hal_SetLFPWM(uint32_t base);
+//void pwm_hal_SetLFPWM(uint32_t base);
 void pwm_hal_ClearLFPWM(uint32_t base);
 void pwm_hal_UpdateDuty(uint32_t base, float32_t duty);
+void pwm_hal_LF_PWMXA_HIGH(phase);
+void pwm_hal_LF_PWMXB_HIGH(phase);
+void pwm_hal_LF_PWMXA_LOW(phase);
+void pwm_hal_LF_PWMXB_LOW(phase);
 void pwm_hal_EnablePWM(void);
 void pwm_hal_EnableHFPWM(void);
 void pwm_hal_EnableHFPWMA(void);
@@ -89,8 +97,5 @@ void pwm_hal_EnableLFPWMA(void);
 void pwm_hal_EnableLFPWMB(void);
 void pwm_hal_EnableLFPWMC(void);
 void pwm_hal_Setup3phasePWM(void);
-
-
-
 
 #endif

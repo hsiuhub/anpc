@@ -50,9 +50,12 @@ static char* anpc_output_specs[] = {
 	SMX_DLL_CREATE_BUS_SPEC(HF_Duty_a, 12),
 	SMX_DLL_CREATE_BUS_SPEC(HF_Duty_b, 12),
 	SMX_DLL_CREATE_BUS_SPEC(HF_Duty_c, 12),
-	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_a, 12),
-	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_b, 12),
-	SMX_DLL_CREATE_BUS_SPEC(LF_Duty_c, 12),
+	SMX_DLL_CREATE_BUS_SPEC(LF_PWM_P_A, 12),
+	SMX_DLL_CREATE_BUS_SPEC(LF_PWM_P_B, 12),
+	SMX_DLL_CREATE_BUS_SPEC(LF_PWM_P_C, 12),
+	SMX_DLL_CREATE_BUS_SPEC(LF_PWM_N_A, 12),
+	SMX_DLL_CREATE_BUS_SPEC(LF_PWM_N_B, 12),
+	SMX_DLL_CREATE_BUS_SPEC(LF_PWM_N_C, 12),
 	SMX_DLL_CREATE_BUS_SPEC(HF_deadband, 12),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_all_PWM, 1),
 	SMX_DLL_CREATE_BUS_SPEC(Enable_HFPWM_a, 1),
@@ -405,19 +408,44 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_HF_Duty_c");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_a))) {
-		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_a");
+	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_a", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_a))) {
+	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_a");
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_b))) {
+	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_b");
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+	//if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_c))) {
+	//	context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_c");
+	//	return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	//}
+
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_PWM_P_A", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_PWM_P_A))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_PWM_P_A");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_b", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_b))) {
-		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_b");
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_PWM_P_B", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_PWM_P_B))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_PWM_P_B");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
-	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_Duty_c", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_Duty_c))) {
-		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_Duty_c");
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_PWM_P_C", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_PWM_P_C))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_PWM_P_C");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
 
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_PWM_N_A", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_PWM_N_A))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_PWM_N_A");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_PWM_N_B", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_PWM_N_B))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_PWM_N_B");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "LF_PWM_N_C", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->LF_PWM_N_C))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus: HAL_LF_PWM_N_C");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
 	// ============================================================
 	// 3. HF PWM Enable
 	// ============================================================
