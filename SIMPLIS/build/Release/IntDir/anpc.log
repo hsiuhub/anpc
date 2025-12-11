@@ -1,38 +1,39 @@
-﻿  hal_adc_SIMPLIS.c
+﻿  hal_pwm_SIMPLIS.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(202,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(203,32): warning C4244: '=': conversion from 'float32_t' to 'volatile int32_t', possible loss of data
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ctrl.h(78,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ctrl.h(96,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ctrl.h(114,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ctrl.h(127,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ctrl.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
-  (compiling source file 'hal/hal_adc_SIMPLIS.c')
+  (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(30,65): warning C4244: '=': conversion from 'float32_t' to 'SMX_DLL_UINT16', possible loss of data
      Creating library C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Release\anpc.lib and object C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Release\anpc.exp
   Generating code
-  0 of 150 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  4 of 150 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   anpc.vcxproj -> C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\build\Release\anpc.dll

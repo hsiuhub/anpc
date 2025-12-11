@@ -185,14 +185,29 @@ void pwm_hal_ClearLFPWM(uint32_t phase)
 
 void pwm_hal_UpdateDuty(uint32_t phase, float32_t duty)
 {
-	if (phase == 4)
-		PWM_output.HAL_HF_Duty_a = PWM_HAL_OUT_RESOLUTION * fabsf(duty);
+    float duty_abs = fabsf(duty);
+    float duty_pwm = duty_abs;
+    if (duty_pwm < 0.0f) duty_pwm = 0.0f;
+    if (duty_pwm > 1.0f) duty_pwm = 1.0f;
+    if (phase == 4)
+    {
+        //PWM_output.HAL_HF_Duty_a = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
+        PWM_output.HAL_HF_Duty_a = (uint16_t)(duty_pwm * 4095.0f * 0.5f);
+    }
 	else if (phase == 7)
-		PWM_output.HAL_HF_Duty_b = PWM_HAL_OUT_RESOLUTION * fabsf(duty);
+    {
+        //PWM_output.HAL_HF_Duty_b = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
+        PWM_output.HAL_HF_Duty_b = (uint16_t)(duty_pwm * 4095.0f * 0.5f);
+    }
+		
 	else if (phase == 8)
-		PWM_output.HAL_HF_Duty_c = PWM_HAL_OUT_RESOLUTION * fabsf(duty);
+    {
+        //PWM_output.HAL_HF_Duty_c = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
+        PWM_output.HAL_HF_Duty_c = (uint16_t)(duty_pwm * 4095.0f * 0.5f);
+    }
 }
 
+//PWM_HAL_OUT_RESOLUTION* fabsf(duty);
 
 void pwm_hal_EnablePWM(void)
 {
