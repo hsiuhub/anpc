@@ -159,6 +159,14 @@ void anpc_set_initial_condition(p_smx_dll_simulation_context context_p, p_smx_dl
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_B_BASE.");
     }
 
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_C_BASE, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_C_BASE.");
+    }
+
+    if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->DAC_D_BASE, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
+        context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: DAC_D_BASE.");
+    }
+
     if (SMX_DLL_NO_ERROR != (rv = context_p->funcs->write_bus(default_pointers_p->output_bus_pointers_p->comp_IA_OCP_Flag, &(conversion), SMX_DLL_WRITE_INITIAL_CONDITION))) {
         context_p->funcs->fatal_error(device_p, "Error occurred during write_bus: comp_IA_OCP_Flag.");
     }

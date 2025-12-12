@@ -24,6 +24,8 @@
 
 #define DAC_MID_A_OUT(value)    (DAC_output.HAL_DAC_A_BASE = (unsigned short)(value))
 #define DAC_MID_B_OUT(value)    (DAC_output.HAL_DAC_B_BASE = (unsigned short)(value))
+#define DAC_MID_C_OUT(value)    (DAC_output.HAL_DAC_C_BASE = (unsigned short)(value))
+#define DAC_MID_D_OUT(value)    (DAC_output.HAL_DAC_D_BASE = (unsigned short)(value))
 #endif
 
 

@@ -85,6 +85,8 @@ static char* anpc_output_specs[] = {
 	//SMX_DLL_CREATE_BUS_SPEC(Debug_3,12),
 	SMX_DLL_CREATE_BUS_SPEC(DAC_A_OUT,12),
 	SMX_DLL_CREATE_BUS_SPEC(DAC_B_OUT,12),
+	SMX_DLL_CREATE_BUS_SPEC(DAC_C_OUT,12),
+	SMX_DLL_CREATE_BUS_SPEC(DAC_D_OUT,12),
 	SMX_DLL_CREATE_BUS_SPEC(comp_IA_OCP_flag,12),
 	SMX_DLL_CREATE_BUS_SPEC(comp_IB_OCP_flag,12),
 	SMX_DLL_CREATE_BUS_SPEC(comp_IC_OCP_flag,12),
@@ -579,6 +581,14 @@ SMX_DLL_ERROR anpc_instantiate_default_pointers(
 	}
 	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "DAC_B_OUT", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->DAC_B_BASE))) {
 		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: DAC_B_OUT");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "DAC_C_OUT", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->DAC_C_BASE))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: DAC_C_OUT");
+		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
+	}
+	if (SMX_DLL_NO_ERROR != context_p->funcs->get_bus_by_name(device_p, "DAC_D_OUT", SMX_DLL_DIRECTION_OUTPUT, &(output_bus_pointers_p->DAC_D_BASE))) {
+		context_p->funcs->fatal_error(device_p, "Unable to locate OUTPUT bus by name: DAC_D_OUT");
 		return SMX_DLL_ERROR_RESULT_NOT_FOUND;
 	}
 	// ============================================================
