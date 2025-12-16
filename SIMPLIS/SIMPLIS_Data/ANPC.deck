@@ -29,10 +29,12 @@
 .node_map ADC_Vanpc_a$4 1008
 .node_map ADC_Vgrid_b$2 958
 .node_map Enable_HFPWM_c 1376
+.node_map BUS1$10 1276
 .node_map DAC_Debug_2$1 1231
 .node_map DAC_Debug_1$9 1227
 .node_map ADC_Vanpc_a$5 1009
 .node_map ADC_Vgrid_b$3 959
+.node_map BUS1$11 1277
 .node_map DAC_Debug_2$2 1232
 .node_map ADC_Vanpc_a$6 1010
 .node_map ADC_Vgrid_b$4 960
@@ -55,13 +57,11 @@
 .node_map ADC_Vanpc_a$9 1013
 .node_map ADC_Vgrid_b$7 963
 .node_map LF_PWM_N_A 1369
-.node_map BUS4$10 1300
 .node_map DAC_Debug_2$6 1236
 .node_map ADC_Vanpc_b$2 1030
 .node_map ADC_Vgrid_c$0 980
 .node_map ADC_Vgrid_b$8 964
 .node_map LF_PWM_N_B 1372
-.node_map BUS4$11 1301
 .node_map DAC_Debug_2$7 1237
 .node_map Timer_1kHz$0 1214
 .node_map ADC_Vanpc_b$3 1031
@@ -88,6 +88,7 @@
 .node_map ADC_Vgrid_c$4 984
 .node_map SW_a 1314
 .node_map S1_b 1310
+.node_map BUS1$0 1266
 .node_map DAC_Debug_3$3 1245
 .node_map ADC_Temp_a$1 1125
 .node_map ADC_Vanpc_b$7 1035
@@ -95,6 +96,7 @@
 .node_map DAC_HF_Duty_c$10 930
 .node_map SW_b 1335
 .node_map S1_c 1311
+.node_map BUS1$1 1267
 .node_map DAC_Debug_3$4 1246
 .node_map ADC_Temp_a$2 1126
 .node_map ADC_Vanpc_c$0 1052
@@ -103,6 +105,7 @@
 .node_map DAC_HF_Duty_c$11 931
 .node_map ADC_Vbusn$0 908
 .node_map SW_c 1337
+.node_map BUS1$2 1268
 .node_map DAC_Debug_3$5 1247
 .node_map ADC_Temp_a$3 1127
 .node_map ADC_Vanpc_c$1 1053
@@ -110,19 +113,22 @@
 .node_map DAC_LF_PWM_P_C$10 1002
 .node_map ADC_Vgrid_c$7 987
 .node_map ADC_Vbusn$1 909
-.node_map BUS2$10 1276
+.node_map BUS2$10 1288
+.node_map BUS1$3 1269
 .node_map DAC_Debug_3$6 1248
 .node_map ADC_Temp_a$4 1128
 .node_map ADC_Vanpc_c$2 1054
 .node_map DAC_LF_PWM_P_C$11 1003
 .node_map ADC_Vgrid_c$8 988
 .node_map ADC_Vbusn$2 910
-.node_map BUS2$11 1277
+.node_map BUS2$11 1289
+.node_map BUS1$4 1270
 .node_map DAC_Debug_3$7 1249
 .node_map ADC_Temp_a$5 1129
 .node_map ADC_Vanpc_c$3 1055
 .node_map ADC_Vgrid_c$9 989
 .node_map ADC_Vbusn$3 911
+.node_map BUS1$5 1271
 .node_map DAC_Debug_4$0 1254
 .node_map DAC_Debug_3$8 1250
 .node_map ADC_Temp_a$6 1130
@@ -130,6 +136,7 @@
 .node_map ADC_Vbusn$4 912
 .node_map Vgrid_c_fb 1330
 .node_map I_c_fb 1304
+.node_map BUS1$6 1272
 .node_map DAC_Debug_4$1 1255
 .node_map DAC_Debug_3$9 1251
 .node_map ADC_Temp_a$7 1131
@@ -137,6 +144,7 @@
 .node_map ADC_Vbusn$5 913
 .node_map PWM_EN 1370
 .node_map S2_a 1323
+.node_map BUS1$7 1273
 .node_map DAC_Debug_4$2 1256
 .node_map ADC_Temp_b$0 1136
 .node_map ADC_Temp_a$8 1132
@@ -144,7 +152,8 @@
 .node_map ADC_Vbusn$6 914
 .node_map ADC_Vbusp$10 894
 .node_map S2_b 1325
-.node_map BUS2$0 1266
+.node_map BUS2$0 1278
+.node_map BUS1$8 1274
 .node_map DAC_Debug_4$3 1257
 .node_map ADC_Temp_b$1 1137
 .node_map ADC_Temp_a$9 1133
@@ -154,7 +163,8 @@
 .node_map ADC_Vbusp$11 895
 .node_map DAC_HF_Duty_a$10 882
 .node_map S2_c 1327
-.node_map BUS2$1 1267
+.node_map BUS2$1 1279
+.node_map BUS1$9 1275
 .node_map DAC_Debug_4$4 1258
 .node_map ADC_Temp_b$2 1138
 .node_map ADC_I_a$1 1077
@@ -163,7 +173,7 @@
 .node_map ADC_Vbusn$8 916
 .node_map DAC_HF_Duty_a$11 883
 .node_map Vgrid_a 1312
-.node_map BUS2$2 1268
+.node_map BUS2$2 1280
 .node_map DAC_Debug_4$5 1259
 .node_map ADC_Vref1$0 1172
 .node_map ADC_Temp_b$3 1139
@@ -174,7 +184,7 @@
 .node_map ADC_Vbusn$9 917
 .node_map LF_PWM_P_A 1367
 .node_map Vgrid_b 1321
-.node_map BUS2$3 1269
+.node_map BUS2$3 1281
 .node_map DAC_Debug_4$6 1260
 .node_map ADC_Vref1$1 1173
 .node_map ADC_Temp_b$4 1140
@@ -183,7 +193,7 @@
 .node_map DAC_LF_PWM_P_A$11 955
 .node_map LF_PWM_P_B 1366
 .node_map Vgrid_c 1333
-.node_map BUS2$4 1270
+.node_map BUS2$4 1282
 .node_map DAC_Debug_4$7 1261
 .node_map ADC_Vref1$2 1174
 .node_map ADC_Temp_amb$0 1160
@@ -191,14 +201,14 @@
 .node_map ADC_I_a$4 1080
 .node_map DAC_LF_PWM_N_A$3 1019
 .node_map LF_PWM_P_C 1365
-.node_map BUS2$5 1271
+.node_map BUS2$5 1283
 .node_map DAC_Debug_4$8 1262
 .node_map ADC_Vref1$3 1175
 .node_map ADC_Temp_amb$1 1161
 .node_map ADC_Temp_b$6 1142
 .node_map ADC_I_a$5 1081
 .node_map DAC_LF_PWM_N_A$4 1020
-.node_map BUS2$6 1272
+.node_map BUS2$6 1284
 .node_map DAC_Debug_4$9 1263
 .node_map ADC_Vref1$4 1176
 .node_map ADC_Temp_amb$2 1162
@@ -206,7 +216,7 @@
 .node_map ADC_I_a$6 1082
 .node_map DAC_LF_PWM_N_A$5 1021
 .node_map S3_a 1341
-.node_map BUS2$7 1273
+.node_map BUS2$7 1285
 .node_map ADC_Vref1$5 1177
 .node_map ADC_Temp_amb$3 1163
 .node_map ADC_Temp_c$0 1148
@@ -215,9 +225,9 @@
 .node_map DAC_LF_PWM_N_A$6 1022
 .node_map ADC_Vbusn$10 918
 .node_map S3_b 1343
-.node_map BUS3$10 1288
-.node_map BUS3$0 1278
-.node_map BUS2$8 1274
+.node_map BUS3$10 1300
+.node_map BUS3$0 1290
+.node_map BUS2$8 1286
 .node_map ADC_Vref1$6 1178
 .node_map ADC_Temp_amb$4 1164
 .node_map ADC_Temp_c$1 1149
@@ -227,9 +237,9 @@
 .node_map DAC_LF_PWM_N_A$7 1023
 .node_map ADC_Vbusn$11 919
 .node_map S3_c 1345
-.node_map BUS3$11 1289
-.node_map BUS3$1 1279
-.node_map BUS2$9 1275
+.node_map BUS3$11 1301
+.node_map BUS3$1 1291
+.node_map BUS2$9 1287
 .node_map ADC_Vref1$7 1179
 .node_map ADC_Temp_amb$5 1165
 .node_map ADC_Temp_c$2 1150
@@ -238,7 +248,7 @@
 .node_map DAC_LF_PWM_N_B$0 1040
 .node_map DAC_LF_PWM_N_A$8 1024
 .node_map ADC_Vbusp$0 884
-.node_map BUS3$2 1280
+.node_map BUS3$2 1292
 .node_map PWM_Isr$0 1210
 .node_map ADC_Vref_FB$0 1196
 .node_map ADC_Vref2$0 1184
@@ -250,7 +260,7 @@
 .node_map DAC_LF_PWM_N_A$9 1025
 .node_map ADC_Vbusp$1 885
 .node_map Temp_c_fb 1349
-.node_map BUS3$3 1281
+.node_map BUS3$3 1293
 .node_map PWM_Isr$1 1211
 .node_map ADC_Vref_FB$1 1197
 .node_map ADC_Vref2$1 1185
@@ -261,7 +271,7 @@
 .node_map DAC_LF_PWM_N_B$2 1042
 .node_map ADC_Vbusp$2 886
 .node_map DAC_HF_Duty_a$0 872
-.node_map BUS3$4 1282
+.node_map BUS3$4 1294
 .node_map DAC_Debug_2$10 1240
 .node_map ADC_Vref_FB$2 1198
 .node_map ADC_Vref2$2 1186
@@ -271,7 +281,7 @@
 .node_map DAC_LF_PWM_N_B$3 1043
 .node_map ADC_Vbusp$3 887
 .node_map DAC_HF_Duty_a$1 873
-.node_map BUS3$5 1283
+.node_map BUS3$5 1295
 .node_map DAC_Debug_2$11 1241
 .node_map ADC_Vref_FB$3 1199
 .node_map ADC_Vref2$3 1187
@@ -281,7 +291,7 @@
 .node_map DAC_LF_PWM_N_B$4 1044
 .node_map ADC_Vbusp$4 888
 .node_map DAC_HF_Duty_a$2 874
-.node_map BUS3$6 1284
+.node_map BUS3$6 1296
 .node_map ADC_Vref_FB$4 1200
 .node_map ADC_Vref2$4 1188
 .node_map ADC_Temp_c$7 1155
@@ -290,7 +300,7 @@
 .node_map ADC_Vbusp$5 889
 .node_map DAC_HF_Duty_a$3 875
 .node_map S4_a 1353
-.node_map BUS3$7 1285
+.node_map BUS3$7 1297
 .node_map ADC_Vref_FB$5 1201
 .node_map ADC_Vref2$5 1189
 .node_map ADC_Temp_c$8 1156
@@ -300,8 +310,7 @@
 .node_map ADC_Vbusp$6 890
 .node_map DAC_HF_Duty_a$4 876
 .node_map S4_b 1354
-.node_map BUS4$0 1290
-.node_map BUS3$8 1286
+.node_map BUS3$8 1298
 .node_map ADC_Vref_FB$6 1202
 .node_map ADC_Vref2$6 1190
 .node_map ADC_Vref1$10 1182
@@ -314,8 +323,7 @@
 .node_map ADC_Vbusp$7 891
 .node_map DAC_HF_Duty_a$5 877
 .node_map S4_c 1355
-.node_map BUS4$1 1291
-.node_map BUS3$9 1287
+.node_map BUS3$9 1299
 .node_map ADC_Vref_FB$7 1203
 .node_map ADC_Vref2$7 1191
 .node_map ADC_Vref1$11 1183
@@ -326,7 +334,6 @@
 .node_map DAC_LF_PWM_P_A$1 945
 .node_map ADC_Vbusp$8 892
 .node_map DAC_HF_Duty_a$6 878
-.node_map BUS4$2 1292
 .node_map ADC_Vref_FB$8 1204
 .node_map ADC_Vref2$8 1192
 .node_map ADC_I_c$2 1114
@@ -337,7 +344,6 @@
 .node_map ADC_Vbusp$9 893
 .node_map DAC_HF_Duty_a$7 879
 .node_map Temp_a_fb 1332
-.node_map BUS4$3 1293
 .node_map ADC_Vref_FB$9 1205
 .node_map ADC_Vref2$9 1193
 .node_map ADC_I_c$3 1115
@@ -346,40 +352,34 @@
 .node_map DAC_LF_PWM_P_A$3 947
 .node_map DAC_HF_Duty_b$0 896
 .node_map DAC_HF_Duty_a$8 880
-.node_map BUS4$4 1294
 .node_map ADC_I_c$4 1116
 .node_map DAC_LF_PWM_N_C$3 1067
 .node_map DAC_LF_PWM_N_A$10 1026
 .node_map DAC_LF_PWM_P_A$4 948
 .node_map DAC_HF_Duty_b$1 897
 .node_map DAC_HF_Duty_a$9 881
-.node_map BUS4$5 1295
 .node_map ADC_I_c$5 1117
 .node_map DAC_LF_PWM_N_C$4 1068
 .node_map DAC_LF_PWM_N_A$11 1027
 .node_map DAC_LF_PWM_P_A$5 949
 .node_map DAC_HF_Duty_b$2 898
-.node_map BUS4$6 1296
 .node_map ADC_I_c$6 1118
 .node_map DAC_LF_PWM_N_C$5 1069
 .node_map DAC_LF_PWM_P_A$6 950
 .node_map DAC_HF_Duty_b$3 899
 .node_map S5_a 1324
-.node_map BUS4$7 1297
 .node_map ADC_I_c$7 1119
 .node_map DAC_LF_PWM_N_C$6 1070
 .node_map DAC_LF_PWM_P_A$7 951
 .node_map DAC_HF_Duty_b$4 900
 .node_map S5_b 1326
 .node_map Vbusp_fb 1307
-.node_map BUS4$8 1298
 .node_map ADC_I_c$8 1120
 .node_map DAC_LF_PWM_N_C$7 1071
 .node_map DAC_LF_PWM_P_B$0 968
 .node_map DAC_LF_PWM_P_A$8 952
 .node_map DAC_HF_Duty_b$5 901
 .node_map S5_c 1328
-.node_map BUS4$9 1299
 .node_map DAC_Debug_3$10 1252
 .node_map ADC_I_c$9 1121
 .node_map DAC_LF_PWM_N_C$8 1072
@@ -553,9 +553,9 @@ E6 1357 0 1351 0 0.00245700245700246
 E7 1320 0 0 1322 0.0035181236673774
 E8 1352 0 1334 0 0.00245700245700246
 E9 1347 0 1313 0 0.00245700245700246
-X$H1 0 1302 361 1314 H1$TP_CCVS$19
-X$H2 0 1303 369 1335 H2$TP_CCVS$20
-X$H3 0 1304 376 1337 H3$TP_CCVS$21
+X$H1 1302 0 1314 361 H1$TP_CCVS$19
+X$H2 1303 0 1335 369 H2$TP_CCVS$20
+X$H3 1304 0 1337 376 H3$TP_CCVS$21
 I1 365 1322 PWL NSEG=8 X0=0 Y0=0.125 X1=10u Y1=0.125 X2=550m Y2=0.125 X3=550.00001m
 + Y3=6.4 X4=550.1m Y4=6.4 X5=575m Y5=6.4 X6=875.000001m Y6=6.4 X7=875.1m Y7=6.4 X8=1
 + Y8=1 
@@ -4462,17 +4462,17 @@ V1 3 4 0
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$188
 X_BASE 1 2 DIODE_SPICE_BASE_V3$189
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@AkjGyrBL5f/LS6rk6PwCz/dv1Pf+u4jaxu8HJXqH6rK26Kwutv+I8EVeLhlKChPlHs3J?##
-?@@l0njOBogssFIZLP3PTubTlt9bG5vHwNeXlsMo8a8Ps4K/4aPgYbnXWmpLMhviDzUCmBx?##
-?@@zBHQhgaPRHtbYK02saxmHr6GsLf7v1G/4Kd4fgK9MfopkytVPi3cy5pV1Qtc9BqKwmJ3?##
-?@@0TxPQsDR9RLeqJk8KAA7vs6EXKu3k+uEET7DW0Gkvzi/h2mFCUkXsx492pVM0n4kiqhC?##
-?@@YoEI8SzIakkUdG/AlKfUx4Woy2ddid+Z5eLFb6FkvkhxCCoW084SLZ2rzFdUJHrvz4l7?##
-?@@i+IWGL/EH+M7987BxWZHbWuKKtKRDwCmMif1tOgOPn2rYpjhUbbyjLJh5jiR94SY4tJ2?##
-?@@6AEGMpngnqHJHCMGoqq1sNlPoZYdGzWBGBc21Y55xGOfspvCuMZZ3Cv+/mSzmK9v4JQ7?##
-?@@+ZRLEdxYrBiKu8zlKLK+Ve/pe5mUb2dJlYnmyam3z3dnG6EyfJbljk7nA4h6AgsdnRbM?##
-?@@NgfAwW9Ns/WWriCHhN0DWsO+huyDOhbIA0Fj3kWQX8GcxyYxa+3sXvbhUPEPkFpU2C6Q?##
-?@@00118/0rwD8yTnwCApnXHO1ffXA6AeosByfc6bbheTRf4p8FWX3nt0ABa9YLIzoCh6X7?##
-?@@hKZ+rVvQBRsxJ43YDK1o4iw0+5AgS1KWqKnwxqP84k1CMMNhNIQMTePfFnpyJ+NeG7Y+?##
+?@@jvw3Hn7y4j3/Ra35NhpPxoVIyEq5BPZMts2FFBznLXBN09lRoPGNLVKaFJUS7lWPViqq?##
+?@@e1jMjovLgLXXy0yMYZtZUKWEb8TjQ4bhxy+/cwxCl6iFAxYiUu+yHc3Q/kgUjfwZZoB3?##
+?@@CHsy3hg+7HL9NAdLqk99K4d6QNwowOvTwnFhL+tqoPGJsB9X9w1vEFRok4/eG1hpQkaj?##
+?@@idHwZ2J6lM57PsW6WP/VT4wBPKJZSFvc8jt19sTSk9CN8y4eX9zpn1DcJf+s+ElKI+21?##
+?@@2on7XbhqJ8HmgKMXVTKMGN7Vq9JilXa9Y6H1w24wGbOyFgO3h15To+ViV/1/iRNynDRQ?##
+?@@kyev2+roZNlmjYPeVnlisrXjvCSXSaYYakeEv/2ZnRO3LJ+4VOZHVXZms4FK7pvimF8i?##
+?@@oJanWB3GbTK9ee05+VpMcH9QGFCY/anaRekYUNfMCKZn4RoKnrWiF/9ytoNZPXo/FmNQ?##
+?@@dSVygMSdwsPtXWPr9FT4Z8Ui1nhms6kPbXbsT/+mdLIu2uZTmh0LevLgug2HICXlrr/y?##
+?@@elDSOvJsdLzAXBpxJ7obiRLUXLCspBT8x6nFjxjBM/sY7iFrJpeQvph7z/pcfssRfVrY?##
+?@@l0n8PMLZHNWBC2883LFpEumUnCWviTufpsprmH57HbyIt4Atdr67yjE1O3rQU+gOVHhM?##
+?@@rP55fNicV1WezZAJEoqnu1YHUnog6ZiPIHXmu+6bCfJtvBkh5DcOzJ7LDuf0Q6whBofs?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$188  1 2
 .ends DIODE_SPICE_DEBUG_V3$188
@@ -4485,17 +4485,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$189
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$190
 X_BASE 1 2 DIODE_SPICE_BASE_V3$191
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@kRVwJ7JXJ7/C+q9Ojs9p8yJa/wH1d/pnmlKymVXYiI82NxJmQHgAPVqfxlHcd/dR5+eX?##
-?@@8lesou2zlmq21EJSScH0COrj5Rj1Z9cVh2sEvyMHXIm4MrCz2TCQ66TpAaVYtc12orXd?##
-?@@Y4r8R+vRxsy0pPymt9bs5QnWOf2vCb+K7IFZSki1v6w44kl7T7cYnpCpaW3GSekK2ZwP?##
-?@@jOoqcD+PHCZ2SkQODUYnrRZKDruN9+5S8LhAajJG1YkIZD4D8b0oNUDaVJyskGWgoHEr?##
-?@@0TxPQn64aXlyJlz9qjGfdkX7RbxZrYggWXtJZYqlxasB4drq51jpMBF1jK8OUg5M7iQ8?##
-?@@hre3XlNW8Cpfk6kVpoWPDk7Eqro7DvT6tlT7j3PGf+o0g1P00vjVfn20oeqo9/BveQMu?##
-?@@h7/Kts14Dgj/ADWn9QE4c0SbHvJQ1LVxzSyZWjD0xYVPOQHb1byTRqffojK0GXT8Lyt+?##
-?@@0DM86WEgAZ3TjA3qBipreDHaIGVud4sAOLIORmDOo0BUjO1BQiaQpMw+Bfosf9L4g5Hp?##
-?@@Tc13sVU5khnlryGy8ooQILmQN943fIN+FG/0i+0VLd6uMLiO2f0knAiydEXFbCypFnVG?##
-?@@quxmy6Gb7HDNWkGFP99siCdQdUz5OHlNesKxyhx+xPInqB6sk7U5wuWKf3R2Y6gRLONl?##
-?@@e1jSki3oF6u+Htjl91I3Y7WdY3cjgUJwcxj5ukslorGFAxYiUu+yHc3Q/kgUjfwZZoB3?##
+?@@5ei0JmFVv+QUxOWOI64w7kRC+P+ZCG/eXdeXKYNFfQHEK2GuzD2c+y4pUM/uZrmD1YWE?##
+?@@MuVaW/CTPBX6mcgtYlaZp8GGPWTJrMvN7DvTdwKgm6pQKkZ8vW+977+tWM7mkzgCOZWa?##
+?@@b/HhbLtj5iB4eLf4Faw7m2sJk8mh1c/3dZQMXyp8KyrfczDP0dPl3a68M1vta3IRH47D?##
+?@@mFIPlXTvbLRc0sDJjmdP5aj0jbTNLKzpvl3RbIIoFGpSlI22pHqlxHZ+Y8VDy40/1n4P?##
+?@@mVoi7VqhyozT1tqwYAYJ+gmXynOYgfowa6o4HBFBZpIoozELYlS18m5oHgmb9IH/B/Tw?##
+?@@Hjn1eGGyJwK2BB8gmSa5PyixqwKi1i3Iyid1K0tpvPRBPW+DdI7ygpMPG+AIntICmhZI?##
+?@@u3+rqtlkq/HE/MxdHniJHap3ruInHzeuu5JCSajIq7+yXW/rbRRdDKhXFBz8KM+PKYnm?##
+?@@kA120sm6dGT4ZB9j6ecjm+5pEGnOJkvIIv+Z8LAYXfZJxhyxRg+CXKIzqG5bHm1PlgyE?##
+?@@4cWAyPy5D5CniAKRHjrHLvlCCqxuBlWTDaUp7Z1obQ+A3sfcF+6p+dPGqTrIVSYV3nFV?##
+?@@di2G2AYAPsoRu6GP7kRRhChJv7RIaW7G0n4Uoxc5Q3h9jZqbrz08mSdZq/8+uq1AUQAZ?##
+?@@o7DOYbBCf+Owxaq2S2nKTF5QI4JL1F7qIP3XpMEQeMqwkGzjA6K0nIe89rWXqsXbUVIl?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$190  1 2
 .ends DIODE_SPICE_DEBUG_V3$190
@@ -4508,17 +4508,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$191
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$192
 X_BASE 1 2 DIODE_SPICE_BASE_V3$193
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@fGHf50eXQTVtCKL+Kdi3tdnggQFNUt0pabB59ck9C7PTen/U3cfZzSR85DFXu4cE7L8b?##
-?@@uW1s9RI+b9E+Zh4LyUYRqEqY14Z04IeSuZGy3fEYmzNhw2gn8SsBvBSLv75ek8ET0rhF?##
-?@@MuVUXfC9rjfvGarrdT74qAljvN96CSVPJLPTdwKgm6pQKkZ8vW+977+tWM7mkzgCOZWa?##
-?@@A1DyJsAiqlekHLdFuxGFE1xVMaCslYZiA5e3Re30goDT1jx6o7571uEDdA3YEtns1faE?##
-?@@QF1/NA1tEHWjqLepVl0kx8qAdpc3SjPiuyzva+2zqt6GEw2dZhrvUtHtZWPFcWm9cblu?##
-?@@5ejNKeAdRGx3Dc2F+7l2+JykLyUh0KCjBo5rk2MGGIVq5PT59NDUanErMUEgPD0a81h3?##
-?@@3qtHv9Q63+V91xF88rrOecmwwTBLNQumoetW30EpB29IpPO5uXqhUdBNAehlDppqrUhb?##
-?@@n46U/4ykAGKHB80P71C0EVSsIn2IYIA+F2QwZuih93SOitgES5qibOCP2dQaK/trgyvh?##
-?@@kA120rk3fgNesVBkyRVb9cD/3/fq5AswD51Ja9k8HTcXMccqwDb/lm74/EZ1sSAglbmL?##
-?@@mVoi7SMQlOZkxj5o8kok1Ve33s2zystnKLUF7V+igY14Jc7/ZQegDQhOVJeiiyrgGUME?##
-?@@/r+XynLP1KeEgOcCAlw6cNt5jaP5it8Nuk42n88BUipfwpYGW0xdKsP9y5N/2Fd96KeR?##
+?@@4L1UbLVY9mIlljdXPH9b9z57nc+J9L4xOU/3oNBdOsw/2VY2Fgbci3fM0UGdgv/rOEpO?##
+?@@jfMkxcImIL1oCVeIbt3xYVHttg1P9Z+EFkvMkl/suWX/XHCfFRlmffruLazPwcqk0OsF?##
+?@@MuVUXfC9uIWnGfbrdT7hqBNoPDB6CSVPJLPTdwKgm6pQKkZ8vW+977+tWM7mkzgCOZWa?##
+?@@37RaF7ocK3WUHm2nLU4oh0ujrfRclh2tGm9GpIFxBc5BDreA58drkl95++yYROVdpYGh?##
+?@@KI+064fE3Qhi7kzIP6TsNM/nmbqZepNr14M3kUW7HDy6KeN65Tayq/MkxeCqnX3n29fN?##
+?@@yfe2f0sB/3OKCbcvTOQ1voZHxSL/d+0sUMlzOj/zgax+Rr4NplLL5/5SSjsbnOoygr/K?##
+?@@asagtDxosN95AcRYAGzc3GGtEDsnaCbR1ynUEi+92SoFzjT53L+cQPfoQOQFr9l51+6W?##
+?@@C5WL6c712dqLuvVIQhIfR49W8AY32ySm2eHxTeKAbGC2jVwuHtIVVNcM3w045irHHEiT?##
+?@@yO6jJkrFNWQVDMQMTG7TeiymJGFk7VeJAuTnP6GPjXLy6aVow3jzGgCMx64Qv9esSEXS?##
+?@@fWkLQ2aZbLlldPBOx4KOaaZQqaU2gZ5soJ/qNmYmglYaXw4j5tOpQgC8EclMFQGs43b9?##
+?@@wrsdFNdBZV1yN8gKf3qUWh/OFaXEv3Ejr2A6tGs8n8we8BVl0sBb7Cua1/C7LahZh+0M?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$192  1 2
 .ends DIODE_SPICE_DEBUG_V3$192
@@ -4531,17 +4531,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$193
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$194
 X_BASE 1 2 DIODE_SPICE_BASE_V3$195
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@I2Q8Luyc4Y4rEb+GrMoaxLIvLNKZrLaEgaT03efp1A3ANSYTm8x8n5mV2yb26A05YOf5?##
-?@@XE5828cSCCejfuPNLUb9JFJ7OmMb9QbJTn5GvhnXlWMXo22gg9ELzinyHQ3vChmbMOSQ?##
-?@@ha6FBOPvhNurpuK6QuFiPsbBpQC0ykO9R7f/hXMSHBGQpywSvlwz/TuL/GO1VG5JofXj?##
-?@@/r+qykR1YpDga/DGAQRkErLti2BVBelobBSZfYC64OQlTv1YDBn7Q2N9RFr3UNV4Gr6S?##
-?@@h7/KtuimX9ZI3lOOcYRibJRcs9CyD+qMM8RbwAW6ttTiRPCRvSmRxaL6l5xU6zMSdfIs?##
-?@@XE6V31bcnCL52JTvIqO12vl8l/iFZ+A33H4O63FOOyy8SNg7UvSHOJYWCXseDFrFE2Wo?##
-?@@5ejNKU+gdoGRzavmDiJgiRLYyMHKyA2TvCHZFUX5k0N8wvXS4m/ohO8lyR3i+9TFq/Tv?##
-?@@psoaas4ip1+p4QdVI5NODv7LBHYOGnZzlB5Tx71SVzq6zIovLmV1+jX69gGQwJLyTrV6?##
-?@@R5kEn8ORRaZsG1C2rgQiqOuYzx6ZBdepCHEhJUBFkxxXxY8XmvjfvXLaAs0BZQjFjVh0?##
-?@@yO6jJrXt0C+hdnO+FECa01w4wqxTPOvsPCfXlfwsDFYsj1IcS0Gi36WkR+zFIsUfK85p?##
-?@@fWn4Q+Yz+ftNG2RyVphAObZqUfBsT0YCmcKrlrdJvb0h8eeFaJ//fXwpyhqb6BLvcv7A?##
+?@@H0Hwzfxr2ozSH2fAjNijMuHD497zaFvg/Z0N1vH8BeOIWoRNcG3j3znjQoHpMt+MSexn?##
+?@@CHs43BgUcAJQtK6Nl2c1KjCSQWR3Y5FRivlhL+tqoPGJsB9X9w1vEFRok4/eG1hpQkaj?##
+?@@SaoLTtMVIQ8ohEEeaq9PsKJ13+320PCfl1iAHggy/5xP1KtxNs8xvqMoB8Dxqr8lQDte?##
+?@@ygDJ18XZIUlHRPwNY3R1ziQnpgp9iuKpaSKwxVapDtLcTPLdYjJE6BBP6SV7ps91Azxx?##
+?@@a8+0DJDggHj3rsnjMrAPm8/5dB2OFjnXXttLiqMJ10uMVFimRWCrxkZ62dVm6/27y04m?##
+?@@9GnrVwbqfhCl3sTJFIgriJB+zO7X/rkgKUDs5bxQncVDLPIZ73oYacE0DM8bqnPkqEUj?##
+?@@VREQdOnYWUNpCZ1/yAOHBKNKM1KCo4mRPdNv6xTotMejUuYI6gYL1r3I6RZHoHNzjTTy?##
+?@@MuVzX1YakBcdae3EVmArjQX1EJArzg1LhCrsozgV6iTCs4QPRfJ06qabM1/6hijPV0m3?##
+?@@v6H3CyAguSlk6+BrwmikxbBxXlIiZnqHbfGI4+8m1hlojM4Z9FyYlL5FDJFdCFNXu1g8?##
+?@@6AEGMknZ295pdoMO6JFA4Km5i+4ZqsQcbIuDjao7cSsREyhEu8e7y+huQSeayvn+V0AO?##
+?@@vZC+WoyWMesEjOnSD+TtWeaEr6ybnsHKPbMXCLBsAVOZngvtHIqbfHQ9WGJrSe/B6rPW?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$194  1 2
 .ends DIODE_SPICE_DEBUG_V3$194
@@ -4554,17 +4554,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$195
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$196
 X_BASE 1 2 DIODE_SPICE_BASE_V3$197
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@Co1fjZCs9AN9LVpwJ+Dx85lIZd5KQz4izfzUMmZhiAYlnfC7Dby7cATBYGJkdm4/TcTs?##
-?@@o7DIXeqyyMdTOLtKnBEBBM3CR0pi6hPL526/uKiCqkywkGzjA6K0nIe89rWXqsXbUVIl?##
-?@@NPZ6DmdVMjcbkorOBbe0ca9X4SlNq9NhZrdHen2Xgr/sFxff0x4KT24GJaFt7k/ZRBPi?##
-?@@MdxgB56Eg4dwT+Bd1HydOf4b3kA2onXn8a9ueXw0ETHZVtYThzXa7YH63FwMjUvV0LWB?##
-?@@ZqRUUnXjiP/qXtIK/uGZEN5DolU40ukIghhYL6yNZOP2EpWi7w8yb0iCnqpZqFAJGXKr?##
-?@@82DY/omb8Zjd6XK+HttA/k5LRHhgC69fDLSat0dkIl826r81x5tf7h8gjdL/e4FkidKX?##
-?@@gINETEWnhKwosBA5Yf+WevOQgROm+QQ39XFLvnNAZiKhsdBL4GdwMM6ny8onHiTITTDR?##
-?@@cQImHh31As6/RWWRXTccrWOfBXzwG3jdnYm1glnG4EuIOfNBdzrekx3kLl3fHCFE+lJt?##
-?@@GhapFmbwF+uR+rzk+oABwKHK3ZuUUPkXtb9i3I+PWFMIHKwa4jxPQ2Idn6HzB26pAB/r?##
-?@@u3+rqrHXHRfnQ5RXxfpxLnYAhQfS1OCFuVJD0ci5CCo0AEZOBP8HpSOzd3Rx25SY6lzd?##
-?@@7CQ/lE8o5D0phkppVs/HiK5k5g9zY5uSEpSfrIFWG33laj2JmCKpy5XfnC/EpInyfjwC?##
+?@@0kRJl24uXVzsSoMhTTA6eGN/nnrDhv+zbTnRiHOg5zn8W55/fzvC66lfOoLwBV8N5dtR?##
+?@@49aOdOm9O+PoSzmrkzV1JduM1IXGKcKNG9MkJQhPlewoPZBLt41Qm37QhP1nC6KtyQc7?##
+?@@mFLwk9YW8LKLIOsnGF9BtKF5fkeJTbPpNlXFJYO3stlXdu5BDF4NDcFVErGztcfAkJ4V?##
+?@@VREQdI22Cy1kibPgNz0yF6YfeNw5FPWvqBr4VPFa4XWsAWglfaE+KpGRZnMMQ6GVbgI9?##
+?@@0kRimog3kLPdxcneqmrUuutePfKZQ7AS8Nn9ihudB5E3rDK1d6CsguqMKmTcIcM51Pzz?##
+?@@h7/Ktta960QFCltwzaKJ/mxj5GlaNa5PfOuTc4hNcioUA4YVk8oNsCI0AuwjExZYPzI3?##
+?@@cPoTxiHgYiBrESVRmpYHzMyWNSicLqydflF/CtfAX04a/xb+TSsxYeKAgXN0+6qooQxI?##
+?@@eUe/4Yeu+2FMA/Xh2lQTuSp7V1Xj0bgyP1ML+t0uKjXsp3FYuInvwXhNYIo9V3mhRzzX?##
+?@@sjH/jhbE3zdCZ5iWXsOziuwZ/kZBWSt0l0GjRii/UQrMvQ6tSUl63r1VNCld/IFh6mff?##
+?@@5/nz2k88aXE03nlp38r4BSSjShKewNYojhHpGgLUb4O0hkiWCTysPiJEpwObCEfzs7Xq?##
+?@@ADemHesc6qs5Q3E65EE8TwcpqQNd6T8xYHwH/FXCao4a+trLoU87kJUGYUbEr/wPE1CA?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$196  1 2
 .ends DIODE_SPICE_DEBUG_V3$196
@@ -4577,17 +4577,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$197
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$198
 X_BASE 1 2 DIODE_SPICE_BASE_V3$199
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@Nf6UZSP3gZa9TsqCugyy1V6YdBsGXc8nz8AA/DqS9so6joCQXvYw/8ayC4qwG9vEylKH?##
-?@@Co1fjJCs9AN9LVpwJ+Dx85lIZd5KBT7jzPzUMmZhiAYlnfC7Dby7cATBYGJkdm4/TcTs?##
-?@@m2spnAp7K+WW1fF7cBVy4bIENO3Gv7eEGdryqryoDfhB2ihWrOWAHMhaxGx8PmqBIlsC?##
-?@@CHtR4LihaouQ8cNxu81qj3wO3S3xBv4Dwb3iypG83lgIM5d4RVEP+N2PahSr4ooI/0B5?##
-?@@lTjVjF+U+up9GeWJs6H6Ueite4AvFeDaXt2N81y9+xB68p76jvtVWs22nxLvbvsjx+J0?##
-?@@Co14kCfa6kze21GipnO0SNCh0KaZYIF+MkB7C42IMVhwjxBw3DUe9ZZ+AC+970tw37mt?##
-?@@VyM2JbGf2pBHO2iauuDcYgF78i1pr9XwpFpo6nx8UgTtuqLh96CjMRTjkkJUWJVcpDOx?##
-?@@IEocKIVVtl4PXO9ATZhc+PEgsfHXpRytVUikhXofhGC6RXXAkstbu3uIOtXCqMfP3seL?##
-?@@mVoi7RLB4FKybBBBq/hNhqkUARAmLwyJolV9CZNIh+/EFLinGqFO2Pe1jnV3dSx7yU91?##
-?@@EtEQUxG71+nt3jD0oMSPmWWb8+EBOy20UJ+RnPzAB9x7zlJtjqPkocCzCbVnzRwHntD8?##
-?@@001i8yudH3QNL6gLAeAybH+rcYb/4m6qAC+b76h13KpK0gcxChLpmwELIGszMuv4axr2?##
+?@@3aMbY4L0sOFi4TUC5MpCyqJpZxhMgbmWVsrLG5dr361VdRwhdn9pe2/HHobT+l0ppo5h?##
+?@@4s56HC3xeWNRD+M6y/gXwKcxwklcWGsEelJro0tTIuHaxyeZLLYp6ycknhQk3RbBRMiX?##
+?@@K6jP8swoawGLc6nQ/pZQ6ZfbvbWXUsaQvijA69PCcWEv62qg8YmwH1f3DW8QVGiTj94b?##
+?@@MNNNrlMckepHXJkTTuYKlXp0cx4CoZj/tVnrX3YP1VI6GFcuvQCW43M3anTlsXGxzmbK?##
+?@@idHwZwLNi600+KHKeg1vy2O3HI0TkVeYJu0Q3XTExAec6W6v++hLOM1bUw+Q86SYfYy0?##
+?@@IltC2TPtQp13JaY8J1TpR+hTa9zI76IuckFPwNdpUwA+yeDCn/S5qVbtEIVpLm0Kc2oX?##
+?@@b/EAboOX7ldRTqdJmCOSDy95i0tjW+xfsU01T3M8ZzH0bx82STJg+fskYp9q35f7oc31?##
+?@@PDsy0+T1eEVb1BrpYpA8URZtMEG0euZ7/Y9JRK4fwQ6ZVDd12uGvmJ9gSZkxtwvUP9Xt?##
+?@@Daaxmf66+4CQPMIkv9odWyGemzS+xuUlarXhFNgyygePHj4lBAkIC1RxfWfmwu6sSzff?##
+?@@Jn2OOwEREWibHHdpprSvj5Rv8fL2nAmbWX8OZrnlnA8NhkAG3hpMYE/iWdqs+WE0uV1G?##
+?@@h7+3tlit3m8XEFtZQOLMKTF1pv7vnkLsoVFEevB1tQMslP111AuAXevkyDY7r4UgrHIr?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$198  1 2
 .ends DIODE_SPICE_DEBUG_V3$198
@@ -4600,17 +4600,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$199
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$200
 X_BASE 1 2 DIODE_SPICE_BASE_V3$201
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@1FZvSObG4F0Zwi8E3an1Qcw1w/OWKK1FsDxEi+6Xzk6YSW/ilOoPS1i4B1R2YHbk8Via?##
-?@@Nf6UZCP3gZa9TsqCugyy1V6YdBsGH8/ozsAA/DqS9so6joCQXvYw/8ayC4qwG9vEylKH?##
-?@@1meP+l6J1n86u3mlgAoQC4rZZtga6bQaKbe4j2mNtmM0NkBGqppcqwgQ0yb9u426/dbj?##
-?@@f3sx84c5YE0nX1oh8Dk+Z3zvEiGCafjW2DztfcwRrpAfmG1tl+5mDqdOzU3TWc3PKje0?##
-?@@6AEGMn9Ud2ChKluSlZJN8gQ9q9n/QMKyLN0kxAEB5w+4TJp0K/s4Ol2vnAfhrtkhNL/H?##
-?@@7Sxl7KIzfeqodqNKGBL7jXT1jJ72y0ikrxas+WhLEN7OrI0LqJTjlh009XnXiTpfpvWM?##
-?@@wrswFEDnZcUYcucP1pMG+PcNa0ltvMCnhFnsgyjsEu6G/Wg1mR1Jx7uOmaX5pzIMg90L?##
-?@@t1xeSAiqOgHkqz9lvJQm4gQLvy/k787XbvXyQHSNJxC4YdVvZdDeLOWkL4FGVPKEws6y?##
-?@@3JohDvYsXtxwGQokkrrENpa4zzjGa8m2et9CynzSx0HWOkHGwyY4kvYhkwecPh8eMBh3?##
-?@@YXn1mLdH+WlVoUdEEo4UBgq7peOBRpe+yG5C8VOhWRh5ZC4Y3jRNxmZvwc0Kp4d+u+91?##
-?@@AkjMzf+5cCBqe+a7ch6IVLRvEdtY++Ln+oZ8RD5+o+a26Kwutv+I8EVeLhlKChPlHs3J?##
+?@@sCDA23YQn031RxgNwiXEH3RjM2K+xXt/EgMrTkhDitWll7voD5anjP19p4wB+trOHoJ+?##
+?@@tUsfkyINaM/ldcZFqVOaFnkrjpLOnCztNovL1/srzAkq6cZgxcxo/LXaJhlR3ZNmu72z?##
+?@@kh59gW5NZa8Ftht+afQOWU49EaoQZ6uzcktsGxLU/JqErnsXy1Am7bFLrTofpIM8bSU7?##
+?@@zyspkcJ3X3Vmu5gVcU5MrN4w35t7WJMSNI6YmoK3ltxvrwWzW9oeeWeb7LiIPraBHHg+?##
+?@@RH/LlkH2OQAVPsTGzghAsyuGOLqG6OLAHLt3wQcLb80fy5gTNP/qn9mtns/CCWtVqy14?##
+?@@vZDRWnBdkLaJDIbweuZtG8RNuZSnZRsanMx9XqNXXOycZBm5PCR0HfICgBNF8svFye1U?##
+?@@9noRByVkseyZZWf6qL3rrzYBhe3kJfR3+xPaD9kvjAvs1fIzkqyWtpjJ3senkV0hlhtT?##
+?@@X2fO6ODudrUYtPCXXx8zij94VY5ARdiPgCy/iI4y64oskIXZe2ggxbGADnP6hDK2BysK?##
+?@@MNNNrpsaoVjP+IR7SLaIPtKIqJKdi+O+sVdGa0KRDWjEEZaq9Vt0d2xhYsJyryM/3Rrj?##
+?@@6QoZi3amXeSZAoifdnEBY28NoEQdYNwF90OCyISfLpiL4pnXS3c7QCsuOkzNfNFBYRQX?##
+?@@AkjMzRKpO37/MAA85xKKpXkDEg+m7oe7lNUzkjSKXpm26Kwutv+I8EVeLhlKChPlHs3J?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$200  1 2
 .ends DIODE_SPICE_DEBUG_V3$200
@@ -4623,17 +4623,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$201
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$202
 X_BASE 1 2 DIODE_SPICE_BASE_V3$203
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@ywjDLUqZENnQpCkH1oipufYBH8/gz6BzCa2+/ETCvfDbHMKks1W1G0Kp7yIZxo+ePCPT?##
-?@@IEoDJLg4nA1oXL0xVBQAlhUe9htd+7KqnR/HWK/3eO3W0ez++kUJj5GQKGosYGp3zyoL?##
-?@@VRHxcqOnLcZ8WFpwyYbLZp1JO+/pmwELIGszMuv4axr2ZJHEt+z+/sI80q4YzEkshi0S?##
-?@@RpDxRqU003bp/3oIgXKH1h5EPPZ/PDBWJvcxrdYmajg3uPufgWJGpz+7+atmgggVUYsV?##
-?@@i+IWGMvjKoAlNT6iNAqYBXJDOLTMDzXYwCN9EgoQxUVY4sLzRenGtoiyIZOPg0WFhtZj?##
-?@@dBxfJ83Lv/unuHM0dDxy/A3ItqTe0Pvf838COJzTjYc0GVpgRj2pX6Ji6uWCZenpFDQB?##
-?@@rQag1A0huzDS09p0qA6ma7QgkHdjQxMTKaoUVg64FVXIKlrO7l2eKJU6qQ7UGEKvXcgZ?##
-?@@ZqRUUmhgyIgRMToDwgwZQ16uPLAEMZXROb9R+zbpDBKr2HGm0jWxQPa4V5eK51Q3ORDw?##
-?@@I2RVMer+NEf983EMSAxcdfVjQuWqNtOmG4r/GzJEC9JW8EPyoKwLe0ZeXIwNjzmohjwE?##
-?@@KI+06xwRFDsDi2rQq1MzbCAQy61sZQgTzAA97H1Tl1gAuQ5Kg+N9ATQfNsrb0hr+fQHW?##
-?@@2YHVBd4bJUZqUxSBhqxfDVmA5zIphKbVKnqdsutazbwdmnpaSyHPuxAVhuHGRC98j5PQ?##
+?@@dzaALpuaeLN92vTGQanivtQYJtA9PSv8RCnZbRZVyH5OKXRcJ5AZXW0fZaQH185sToXm?##
+?@@0DMj5faW2VvA0dc+vrZ+r/vIegDwplJiLDVehfiq/yRhbs0caYt1i/kHbq9pqkg32l0J?##
+?@@HTDDHYT90vtSJ6GbEEdnasT0vhDR5QgR8xKa03YFHc7tbbLqWr6Wf4mLdq9i18i1PW4e?##
+?@@8lfFpjFerds0NgUO/TnAMrY1vHryPXtUziE1gJwf2Qh40FDiz//0igqaUceNA5hHbZGk?##
+?@@C5WL6Qod3qnrOBWGi7yL6j/K13s0qBTe9R1ZIaLjxjD9XmrLYsUVSBR0ItUoS6XHPcAk?##
+?@@dBxfJ3IpIOFvYDeJ3hYZSqxQ7unpnecj5jqyETGqH2cExqsjRs0FVjAMjIL412SMFXDA?##
+?@@LboUpf6M1xjt+LvV2laJhw0vuRPBXLBbKRt8rooZ+wyTcjN3lhjHYzCUVoMZLHBtSuaU?##
+?@@itkDwP555Hj46ohSOggR3exDieg2ZDzZKYrklbh1ZoHwc21ePfwD/xMzUDKAYO/Mogdz?##
+?@@ywjcMNPHrT/mPXeNdaJ6Dcg0HJcuw8M5HG6sb9Mc15qFoTTYm2Wi3A1Ip9/szSMIdmOz?##
+?@@iMjdD6DVFO6CP7MTV1nm0itAoZWp9Qc4GD/FFRjn5N2KL32+fWTb/aXJFp81MqGflvNZ?##
+?@@rQaN1C8o70oXAfh/3WmFOARjreUBo9HZ1YHBHm0Jgom7M4LTbw80fPZ49NA3cTgMjMaR?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$202  1 2
 .ends DIODE_SPICE_DEBUG_V3$202
@@ -4646,17 +4646,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$203
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$204
 X_BASE 1 2 DIODE_SPICE_BASE_V3$205
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@7jVgQf2Dj2hd4uqMKs98dhl3nCRPYXwwBWUeuC0ajl+BVw7trtL2K0U4aAFL/5/JirpL?##
-?@@37RBE/mMNOGOWuHldEP9kwogi5If5WfpmM0+HhJix8LxYu2Eiy+22x8f61haVXQAsgyq?##
-?@@qNshGZbZA2s45c8/lihG/Ga5IUUiXB96Q25fQFtq7IE14Xdbudh0DD4adUPnjX507oxb?##
-?@@Nf6taGfmnQC7Gnxa49nYjb1UKCNDgo9880856FR2NQTOBhnaGH+rc/ROlnYHb2+op8qD?##
-?@@lkDo5FTCJ5BBVm+rdyXz2agq/+aUh9hjlvKp3T2V3KSTqtsmbbKATZJ5kVe7XpCDsL2F?##
-?@@+6Vxwb3jwp/7bQCd8y1ZGj+0dNdrpav9T44wgF/npbcqKgxSmxyT4j04WSe7ObSHzmbu?##
-?@@IEocKJX4T3W8VTbrxTuP6x27t5z2mvhuia1UVxXdnBHN3cnYNG7chxlFZgfgKvfes0k8?##
-?@@dSVygLTqTst76M3uGUxgCehqg8l3tvyeL7FkRmlMJ+fw0zOiTCJQ1YkUd8tWG3OBrY5s?##
-?@@lkDo5MUO36uJk5iZbexgDHSJNe4c/DNzR0iVjTv37EKUZyfiAIxMQ+yOUc3kkteb+9Fm?##
-?@@OzIfevvyTutMrZ5ywkbl4S0LgcHIqFAQJ+zg6C32w9eCi+0Ujtnfud+xsd/fDL9f7aTD?##
-?@@QF1sNE3IFUXgA/rS8CkMWAdQbItKJTAILcfvNJUHNV6SqP4yVDrXjo0a746UENjgiwWX?##
+?@@SrMlpY+3Zx8RQNjSHwRkE6YS8hqugu3l/2E5oMYtc6adSxMjwadXbvvV7ak110sRxnkC?##
+?@@K6jV8Mz+75He828S664I6FQIvrnm9WwOhrDA69PCcWEv62qg8YmwH1f3DW8QVGiTj94b?##
+?@@OBjHb1eGQ4ctg2qUJKpMA1Kgql3z7y6F6b0tgXOEUekj8rml/n2jD863vUV6pH2GXA50?##
+?@@tUs4l5UrN2OdhvfAqd3ofIabJxba21YfUMh2huwqpdJeh+8fFjAubXmej+F6LIweNKOZ?##
+?@@oqjOCPS1ZO/gUGbYVstPT6i1LLJroUOxuKDTJOB6ynYBxLggDxVKawWsytHTfTR/NSkq?##
+?@@t1xeSHI53zyheQZY5cI2TtqaYbnFPxxiH559RUNjgx8mRXcjAy/Rgpt8mxP1HBTxJ6vY?##
+?@@NPaZEC6KlXsKrxIXzJ7M9g6KN1Ux54yKVgAHtt46xtqGln5o+4m/jdeDZyQFRBec8m2c?##
+?@@Tc13sdIh5n48s7aNV9gNQGJKEJ4/DoZvV1KiNTNmCd9lYFbJisBPyczV2+CkDh0GoHdp?##
+?@@UvjWa9AmG6cO8MLWZ/QYNqqlvBp3gzEk6WRltoohU40viY4kx61lWQSFMQgezC6UQtOq?##
+?@@7z6MnSFI6pKwZcGKnDTecnXFXLDvEAtq4ffip82CrcJJePBSR1muXJa2hjfQXttZqFcD?##
+?@@uGVfoVEKQ5/bG7ws8p2m2GkCd9z6lNan28vXs1Ab3mYUTQB1ZlPbDLzf2dUbZjYoTXmg?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$204  1 2
 .ends DIODE_SPICE_DEBUG_V3$204
@@ -4669,17 +4669,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$205
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$206
 X_BASE 1 2 DIODE_SPICE_BASE_V3$207
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@oZ+hrXIaRMYnvw9mDJhFO2UMItCOhmb4p2tLtC2LwzcUopuA7fNnPNdkKuMQT64FRdTc?##
-?@@5vDHfh0hgWWqADoA6+uOUnieCzwCm8ao/VhRqkFA8AsSoclgVxTDq4bVNrgxk0RvW8Mo?##
-?@@g51fU2tWANt+Ls/Xs2i3dZBAfyvhKJarBbSMgfgcNPz0uVuvqa3mnYwyL5Eu+VdzlXea?##
-?@@RH/LljKfyYkRmM2OIynZcgg09yV30slWArrUMfLuFl+QiZjruRQUFOyWHPVgawOymu6W?##
-?@@SaoqUCtjSklFActu/3scDbG2PnQpCOU7ISzCWc0R6LpihfHlHd/rTh3hTBZ0FvCvtD1k?##
-?@@noWBpwewHiygcplYJXLULv1afdQyG6LSdXnEnV8BUnv7u3A8OSWNFBWUhJBYoZkxt4bk?##
-?@@Q3e4PYnNSc1Lafab92rTXbzM6Zzc1qod6Nslen1z+jyIHFhDgEcg5bNdP/1tXjZmm3Z5?##
-?@@jOoqcNCBdPEq3crCwRV7S5ZBFYY+2q/wV2fI51u9xGOfcMstTwvNVGpngJjkxO20UQBM?##
-?@@uW2F+boXpW+TaUFR7jGkPTP+wLV58TE6KrOl+hQ6iZhm4fPMiApiF34v1oRk2wwCGxGP?##
-?@@xt19dgE8h//XcIHjvU09FIY48n719znlxiQA9hLxSdvHpsMGSLD07bxrU8unqzqPYIGC?##
-?@@12+uVMnhchLfvoodStFDryqUCdK6l6o6xruMoTJnChCCran3NXGCW2C9uQ9A6RimgxWH?##
+?@@ab10WFNw361FjkGRU1nAP/kcJ3t30G19eBKzVbmYdesLq7ylkMX/vp+yzuRaWi6O/BXp?##
+?@@quxNxw5HFEpw3hRkE7mSxDtBxvREoXIKTfnSRNZg1JbRz0i+zojBbO5zQhVt6JVK+gmj?##
+?@@Q3eZO2tMlwyiGk91u0RUVXJpcsh96uhp0k4mFJdPSV18DDdH9cFKnpQfoklemXuiHcKE?##
+?@@JGxoimsXdgjTtYSJqxjl8dCsWOeztDumuxMn2zY30nBCJuhv92oJ7JdQrfEgZIdCPHXu?##
+?@@8U+yTlx9WizZCGP7pgKS9tnl7jDmJQXwFb4Q4IVDiWtaJxIobvUGLVvHw90CH5fVEDNh?##
+?@@elDSOtCkRMYml+wzsapJo7A8zJ1KsxaxNxj1xL/C2l0DZbwLBhSsJ0YFYw99vhNEHhq9?##
+?@@D7jXSinO1ceugczVe/U20QP8LNETMHODcbywHLyNSL0pz0i/rf/5jJZgYod9Bvw+Zjc5?##
+?@@wKoKZJJllkbqdJ1KXrYPWz5+qC5XG2Rr9tRXODkP3nm5Wc97F9rrEECYBMOIxYVbaaPd?##
+?@@IVIvgZDi0yzqm7dlZWnOFRqj3KE/XM8axQX79tQ1Hz0okpt5BXkeFa8x4VBZID1v/f7L?##
+?@@itkDwK94Yfz9R5+zPtxxiAhSxGi6vuNvBEoM8JOmtoY/Lgwcb1KyNszNZcnFdV8w2mKT?##
+?@@B3Mrhxngu+qv521asV7H/RoOSmrJawG1ZSJE75aqLok7ObambDVIYPy8raaa7sx9vAj/?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$206  1 2
 .ends DIODE_SPICE_DEBUG_V3$206
@@ -4692,17 +4692,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$207
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$208
 X_BASE 1 2 DIODE_SPICE_BASE_V3$209
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@YHDJPbdDDyn8bzuTTDh0tyPng1fBd2Es0oQsxQ/EZI1Ofg9mrjCljoiktrL8wEdIR+Ai?##
-?@@kRVwJrJXJ7/C+q9Ojs9p8yJa/wH1OfoomVKymVXYiI82NxJmQHgAPVqfxlHcd/dR5+eX?##
-?@@itnkvo7sTV6a1FbxKg9INfy9/43D3/Vraz+fDSb6XkYV+DeKdJLzbfPpe/EFOCfiPi8Y?##
-?@@82DY/sl7z++3lnuFAK2agg7rtCvGaVk1sqPAEsq6CiVEM5j8tqvl/ot3/ZtOoUVYWdCq?##
-?@@zBHviHYiih1+O5PlBAUXAw+tmEPbHrHz26eepkR2McvJB6Lg0HdUQ8bOUG2410wbrpX8?##
-?@@MdxgB2qjsljfFBdNeoyHKElpTjksErNPMn1KMuvwj28btXHa2HLN0OKuEKLW/uveEyT5?##
-?@@NgfAwVLjIQ/hdMIf/bNT4JsKp/PODzSJNLkgZBw+IlCY77C7N3yTJU37pYJ80LlfJ6Xc?##
-?@@n46U/1P1cqfcms3i77oRBfMcLlfiqPG1utOmvotF46gJmMCNUHDMVWotImkolC0o7tzy?##
-?@@kA120opsQ/14516Xq6ERy5uTiXRHI1FL+CQHzF7LuZFUydznaU1EDmi9mNGNy4Alrx1u?##
-?@@GQ6WvjsI1drySzWw0OVxYIDeSxBQkQmX9u42TZfnb++uC0CO1639dUGglw2NcCbj1cXD?##
-?@@ziIDObXL9y36+k8JcDRSrMpNTNgfsAESpb1YpT5SbnHFgPy5VNwoK0muod3jTzFgzt/A?##
+?@@/K1rF0WtKG6VL57BGB+e9fRzm3kVzzouz3tE0IrX4fLD1cWjRZ0QyhOk/8H4fUCm3CpI?##
+?@@vZC4VgJud9KYV3bR6DiIOhsEIHoaJOI2PJeY5OcFal2ZngvtHIqbfHQ9WGJrSe/B6rPW?##
+?@@Jn1vOSAron+bRSeZF2iz8qEyYjSHPRTjmqAgYiDaLyyqmV8oO1Pwr6CZjuG/ca/78qPm?##
+?@@M+2Gt/GYsPEz4s1itQHztxctJ6pTXbbRKlc/l2Zelg55XAFljK2ncfG1kxFT+pqOJeNz?##
+?@@0DM86bbHkl+AeEmFu4R2bJo3kJX4BUN3eTOuhbYv94k5v2RZzEXN1xwM8E3PzfzybR7C?##
+?@@qeRTcxgFWZ5j7mw689f/fCmPKw7ELcavAe0A2qI2zRpfWoebfvFz8jciqrZwtnhnGvtY?##
+?@@UvjWa1bZbWOgV3NNIDb5rBYkO5iVUey5/iJnUPaFd3DsgRnHyP7slt+6t7vDhy9tPZNX?##
+?@@h7/KtkFThNQdTzZBh9CfM4JeM0inxWYQj5WnIRhLAOQ1XX72TcHbmltObInqZKYiNBb1?##
+?@@VAn8HLmpITE9x1FBEYiZJbxzwXh6VmtCV5uLo6sw4LVu+6rg2N/EBicgugIlavQthktZ?##
+?@@uW2F+VxE2XNTclzYfWGV1Gro3p83K+Ut/HaVSp1w28bpyO6lMRX4HJRQeg0mJCP66R6x?##
+?@@Co1lkE2kZk7NSFNRQ3teDbs7BAaxwOnqNwGbv1HnLXElnfC7Dby7cATBYGJkdm4/TcTs?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$208  1 2
 .ends DIODE_SPICE_DEBUG_V3$208
@@ -4715,17 +4715,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$209
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$210
 X_BASE 1 2 DIODE_SPICE_BASE_V3$211
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@a8+bCcsIY65yBux049J8CGHSS/VKchsPuxYmWDSPXACnmI0IpXRMHU8LmrbgtURkCJMy?##
-?@@/K1rFkWtKG6VL57BGB+e9fRzm3kVkTpvz3tE0IrX4fLD1cWjRZ0QyhOk/8H4fUCm3CpI?##
-?@@gYw5ovO+fNpSte30I+78rPVaXNkNhumZxLAZfn0lTedYzIpMk/2ZPdzaY7+onkCciflR?##
-?@@TtWKCbWXVHKPJuCXTyVCuc0jibSBmdP2nSjklgtOgAPBnK7iYDTx8SGfAbrx7U4W0O+U?##
-?@@B3M+h/zc5XH6qBzbRrl+xzna+oOdQrhP+DtbmrqXUAuf4J2NWnrjh74SK0emABz00aZr?##
-?@@fGH46kk230mSRxUZmKvyviMYmHtjGDHxo/LEWem99TgznkdEfblvx8PVr6zgdvi149jE?##
-?@@/baXcoqgZHkG/95iz6KcSK28Pvx2cwGHp9vjdviLJYD8lVWjZgbLk34F9DPLT3qrd4Op?##
-?@@/r+qymmEi9vonGdbQq6yd0hD88P77ZXjHoNxwNkUT58i/VJh58g4nbKMQjI66yIHmggW?##
-?@@S7tRAKXgZszcAhuF4QRvxZcHQ41XHLEqjpzXVBTNQotp7ku0UlpHKkLP2YB0B2bGXYgz?##
-?@@oJanWB9TeJtHQxCLvGJpD3idpQvXMBO4H+MTSj2wmjgoAY4VOM4iiV6lpRky7pKtxj6G?##
-?@@CYRSOND7BMPhxcuC0F1pTw28yxtKJvd8dll5KKRKAAPXJocJguSVwKwUeXkhSeNUx4VH?##
+?@@6xsmOMkeSueaLeg30hljSX1lZm0S7ngVIuDxM/QoM0CX89TYDUuDGz0ztUaBd/0H+P5e?##
+?@@LLHoSYjKsRJ0L8WEs+tmTIhk0PZQxsOXJzJ6bJG95Wt9YdNSfGHWz6+j81hTgvR+FRzA?##
+?@@gYw5ovO+higKtSP0I+4MrA5025INhumZxLAZfn0lTedYzIpMk/2ZPdzaY7+onkCciflR?##
+?@@lkDo5DmH4cMMoUfcVRNYS4qSfDSFsrC8/Vw01XKsUlmyg3J9Z3JnK1g25cC3qo3OppZi?##
+?@@m2tInp264iG82Qp048Ok42YW9SK1EYM/7NxeUkycHiUW5UgJcBNLAth7K6mSFuVo/4gi?##
+?@@sCDZ3ghOwNp9rDJI1+xi60fE9w/Lyqst0mH342ufPPUFieP3Klplcf2YTgNnP66sRY3h?##
+?@@fWkLQ7rUSqDIj6VEj8KUTAMDHlGWMtc1fQvVuwWfONuiIcfteNko3LHBk466US5eXwTY?##
+?@@ZqRUUuZUsfAERl9IWHxXWgzAxz5hCKXNR9qfj/2i2OmtcKXrk+DWHNAwHNgcfTLvzoeg?##
+?@@v6H3C5vjuf/BZhqsP5Ha4Cq6pNGTeszYlIlvaS3jjzTQqRPxPYNu7jmYDsLdKBzTqaTL?##
+?@@ZJIuogOl93oEix7XhmnH+Ilb2oSo3q8e+eaAeF3wxf7TS/wsbdDs6jVzjzHiIB3d1Xwo?##
+?@@Ue+wEoUMG+I7fyI1m12LoIMhaNFgIjEyKmArEsRggHG+iu/+jI1kPmKLOQkLFht/bzGB?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$210  1 2
 .ends DIODE_SPICE_DEBUG_V3$210
@@ -4738,17 +4738,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$211
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$212
 X_BASE 1 2 DIODE_SPICE_BASE_V3$213
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@6hMT4A1SiGYE8ZLGCt0F5EkKUzCoHSEMgl83sTctvzVJfGsmgnNda+WHz10+SXIcc7+6?##
-?@@+6VYvYnhZ+7/8khQUOJAkcAYiTyrwOPmLvmKTszbbuh1Xl3yusXqGrv4Gdi1T7S7V+uk?##
-?@@UOaRuPeqZESMKrI54VcHb2VT3xfZhk9e/OOTqjcQKeVwE4dMAbU+jgrfUiDI6I+U6fLc?##
-?@@rQag1M9tXw+34XSL7sGace9GopRqG5T9TbzTYf009pCNPKlHhQ/DGzvF3lb7o/OxPVJ3?##
-?@@0kRimqKmOvIVLMZBTlrfrRg60hGLu7AUcRBQ0OA9pXDJazB3LNPdnHDBx2zwuE4vcXs9?##
-?@@+6VxwVdakpJJOSrrY/xOQN+PtMMpFtJdb3wlCrQmsadG6cx6LT9tsP+xry+lFWGzsnvu?##
-?@@kA120k+QxC36AEY8031yk9NYKOCp24qgli4cyFCtDzAxUSeoLoSCsI8CafdcGlrIjioY?##
-?@@sSnsNkjByn1TLONdn9sJlMxzyVuX9FPAw0S+1R5Vlhjo05ZOhJemEQfkIzBspUdXBCY4?##
-?@@asagtGY4K0KgfD0Ze3HcYZz/ynLzo/kmTkxpN0Tv38E5BDel4wf6hb0OqHnASw+yciSE?##
-?@@u3+rquYRAsLPIB4cXSSg6KsdaUrPiRWItY08r4xajd+6k9hdx8VYmfvvnqFVocWtRkMw?##
-?@@XE6C37YBeCMZ8dAcIdg3MBUwcn3pL4Ak7I34j2/t818Xo22gg9ELzinyHQ3vChmbMOSQ?##
+?@@cgsgdO+erzGOrUaPWnoNyM9Qy6AtKHpPIKE55GJthkrI12njcVpZ7bbB5ha39BXTsUuw?##
+?@@cxMzy6tqcbEk6ZwAIrdqLAOr3d2Xu9CZwSLyZiBo+lQWTtKV/DJ/nQ5uzP/6IaC/N4pU?##
+?@@6AHnMJXkgNWE+eehjkzKHPIDL86Gms29d9PErrw32CCuj5rDbcQQCzYuA4q37ltFZ0Fx?##
+?@@jfM9yUzrVsk1wwxbdwm97jtvdskGHaCXZkBtDPXYGyClRFIQKMBBH6Z/gibcJt9Dpsrh?##
+?@@bujtFeRfuslqQPjQlM958FHVHDYOMEcabz/k4c2Ba4bzsioBm/HkGxqurxGVwWmyCvah?##
+?@@7z6Mnfqa1PJ1merDhHQtaSsdHipDi6GvvATav/hWbSlqHgjrYC56ab9q25DpkktSiFln?##
+?@@ADe5Had3xANEzJHxBrH7gmYwtwDdgfXHHQfYn2ZLdppKM3n6Y42ujRvP1WVixscFb8KB?##
+?@@4cWAyKYbee76fVdp3FQhHvyb9txuZR2ImvfbS1xry1gNqzA0fP4z5UCg9bZcsENxQi7M?##
+?@@KqDbnBJNuNIdjUEVXsT5AwypkOCKID2cS2difV8FUhzxWJyVBnhpQv0bdkCh0UZC0YcT?##
+?@@K6ju9C/HlPnFjavyKcUAcViW7AEJ69H9oZVsQxNVuG0rYVdwCQ6Goi88f9OTORFJPddu?##
+?@@LLHuTYfzlnyPAFd3Nd8cdc8zrKAy02gaW/iRfFnS7rx9YdNSfGHWz6+j81hTgvR+FRzA?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$212  1 2
 .ends DIODE_SPICE_DEBUG_V3$212
@@ -4761,17 +4761,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$213
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$214
 X_BASE 1 2 DIODE_SPICE_BASE_V3$215
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@KZeuQVRlbJGxesMvWzVNH+tSmj8Tkb+7Rq1N51jMikyT/Zk93Npjv6ieQJyJ+VG9hGDT?##
-?@@VhoKyF9JfSUdFN8kfdrKyRlYzfWhD/2TiXTstKj03yRE2/p2QsMkrhrouJdc+dQYDGu2?##
-?@@l0ndOhpKJOM95Mu1UCNCT7F668EgfF1gltMMo8a8Ps4K/4aPgYbnXWmpLMhviDzUCmBx?##
-?@@mFIPlXqyEeXFyJsEkRV2ov5iXRJMcmKayK8/kVfSQ0cCRedAqMN4pUyYxtOm4317O/qV?##
-?@@idHwZ3gvah8Xjb23M7AYTZlXN4tLE2S0Y+BCunS/j4LjG4Dh+TW08oCqPl1bV8/jauSy?##
-?@@7jV5RN8uxToPy+R56CMt6mfwyb4lKr8BvZ4dy047gCt/C5xl3i5xnbGsNlI+6cJXkndU?##
-?@@p9MtwkFH2pQSd5vlVfQ3TD0hZNTSTfCRjPtzTsH1cugu4sTtt5gSu70wQ28xb5ZwlvLb?##
-?@@fGH46hURhZNsFEVgHHLYYj6xEtR/QQJTbixF6PrIcWi+bzhPWMu6NalQFgBMSNVHeW7K?##
-?@@wbIdvNcTBnij0fzMPzwpaA770BAgpTGyWIpHgo6oVp0UFq29UThBoj/wli7xinvUJcOT?##
-?@@tlRL8PEVg2YM8qyjQO6cUaypJm024Pyhh2wD/jaHPp/Z1wm5fUurBK47/CLZdmig66Op?##
-?@@jwRQeffzXCxeADdd47aA9qXjSZG4UpF+OKSlonPOSPmbSkECK8mz3apG+n9VHOB622lO?##
+?@@JXVi32Q0ZY9YiWtpPEPWjRvlUUxtTWQXwqdn4GLfuyJcIvd3sXvJ/0jtp/h8QyMQbGVB?##
+?@@0kRJlm4uXVzsSoMhTTA6eGN/nnrDSP90bTnRiHOg5zn8W55/fzvC66lfOoLwBV8N5dtR?##
+?@@25LvswqFqVDi6SbdZzkGAnyWQSYq/mbHTT9XFxx1+Ji5iEu+YNAcG8BuUrRNn0ZTmhAZ?##
+?@@pLn0uSXYmnf+fdgbE9hUFMPHtx5rXgciv0EJJ/uMbuossxYyclUhS36jEniYv5qy7Anf?##
+?@@gYxYpI1Zcg2/UlU57Fu17KVQCi6f869MBnKDs7SyGBjNKk7E7aRq+MQXdqCL1cSmmOky?##
+?@@TtWKCY19eERw60avo8YNOmkpn4ScMJupRlnA9y3Tr/hjKhuExrHIqeBT4SlhLW1zgTgR?##
+?@@a8+0DErHlV5dPppcvf44ggv7wz+5UbEzldKkv+4C5bTg3phMFwF/p9B/uVReR+grquOb?##
+?@@mFIPla2lfQtb9WiFnFE6DrckAdAhUh14xwdCKLfSM6F57yur1lQhTvifEi0Hp2Vtuy9q?##
+?@@Ecn9++6rkIi9g7V7MV5yEzj1wb3WQfoydgsO36+UCfqO9h1pJl+ADqjaloTgJs1umegO?##
+?@@oqjOCOOC9s3gvAMz6jgk4JulcmvsgYQn7BFddn3OQvoBd9hXS2L5uH5rhtVrYeU4uMOG?##
+?@@B3Mrh8BOB8UDRt41BhLBn785a+c4tKW0b2k7oi4NXJU7ObambDVIYPy8raaa7sx9vAj/?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$214  1 2
 .ends DIODE_SPICE_DEBUG_V3$214
@@ -4784,17 +4784,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$215
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$216
 X_BASE 1 2 DIODE_SPICE_BASE_V3$217
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@nHRC88Yde0Q3kWEvJGlwRWBEx59/cbRKg+OsLHmjgAOPUZAIN7ynzCAGq1XAa/VtqJqn?##
-?@@idHXY9L1GbsPGADCT+t6z4CBbRmpsUTgkkXli2n/6jvHgc7Z6rvNvZs8lQjCC5z2uPB0?##
-?@@6hMN4Q18+oj5cXqEHcWs5QFp08NZPHvPudc3sTctvzVJfGsmgnNda+WHz10+SXIcc7+6?##
-?@@37RaF3Nu1pZuGvk4w4fL1UMnv6L4ymFvrWcawPBe2WAqayfkRZrXqswEVFWecV3nQGtl?##
-?@@rP6MfHmlXUumDY3U89cbvy80qDV6jmcm2k6Mc6qJTL3FeJM+k92PhbaihXnqIfcVzOJL?##
-?@@GQ6Wvgd8eVfumbIQOVZvs4xPwEbuvRAm/R9RbK5fJt/R73i/cJSe3RrBYWBnXuBpCtI7?##
-?@@FvRdtTWY4N0AefRRpL0wr0BMzFE1Vkk7m1UWas4gdaNCPFWA9Mr8XaqIQNyKyv8kVPJm?##
-?@@49aneNd8lmzGeVniLJ2LPHV0KGCUfP1f3ryKHiUaSvq1rcVUSTA00TQbq/KO8xQnq9zg?##
-?@@fGH46vPy5YlgZmn3pk7ETwc6UKKYVyNKeMwILYhbttWI57J5w7acLJHSjmA0/+keRYfO?##
-?@@BWIY1hAd6euv6lYWnbDzzwF7nZiybJCwyGraJxJ30AwJAJ5Vn09k9QcOnYFQvBeOhh+n?##
-?@@VhoQzLgulSSWRoG5ul9RgtApwupwPK17nlUss3jkzlVE2/p2QsMkrhrouJdc+dQYDGu2?##
+?@@6AHtL5W6BGXXeebje2RKG+BUL7bVe3N6P1vErrw32CCuj5rDbcQQCzYuA4q37ltFZ0Fx?##
+?@@DaaYlcQQOYRA4lzEf5YKITVanJWHeEL/roEBt55S4yYPASrQrUMvgAzGEh0u/xEB34HZ?##
+?@@ygCq1Y73ysjn56pTIjPLVbo6DQInHaStn6QEeofHSeWNplryKH2Pa+r9CDnWmQSztuQv?##
+?@@+6VxwXWDE/2dAdS8h4VaSGnKulukRnw3ufzUPJtHnsrEyQ7EvwyWlGe6zQ+jlpOmoOkA?##
+?@@OBjmcdZpNRJSSkxySC2lIVppeD9J3X4SAoZKdYF36DTEcg4V7t615r1WvbAvFkZQTgvj?##
+?@@beDavQP8biVnBCxIjHPSs53apJrm3RKnKPX5c4/he1RSSwYIZDmnDaYv7W2rtaWTZkaJ?##
+?@@Dq/E8nxMbWdzzVhkhZX3OZ6x7XWE4lSty/gh88/W4uaiuBD+TRZr0amRloQf3CCCqIzw?##
+?@@5/nz2gDzCOxoJmpMjC0Q64DrVmvzwvJcXRTZsfm/LJrSvMTuDM9e9qd53PUxm+izrp0G?##
+?@@GAWDZYFTTv2/zQPYd4fjSStuGGM0nwpI8TOYvJZ1HjHE0aSlmZ0J+WCazFHg85+BllDu?##
+?@@SaoqUBKO2pUW9ZtzuSwUdrmZM9DwPdMMQ7DAsU8+t5QJZcangD2l7H6ozkcJQoewS5TI?##
+?@@3qs0v3ONSVhZA/lZ9FDdnKFuhy3N1pPbqbmBCtddpb+j7IXTAVePK8dzBW8XJ+gULM0G?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$216  1 2
 .ends DIODE_SPICE_DEBUG_V3$216
@@ -4807,17 +4807,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$217
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$218
 X_BASE 1 2 DIODE_SPICE_BASE_V3$219
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@OzIGd4vADJlDuM4raXflMJe74Yh/Q9hdlMpaBqt1rAkNVvO6ngQXH9W8cAFELB9H7cth?##
-?@@1FZvR+bG4F0Zwi8E3an1Qcw1w/OW6q0GrzxEi+6Xzk6YSW/ilOoPS1i4B1R2YHbk8Via?##
-?@@yfeXfdIq/vqYq0riWvdQ8SJzejy+TE0k/iJL+cnL1ts/L/FBnqZou5JQIlCSa3jIMaWK?##
-?@@fnIem9g+/VBfJzORDRUT3kZ1izVqKehL6d9HqfGwBZSW+K4kLpextTTkOKQ2aU1dvncf?##
-?@@q/V5JERe35inEftTrkMORI51yuxKN2rmCy9Xv3BjAENaTMC3q5mzsSJ0gRoDh/nkISQg?##
-?@@yO6jJkmLkG95Nefl945np0KhBXaBFcusxCPaLtkSHZqly7TRdN7PU9WXBSMMIV/eg04v?##
-?@@beDavS8F6ztmt+XglyUmYSIt/YvO0wvyAiC84agGrPlRgrWS6bGMxIx69IjNPvAFdvUS?##
-?@@6hMs4wnFDs4EnIejcThglPdNJadk2lLY3xBohUOVzVECUEkNaICRSMGXp4RwgxTbVWFN?##
-?@@T96dYuU7Q0P2cAc0MoFEOuVUtUgLrWUX5ruO9B3AiM9Kw1CGQYNEeseG5duOHldioe2F?##
-?@@zBHviF7ln/ZJpxubnOQVeZb5EHywaMmnXk313gBIa6eO3tG87tsKbD3GT83wncPLZPrx?##
-?@@HTDPH67pHD9kqHg8AKowKjarkw7oNljFXCw9O3Zxyj3tbbLqWr6Wf4mLdq9i18i1PW4e?##
+?@@K6jV8cz+75He828S664I6FQIvrnmM2xNhrDA69PCcWEv62qg8YmwH1f3DW8QVGiTj94b?##
+?@@cPr6wncFLDBhNJqsygFR/2eapiZaScz+3p3G4ed3nzUs6piAW6sMjQZpGUQwmf79pc1n?##
+?@@RYi/7OPkGg3Pk0JYS73mHvg0lh5QjJV7E1GZFxJFMXIY+QiqCnGX/kR3bhzk9JJ4KD/M?##
+?@@MuVzX56VxhwpsveT7Xpbi30y5ofKo49w2mzATQHquXVi/WreU0G3bF0oxrqltlgVtw0J?##
+?@@D7jXSvRcHB28eifqLnMzckRhauprt4Y3YtKh1xwhqiSsMUXZHj+rtDmTHgKQlzt8Ky+I?##
+?@@RH/LliFIAaGbO5nLAm6wgFOKJW70irKaK3AqEwVLjdcUn38aPEtCAZfTrwiFtTGdSabQ?##
+?@@8U+yTqk9GHXP283lNPjQ0B+AN1LbS+2+3VEDoO00KahpAIUe/6B8arSG2/h2WWKNKytP?##
+?@@hre3XmB70lHcrA2F4Fg/2ztszgT2jpJMTFRxgVx3LO+lD0wny3BQ42NWS955qb0S0BTq?##
+?@@n46U/3D7t9flX+UxpRKUBgkB367cThJOQ3CNNJ9cdFsmi8A/7q1PkAkKa0QWr78gg/mn?##
+?@@kA120ukRxBRRVFOItI6FEhpwZyyPH9Uf2W/ZdF7q8sQKZtdbxEHCRAVKK3lPmPQKIVU2?##
+?@@/baEcjySU+04X2z/0EnHQ40xC/XXDLXREH5sdjljy+gRTC5V0HU3emtR5ao8qsuSYmjs?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$218  1 2
 .ends DIODE_SPICE_DEBUG_V3$218
@@ -4830,17 +4830,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$219
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$220
 X_BASE 1 2 DIODE_SPICE_BASE_V3$221
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@TtVxBn/nbyFrMi+YPvbcpXd/Ow5VxUiJhGggp7waQtDVJbXp7AbxLluGhk5CjXm+3XWT?##
-?@@X2e15Pt2TalmM+UihPsWUu+McRpXaApkMANzRFLI8IIACKe1JFh+3jD30Mm5k7tdwaF9?##
-?@@CHsy3hg+4iRFND9Lqk+XK3lzwFsowOvTwnFhL+tqoPGJsB9X9w1vEFRok4/eG1hpQkaj?##
-?@@JXV74oA16fcbVEfWp/gKqL/gqm/Wh/vrh/3lmFhDem4JQOnDSQZ2qiMidB0aQOyzhraO?##
-?@@TtWKCY3xQdJ7ofpBd8LCk0ILxsyrE9CkVBsb7eUPn5yX1WQ6ACvY+NsYUps5jaYXblOl?##
-?@@001184rNZyGJ3zfB230TKO+b71E2w/bIos2v3AibOrLCbBEFwhJoqKdx69tZzNM7D/2k?##
-?@@YHDiQIxB9lWZ7ILvOA1o27pKlNm7f8m9mB+yvpAsKOBKvCc4w3rh+jQxtRjighaCiSrz?##
-?@@JXV74qQKyhnVCQYUlidyQMiimbEz4G6ZTu6EhLe21xORnQbUMRsWswsoairhNy207pTc?##
-?@@Qm6l5SP3dz3qIutG/nkXLKcclS4PBPCQRXwp9Z4nosn9wi9ZXVZ0lGPcmWU85Um+URrv?##
-?@@X2fO6LWKYfB1gcY0o6xihdOu1pN2PUzkDvjTQt0CnUOMk7k5XkDNSlCNq348eCLbitXw?##
-?@@4L1ab5bl8AXwWOvMnDFuzD792XUBdg3yixK0RW8dbjs/2VY2Fgbci3fM0UGdgv/rOEpO?##
+?@@GhaQE1BvEQri8rmIpanOO9z7iK3jU6oz2RVtTj4Uwq4DCXnVujcib4KGw/SYTyb0q7Ex?##
+?@@NxC6FZuQBZfpx3ZlSYVunsZOmJTZwX16EMNz/7WI3d/Ve1H0c6V9X3YL11w3dvGa1tDP?##
+?@@nHQ89MZH97TkEUntN1HHRpkQxhMwkA4NulusLHmjgAOPUZAIN7ynzCAGq1XAa/VtqJqn?##
+?@@QWaSjbzad+QBkLUqeiP3Wyc+pSpMWE0hTOtSlmDGLEoasknjsAw9dGgkaYNtyiuY/Ryg?##
+?@@RpDxRleheIhUsByEesNU9hNaFm2eONtTdKv8CItS1sw0bBvdX0K3TXFQnGGX2PDfoabG?##
+?@@i+IWGDaauwY3r8m8VHEQ8vLNa4A4FM0y2fjkjEm6bj0TbxVk/LOGn6PvZVqH+BUWdh6u?##
+?@@PDsy0x0KtSY8ruatYIcWB781X257RrhoW3x2EJKwx5ugngDUkw4Y0M0okksqLse26+jZ?##
+?@@5ejNKYPk0/4vXru7RZbdttDqaDISkYnWIYMggxUWUNAsX/v0XXzQR9vgf1A9AkxA2fHd?##
+?@@jvxQIWx/pqYSCb9jGH9UfgtXd023SEH2JfSAluaAtVcFyHaiMvr5Ekb2qSH2nMymPVvz?##
+?@@B3M+h2EAuYGwTcLyylf4L+r5jNd+xxLzSNAEdDpNbPeV9W84F9xRjx7TevP/AgScUQvi?##
+?@@oJaUWIpH7Fs8/ocFDfRq0hPitF98IasmRuLx9EfZdGjGLDPOYhtBjIC4Q/rNISMav5U4?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$220  1 2
 .ends DIODE_SPICE_DEBUG_V3$220
@@ -4853,17 +4853,17 @@ X_BASE 1 2 DIODE_SPICE_BASE_V3$221
 X_DEBUG 1 2 DIODE_SPICE_DEBUG_V3$222
 X_BASE 1 2 DIODE_SPICE_BASE_V3$223
 ?@@--START ENCRYPTION: "DIODE_SPICE_BASE_V3"
-?@@fWnyQANjA7YDRPhv8BQUGQ07kz62IzSyCjIyd4c4fr0h8eeFaJ//fXwpyhqb6BLvcv7A?##
-?@@rg+aKf54HEzJz2wqMqsJVgytD+jr5c2u0AC4S81No8AJquqF+udbLE4k2rl6nsP3EgU1?##
-?@@b/HhbLtj3NLAeLv4FaxVm3ofE3ih1c/3dZQMXyp8KyrfczDP0dPl3a68M1vta3IRH47D?##
-?@@SKIX97i3IaPtLfyWZuFa0bKsJJmRS9zKd+oUht+E+yNRBI7ViaVqjFAGXPH5TmMTOFPf?##
-?@@Ecn9+3gW7+lB1tRk6PBGnAIT6UEmYlQtYILoD2wgY+EaNR7qS0j5TROTtqGL9yr/PECZ?##
-?@@MuVzX1UU6kkxCUKuAEo5D+EOzsi39t2Vsuq7MiddnQfsUkpE3QqqkxFmqpPO5DMEBQCT?##
-?@@L8s6VrYZocO3DuD5PvhMB+8xfqf6pO9DZbWgczFz4SGkwlaphnl2pY+nC/lBm6n38/71?##
-?@@sCDZ3hllJlRHbYGrpWgBybMmV9GLr79mKGI3fF0ie16DKWaizWATV7iag/Hib4zXEIG5?##
-?@@tUs4lx9Aypp0f66YwUpIHrT5vpp9hqiokXArcgH43s4KyiyZnTm8puT6Lzjge9dH/Lf1?##
-?@@9noRBwFYtY9/PGp6GfGFcNwwnA568Arhv0roUVOg7Kjj0upxmDvHebEzN1N9Z9sypnnJ?##
-?@@T96KYtA0oSj5v0jb1aiLIQWEeGg9qgf5puowcBcX+hMinB6bd90X3rMybDeFuwSpY7Q4?##
+?@@zRnp3cIxlNn9HNXqZgFlgl63Q0mzcU4FSbExAL+4pAV3CpMHyQQCe/ECu/SfIaZ1SKEc?##
+?@@kh6Df24j6T9YNgXAVgzGWFa1ET5fClExOtNsGxLU/JqErnsXy1Am7bFLrTofpIM8bSU7?##
+?@@OzIAeIvqiAnwOJvpfF88Memf4JAwYjIgy0JaBqt1rAkNVvO6ngQXH9W8cAFELB9H7cth?##
+?@@qNtAGwvph1rZWR6WYgufe91UGXsm4eRKw50LE+d1xgJ+Fnb4hBgSlYD88HmSEwmrkHXP?##
+?@@oZ+6sAmLQN4zI/BiyLlmcAvJkEssxbRa3hUbHIxrITcItvZdghkeTAl35xX+mfKQHM9S?##
+?@@elDSOrmnhrjreYr63201oYJw1hD88Q0QttSBOJnVEV6WPtvlGhmNhuQ7FeaYJNmAfQ3x?##
+?@@D7jXStiUryHql9ZqxavNRE5JXsGopwmC4V/85Fnx0tR7Sppvm5ojnfVaQJL4cVcRNN16?##
+?@@+Is3uNOZOBKonjFh4Fawpb1ZxKdTuhJ1uniJ2d044khEWhCfMt5hT3brvWvIcIWp3rHB?##
+?@@ha6kBu9ANBBFo8xaQpgsLGNWLZ8TODNYaoNmUMqa1KoAP/c7nHj0vTuFieNAHBSsAvNp?##
+?@@YoEI8VZcnByFgHzpCHjEKpSNTIXSthEoLFxm1mj5W5kPt2avDONuVyejbJXHrNu0S+o2?##
+?@@I2RCMaqp1kX1l5dchYclq5whj+LwDeaSObMxp17YmIDANSYTm8x8n5mV2yb26A05YOf5?##
 ?@@--END ENCRYPTION: "DIODE_SPICE_BASE_V3", 13 lines
 .subckt DIODE_SPICE_DEBUG_V3$222  1 2
 .ends DIODE_SPICE_DEBUG_V3$222

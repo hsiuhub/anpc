@@ -401,9 +401,9 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
     VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);*/
 
-    VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, (VICtrl.Ia_ref), PhyValue.IA.avg);
-    VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, (VICtrl.Ib_ref), PhyValue.IB.avg);
-    VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, (VICtrl.Ic_ref), PhyValue.IC.avg);
+    VICtrl.Ia_out = CTRL_GI_RUN(&VICtrl.Ia, (VICtrl.Ia_ref), PhyValue.IA.avg);
+    VICtrl.Ib_out = CTRL_GI_RUN(&VICtrl.Ib, (VICtrl.Ib_ref), PhyValue.IB.avg);
+    VICtrl.Ic_out = CTRL_GI_RUN(&VICtrl.Ic, (VICtrl.Ic_ref), PhyValue.IC.avg);
     // ==================================================
     // Current Feedforward Check
     // ==================================================

@@ -665,7 +665,7 @@ Attributes type=symbol name="term" selected=0 protected=0 x=3360 y=-2280 orient=
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="Q2" autopos=1 normal=Right rotated=Bottom font=Default order=-1
+Property name="value" value="Q3" autopos=1 normal=Right rotated=Bottom font=Default order=-1
 Netnames
 .EndInstance
 .Instance
@@ -673,7 +673,7 @@ Attributes type=symbol name="term" selected=0 protected=0 x=3360 y=-1200 orient=
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="Q3" autopos=1 normal=Right rotated=Bottom font=Default order=-1
+Property name="value" value="Q2" autopos=1 normal=Right rotated=Bottom font=Default order=-1
 Netnames
 .EndInstance
 .Instance
@@ -2483,12 +2483,12 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=""
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=-6034 y=-5058 zoomlevel=33 zoom=10 snapgrid=120 offsetX=9279 offsetY=5058
+View x=-4350 y=-4195 zoomlevel=31 zoom=8 snapgrid=120 offsetX=9279 offsetY=4423
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro with DVM" type=value
 Property name="GUID" value="{ce831ad1-1a9d-4a4a-a6be-06be000d69b2}" type=value
 Property name="last_hierarchical_path" value="" type=value
 Property name="PlaceSymbol" value="and2_d" type=value
-Property name="UserVersion" value="215" type=value
-Property name="WriteLog" value="215/0/106660/0" type=value
+Property name="UserVersion" value="217" type=value
+Property name="WriteLog" value="217/0/107899/0" type=value
 .EndSchematic
 .EndComponent

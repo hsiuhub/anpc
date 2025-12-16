@@ -5674,31 +5674,31 @@ Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=De
 Netnames pin1="#Vanpc_a_fb" pin2="0" pin3="#Vanpc_a" pin4="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="ccvs_3" selected=0 protected=0 x=10200 y=-1800 orient=N270 
+Attributes type=symbol name="ccvs_3" selected=0 protected=0 x=10680 y=-1800 orient=M90 
 Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 linear=1 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="REF" value="H1" autopos=1 normal=Bottom rotated=Right font=Default order=1
 Property name="value" value="{1.65/49.75}" autopos=1 normal=Top rotated=Right font=Default order=2
-Netnames
+Netnames pin1="#I_a_fb" pin2="0" pin3="#SW_a" pin4="361"
 .EndInstance
 .Instance
-Attributes type=symbol name="ccvs_3" selected=0 protected=0 x=10200 y=360 orient=N270 
+Attributes type=symbol name="ccvs_3" selected=0 protected=0 x=10680 y=360 orient=M90 
 Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 linear=1 font=Default order=-1
 Property name="ref" value="H2" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="value" value="{1.65/51.55}" autopos=1 normal=Top rotated=Right font=Default order=2
-Netnames
+Netnames pin1="#I_b_fb" pin2="0" pin3="#SW_b" pin4="369"
 .EndInstance
 .Instance
-Attributes type=symbol name="ccvs_3" selected=0 protected=0 x=10200 y=2520 orient=N270 
+Attributes type=symbol name="ccvs_3" selected=0 protected=0 x=10680 y=2520 orient=M90 
 Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 linear=1 font=Default order=-1
 Property name="ref" value="H3" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="value" value="{1.65/52.36}" autopos=1 normal=Top rotated=Right font=Default order=2
-Netnames
+Netnames pin1="#I_c_fb" pin2="0" pin3="#SW_c" pin4="376"
 .EndInstance
 .Instance
 Attributes type=symbol name="ipwl" selected=0 protected=0 x=25320 y=360 orient=N0 
@@ -6978,7 +6978,7 @@ Property name="ModuleName" value="ANPC_PWM_YH" autopos=1 normal=Top rotated=Righ
 Property name="Ref" value="U16" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Netnames pin1="#SW_Freq" pin2="#S1_b" pin3="#HF_Duty_b" pin4="#S2_b" pin5="#LF_PWM_P_B" pin6="#S3_b" pin7="#LF_PWM_N_B" pin8="#S4_b" pin9="#HF_Deadband" pin10="#S5_b" pin11="#PWM_EN" pin12="#S6_b" pin13="#Load" pin14="773" pin15="774" pin16="775" pin17="776"
+Netnames
 .EndInstance
 .Instance
 Attributes type=symbol name="SIMPLIS_SUMMER2" selected=0 protected=0 x=31560 y=12480 orient=M0 
@@ -7295,7 +7295,7 @@ Property name="ModuleName" value="ANPC_PWM_YH" autopos=1 normal=Top rotated=Righ
 Property name="ref" value="U30" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Netnames pin1="#SW_Freq" pin2="#S1_c" pin3="#HF_Duty_c" pin4="#S2_c" pin5="#LF_PWM_P_C" pin6="#S3_c" pin7="#LF_PWM_N_C" pin8="#S4_c" pin9="#HF_Deadband" pin10="#S5_c" pin11="#PWM_EN" pin12="#S6_c" pin13="#Load" pin14="801" pin15="802" pin16="803" pin17="804"
+Netnames
 .EndInstance
 .Instance
 Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3840 y=10920 orient=M0 
@@ -7304,7 +7304,7 @@ Property name="ModuleName" value="ANPC_PWM_YH" autopos=1 normal=Top rotated=Righ
 Property name="ref" value="U31" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Netnames pin1="#SW_Freq" pin2="#S1_a" pin3="#HF_Duty_a" pin4="#S2_a" pin5="#LF_PWM_P_A" pin6="#S3_a" pin7="#LF_PWM_N_A" pin8="#S4_a" pin9="#HF_Deadband" pin10="#S5_a" pin11="#PWM_EN" pin12="#S6_a" pin13="#Load" pin14="673" pin15="674" pin16="675" pin17="676"
+Netnames
 .EndInstance
 .Instance
 Attributes type=symbol name="SIMPLIS_DIGI1_D_PULSE_N_N" selected=0 protected=0 x=-10560 y=1200 orient=N0 
@@ -8120,7 +8120,7 @@ Property name="MODEL" value="V" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="V3" autopos=1 normal=Right rotated=Bottom font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="Value" value="100" autopos=1 normal=Right rotated=Top font=Default order=1
+Property name="Value" value="50" autopos=1 normal=Right rotated=Top font=Default order=1
 Netnames pin1="386" pin2="0"
 .EndInstance
 .Instance
@@ -9674,7 +9674,9 @@ Attributes x1=-4440 y1=5880 x2=-4320 y2=5880
 Property name="BranchFormula" value="+:E1#P" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
 Wire x1=-4320 y1=6120 x2=-4320 y2=6720 net="0" branch="-:E1#N"
 .Wire
@@ -9730,7 +9732,9 @@ Attributes x1=-3840 y1=10920 x2=-3360 y2=10920
 Property name="BranchFormula" value="-:U31#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
 Wire x1=-3840 y1=11040 x2=-3360 y2=11040 net="#HF_Duty_a" branch="-:U31#HF_Duty"
 .Wire
@@ -9786,7 +9790,9 @@ Attributes x1=-3840 y1=12840 x2=-3600 y2=12840
 Property name="BranchFormula" value="-:U16#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
 Wire x1=-3840 y1=12960 x2=-3600 y2=12960 net="#HF_Duty_b" branch="-:U16#HF_Duty"
 .Wire
@@ -9866,7 +9872,9 @@ Attributes x1=-3720 y1=14760 x2=-3600 y2=14760
 Property name="BranchFormula" value="-:U30#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
 Wire x1=-3720 y1=14880 x2=-3600 y2=14880 net="#HF_Duty_c" branch="-:U30#HF_Duty"
 .Wire
@@ -18833,12 +18841,12 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=".simulator SIMPLIS\n*.ac DEC 25 1k 1Meg\n.options\n+ PSP_NPT=100001\n+ POP_ITRMAX=20\n+ POP_OUTPUT_CYCLES=5\n+ SNAPSHOT_INTVL=0\n+ SNAPSHOT_NPT=11\n+ MIN_AVG_TOPOLOGY_DUR=1a\n+ AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128\n*.pop TRIG_GATE={TRIG_GATE} TRIG_COND=0_TO_1 MAX_PERIOD=1u CONVERGENCE=1p CYCLES_BEFORE_LAUNCH=5 TD_RUN_AFTER_POP_FAILS=-1\n.tran 1 0\n\n.simulator DEFAULT\n.var Vin=400\n.var Vin_pk=Vin/1.732*1.414\n.var VLL_pk=Vin*1.414/2\n"
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=3643 y=-4114 zoomlevel=33 zoom=10 snapgrid=120 offsetX=10986 offsetY=4114
+View x=-8718 y=3536 zoomlevel=33 zoom=10 snapgrid=120 offsetX=10986 offsetY=3936
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro" type=value
-Property name="CurrentMeasureItem" value="Maximum|0|0|0|||0||||" type=value
+Property name="CurrentMeasureItem" value="Frequency|0|0|0|||0||||" type=value
 Property name="GUID" value="{b18f6b6a-2205-454f-81e5-1684e6a8fe1d}" type=value
 Property name="last_hierarchical_path" value="PWM function\\" type=value
-Property name="UserVersion" value="583" type=value
-Property name="WriteLog" value="583/0/1976376/0" type=value
+Property name="UserVersion" value="587" type=value
+Property name="WriteLog" value="587/0/1983717/0" type=value
 .EndSchematic
 .EndComponent

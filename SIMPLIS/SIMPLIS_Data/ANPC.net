@@ -30,10 +30,12 @@
 .node_map ADC_Vanpc_a$4 1008
 .node_map ADC_Vgrid_b$2 958
 .node_map Enable_HFPWM_c 1376
+.node_map BUS1$10 1276
 .node_map DAC_Debug_2$1 1231
 .node_map DAC_Debug_1$9 1227
 .node_map ADC_Vanpc_a$5 1009
 .node_map ADC_Vgrid_b$3 959
+.node_map BUS1$11 1277
 .node_map DAC_Debug_2$2 1232
 .node_map ADC_Vanpc_a$6 1010
 .node_map ADC_Vgrid_b$4 960
@@ -56,13 +58,11 @@
 .node_map ADC_Vanpc_a$9 1013
 .node_map ADC_Vgrid_b$7 963
 .node_map LF_PWM_N_A 1369
-.node_map BUS4$10 1300
 .node_map DAC_Debug_2$6 1236
 .node_map ADC_Vanpc_b$2 1030
 .node_map ADC_Vgrid_c$0 980
 .node_map ADC_Vgrid_b$8 964
 .node_map LF_PWM_N_B 1372
-.node_map BUS4$11 1301
 .node_map DAC_Debug_2$7 1237
 .node_map Timer_1kHz$0 1214
 .node_map ADC_Vanpc_b$3 1031
@@ -89,6 +89,7 @@
 .node_map ADC_Vgrid_c$4 984
 .node_map SW_a 1314
 .node_map S1_b 1310
+.node_map BUS1$0 1266
 .node_map DAC_Debug_3$3 1245
 .node_map ADC_Temp_a$1 1125
 .node_map ADC_Vanpc_b$7 1035
@@ -96,6 +97,7 @@
 .node_map DAC_HF_Duty_c$10 930
 .node_map SW_b 1335
 .node_map S1_c 1311
+.node_map BUS1$1 1267
 .node_map DAC_Debug_3$4 1246
 .node_map ADC_Temp_a$2 1126
 .node_map ADC_Vanpc_c$0 1052
@@ -104,6 +106,7 @@
 .node_map DAC_HF_Duty_c$11 931
 .node_map ADC_Vbusn$0 908
 .node_map SW_c 1337
+.node_map BUS1$2 1268
 .node_map DAC_Debug_3$5 1247
 .node_map ADC_Temp_a$3 1127
 .node_map ADC_Vanpc_c$1 1053
@@ -111,19 +114,22 @@
 .node_map DAC_LF_PWM_P_C$10 1002
 .node_map ADC_Vgrid_c$7 987
 .node_map ADC_Vbusn$1 909
-.node_map BUS2$10 1276
+.node_map BUS2$10 1288
+.node_map BUS1$3 1269
 .node_map DAC_Debug_3$6 1248
 .node_map ADC_Temp_a$4 1128
 .node_map ADC_Vanpc_c$2 1054
 .node_map DAC_LF_PWM_P_C$11 1003
 .node_map ADC_Vgrid_c$8 988
 .node_map ADC_Vbusn$2 910
-.node_map BUS2$11 1277
+.node_map BUS2$11 1289
+.node_map BUS1$4 1270
 .node_map DAC_Debug_3$7 1249
 .node_map ADC_Temp_a$5 1129
 .node_map ADC_Vanpc_c$3 1055
 .node_map ADC_Vgrid_c$9 989
 .node_map ADC_Vbusn$3 911
+.node_map BUS1$5 1271
 .node_map DAC_Debug_4$0 1254
 .node_map DAC_Debug_3$8 1250
 .node_map ADC_Temp_a$6 1130
@@ -131,6 +137,7 @@
 .node_map ADC_Vbusn$4 912
 .node_map Vgrid_c_fb 1330
 .node_map I_c_fb 1304
+.node_map BUS1$6 1272
 .node_map DAC_Debug_4$1 1255
 .node_map DAC_Debug_3$9 1251
 .node_map ADC_Temp_a$7 1131
@@ -138,6 +145,7 @@
 .node_map ADC_Vbusn$5 913
 .node_map PWM_EN 1370
 .node_map S2_a 1323
+.node_map BUS1$7 1273
 .node_map DAC_Debug_4$2 1256
 .node_map ADC_Temp_b$0 1136
 .node_map ADC_Temp_a$8 1132
@@ -145,7 +153,8 @@
 .node_map ADC_Vbusn$6 914
 .node_map ADC_Vbusp$10 894
 .node_map S2_b 1325
-.node_map BUS2$0 1266
+.node_map BUS2$0 1278
+.node_map BUS1$8 1274
 .node_map DAC_Debug_4$3 1257
 .node_map ADC_Temp_b$1 1137
 .node_map ADC_Temp_a$9 1133
@@ -155,7 +164,8 @@
 .node_map ADC_Vbusp$11 895
 .node_map DAC_HF_Duty_a$10 882
 .node_map S2_c 1327
-.node_map BUS2$1 1267
+.node_map BUS2$1 1279
+.node_map BUS1$9 1275
 .node_map DAC_Debug_4$4 1258
 .node_map ADC_Temp_b$2 1138
 .node_map ADC_I_a$1 1077
@@ -164,7 +174,7 @@
 .node_map ADC_Vbusn$8 916
 .node_map DAC_HF_Duty_a$11 883
 .node_map Vgrid_a 1312
-.node_map BUS2$2 1268
+.node_map BUS2$2 1280
 .node_map DAC_Debug_4$5 1259
 .node_map ADC_Vref1$0 1172
 .node_map ADC_Temp_b$3 1139
@@ -175,7 +185,7 @@
 .node_map ADC_Vbusn$9 917
 .node_map LF_PWM_P_A 1367
 .node_map Vgrid_b 1321
-.node_map BUS2$3 1269
+.node_map BUS2$3 1281
 .node_map DAC_Debug_4$6 1260
 .node_map ADC_Vref1$1 1173
 .node_map ADC_Temp_b$4 1140
@@ -184,7 +194,7 @@
 .node_map DAC_LF_PWM_P_A$11 955
 .node_map LF_PWM_P_B 1366
 .node_map Vgrid_c 1333
-.node_map BUS2$4 1270
+.node_map BUS2$4 1282
 .node_map DAC_Debug_4$7 1261
 .node_map ADC_Vref1$2 1174
 .node_map ADC_Temp_amb$0 1160
@@ -192,14 +202,14 @@
 .node_map ADC_I_a$4 1080
 .node_map DAC_LF_PWM_N_A$3 1019
 .node_map LF_PWM_P_C 1365
-.node_map BUS2$5 1271
+.node_map BUS2$5 1283
 .node_map DAC_Debug_4$8 1262
 .node_map ADC_Vref1$3 1175
 .node_map ADC_Temp_amb$1 1161
 .node_map ADC_Temp_b$6 1142
 .node_map ADC_I_a$5 1081
 .node_map DAC_LF_PWM_N_A$4 1020
-.node_map BUS2$6 1272
+.node_map BUS2$6 1284
 .node_map DAC_Debug_4$9 1263
 .node_map ADC_Vref1$4 1176
 .node_map ADC_Temp_amb$2 1162
@@ -207,7 +217,7 @@
 .node_map ADC_I_a$6 1082
 .node_map DAC_LF_PWM_N_A$5 1021
 .node_map S3_a 1341
-.node_map BUS2$7 1273
+.node_map BUS2$7 1285
 .node_map ADC_Vref1$5 1177
 .node_map ADC_Temp_amb$3 1163
 .node_map ADC_Temp_c$0 1148
@@ -216,9 +226,9 @@
 .node_map DAC_LF_PWM_N_A$6 1022
 .node_map ADC_Vbusn$10 918
 .node_map S3_b 1343
-.node_map BUS3$10 1288
-.node_map BUS3$0 1278
-.node_map BUS2$8 1274
+.node_map BUS3$10 1300
+.node_map BUS3$0 1290
+.node_map BUS2$8 1286
 .node_map ADC_Vref1$6 1178
 .node_map ADC_Temp_amb$4 1164
 .node_map ADC_Temp_c$1 1149
@@ -228,9 +238,9 @@
 .node_map DAC_LF_PWM_N_A$7 1023
 .node_map ADC_Vbusn$11 919
 .node_map S3_c 1345
-.node_map BUS3$11 1289
-.node_map BUS3$1 1279
-.node_map BUS2$9 1275
+.node_map BUS3$11 1301
+.node_map BUS3$1 1291
+.node_map BUS2$9 1287
 .node_map ADC_Vref1$7 1179
 .node_map ADC_Temp_amb$5 1165
 .node_map ADC_Temp_c$2 1150
@@ -239,7 +249,7 @@
 .node_map DAC_LF_PWM_N_B$0 1040
 .node_map DAC_LF_PWM_N_A$8 1024
 .node_map ADC_Vbusp$0 884
-.node_map BUS3$2 1280
+.node_map BUS3$2 1292
 .node_map PWM_Isr$0 1210
 .node_map ADC_Vref_FB$0 1196
 .node_map ADC_Vref2$0 1184
@@ -251,7 +261,7 @@
 .node_map DAC_LF_PWM_N_A$9 1025
 .node_map ADC_Vbusp$1 885
 .node_map Temp_c_fb 1349
-.node_map BUS3$3 1281
+.node_map BUS3$3 1293
 .node_map PWM_Isr$1 1211
 .node_map ADC_Vref_FB$1 1197
 .node_map ADC_Vref2$1 1185
@@ -262,7 +272,7 @@
 .node_map DAC_LF_PWM_N_B$2 1042
 .node_map ADC_Vbusp$2 886
 .node_map DAC_HF_Duty_a$0 872
-.node_map BUS3$4 1282
+.node_map BUS3$4 1294
 .node_map DAC_Debug_2$10 1240
 .node_map ADC_Vref_FB$2 1198
 .node_map ADC_Vref2$2 1186
@@ -272,7 +282,7 @@
 .node_map DAC_LF_PWM_N_B$3 1043
 .node_map ADC_Vbusp$3 887
 .node_map DAC_HF_Duty_a$1 873
-.node_map BUS3$5 1283
+.node_map BUS3$5 1295
 .node_map DAC_Debug_2$11 1241
 .node_map ADC_Vref_FB$3 1199
 .node_map ADC_Vref2$3 1187
@@ -282,7 +292,7 @@
 .node_map DAC_LF_PWM_N_B$4 1044
 .node_map ADC_Vbusp$4 888
 .node_map DAC_HF_Duty_a$2 874
-.node_map BUS3$6 1284
+.node_map BUS3$6 1296
 .node_map ADC_Vref_FB$4 1200
 .node_map ADC_Vref2$4 1188
 .node_map ADC_Temp_c$7 1155
@@ -291,7 +301,7 @@
 .node_map ADC_Vbusp$5 889
 .node_map DAC_HF_Duty_a$3 875
 .node_map S4_a 1353
-.node_map BUS3$7 1285
+.node_map BUS3$7 1297
 .node_map ADC_Vref_FB$5 1201
 .node_map ADC_Vref2$5 1189
 .node_map ADC_Temp_c$8 1156
@@ -301,8 +311,7 @@
 .node_map ADC_Vbusp$6 890
 .node_map DAC_HF_Duty_a$4 876
 .node_map S4_b 1354
-.node_map BUS4$0 1290
-.node_map BUS3$8 1286
+.node_map BUS3$8 1298
 .node_map ADC_Vref_FB$6 1202
 .node_map ADC_Vref2$6 1190
 .node_map ADC_Vref1$10 1182
@@ -315,8 +324,7 @@
 .node_map ADC_Vbusp$7 891
 .node_map DAC_HF_Duty_a$5 877
 .node_map S4_c 1355
-.node_map BUS4$1 1291
-.node_map BUS3$9 1287
+.node_map BUS3$9 1299
 .node_map ADC_Vref_FB$7 1203
 .node_map ADC_Vref2$7 1191
 .node_map ADC_Vref1$11 1183
@@ -327,7 +335,6 @@
 .node_map DAC_LF_PWM_P_A$1 945
 .node_map ADC_Vbusp$8 892
 .node_map DAC_HF_Duty_a$6 878
-.node_map BUS4$2 1292
 .node_map ADC_Vref_FB$8 1204
 .node_map ADC_Vref2$8 1192
 .node_map ADC_I_c$2 1114
@@ -338,7 +345,6 @@
 .node_map ADC_Vbusp$9 893
 .node_map DAC_HF_Duty_a$7 879
 .node_map Temp_a_fb 1332
-.node_map BUS4$3 1293
 .node_map ADC_Vref_FB$9 1205
 .node_map ADC_Vref2$9 1193
 .node_map ADC_I_c$3 1115
@@ -347,40 +353,34 @@
 .node_map DAC_LF_PWM_P_A$3 947
 .node_map DAC_HF_Duty_b$0 896
 .node_map DAC_HF_Duty_a$8 880
-.node_map BUS4$4 1294
 .node_map ADC_I_c$4 1116
 .node_map DAC_LF_PWM_N_C$3 1067
 .node_map DAC_LF_PWM_N_A$10 1026
 .node_map DAC_LF_PWM_P_A$4 948
 .node_map DAC_HF_Duty_b$1 897
 .node_map DAC_HF_Duty_a$9 881
-.node_map BUS4$5 1295
 .node_map ADC_I_c$5 1117
 .node_map DAC_LF_PWM_N_C$4 1068
 .node_map DAC_LF_PWM_N_A$11 1027
 .node_map DAC_LF_PWM_P_A$5 949
 .node_map DAC_HF_Duty_b$2 898
-.node_map BUS4$6 1296
 .node_map ADC_I_c$6 1118
 .node_map DAC_LF_PWM_N_C$5 1069
 .node_map DAC_LF_PWM_P_A$6 950
 .node_map DAC_HF_Duty_b$3 899
 .node_map S5_a 1324
-.node_map BUS4$7 1297
 .node_map ADC_I_c$7 1119
 .node_map DAC_LF_PWM_N_C$6 1070
 .node_map DAC_LF_PWM_P_A$7 951
 .node_map DAC_HF_Duty_b$4 900
 .node_map S5_b 1326
 .node_map Vbusp_fb 1307
-.node_map BUS4$8 1298
 .node_map ADC_I_c$8 1120
 .node_map DAC_LF_PWM_N_C$7 1071
 .node_map DAC_LF_PWM_P_B$0 968
 .node_map DAC_LF_PWM_P_A$8 952
 .node_map DAC_HF_Duty_b$5 901
 .node_map S5_c 1328
-.node_map BUS4$9 1299
 .node_map DAC_Debug_3$10 1252
 .node_map ADC_I_c$9 1121
 .node_map DAC_LF_PWM_N_C$8 1072
@@ -567,7 +567,7 @@ E6 1357 0 1351 0 {1/407}
 E7 1320 0 0 1322 {1.65/469}
 E8 1352 0 1334 0 {1/407}
 E9 1347 0 1313 0 {1/407}
-X$H1 0 1302 361 1314 H1$TP_CCVS vars: gain={1.65/49.75}
+X$H1 1302 0 1314 361 H1$TP_CCVS vars: gain={1.65/49.75}
 .subckt H1$TP_CCVS 1 2 3 4
 .node_map P 1
 .node_map N 2
@@ -576,7 +576,7 @@ X$H1 0 1302 361 1314 H1$TP_CCVS vars: gain={1.65/49.75}
 H1 1 2 V1 {gain}
 V1 3 4 0
 .ends
-X$H2 0 1303 369 1335 H2$TP_CCVS vars: gain={1.65/51.55}
+X$H2 1303 0 1335 369 H2$TP_CCVS vars: gain={1.65/51.55}
 .subckt H2$TP_CCVS 1 2 3 4
 .node_map P 1
 .node_map N 2
@@ -585,7 +585,7 @@ X$H2 0 1303 369 1335 H2$TP_CCVS vars: gain={1.65/51.55}
 H1 1 2 V1 {gain}
 V1 3 4 0
 .ends
-X$H3 0 1304 376 1337 H3$TP_CCVS vars: gain={1.65/52.36}
+X$H3 1304 0 1337 376 H3$TP_CCVS vars: gain={1.65/52.36}
 .subckt H3$TP_CCVS 1 2 3 4
 .node_map P 1
 .node_map N 2
