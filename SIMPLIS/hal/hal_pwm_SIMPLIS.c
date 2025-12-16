@@ -192,18 +192,18 @@ void pwm_hal_UpdateDuty(uint32_t phase, float32_t duty)
     if (phase == 4)
     {
         //PWM_output.HAL_HF_Duty_a = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
-        PWM_output.HAL_HF_Duty_a = (uint16_t)(duty_pwm * 4095.0f * 0.5f);
+        PWM_output.HAL_HF_Duty_a = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);
     }
 	else if (phase == 7)
     {
         //PWM_output.HAL_HF_Duty_b = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
-        PWM_output.HAL_HF_Duty_b = (uint16_t)(duty_pwm * 4095.0f * 0.5f);
+        PWM_output.HAL_HF_Duty_b = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);
     }
 		
 	else if (phase == 8)
     {
         //PWM_output.HAL_HF_Duty_c = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
-        PWM_output.HAL_HF_Duty_c = (uint16_t)(duty_pwm * 4095.0f * 0.5f);
+        PWM_output.HAL_HF_Duty_c = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);
     }
 }
 

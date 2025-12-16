@@ -241,7 +241,7 @@ typedef struct
     /* DCA_out */
     uint16_t dac_C_out;
     uint16_t dac_D_out;
-    uint16_t Verr;
+    float32_t Verr;
 } VICtrl_Struct;
 
 typedef struct
@@ -788,7 +788,7 @@ static inline void ctrl_Update3phasePWM_type2(float32_t dutyA, float32_t dutyB, 
                 pwm_mid_AQ_SW_PWMXB_HIGH(EPWM_MID_LOW_FREQ_C_BASE);
             }
         }
-
+        /*forceZeroA = (PhyValue.VgridA.raw >= 0 && PhyValue.dutyA_raw <= 0) || (VgridA < 0 && dutyA_raw >= 0);*/
 
         // ==================================================
         // High-Frequency PWM On/Off

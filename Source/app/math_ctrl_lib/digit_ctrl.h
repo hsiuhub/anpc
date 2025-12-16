@@ -35,6 +35,7 @@ typedef long double     float64_t;
 //-----------------------------------------------------------------------------
 //  VARIABLES
 //-----------------------------------------------------------------------------
+
 typedef struct dcl_notch {
     float32_t b0;       // b0
     float32_t b1;       // b1
@@ -70,8 +71,8 @@ typedef struct dcl_pid {
     float32_t Umax;     // Upper saturation limit
     float32_t Umin;     // Lower saturation limit
 } digitCtrl_PID;
-
-
+extern digitCtrl_PI  dcl_pi;
+extern digitCtrl_PID dcl_pid;
 //-----------------------------------------------------------------------------
 //  PRIVATE FUNCTIONS DEFINITION
 //-----------------------------------------------------------------------------

@@ -158,7 +158,7 @@ static inline void isr1_Run_CompleteSystem(void)
 
         if (StateFlag.bits.soft_start_on == 1)
         {
-            VICtrl.Ia_amp_ratio_ref = VICtrl.Ia_amp_ratio_cmd * 100.0f;
+            VICtrl.Ia_amp_ratio_ref = VICtrl.Ia_amp_ratio_cmd;
             VICtrl.Ib_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
             VICtrl.Ic_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
             
