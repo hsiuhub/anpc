@@ -505,5 +505,8 @@ typedef struct t_smx_dll_client_function_abstract
 #ifdef __cplusplus
 }
 #endif
-
+static inline float __divf32(float num, float den)
+{
+	return num / den;
+}
 #endif	/* SMX_DLL_H */

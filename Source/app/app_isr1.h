@@ -88,7 +88,7 @@ static inline void isr1_Run_CompleteSystem(void)
     phyvalue_Read_VoltageCurrent();
     phyvalue_RawToAvg_VoltageCurrent();
     phyvalue_PuToReal_VoltageCurrent();
-   
+
     // ==================================================
     // Transform From ABC Axis to DQ Axis
     // ==================================================
@@ -117,7 +117,6 @@ static inline void isr1_Run_CompleteSystem(void)
             StateFlag.bits.pwm_kickoff = 0;
             pwm_mid_ClearAllPWMTrips();
             StateFlag.bits.control_en = 1;
-            
         }
     }
 
@@ -161,7 +160,6 @@ static inline void isr1_Run_CompleteSystem(void)
             VICtrl.Ia_amp_ratio_ref = VICtrl.Ia_amp_ratio_cmd;
             VICtrl.Ib_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
             VICtrl.Ic_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
-            
         }
         else
         {
@@ -174,20 +172,7 @@ static inline void isr1_Run_CompleteSystem(void)
         VICtrl.Ia_ref_prev = VICtrl.Ia_ref;
         VICtrl.Ib_ref_prev = VICtrl.Ib_ref;
         VICtrl.Ic_ref_prev = VICtrl.Ic_ref;
-        // ==================================================
-        // Voltage Control Loop Check
-        // ==================================================
-        VICtrl.Verr = VICtrl.Vbus_ref - PhyValue.Vbus.raw;
-        const float32_t VERR_FS = 200.0f;    // full-scale กำ200 V
-        float32_t verr_pu = VICtrl.Verr / VERR_FS;
 
-        if (verr_pu < -1.0f) verr_pu = -1.0f;
-        if (verr_pu > 1.0f) verr_pu = 1.0f;
-
-        float32_t verr_shift = verr_pu * 0.5f + 0.5f;
-        uint16_t dac_code_B = (uint16_t)(verr_shift * 4095.0f + 0.5f);
-        DAC_MID_B_OUT(dac_code_B);
-        // ==================================================
         VICtrl.Ia_ref = VICtrl.Ia_amp_ratio_ref * PhyValue.VgridA.raw_pu;
         VICtrl.Ib_ref = VICtrl.Ib_amp_ratio_ref * PhyValue.VgridB.raw_pu;
         VICtrl.Ic_ref = VICtrl.Ic_amp_ratio_ref * PhyValue.VgridC.raw_pu;

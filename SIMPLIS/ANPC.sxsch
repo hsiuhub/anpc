@@ -6972,13 +6972,13 @@ Property name="USE_RIN" value="0" autopos=1 normal=Top rotated=Top visible=0 lin
 Netnames pin1="553" pin2="0" pin3="#Vanpc_b_fb" pin4="565"
 .EndInstance
 .Instance
-Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3840 y=12840 orient=M0 
+Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3840 y=10920 orient=M0 
 Property name="Model" value="X" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="ModuleName" value="ANPC_PWM_YH" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="Ref" value="U16" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Netnames
+Netnames pin1="#SW_Freq" pin2="#S1_a" pin3="#HF_Duty_a" pin4="#S2_a" pin5="#LF_PWM_P_A" pin6="#S3_a" pin7="#LF_PWM_N_A" pin8="#S4_a" pin9="#HF_Deadband" pin10="#S5_a" pin11="#PWM_EN" pin12="#S6_a" pin13="#Load" pin14="673" pin15="674" pin16="675" pin17="676"
 .EndInstance
 .Instance
 Attributes type=symbol name="SIMPLIS_SUMMER2" selected=0 protected=0 x=31560 y=12480 orient=M0 
@@ -7289,22 +7289,22 @@ Property name="WIDTH" value="10u" autopos=1 normal=Top rotated=Top visible=0 fon
 Netnames pin1="#TIMER_1kHz_CLK"
 .EndInstance
 .Instance
-Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3720 y=14760 orient=M0 
+Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3840 y=12840 orient=M0 
 Property name="Model" value="X" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="ModuleName" value="ANPC_PWM_YH" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="ref" value="U30" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Netnames
+Netnames pin1="#SW_Freq" pin2="#S1_b" pin3="#HF_Duty_b" pin4="#S2_b" pin5="#LF_PWM_P_B" pin6="#S3_b" pin7="#LF_PWM_N_B" pin8="#S4_b" pin9="#HF_Deadband" pin10="#S5_b" pin11="#PWM_EN" pin12="#S6_b" pin13="#Load" pin14="773" pin15="774" pin16="775" pin17="776"
 .EndInstance
 .Instance
-Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3840 y=10920 orient=M0 
+Attributes type=component path="C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/ANPC_PWM_YH.sxcmp" selected=0 protected=0 x=-3720 y=14760 orient=M0 
 Property name="Model" value="X" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="ModuleName" value="ANPC_PWM_YH" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="ref" value="U31" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Netnames
+Netnames pin1="#SW_Freq" pin2="#S1_c" pin3="#HF_Duty_c" pin4="#S2_c" pin5="#LF_PWM_P_C" pin6="#S3_c" pin7="#LF_PWM_N_C" pin8="#S4_c" pin9="#HF_Deadband" pin10="#S5_c" pin11="#PWM_EN" pin12="#S6_c" pin13="#Load" pin14="801" pin15="802" pin16="803" pin17="804"
 .EndInstance
 .Instance
 Attributes type=symbol name="SIMPLIS_DIGI1_D_PULSE_N_N" selected=0 protected=0 x=-10560 y=1200 orient=N0 
@@ -8952,50 +8952,50 @@ Property name="NetName" value="#Vanpc_c_fb" autopos=1 normal=Left rotated=Left v
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6360 y1=10920 x2=-5520 y2=10920 net="#S1_a" branch="+:U31#PWM_S1"
+Wire x1=-6360 y1=10920 x2=-5520 y2=10920 net="#S1_a" branch="+:U16#PWM_S1"
 .Wire
 Attributes x1=-6360 y1=10920 x2=-5520 y2=10920 
-Property name="BranchFormula" value="+:U31#PWM_S1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S1_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6360 y1=11040 x2=-6000 y2=11040 net="#S2_a" branch="+:U31#PWM_S2"
+Wire x1=-6360 y1=11040 x2=-6000 y2=11040 net="#S2_a" branch="+:U16#PWM_S2"
 .Wire
 Attributes x1=-6360 y1=11040 x2=-6000 y2=11040 
-Property name="BranchFormula" value="+:U31#PWM_S2" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S2" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S2_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6360 y1=11160 x2=-5520 y2=11160 net="#S3_a" branch="+:U31#PWM_S3"
+Wire x1=-6360 y1=11160 x2=-5520 y2=11160 net="#S3_a" branch="+:U16#PWM_S3"
 .Wire
 Attributes x1=-6360 y1=11160 x2=-5520 y2=11160 
-Property name="BranchFormula" value="+:U31#PWM_S3" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S3" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S3_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6360 y1=11280 x2=-6000 y2=11280 net="#S4_a" branch="+:U31#PWM_S4"
+Wire x1=-6360 y1=11280 x2=-6000 y2=11280 net="#S4_a" branch="+:U16#PWM_S4"
 .Wire
 Attributes x1=-6360 y1=11280 x2=-6000 y2=11280 
-Property name="BranchFormula" value="+:U31#PWM_S4" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S4" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S4_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6360 y1=11400 x2=-5520 y2=11400 net="#S5_a" branch="+:U31#PWM_S5"
+Wire x1=-6360 y1=11400 x2=-5520 y2=11400 net="#S5_a" branch="+:U16#PWM_S5"
 .Wire
 Attributes x1=-6360 y1=11400 x2=-5520 y2=11400 
-Property name="BranchFormula" value="+:U31#PWM_S5" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S5" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S5_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6360 y1=11520 x2=-6000 y2=11520 net="#S6_a" branch="+:U31#PWM_S6"
+Wire x1=-6360 y1=11520 x2=-6000 y2=11520 net="#S6_a" branch="+:U16#PWM_S6"
 .Wire
 Attributes x1=-6360 y1=11520 x2=-6000 y2=11520 
-Property name="BranchFormula" value="+:U31#PWM_S6" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S6" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S6_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -9408,50 +9408,50 @@ Property name="NetName" value="0" autopos=1 normal=Left rotated=Left visible=0 f
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6000 y1=11040 x2=-5400 y2=11040 net="#S2_a" branch="+:U31#PWM_S2"
+Wire x1=-6000 y1=11040 x2=-5400 y2=11040 net="#S2_a" branch="+:U16#PWM_S2"
 .Wire
 Attributes x1=-6000 y1=11040 x2=-5400 y2=11040 
-Property name="BranchFormula" value="+:U31#PWM_S2" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S2" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S2_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6000 y1=11280 x2=-5400 y2=11280 net="#S4_a" branch="+:U31#PWM_S4"
+Wire x1=-6000 y1=11280 x2=-5400 y2=11280 net="#S4_a" branch="+:U16#PWM_S4"
 .Wire
 Attributes x1=-6000 y1=11280 x2=-5400 y2=11280 
-Property name="BranchFormula" value="+:U31#PWM_S4" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S4" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S4_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-6000 y1=11520 x2=-5400 y2=11520 net="#S6_a" branch="+:U31#PWM_S6"
+Wire x1=-6000 y1=11520 x2=-5400 y2=11520 net="#S6_a" branch="+:U16#PWM_S6"
 .Wire
 Attributes x1=-6000 y1=11520 x2=-5400 y2=11520 
-Property name="BranchFormula" value="+:U31#PWM_S6" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S6" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S6_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-5520 y1=10920 x2=-5400 y2=10920 net="#S1_a" branch="+:U31#PWM_S1"
+Wire x1=-5520 y1=10920 x2=-5400 y2=10920 net="#S1_a" branch="+:U16#PWM_S1"
 .Wire
 Attributes x1=-5520 y1=10920 x2=-5400 y2=10920 
-Property name="BranchFormula" value="+:U31#PWM_S1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S1_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-5520 y1=11160 x2=-5400 y2=11160 net="#S3_a" branch="+:U31#PWM_S3"
+Wire x1=-5520 y1=11160 x2=-5400 y2=11160 net="#S3_a" branch="+:U16#PWM_S3"
 .Wire
 Attributes x1=-5520 y1=11160 x2=-5400 y2=11160 
-Property name="BranchFormula" value="+:U31#PWM_S3" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S3" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S3_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-5520 y1=11400 x2=-5400 y2=11400 net="#S5_a" branch="+:U31#PWM_S5"
+Wire x1=-5520 y1=11400 x2=-5400 y2=11400 net="#S5_a" branch="+:U16#PWM_S5"
 .Wire
 Attributes x1=-5520 y1=11400 x2=-5400 y2=11400 
-Property name="BranchFormula" value="+:U31#PWM_S5" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="+:U16#PWM_S5" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#S5_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -9726,67 +9726,9 @@ Property name="NetName" value="0" autopos=1 normal=Left rotated=Left visible=0 f
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=10920 x2=-3360 y2=10920 net="#SW_Freq" branch="-:U31#SW_Freq"
+Wire x1=-3840 y1=10920 x2=-3360 y2=10920 net="#SW_Freq" branch="-:U16#SW_Freq"
 .Wire
 Attributes x1=-3840 y1=10920 x2=-3360 y2=10920 
-Property name="BranchFormula" value="-:U31#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=11040 x2=-3360 y2=11040 net="#HF_Duty_a" branch="-:U31#HF_Duty"
-.Wire
-Attributes x1=-3840 y1=11040 x2=-3360 y2=11040 
-Property name="BranchFormula" value="-:U31#HF_Duty" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#HF_Duty_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=11160 x2=-3360 y2=11160 net="#LF_PWM_P_A" branch="-:U31#LF_PWM_P"
-.Wire
-Attributes x1=-3840 y1=11160 x2=-3360 y2=11160 
-Property name="BranchFormula" value="-:U31#LF_PWM_P" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#LF_PWM_P_A" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=11280 x2=-3360 y2=11280 net="#LF_PWM_N_A" branch="-:U31#LF_PWM_N"
-.Wire
-Attributes x1=-3840 y1=11280 x2=-3360 y2=11280 
-Property name="BranchFormula" value="-:U31#LF_PWM_N" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#LF_PWM_N_A" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=11400 x2=-3600 y2=11400 net="#HF_Deadband" branch="-:U31#HF_DB"
-.Wire
-Attributes x1=-3840 y1=11400 x2=-3600 y2=11400 
-Property name="BranchFormula" value="-:U31#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#HF_Deadband" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=11520 x2=-3720 y2=11520 net="#PWM_EN" branch="-:U31#PWM_EN"
-.Wire
-Attributes x1=-3840 y1=11520 x2=-3720 y2=11520 
-Property name="BranchFormula" value="-:U31#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=11640 x2=-3360 y2=11640 net="#Load" branch="-:U31#Load"
-.Wire
-Attributes x1=-3840 y1=11640 x2=-3360 y2=11640 
-Property name="BranchFormula" value="-:U31#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-.EndWire
-Wire x1=-3840 y1=12840 x2=-3600 y2=12840 net="#SW_Freq" branch="-:U16#SW_Freq"
-.Wire
-Attributes x1=-3840 y1=12840 x2=-3600 y2=12840 
 Property name="BranchFormula" value="-:U16#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -9794,50 +9736,108 @@ Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=12960 x2=-3600 y2=12960 net="#HF_Duty_b" branch="-:U16#HF_Duty"
+Wire x1=-3840 y1=11040 x2=-3360 y2=11040 net="#HF_Duty_a" branch="-:U16#HF_Duty"
 .Wire
-Attributes x1=-3840 y1=12960 x2=-3600 y2=12960 
+Attributes x1=-3840 y1=11040 x2=-3360 y2=11040 
 Property name="BranchFormula" value="-:U16#HF_Duty" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#HF_Duty_b" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#HF_Duty_a" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=13080 x2=-3600 y2=13080 net="#LF_PWM_P_B" branch="-:U16#LF_PWM_P"
+Wire x1=-3840 y1=11160 x2=-3360 y2=11160 net="#LF_PWM_P_A" branch="-:U16#LF_PWM_P"
 .Wire
-Attributes x1=-3840 y1=13080 x2=-3600 y2=13080 
+Attributes x1=-3840 y1=11160 x2=-3360 y2=11160 
 Property name="BranchFormula" value="-:U16#LF_PWM_P" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#LF_PWM_P_B" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#LF_PWM_P_A" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=13200 x2=-3600 y2=13200 net="#LF_PWM_N_B" branch="-:U16#LF_PWM_N"
+Wire x1=-3840 y1=11280 x2=-3360 y2=11280 net="#LF_PWM_N_A" branch="-:U16#LF_PWM_N"
 .Wire
-Attributes x1=-3840 y1=13200 x2=-3600 y2=13200 
+Attributes x1=-3840 y1=11280 x2=-3360 y2=11280 
 Property name="BranchFormula" value="-:U16#LF_PWM_N" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="NetName" value="#LF_PWM_N_B" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#LF_PWM_N_A" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=13320 x2=-3600 y2=13320 net="#HF_Deadband" branch="-:U16#HF_DB"
+Wire x1=-3840 y1=11400 x2=-3600 y2=11400 net="#HF_Deadband" branch="-:U16#HF_DB"
 .Wire
-Attributes x1=-3840 y1=13320 x2=-3600 y2=13320 
+Attributes x1=-3840 y1=11400 x2=-3600 y2=11400 
 Property name="BranchFormula" value="-:U16#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#HF_Deadband" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=13440 x2=-3600 y2=13440 net="#PWM_EN" branch="-:U16#PWM_EN"
+Wire x1=-3840 y1=11520 x2=-3720 y2=11520 net="#PWM_EN" branch="-:U16#PWM_EN"
 .Wire
-Attributes x1=-3840 y1=13440 x2=-3600 y2=13440 
+Attributes x1=-3840 y1=11520 x2=-3720 y2=11520 
 Property name="BranchFormula" value="-:U16#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3840 y1=13560 x2=-3600 y2=13560 net="#Load" branch="-:U16#Load"
+Wire x1=-3840 y1=11640 x2=-3360 y2=11640 net="#Load" branch="-:U16#Load"
+.Wire
+Attributes x1=-3840 y1=11640 x2=-3360 y2=11640 
+Property name="BranchFormula" value="-:U16#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=12840 x2=-3600 y2=12840 net="#SW_Freq" branch="-:U30#SW_Freq"
+.Wire
+Attributes x1=-3840 y1=12840 x2=-3600 y2=12840 
+Property name="BranchFormula" value="-:U30#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=12960 x2=-3600 y2=12960 net="#HF_Duty_b" branch="-:U30#HF_Duty"
+.Wire
+Attributes x1=-3840 y1=12960 x2=-3600 y2=12960 
+Property name="BranchFormula" value="-:U30#HF_Duty" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#HF_Duty_b" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=13080 x2=-3600 y2=13080 net="#LF_PWM_P_B" branch="-:U30#LF_PWM_P"
+.Wire
+Attributes x1=-3840 y1=13080 x2=-3600 y2=13080 
+Property name="BranchFormula" value="-:U30#LF_PWM_P" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#LF_PWM_P_B" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=13200 x2=-3600 y2=13200 net="#LF_PWM_N_B" branch="-:U30#LF_PWM_N"
+.Wire
+Attributes x1=-3840 y1=13200 x2=-3600 y2=13200 
+Property name="BranchFormula" value="-:U30#LF_PWM_N" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#LF_PWM_N_B" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=13320 x2=-3600 y2=13320 net="#HF_Deadband" branch="-:U30#HF_DB"
+.Wire
+Attributes x1=-3840 y1=13320 x2=-3600 y2=13320 
+Property name="BranchFormula" value="-:U30#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#HF_Deadband" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=13440 x2=-3600 y2=13440 net="#PWM_EN" branch="-:U30#PWM_EN"
+.Wire
+Attributes x1=-3840 y1=13440 x2=-3600 y2=13440 
+Property name="BranchFormula" value="-:U30#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="NetName" value="#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+.EndWire
+Wire x1=-3840 y1=13560 x2=-3600 y2=13560 net="#Load" branch="-:U30#Load"
 .Wire
 Attributes x1=-3840 y1=13560 x2=-3600 y2=13560 
-Property name="BranchFormula" value="-:U16#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U30#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -9866,68 +9866,68 @@ Property name="NetName" value="#PWM_EN" autopos=1 normal=Left rotated=Left visib
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=14760 x2=-3600 y2=14760 net="#SW_Freq" branch="-:U30#SW_Freq"
+Wire x1=-3720 y1=14760 x2=-3600 y2=14760 net="#SW_Freq" branch="-:U31#SW_Freq"
 .Wire
 Attributes x1=-3720 y1=14760 x2=-3600 y2=14760 
-Property name="BranchFormula" value="-:U30#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#SW_Freq" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormalHighlighted" value="HighlightStyle1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelectedHighlighted" value="DefaultSelectedHighlightedStyle" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=14880 x2=-3600 y2=14880 net="#HF_Duty_c" branch="-:U30#HF_Duty"
+Wire x1=-3720 y1=14880 x2=-3600 y2=14880 net="#HF_Duty_c" branch="-:U31#HF_Duty"
 .Wire
 Attributes x1=-3720 y1=14880 x2=-3600 y2=14880 
-Property name="BranchFormula" value="-:U30#HF_Duty" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#HF_Duty" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#HF_Duty_c" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=15000 x2=-3600 y2=15000 net="#LF_PWM_P_C" branch="-:U30#LF_PWM_P"
+Wire x1=-3720 y1=15000 x2=-3600 y2=15000 net="#LF_PWM_P_C" branch="-:U31#LF_PWM_P"
 .Wire
 Attributes x1=-3720 y1=15000 x2=-3600 y2=15000 
-Property name="BranchFormula" value="-:U30#LF_PWM_P" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#LF_PWM_P" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#LF_PWM_P_C" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=15120 x2=-3600 y2=15120 net="#LF_PWM_N_C" branch="-:U30#LF_PWM_N"
+Wire x1=-3720 y1=15120 x2=-3600 y2=15120 net="#LF_PWM_N_C" branch="-:U31#LF_PWM_N"
 .Wire
 Attributes x1=-3720 y1=15120 x2=-3600 y2=15120 
-Property name="BranchFormula" value="-:U30#LF_PWM_N" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#LF_PWM_N" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#LF_PWM_N_C" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=15240 x2=-3600 y2=15240 net="#HF_Deadband" branch="-:U30#HF_DB"
+Wire x1=-3720 y1=15240 x2=-3600 y2=15240 net="#HF_Deadband" branch="-:U31#HF_DB"
 .Wire
 Attributes x1=-3720 y1=15240 x2=-3600 y2=15240 
-Property name="BranchFormula" value="-:U30#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#HF_Deadband" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=15360 x2=-3600 y2=15360 net="#PWM_EN" branch="-:U30#PWM_EN"
+Wire x1=-3720 y1=15360 x2=-3600 y2=15360 net="#PWM_EN" branch="-:U31#PWM_EN"
 .Wire
 Attributes x1=-3720 y1=15360 x2=-3600 y2=15360 
-Property name="BranchFormula" value="-:U30#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#PWM_EN" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3720 y1=15480 x2=-3600 y2=15480 net="#Load" branch="-:U30#Load"
+Wire x1=-3720 y1=15480 x2=-3600 y2=15480 net="#Load" branch="-:U31#Load"
 .Wire
 Attributes x1=-3720 y1=15480 x2=-3600 y2=15480 
-Property name="BranchFormula" value="-:U30#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U31#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#Load" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndWire
-Wire x1=-3600 y1=11400 x2=-3360 y2=11400 net="#HF_Deadband" branch="-:U31#HF_DB"
+Wire x1=-3600 y1=11400 x2=-3360 y2=11400 net="#HF_Deadband" branch="-:U16#HF_DB"
 .Wire
 Attributes x1=-3600 y1=11400 x2=-3360 y2=11400 
-Property name="BranchFormula" value="-:U31#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="BranchFormula" value="-:U16#HF_DB" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="NetName" value="#HF_Deadband" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultWire" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -18841,12 +18841,12 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=".simulator SIMPLIS\n*.ac DEC 25 1k 1Meg\n.options\n+ PSP_NPT=100001\n+ POP_ITRMAX=20\n+ POP_OUTPUT_CYCLES=5\n+ SNAPSHOT_INTVL=0\n+ SNAPSHOT_NPT=11\n+ MIN_AVG_TOPOLOGY_DUR=1a\n+ AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128\n*.pop TRIG_GATE={TRIG_GATE} TRIG_COND=0_TO_1 MAX_PERIOD=1u CONVERGENCE=1p CYCLES_BEFORE_LAUNCH=5 TD_RUN_AFTER_POP_FAILS=-1\n.tran 1 0\n\n.simulator DEFAULT\n.var Vin=400\n.var Vin_pk=Vin/1.732*1.414\n.var VLL_pk=Vin*1.414/2\n"
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=-8718 y=3536 zoomlevel=33 zoom=10 snapgrid=120 offsetX=10986 offsetY=3936
+View x=-8983 y=7619 zoomlevel=34 zoom=11 snapgrid=120 offsetX=10986 offsetY=3936
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro" type=value
 Property name="CurrentMeasureItem" value="Frequency|0|0|0|||0||||" type=value
 Property name="GUID" value="{b18f6b6a-2205-454f-81e5-1684e6a8fe1d}" type=value
 Property name="last_hierarchical_path" value="PWM function\\" type=value
-Property name="UserVersion" value="587" type=value
-Property name="WriteLog" value="587/0/1983717/0" type=value
+Property name="UserVersion" value="593" type=value
+Property name="WriteLog" value="593/0/1985233/0" type=value
 .EndSchematic
 .EndComponent

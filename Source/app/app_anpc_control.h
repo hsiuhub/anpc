@@ -238,10 +238,6 @@ typedef struct
     uint16_t LFPWMA_count_C;
     uint16_t LFPWMB_count_C;
 
-    /* DCA_out */
-    uint16_t dac_C_out;
-    uint16_t dac_D_out;
-    float32_t Verr;
 } VICtrl_Struct;
 
 typedef struct
@@ -396,36 +392,15 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
 
     // ==================================================
     // Current Feedback Control
-    // ==================================================
-    /*VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
-    VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
-    VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);*/
+    //// ==================================================
+    //VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
+    //VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
+    //VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
 
-    VICtrl.Ia_out = CTRL_GI_RUN(&VICtrl.Ia, (VICtrl.Ia_ref), PhyValue.IA.avg);
-    VICtrl.Ib_out = CTRL_GI_RUN(&VICtrl.Ib, (VICtrl.Ib_ref), PhyValue.IB.avg);
-    VICtrl.Ic_out = CTRL_GI_RUN(&VICtrl.Ic, (VICtrl.Ic_ref), PhyValue.IC.avg);
-    // ==================================================
-    // Current Feedforward Check
-    // ==================================================
-    const float32_t I_NOM = 20.0f;
+    VICtrl.Ia_out = CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
+    VICtrl.Ib_out = CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
+    VICtrl.Ic_out = CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
 
-    float32_t ia_pu = VICtrl.Ia_ref / I_NOM;
-    float32_t ph_ia_avg = PhyValue.IA.avg / I_NOM;
-
-    if (ia_pu < -1.0f) ia_pu = -1.0f;    if (ia_pu > 1.0f) ia_pu = 1.0f;
-    if (ph_ia_avg < -1.0f) ph_ia_avg = -1.0f;    if (ph_ia_avg > 1.0f) ph_ia_avg = 1.0f;
-
-    float32_t ia_pu_shift = ia_pu * 0.5f + 0.5f;
-    float32_t ph_ia_avg_shift = ph_ia_avg * 0.5f + 0.5f;
-
-    VICtrl.dac_C_out = (uint16_t)(ia_pu_shift * 4095.0f + 0.5f);
-    VICtrl.dac_D_out = (uint16_t)(ph_ia_avg_shift * 4095.0f + 0.5f);
-
-    uint16_t dac_code_C = VICtrl.dac_C_out;
-    uint16_t dac_code_D = VICtrl.dac_D_out;
-
-    DAC_MID_C_OUT(dac_code_C);
-    DAC_MID_D_OUT(dac_code_D);
     // ==================================================
     // Current Feedforward
     // ==================================================
@@ -788,7 +763,7 @@ static inline void ctrl_Update3phasePWM_type2(float32_t dutyA, float32_t dutyB, 
                 pwm_mid_AQ_SW_PWMXB_HIGH(EPWM_MID_LOW_FREQ_C_BASE);
             }
         }
-        /*forceZeroA = (PhyValue.VgridA.raw >= 0 && PhyValue.dutyA_raw <= 0) || (VgridA < 0 && dutyA_raw >= 0);*/
+
 
         // ==================================================
         // High-Frequency PWM On/Off

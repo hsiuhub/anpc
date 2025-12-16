@@ -14,7 +14,6 @@
 #include "app_state.h"
 #include "app_timer_1kHz.h"
 #include "app_timer_10Hz.h"
-#include "device_config.h"
 
 
 //-----------------------------------------------------------------------------
@@ -26,7 +25,6 @@
 //  VARIABLES
 //-----------------------------------------------------------------------------
 
-/* Debug Function */
 
 //-----------------------------------------------------------------------------
 //  PUBLIC FUNCTIONS DECLARATION
@@ -63,9 +61,10 @@ void main(void)
 
     StateFlag.bits.system_init_finish = 1;
 
+
 #ifndef CONFIG_VIRTUAL_MAIN
 
-    while (1)
+    while(1)
     {
         timer1kHz_Process();
 

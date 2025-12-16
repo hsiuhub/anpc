@@ -34,14 +34,6 @@
 
 #define AC_FREQ_DIFFERENCE      2
 
-#ifdef CONFIG_VIRTUAL
-static inline float __divf32(float num, float den)
-{
-    return num / den;
-}
-#endif
-
-
 //-----------------------------------------------------------------------------
 //  VARIABLES
 //-----------------------------------------------------------------------------
@@ -207,13 +199,9 @@ static inline void phyvalue_Read_VoltageCurrent(void)
     PhyValue.IB_prev.raw_pu = PhyValue.IB.raw_pu;
     PhyValue.IC_prev.raw_pu = PhyValue.IC.raw_pu;
 
-    //PhyValue.IA.raw_pu = -(ADC_MID_I_A_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;
-    //PhyValue.IB.raw_pu = -(ADC_MID_I_B_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;
-    //PhyValue.IC.raw_pu = -(ADC_MID_I_C_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;
-
-    PhyValue.IA.raw_pu = -(ADC_MID_I_A_FB * ADC_PU_SCALE_FACTOR - 0.5f) * 2.0f;
-    PhyValue.IB.raw_pu = -(ADC_MID_I_B_FB * ADC_PU_SCALE_FACTOR - 0.5f) * 2.0f;
-    PhyValue.IC.raw_pu = -(ADC_MID_I_C_FB * ADC_PU_SCALE_FACTOR - 0.5f) * 2.0f;
+    PhyValue.IA.raw_pu = -(ADC_MID_I_A_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;
+    PhyValue.IB.raw_pu = -(ADC_MID_I_B_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;
+    PhyValue.IC.raw_pu = -(ADC_MID_I_C_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;
 
     /* Bus Voltage */
     PhyValue.Vbusp.raw_pu = ((float32_t)ADC_MID_VBUSP_FB * ADC_PU_SCALE_FACTOR - PhyValue.Vref_initial.raw_pu) * 2.0f;

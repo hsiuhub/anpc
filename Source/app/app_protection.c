@@ -132,6 +132,9 @@ void protect_CheckGridVoltageProtection(void)
 
             ProtectFlag.bits.Vgrid_swOVP = 1;
 
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.1);
+#endif
             state_ReportEvent(EVENT_VGRID_OVP);
         }
     }
@@ -162,6 +165,11 @@ void protect_CheckGridVoltageProtection(void)
         if(VgridA_swUVP_Hpntrigger == 0)
         {
             VgridA_swUVP_Hpntrigger = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.2);
+#endif
+
             VgridA_swUVP_implicit_flag = 1;
         }
     }
@@ -192,6 +200,11 @@ void protect_CheckGridVoltageProtection(void)
         if(VgridB_swUVP_Hpntrigger == 0)
         {
             VgridB_swUVP_Hpntrigger = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.2);
+#endif
+
             VgridB_swUVP_implicit_flag = 1;
         }
     }
@@ -222,6 +235,11 @@ void protect_CheckGridVoltageProtection(void)
         if(VgridC_swUVP_Hpntrigger == 0)
         {
             VgridC_swUVP_Hpntrigger = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.2);
+#endif
+
             VgridC_swUVP_implicit_flag = 1;
         }
     }
@@ -270,6 +288,10 @@ void protect_CheckGridVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vgrid_swFreq = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.3);
+#endif
             state_ReportEvent(EVENT_VGRID_FREQ);
         }
     }
@@ -301,6 +323,10 @@ void protect_CheckGridVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vgrid_swFreq = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.3);
+#endif
             state_ReportEvent(EVENT_VGRID_FREQ);
         }
     }
@@ -337,6 +363,10 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusp_swOVP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.4);
+#endif
             state_ReportEvent(EVENT_VBUS_OVP);
         }
     }
@@ -368,6 +398,10 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusn_swOVP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.4);
+#endif
             state_ReportEvent(EVENT_VBUS_OVP);
         }
     }
@@ -399,6 +433,10 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusp_swUVP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.5);
+#endif
             state_ReportEvent(EVENT_VBUS_UVP);
         }
     }
@@ -430,6 +468,10 @@ void protect_CheckBusVoltageProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.Vbusn_swUVP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.5);
+#endif
             state_ReportEvent(EVENT_VBUS_UVP);
         }
     }
@@ -465,6 +507,10 @@ void protect_CheckCurrentProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.IA_hwOCP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.6);
+#endif
             state_ReportEvent(EVENT_I_OCP);
         }
     }
@@ -497,6 +543,10 @@ void protect_CheckCurrentProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.IB_hwOCP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.7);
+#endif
             state_ReportEvent(EVENT_I_OCP);
         }
     }
@@ -529,6 +579,10 @@ void protect_CheckCurrentProtection(void)
             pwm_mid_ForceOSTPWM();
 
             ProtectFlag.bits.IC_hwOCP = 1;
+
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.8);
+#endif
             state_ReportEvent(EVENT_I_OCP);
         }
     }
@@ -565,6 +619,9 @@ void protect_CheckPowerProtection(void)
 
             ProtectFlag.bits.Pin_swOPP = 1;
 
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 0.9);
+#endif
             state_ReportEvent(EVENT_PIN_OPP);
         }
     }
@@ -607,6 +664,9 @@ void protect_CheckTemperatureProtection(void)
 
             ProtectFlag.bits.TempA_swOTP = 1;
 
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 1.0);
+#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -639,6 +699,9 @@ void protect_CheckTemperatureProtection(void)
 
             ProtectFlag.bits.TempB_swOTP = 1;
 
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 1.0);
+#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -671,6 +734,9 @@ void protect_CheckTemperatureProtection(void)
 
             ProtectFlag.bits.TempC_swOTP = 1;
 
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 1.0);
+#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -703,6 +769,9 @@ void protect_CheckTemperatureProtection(void)
 
             ProtectFlag.bits.TempAMB_swOTP = 1;
 
+#if SCENARIO_DACB_PROTECT == DACB_PROTECT_ENABLE
+            DAC_MID_B_OUT(4095 * 1.0);
+#endif
             state_ReportEvent(EVENT_TEMP_OTP);
         }
     }
@@ -848,8 +917,4 @@ void protect_ResetProtectVariables(void)
 
     Vref_Hpntrigger         = 0;
     Vref_Rvytrigger         = 0;
-}
-
-void protect_InitProtect(void)
-{
 }

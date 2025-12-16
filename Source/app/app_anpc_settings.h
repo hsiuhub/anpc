@@ -133,10 +133,7 @@
 
 #define ANPC_PRECHARGE_FINISH_VBUS_THRESH   ((float32_t) 30.0)
 #define ANPC_SOFTSTART_FINISH_VBUS_H        (ANPC_VBUS_NOM + 0.1)
-//#define ANPC_SOFTSTART_FINISH_VBUS_L        (ANPC_VBUS_NOM - 0.2)
-// ======= Test define, for pass SS mode ===============
-#define ANPC_SOFTSTART_FINISH_VBUS_L        (ANPC_VBUS_NOM - 15.0f)
-// =====================================
+#define ANPC_SOFTSTART_FINISH_VBUS_L        (ANPC_VBUS_NOM - 0.2)
 #define ANPC_ACDROPOUT_THRESH               ((float32_t) 110.0)
 #define ANPC_ACDROPOUT_THRESH_R             ((float32_t) 120.0)
 #define ANPC_PHASEDROP_VOLTAGE_DIFFERENCE   ((float32_t) 70.0)
