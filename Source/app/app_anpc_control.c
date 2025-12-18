@@ -143,6 +143,10 @@ void ctrl_ResetControlVariables(void)
     VICtrl.Vb_pu        = 0;
     VICtrl.Vc_pu        = 0;
 
+    // ============== TEST =========================
+    VICtrl.fdfwd_mod_a = 0;
+    // =============================================
+
     /* Duty */
     VICtrl.Duty_3rd_v1  = 0;
     VICtrl.Duty_3rd_v2  = 0;

@@ -238,6 +238,11 @@ static inline void isr1_Run_CompleteSystem(void)
         VICtrl.Duty_B = VICtrl.Vb_pu + VICtrl.Vbus_delta_out + 0;// VICtrl.Duty_3rd;
         VICtrl.Duty_C = VICtrl.Vc_pu + VICtrl.Vbus_delta_out + 0;// VICtrl.Duty_3rd;
 
+        // =============== TEST ===============
+        //VICtrl.Duty_A = 0.4f;
+        //VICtrl.Duty_B = 0.4f;
+        //VICtrl.Duty_C = 0.4f;
+        // ====================================
 #endif
 
 

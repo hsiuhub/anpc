@@ -27,7 +27,10 @@ PWM_Output PWM_output = { 0 };
 
 void pwm_hal_UpdatePWMDeadBand(float32_t deadband)
 {
-	PWM_output.HAL_HF_DeadBand = PWM_HAL_OUT_RESOLUTION * deadband / PWM_HAL_PERIOD;
+    
+    float cal_deadband = PWM_HAL_OUT_RESOLUTION * deadband / PWM_HAL_PERIOD;
+    cal_deadband = (cal_deadband > 256.0f) ? 256.0f : cal_deadband;
+    PWM_output.HAL_HF_DeadBand = (uint16_t) cal_deadband;
 }
 
 // ==========================================
@@ -189,9 +192,14 @@ void pwm_hal_UpdateDuty(uint32_t phase, float32_t duty)
     float duty_pwm = duty_abs;
     if (duty_pwm < 0.0f) duty_pwm = 0.0f;
     if (duty_pwm > 1.0f) duty_pwm = 1.0f;
+
+
     if (phase == 4)
     {
         //PWM_output.HAL_HF_Duty_a = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
+        //PWM_output.HAL_HF_Duty_a = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);
+        //PWM_output.HAL_HF_Duty_a = ((float)((fabsf(duty_pwm) + 1.0f) * 0.5) * PWM_HAL_OUT_RESOLUTION);
+        // (uint16_t)((float)((fabsf(duty_pwm) + 1.0f) * 0.5) * PWM_HAL_OUT_RESOLUTION)
         PWM_output.HAL_HF_Duty_a = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);
     }
 	else if (phase == 7)
@@ -200,7 +208,7 @@ void pwm_hal_UpdateDuty(uint32_t phase, float32_t duty)
         PWM_output.HAL_HF_Duty_b = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);
     }
 		
-	else if (phase == 8)
+    else if (phase == 8)
     {
         //PWM_output.HAL_HF_Duty_c = ((float)((1.0f - fabsf(duty))) * PWM_HAL_OUT_RESOLUTION);
         PWM_output.HAL_HF_Duty_c = (uint16_t)PWM_HAL_OUT_RESOLUTION * fabsf(duty);

@@ -238,6 +238,10 @@ typedef struct
     uint16_t LFPWMA_count_C;
     uint16_t LFPWMB_count_C;
 
+    // =========== Test Function =============
+    float32_t fdfwd_mod_a;
+    // =======================================
+
 } VICtrl_Struct;
 
 typedef struct
@@ -393,17 +397,17 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     // ==================================================
     // Current Feedback Control
     //// ==================================================
-    //VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
-    //VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
-    //VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
+    VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
+    VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
+    VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
 
-    VICtrl.Ia_out = CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
-    VICtrl.Ib_out = CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
-    VICtrl.Ic_out = CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
+    //VICtrl.Ia_out = CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
+    //VICtrl.Ib_out = CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
+    //VICtrl.Ic_out = CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
 
     // ==================================================
     // Current Feedforward
-    // ==================================================
+    // ==================== ==============================
     VICtrl.Ia_fdfwd_base = PhyValue.VgridA.raw;
     VICtrl.Ib_fdfwd_base = PhyValue.VgridB.raw;
     VICtrl.Ic_fdfwd_base = PhyValue.VgridC.raw;
@@ -428,6 +432,9 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     fdfwd_mod_b = (VICtrl.Ib_fdfwd_pu >= 0) ? (1 - VICtrl.Ib_fdfwd_pu): (1 + VICtrl.Ib_fdfwd_pu);
     fdfwd_mod_c = (VICtrl.Ic_fdfwd_pu >= 0) ? (1 - VICtrl.Ic_fdfwd_pu): (1 + VICtrl.Ic_fdfwd_pu);
 
+    // ================= TEST =====================
+    VICtrl.fdfwd_mod_a = fdfwd_mod_a;
+    // ============================================
     VICtrl.Ia_fdfwd = VICtrl.Ia_fdfwd * (1 - VICtrl.Duty_A_m2 * fdfwd_mod_a);
     VICtrl.Ib_fdfwd = VICtrl.Ib_fdfwd * (1 - VICtrl.Duty_B_m2 * fdfwd_mod_b);
     VICtrl.Ic_fdfwd = VICtrl.Ic_fdfwd * (1 - VICtrl.Duty_C_m2 * fdfwd_mod_c);
@@ -449,6 +456,56 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
 
     VICtrl.Vc_pu = (VICtrl.Vc_pu > 1) ? 1 : VICtrl.Vc_pu;
     VICtrl.Vc_pu = (VICtrl.Vc_pu < -1) ? -1 : VICtrl.Vc_pu;
+    // ==================== TEST1 ===================
+    //uint16_t dac_b = float_to_u12_pu_signed(VICtrl.Va_pu);
+    //uint16_t dac_c = float_to_u12_duty(VICtrl.Duty_A);
+    //uint16_t dac_d = float_to_u12_range((VICtrl.Ia_out/ANPC_IA_MAX_SENSE), -1.0f, 1.0f);
+
+    //DAC_MID_B_OUT(dac_b);
+    //DAC_MID_C_OUT(dac_c);
+    //DAC_MID_D_OUT(dac_d);
+    // ======================= TEST 2 =================
+    //float Va_pu_raw = (VICtrl.Ia_out + VICtrl.Ia_fdfwd) / (PhyValue.Vbus.avg * 0.5);
+
+  
+    //float Va_pu_sat = Va_pu_raw;
+    //if (Va_pu_sat > +1.0f) Va_pu_sat = +1.0f;
+    //if (Va_pu_sat < -1.0f) Va_pu_sat = -1.0f;
+
+
+    //uint16_t b = float_to_u12_m1_p1(Va_pu_raw);
+    //uint16_t c = float_to_u12_m1_p1(Va_pu_sat);
+    //uint16_t d = float_to_u12_0_1(VICtrl.Ia.i14);
+
+    //static u12_slew_t sb = { 0 }, sc = { 0 }, sd = { 0 };
+    //b = u12_slew(&sb, b, 40);
+    //c = u12_slew(&sc, c, 40);
+    //d = u12_slew(&sd, d, 200);
+
+    //DAC_MID_B_OUT(b);
+    //DAC_MID_C_OUT(c);
+    //DAC_MID_D_OUT(d);
+
+    // =============================================================
+    float AC_A_pu = PhyValue.VgridA.raw / ANPC_VAC_MAX_SENSE;
+    float Ia_ref_pu = VICtrl.Ia_ref/ ANPC_IA_MAX_SENSE;
+    float Duty_Check = VICtrl.Duty_A;
+    AC_A_pu = (AC_A_pu > 1) ? 1 : AC_A_pu;
+    AC_A_pu = (AC_A_pu < -1) ? -1 : AC_A_pu;
+    AC_A_pu = (AC_A_pu + 1) * 0.5;
+
+    Ia_ref_pu = (Ia_ref_pu > 1) ? 1 : Ia_ref_pu;
+    Ia_ref_pu = (Ia_ref_pu < -1) ? -1 : Ia_ref_pu;
+    Ia_ref_pu = (Ia_ref_pu + 1) * 0.5;
+
+    Duty_Check = (Duty_Check > 1) ? 1 : Duty_Check;
+    Duty_Check = (Duty_Check < -1) ? -1 : Duty_Check;
+    Duty_Check = (Duty_Check + 1) * 0.5;
+
+
+    DAC_MID_B_OUT(AC_A_pu * 4095.0f);
+    DAC_MID_C_OUT(Ia_ref_pu * 4095.0f);
+    DAC_MID_D_OUT(Duty_Check * 4095.0f);
 }
 
 // ************************************************************
