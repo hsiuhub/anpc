@@ -1,0 +1,113 @@
+* 
+.node_map ADC_Vgrid_a$6 35
+.node_map ADC_Vgrid_a$7 36
+.node_map ADC_Vgrid_a$8 37
+.node_map ADC_Vgrid_a$9 38
+.node_map Count_EN 28
+.node_map ADC_Vgrid_a$10 39
+.node_map ADC_Vgrid_a$11 40
+.node_map ADC_Vgrid_a$0 29
+.node_map ADC_Vgrid_a$1 30
+.node_map ADC_Vgrid_a$2 31
+.node_map ADC_Vgrid_a$3 32
+.node_map ADC_CLK 27
+.node_map ADC_Vgrid_a$4 33
+.node_map ADC_Vgrid_a$5 34
+.options PSP_NPT=10001 POP_ITRMAX=20 POP_OUTPUT_CYCLES=5 SNAPSHOT_INTVL=0 SNAPSHOT_NPT=11
++ MIN_AVG_TOPOLOGY_DUR=1a AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128
+.tran 10m 0
+.PRINT V(#ADC_Vgrid_a$0)
+.GRAPH :#ADC_Vgrid_a$0 curveLabel= U_ADC_11-D0 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe1  
+.PRINT V(#ADC_Vgrid_a$9)
+.GRAPH :#ADC_Vgrid_a$9 curveLabel= U_ADC_11-D9 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe10  
+.PRINT V(#ADC_Vgrid_a$10)
+.GRAPH :#ADC_Vgrid_a$10 curveLabel= U_ADC_11-D10 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe11  
+.PRINT V(#ADC_Vgrid_a$11)
+.GRAPH :#ADC_Vgrid_a$11 curveLabel= U_ADC_11-D11 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe12  
+.PRINT V(#ADC_Vgrid_a$1)
+.GRAPH :#ADC_Vgrid_a$1 curveLabel= U_ADC_11-D1 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe2  
+.PRINT V(#ADC_Vgrid_a$2)
+.GRAPH :#ADC_Vgrid_a$2 curveLabel= U_ADC_11-D2 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe3  
+.PRINT V(#ADC_Vgrid_a$3)
+.GRAPH :#ADC_Vgrid_a$3 curveLabel= U_ADC_11-D3 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe4  
+.PRINT V(#ADC_Vgrid_a$4)
+.GRAPH :#ADC_Vgrid_a$4 curveLabel= U_ADC_11-D4 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe5  
+.PRINT V(#ADC_Vgrid_a$5)
+.GRAPH :#ADC_Vgrid_a$5 curveLabel= U_ADC_11-D5 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe6  
+.PRINT V(#ADC_Vgrid_a$6)
+.GRAPH :#ADC_Vgrid_a$6 curveLabel= U_ADC_11-D6 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe7  
+.PRINT V(#ADC_Vgrid_a$7)
+.GRAPH :#ADC_Vgrid_a$7 curveLabel= U_ADC_11-D7 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe8  
+.PRINT V(#ADC_Vgrid_a$8)
+.GRAPH :#ADC_Vgrid_a$8 curveLabel= U_ADC_11-D8 nowarn=true ylog=auto xlog=auto analysis=tran|pop
++ disabled=false PROBEREF=Probe9  
+X$U19 9 0 10 13 SIMPLIS_SUMMER2_BB$1
+X$U22 27 SIMPLIS_DIGI1_D_PULSE_N_N$2
+X$U_ADC_11 29 30 31 32 33 34 35 36 37 38 39 40 24 25 26 9 27 28 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11$3
+V1 10 0 2
+V14 13 0 1.65
+V4 28 0 5
+.subckt SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11$3  2001 2002 2003 2004 2005 2006
++ 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100
+.NODE_MAP D0 2001
+.NODE_MAP D1 2002
+.NODE_MAP D2 2003
+.NODE_MAP D3 2004
+.NODE_MAP D4 2005
+.NODE_MAP D5 2006
+.NODE_MAP D6 2007
+.NODE_MAP D7 2008
+.NODE_MAP D8 2009
+.NODE_MAP D9 2010
+.NODE_MAP D10 2011
+.NODE_MAP D11 2012
+.NODE_MAP POFL 2013
+.NODE_MAP NOFL 2014
+.NODE_MAP DR 2015
+.NODE_MAP IN 1001
+.NODE_MAP CLK 1002
+.NODE_MAP EN 1003
+.NODE_MAP RTN 100
+A_D_A2D_CONVERTER %gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010
++ 2011 2012 2013 2014 2015 ] [ 1001 1002 1003 ] MODEL=MD_A2D_CONVERTERM IC=0 IC_OFL=0
++ IC_DATA_READY=1
+.MODEL MD_A2D_CONVERTERM DIGITAL1 D_A2D_CONVERTER  RIN=10000000  ROUT=10  TH=2.5 
++ HYSTWD=1  VOL=0  VOH=5  RANGE=3.3  OFFSET=1.65  CODE=UNSIGNED  MIN_CLK=1e-11  TRIG_COND=0_TO_1
++  SAMPLE_DELAY=1e-12  ENABLE_DELAY=1.5e-11  CONVERT_TIME=5e-11  DATA_READY_DELAY=1e-11
+.ends SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11$3
+
+.subckt SIMPLIS_DIGI1_D_PULSE_N_N$2  201
+.NODE_MAP OUT      201
+A_PULSE [ 201 ] [ ] MODEL=MD_PULSEM
+.MODEL MD_PULSEM DIGITAL1 D_PULSE  PERIOD=2e-05  WIDTH=1e-05  DELAY=1e-09  ROUT=10
++  VOL=0  VOH=5
+.ends SIMPLIS_DIGI1_D_PULSE_N_N$2
+
+.subckt SIMPLIS_SUMMER2_BB$1  9221 9200 9211 9212
+.NODE_MAP OUT 9221
+.NODE_MAP RTN 9200
+.NODE_MAP IN1 9211
+.NODE_MAP IN2 9212
+.KEEP -**V
+.KEEP -**I
+.REQUIRED_VERSION 8.00
+R9201 9201 9200 1024
+I9210 9200 9201 0
+G9211 9200 9201 9211 9200 1
+G9212 9200 9201 9212 9200 1
+E9221 9221 9200 9201 9200 976.5625u
+.ends SIMPLIS_SUMMER2_BB$1
+
+.end
+

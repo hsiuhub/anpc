@@ -1,0 +1,98 @@
+* 
+*#SIMETRIX
+.node_map ADC_Vgrid_a$6 35
+.node_map ADC_Vgrid_a$7 36
+.node_map ADC_Vgrid_a$8 37
+.node_map ADC_Vgrid_a$9 38
+.node_map Count_EN 28
+.node_map ADC_Vgrid_a$10 39
+.node_map ADC_Vgrid_a$11 40
+.node_map ADC_Vgrid_a$0 29
+.node_map ADC_Vgrid_a$1 30
+.node_map ADC_Vgrid_a$2 31
+.node_map ADC_Vgrid_a$3 32
+.node_map ADC_CLK 27
+.node_map ADC_Vgrid_a$4 33
+.node_map ADC_Vgrid_a$5 34
+.options
++ PSP_NPT=10001
++ POP_ITRMAX=20
++ POP_OUTPUT_CYCLES=5
++ SNAPSHOT_INTVL=0
++ SNAPSHOT_NPT=11
++ MIN_AVG_TOPOLOGY_DUR=1a
++ AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128
+.tran 10m 0
+
+
+.PRINT V(#ADC_Vgrid_a$0)
+.GRAPH :#ADC_Vgrid_a$0 curveLabel= U_ADC_11-D0 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe1  
+.PRINT V(#ADC_Vgrid_a$9)
+.GRAPH :#ADC_Vgrid_a$9 curveLabel= U_ADC_11-D9 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe10  
+.PRINT V(#ADC_Vgrid_a$10)
+.GRAPH :#ADC_Vgrid_a$10 curveLabel= U_ADC_11-D10 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe11  
+.PRINT V(#ADC_Vgrid_a$11)
+.GRAPH :#ADC_Vgrid_a$11 curveLabel= U_ADC_11-D11 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe12  
+.PRINT V(#ADC_Vgrid_a$1)
+.GRAPH :#ADC_Vgrid_a$1 curveLabel= U_ADC_11-D1 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe2  
+.PRINT V(#ADC_Vgrid_a$2)
+.GRAPH :#ADC_Vgrid_a$2 curveLabel= U_ADC_11-D2 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe3  
+.PRINT V(#ADC_Vgrid_a$3)
+.GRAPH :#ADC_Vgrid_a$3 curveLabel= U_ADC_11-D3 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe4  
+.PRINT V(#ADC_Vgrid_a$4)
+.GRAPH :#ADC_Vgrid_a$4 curveLabel= U_ADC_11-D4 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe5  
+.PRINT V(#ADC_Vgrid_a$5)
+.GRAPH :#ADC_Vgrid_a$5 curveLabel= U_ADC_11-D5 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe6  
+.PRINT V(#ADC_Vgrid_a$6)
+.GRAPH :#ADC_Vgrid_a$6 curveLabel= U_ADC_11-D6 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe7  
+.PRINT V(#ADC_Vgrid_a$7)
+.GRAPH :#ADC_Vgrid_a$7 curveLabel= U_ADC_11-D7 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe8  
+.PRINT V(#ADC_Vgrid_a$8)
+.GRAPH :#ADC_Vgrid_a$8 curveLabel= U_ADC_11-D8 nowarn=true ylog=auto xlog=auto analysis=tran|pop disabled=false PROBEREF=Probe9  
+X$U19 9 0 10 13 SIMPLIS_SUMMER2_BB vars: K1=1 K2=1
++ OFFSET=0 USE_RIN=0 RIN=10k
+X$U22 27 SIMPLIS_DIGI1_D_PULSE_N_N vars: PERIOD=20u WIDTH=10u DELAY=1n ROUT=10 VOL=0 VOH=5 COMP='N' GNDREF='N'
+X$U_ADC_11 29 30 31 32 33 34 35 36 37 38 39 40 24 25 26 9 27 28 0 SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=3.3 OFFSET=1.65 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+.SUBCKT SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 1001 1002 1003 100 vars: RIN=10Meg ROUT=10 TH=2.5 HYSTWD=1 VOL=0 VOH=5 RANGE=2.5 OFFSET=1.25 CODE='UNSIGNED' MIN_CLK=10p TRIG_COND='0_TO_1' SAMPLE_DELAY=1p ENABLE_DELAY=15p CONVERT_TIME=50p DATA_READY_DELAY=10p IC=0 IC_OFL=0 IC_DATA_READY=1
+.NODE_MAP D0 2001
+.NODE_MAP D1 2002
+.NODE_MAP D2 2003
+.NODE_MAP D3 2004
+.NODE_MAP D4 2005
+.NODE_MAP D5 2006
+.NODE_MAP D6 2007
+.NODE_MAP D7 2008
+.NODE_MAP D8 2009
+.NODE_MAP D9 2010
+.NODE_MAP D10 2011
+.NODE_MAP D11 2012
+.NODE_MAP POFL 2013
+.NODE_MAP NOFL 2014
+.NODE_MAP DR 2015
+.NODE_MAP IN 1001
+.NODE_MAP CLK 1002
+.NODE_MAP EN 1003
+.NODE_MAP RTN 100
+A_D_A2D_CONVERTER %%gnd_ref 100 [ 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 ] [ 1001 1002 1003 ] MODEL=MD_A2D_CONVERTERM IC={IC} IC_OFL={IC_OFL} IC_DATA_READY={IC_DATA_READY}
+.MODEL MD_A2D_CONVERTERM DIGITAL1 D_A2D_CONVERTER
++ RIN={RIN}
++ ROUT={ROUT}
++ TH={TH}
++ HYSTWD={HYSTWD}
++ VOL={VOL}
++ VOH={VOH}
++ RANGE={RANGE}
++ OFFSET={OFFSET}
++ CODE={CODE}
++ MIN_CLK={MIN_CLK}
++ TRIG_COND={TRIG_COND}
++ SAMPLE_DELAY={SAMPLE_DELAY}
++ ENABLE_DELAY={ENABLE_DELAY}
++ CONVERT_TIME={CONVERT_TIME}
++ DATA_READY_DELAY={DATA_READY_DELAY}
+.ENDS SIMPLIS_DIGI1_D_A2D_CONVERTER_YX$U_ADC_11
+
+V1 10 0 2
+V14 13 0 1.65
+V4 28 0 5
+.end

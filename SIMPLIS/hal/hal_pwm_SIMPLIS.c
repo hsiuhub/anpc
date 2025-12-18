@@ -27,7 +27,9 @@ PWM_Output PWM_output = { 0 };
 
 void pwm_hal_UpdatePWMDeadBand(float32_t deadband)
 {
-	PWM_output.HAL_HF_DeadBand = PWM_HAL_OUT_RESOLUTION * deadband / PWM_HAL_PERIOD;
+    float cal_deadband = deadband / PWM_HAL_PERIOD;
+    cal_deadband = (cal_deadband >= 0.085f) ? 0.085f : cal_deadband;
+    PWM_output.HAL_HF_DeadBand = PWM_HAL_OUT_RESOLUTION * cal_deadband;
 }
 
 // ==========================================
@@ -105,15 +107,15 @@ void pwm_hal_DisableLFPWM_C(void)
 
 void pwm_hal_LF_PWMXA_HIGH(phase)
 {
-    if (phase == 1 && PWM_output.HAL_Enable_LFPWM_A == 1)
+    if (phase == 1 )
     {
         PWM_output.HAL_LF_PWM_P_A = (uint16_t)PWM_HAL_OUT_RESOLUTION;
     }
-    else if (phase == 2 && PWM_output.HAL_Enable_LFPWM_B == 1)
+    else if (phase == 2 )
     {
         PWM_output.HAL_LF_PWM_P_B = (uint16_t)PWM_HAL_OUT_RESOLUTION;
     }
-    else if (phase == 3 && PWM_output.HAL_Enable_LFPWM_C == 1)
+    else if (phase == 3 )
     {
         PWM_output.HAL_LF_PWM_P_C = (uint16_t)PWM_HAL_OUT_RESOLUTION;
     }
@@ -121,15 +123,15 @@ void pwm_hal_LF_PWMXA_HIGH(phase)
 
 void pwm_hal_LF_PWMXB_HIGH(phase)
 {
-    if (phase == 1 && PWM_output.HAL_Enable_LFPWM_A == 1)
+    if (phase == 1 )
     {
         PWM_output.HAL_LF_PWM_N_A = (uint16_t)PWM_HAL_OUT_RESOLUTION;
     }
-    else if (phase == 2 && PWM_output.HAL_Enable_LFPWM_B == 1)
+    else if (phase == 2 )
     {
         PWM_output.HAL_LF_PWM_N_B = (uint16_t)PWM_HAL_OUT_RESOLUTION;
     }
-    else if (phase == 3 && PWM_output.HAL_Enable_LFPWM_C == 1)
+    else if (phase == 3 )
     {
         PWM_output.HAL_LF_PWM_N_C = (uint16_t)PWM_HAL_OUT_RESOLUTION;
     }

@@ -1,0 +1,11 @@
+****************************************
+<<<<<<<< Error Message ID: 1137 >>>>>>>>
+input file C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/SIMPLIS_Data/ANPC_PWM_YH.deck, line 20,
+    .node_map Load 138
+
+Invalid node mapping.  ''138'' is not a
+node defined in the same circuit.  The
+circuit name is MAIN CIRCUIT.
+
+
+

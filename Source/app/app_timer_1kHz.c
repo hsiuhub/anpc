@@ -26,8 +26,8 @@
 //-----------------------------------------------------------------------------
 void timer1kHz_Callback(void)
 {
-
-    protect_CheckAllProtection();
+    //=== TEST protection===== 
+    //protect_CheckAllProtection();
 
     event_MonitorEvents_Every1ms();
 
