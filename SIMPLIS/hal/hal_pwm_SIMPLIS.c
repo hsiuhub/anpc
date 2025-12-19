@@ -24,12 +24,13 @@ PWM_Output PWM_output = { 0 };
 //  PUBLIC FUNCTIONS DEFINITION
 //-----------------------------------------------------------------------------
 
-
+// 0.085f
 void pwm_hal_UpdatePWMDeadBand(float32_t deadband)
 {
-    float cal_deadband = deadband / PWM_HAL_PERIOD;
-    cal_deadband = (cal_deadband >= 0.085f) ? 0.085f : cal_deadband;
-    PWM_output.HAL_HF_DeadBand = PWM_HAL_OUT_RESOLUTION * cal_deadband;
+    //float cal_deadband = deadband / PWM_HAL_PERIOD;
+    //cal_deadband = (cal_deadband >= 0.15f) ? 0.15f : cal_deadband;
+    PWM_output.HAL_HF_DeadBand = PWM_HAL_OUT_RESOLUTION * deadband;
+
 }
 
 // ==========================================

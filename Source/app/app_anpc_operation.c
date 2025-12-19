@@ -123,42 +123,42 @@ void anpc_Vbus_PIControl_Change(void)
 void anpc_Current_Control_Change(void)
 {
 
-    if(state_IsNormalOperation())
+    if (0)//(state_IsNormalOperation())
     {
         // ==================================================
         // Phase A
         // ==================================================
-        if(PhyValue.IA.rms < 0.9)
+        if (PhyValue.IA.rms < 0.9)
         {
             VICtrl.Duty_A_m1 = 0.5;
             VICtrl.Duty_A_m2 = 0;
         }
-        else if((PhyValue.IA.rms >= 1.1) && (PhyValue.IA.rms < 1.3))
+        else if ((PhyValue.IA.rms >= 1.1) && (PhyValue.IA.rms < 1.3))
         {
             VICtrl.Duty_A_m1 = 0.5;
             VICtrl.Duty_A_m2 = 0.1;
         }
-        else if((PhyValue.IA.rms >= 1.5) && (PhyValue.IA.rms < 4))
+        else if ((PhyValue.IA.rms >= 1.5) && (PhyValue.IA.rms < 4))
         {
             VICtrl.Duty_A_m1 = 0.5;
             VICtrl.Duty_A_m2 = 0.2;
         }
-        else if((PhyValue.IA.rms >= 4.3) && (PhyValue.IA.rms < 5.5))
+        else if ((PhyValue.IA.rms >= 4.3) && (PhyValue.IA.rms < 5.5))
         {
             VICtrl.Duty_A_m1 = 0.5;
             VICtrl.Duty_A_m2 = 0.3;
         }
-        else if((PhyValue.IA.rms >= 5.8) && (PhyValue.IA.rms < 7))
+        else if ((PhyValue.IA.rms >= 5.8) && (PhyValue.IA.rms < 7))
         {
             VICtrl.Duty_A_m1 = 0.5;
             VICtrl.Duty_A_m2 = 0.4;
         }
-        else if((PhyValue.IA.rms >= 7.2) && (PhyValue.IA.rms < 10))
+        else if ((PhyValue.IA.rms >= 7.2) && (PhyValue.IA.rms < 10))
         {
             VICtrl.Duty_A_m1 = 0.4;
             VICtrl.Duty_A_m2 = 0.4;
         }
-        else if(PhyValue.IA.rms >= 10.5)
+        else if (PhyValue.IA.rms >= 10.5)
         {
             VICtrl.Duty_A_m1 = 0.3;
             VICtrl.Duty_A_m2 = 0.4;
@@ -167,37 +167,37 @@ void anpc_Current_Control_Change(void)
         // ==================================================
         // Phase B
         // ==================================================
-        if(PhyValue.IB.rms < 0.9)
+        if (PhyValue.IB.rms < 0.9)
         {
             VICtrl.Duty_B_m1 = 0.5;
             VICtrl.Duty_B_m2 = 0;
         }
-        else if((PhyValue.IB.rms >= 1.1) && (PhyValue.IB.rms < 1.3))
+        else if ((PhyValue.IB.rms >= 1.1) && (PhyValue.IB.rms < 1.3))
         {
             VICtrl.Duty_B_m1 = 0.5;
             VICtrl.Duty_B_m2 = 0.1;
         }
-        else if((PhyValue.IB.rms >= 1.5) && (PhyValue.IB.rms < 4))
+        else if ((PhyValue.IB.rms >= 1.5) && (PhyValue.IB.rms < 4))
         {
             VICtrl.Duty_B_m1 = 0.5;
             VICtrl.Duty_B_m2 = 0.2;
         }
-        else if((PhyValue.IB.rms >= 4.3) && (PhyValue.IB.rms < 5.5))
+        else if ((PhyValue.IB.rms >= 4.3) && (PhyValue.IB.rms < 5.5))
         {
             VICtrl.Duty_B_m1 = 0.5;
             VICtrl.Duty_B_m2 = 0.3;
         }
-        else if((PhyValue.IB.rms >= 5.8) && (PhyValue.IB.rms < 7))
+        else if ((PhyValue.IB.rms >= 5.8) && (PhyValue.IB.rms < 7))
         {
             VICtrl.Duty_B_m1 = 0.5;
             VICtrl.Duty_B_m2 = 0.4;
         }
-        else if((PhyValue.IB.rms >= 7.2) && (PhyValue.IB.rms < 10))
+        else if ((PhyValue.IB.rms >= 7.2) && (PhyValue.IB.rms < 10))
         {
             VICtrl.Duty_B_m1 = 0.4;
             VICtrl.Duty_B_m2 = 0.4;
         }
-        else if(PhyValue.IB.rms >= 10.5)
+        else if (PhyValue.IB.rms >= 10.5)
         {
             VICtrl.Duty_B_m1 = 0.3;
             VICtrl.Duty_B_m2 = 0.4;
@@ -206,37 +206,37 @@ void anpc_Current_Control_Change(void)
         // ==================================================
         // Phase C
         // ==================================================
-        if(PhyValue.IC.rms < 0.9)
+        if (PhyValue.IC.rms < 0.9)
         {
             VICtrl.Duty_C_m1 = 0.5;
             VICtrl.Duty_C_m2 = 0;
         }
-        else if((PhyValue.IC.rms >= 1.1) && (PhyValue.IC.rms < 1.3))
+        else if ((PhyValue.IC.rms >= 1.1) && (PhyValue.IC.rms < 1.3))
         {
             VICtrl.Duty_C_m1 = 0.5;
             VICtrl.Duty_C_m2 = 0.1;
         }
-        else if((PhyValue.IC.rms >= 1.5) && (PhyValue.IC.rms < 4))
+        else if ((PhyValue.IC.rms >= 1.5) && (PhyValue.IC.rms < 4))
         {
             VICtrl.Duty_C_m1 = 0.5;
             VICtrl.Duty_C_m2 = 0.2;
         }
-        else if((PhyValue.IC.rms >= 4.3) && (PhyValue.IC.rms < 5.5))
+        else if ((PhyValue.IC.rms >= 4.3) && (PhyValue.IC.rms < 5.5))
         {
             VICtrl.Duty_C_m1 = 0.5;
             VICtrl.Duty_C_m2 = 0.3;
         }
-        else if((PhyValue.IC.rms >= 5.8) && (PhyValue.IC.rms < 7))
+        else if ((PhyValue.IC.rms >= 5.8) && (PhyValue.IC.rms < 7))
         {
             VICtrl.Duty_C_m1 = 0.5;
             VICtrl.Duty_C_m2 = 0.4;
         }
-        else if((PhyValue.IC.rms >= 7.2) && (PhyValue.IC.rms < 10))
+        else if ((PhyValue.IC.rms >= 7.2) && (PhyValue.IC.rms < 10))
         {
             VICtrl.Duty_C_m1 = 0.4;
             VICtrl.Duty_C_m2 = 0.4;
         }
-        else if(PhyValue.IC.rms >= 10.5)
+        else if (PhyValue.IC.rms >= 10.5)
         {
             VICtrl.Duty_C_m1 = 0.3;
             VICtrl.Duty_C_m2 = 0.4;

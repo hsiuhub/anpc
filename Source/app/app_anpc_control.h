@@ -33,8 +33,8 @@
 #define CTRL_ID_PI_MAX          ((float32_t)500)
 #define CTRL_ID_PI_MIN          ((float32_t)-500)
 
-#define CTRL_IQ_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IQ_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IQ_PI_KP_LIGHT     ((float32_t)1.5)
+#define CTRL_IQ_PI_KP_HEAVY     ((float32_t)1.5)
 #define CTRL_IQ_PI_KI_LIGHT     ((float32_t)0.70)
 #define CTRL_IQ_PI_KI_HEAVY     ((float32_t)0.70)
 #define CTRL_IQ_PI_KD           ((float32_t)0.0)
@@ -44,24 +44,24 @@
 #define CTRL_IQ_RATIO           ((float32_t)0.06)
 
 /* Current Per-Phase Control */
-#define CTRL_IA_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IA_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IA_PI_KP_LIGHT     ((float32_t)1.0)
+#define CTRL_IA_PI_KP_HEAVY     ((float32_t)1.0)
 #define CTRL_IA_PI_KI_LIGHT     ((float32_t)0.0)
 #define CTRL_IA_PI_KI_HEAVY     ((float32_t)0.0)
 #define CTRL_IA_PI_KD           ((float32_t)0.0)
 #define CTRL_IA_PI_MAX          ((float32_t)500)
 #define CTRL_IA_PI_MIN          ((float32_t)-500)
 
-#define CTRL_IB_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IB_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IB_PI_KP_LIGHT     ((float32_t)1.0)
+#define CTRL_IB_PI_KP_HEAVY     ((float32_t)1.0)
 #define CTRL_IB_PI_KI_LIGHT     ((float32_t)0.0)
 #define CTRL_IB_PI_KI_HEAVY     ((float32_t)0.0)
 #define CTRL_IB_PI_KD           ((float32_t)0.0)
 #define CTRL_IB_PI_MAX          ((float32_t)500)
 #define CTRL_IB_PI_MIN          ((float32_t)-500)
 
-#define CTRL_IC_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IC_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IC_PI_KP_LIGHT     ((float32_t)1.0)
+#define CTRL_IC_PI_KP_HEAVY     ((float32_t)1.0)
 #define CTRL_IC_PI_KI_LIGHT     ((float32_t)0.0)
 #define CTRL_IC_PI_KI_HEAVY     ((float32_t)0.0)
 #define CTRL_IC_PI_KD           ((float32_t)0.0)
@@ -76,8 +76,8 @@
 #define CTRL_VBUS_PI_MAX        ((float32_t)70)
 #define CTRL_VBUS_PI_MIN        ((float32_t)-70)
 
-#define CTRL_VBUS_DELTA_PI_KP   ((float32_t)0.005)
-#define CTRL_VBUS_DELTA_PI_KI   ((float32_t)0.00002)
+#define CTRL_VBUS_DELTA_PI_KP   ((float32_t)0.005*10)
+#define CTRL_VBUS_DELTA_PI_KI   ((float32_t)0.00002*10)
 #define CTRL_VBUS_DELTA_PI_MAX  ((float32_t)0.05)
 #define CTRL_VBUS_DELTA_PI_MIN  ((float32_t)-0.05)
 
@@ -393,10 +393,6 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     // ==================================================
     // Current Feedback Control
     //// ==================================================
-    //VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
-    //VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
-    //VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
-
     VICtrl.Ia_out = -CTRL_GI_RUN(&VICtrl.Ia, VICtrl.Ia_ref, PhyValue.IA.avg);
     VICtrl.Ib_out = -CTRL_GI_RUN(&VICtrl.Ib, VICtrl.Ib_ref, PhyValue.IB.avg);
     VICtrl.Ic_out = -CTRL_GI_RUN(&VICtrl.Ic, VICtrl.Ic_ref, PhyValue.IC.avg);
@@ -424,9 +420,9 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     VICtrl.Ib_fdfwd_pu = VICtrl.Ib_fdfwd / ANPC_VAC_MAX_SENSE;
     VICtrl.Ic_fdfwd_pu = VICtrl.Ic_fdfwd / ANPC_VAC_MAX_SENSE;
 
-    fdfwd_mod_a = (VICtrl.Ia_fdfwd_pu >= 0) ? (1 - VICtrl.Ia_fdfwd_pu): (1 + VICtrl.Ia_fdfwd_pu);
-    fdfwd_mod_b = (VICtrl.Ib_fdfwd_pu >= 0) ? (1 - VICtrl.Ib_fdfwd_pu): (1 + VICtrl.Ib_fdfwd_pu);
-    fdfwd_mod_c = (VICtrl.Ic_fdfwd_pu >= 0) ? (1 - VICtrl.Ic_fdfwd_pu): (1 + VICtrl.Ic_fdfwd_pu);
+    fdfwd_mod_a = (VICtrl.Ia_fdfwd_pu >= 0) ? (1 - VICtrl.Ia_fdfwd_pu) : (1 + VICtrl.Ia_fdfwd_pu);
+    fdfwd_mod_b = (VICtrl.Ib_fdfwd_pu >= 0) ? (1 - VICtrl.Ib_fdfwd_pu) : (1 + VICtrl.Ib_fdfwd_pu);
+    fdfwd_mod_c = (VICtrl.Ic_fdfwd_pu >= 0) ? (1 - VICtrl.Ic_fdfwd_pu) : (1 + VICtrl.Ic_fdfwd_pu);
 
     VICtrl.Ia_fdfwd = VICtrl.Ia_fdfwd * (1 - VICtrl.Duty_A_m2 * fdfwd_mod_a);
     VICtrl.Ib_fdfwd = VICtrl.Ib_fdfwd * (1 - VICtrl.Duty_B_m2 * fdfwd_mod_b);
@@ -436,6 +432,21 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     // ==================================================
     // Final Current Control Parameters
     // ==================================================
+    //if (StateFlag.bits.soft_start_on == 1)
+    //{
+    //    VICtrl.Va_pu = ((VICtrl.Ia_out + VICtrl.Ia_fdfwd) * 5.0f) / (PhyValue.Vbus.avg * 0.5);
+    //    VICtrl.Vb_pu = ((VICtrl.Ib_out + VICtrl.Ib_fdfwd) * 5.0f) / (PhyValue.Vbus.avg * 0.5);
+    //    VICtrl.Vc_pu = ((VICtrl.Ic_out + VICtrl.Ic_fdfwd) * 5.0f) / (PhyValue.Vbus.avg * 0.5);
+    //}
+    //else
+    //{
+    //    VICtrl.Va_pu = (VICtrl.Ia_out + VICtrl.Ia_fdfwd) / (PhyValue.Vbus.avg * 0.5);
+    //    VICtrl.Vb_pu = (VICtrl.Ib_out + VICtrl.Ib_fdfwd) / (PhyValue.Vbus.avg * 0.5);
+    //    VICtrl.Vc_pu = (VICtrl.Ic_out + VICtrl.Ic_fdfwd) / (PhyValue.Vbus.avg * 0.5);
+    //}
+    // 
+    //(ANPC_VBUS_NOM * 0.4f);
+
     VICtrl.Va_pu = (VICtrl.Ia_out + VICtrl.Ia_fdfwd) / (PhyValue.Vbus.avg * 0.5);
     VICtrl.Vb_pu = (VICtrl.Ib_out + VICtrl.Ib_fdfwd) / (PhyValue.Vbus.avg * 0.5);
     VICtrl.Vc_pu = (VICtrl.Ic_out + VICtrl.Ic_fdfwd) / (PhyValue.Vbus.avg * 0.5);

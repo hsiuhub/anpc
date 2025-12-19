@@ -28,8 +28,20 @@ static inline void pwm_mid_UpdatePWMDeadBand(float32_t deadband)
     pwm_hal_UpdatePWMDeadBand(deadband);
 
 #elif defined CONFIG_VIRTUAL
+    
+    //if (VICtrl.Deadband > ANPC_CTRL_HIGH_FREQ_DEADBAND)
+    //{
+    //    float DT_HF_SS = deadband * 
+    //    pwm_hal_UpdatePWMDeadBand_SS(deadband);
+    //}
+    //else
+    //{
+    //    pwm_hal_UpdatePWMDeadBand(deadband);
+    //}
+
     pwm_hal_UpdatePWMDeadBand(deadband);
 
+    
 #endif
 
 }

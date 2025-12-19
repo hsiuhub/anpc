@@ -126,7 +126,7 @@
 #define ANPC_CTRL_PERIOD                ((float32_t) (1 / ANPC_CTRL_FREQ))
 #define ANPC_CTRL_HIGH_FREQ_DEADBAND    (150 * MATH_NANO)
 #define ANPC_CTRL_LOW_FREQ_DEADBAND     (1000 * MATH_NANO)
-
+// === test ==== ANPC_SOFTSTART_CONSTANT_CURRENT     2 =>> 0.5
 #define ANPC_SOFTSTART_VBUSREF_SLEW     	((float32_t) 0.1)
 #define ANPC_SOFTSTART_CONSTANT_CURRENT     ((float32_t) 2.0)
 #define ANPC_SOFTSTART_DEADBAND_SLEW    	((float32_t) (10 * MATH_NANO))

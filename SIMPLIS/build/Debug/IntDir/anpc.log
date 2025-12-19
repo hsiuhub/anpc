@@ -95,82 +95,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -302,31 +302,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_control.c')
   
   app_anpc_main.c
@@ -426,82 +426,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -633,31 +633,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_main.c')
   
   app_anpc_operation.c
@@ -757,82 +757,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -964,31 +964,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_anpc_operation.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_operation.c(139,32): warning C4305: '=': truncation from 'double' to 'float32_t'
@@ -1112,82 +1112,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1319,31 +1319,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_event.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_isr2.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1449,82 +1449,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1656,31 +1656,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr1.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_isr1.h(35,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -1804,82 +1804,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2011,31 +2011,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_isr2.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_isr2.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2172,82 +2172,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_physical_parameter.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2446,82 +2446,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_protection.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2705,82 +2705,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -2912,31 +2912,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_state.c')
   
   app_timer_10Hz.c
@@ -3036,82 +3036,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_10Hz.c')
   
   app_timer_1kHz.c
@@ -3211,82 +3211,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -3418,31 +3418,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/app/app_timer_1kHz.c')
   
   mid_general_adc.c
@@ -3666,82 +3666,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_t
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/general/mid_general_pwm.c')
   
   mid_initial_adc.c
@@ -4041,82 +4041,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -4248,31 +4248,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file '../Source/mid/initial/mid_initial_pwm.c')
   
   mid_initial_system.c
@@ -4469,82 +4469,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'anpc_action.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -4856,82 +4856,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_physical_parameter.h(180,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -5063,31 +5063,31 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(374
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(411,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(407,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(412,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(408,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(413,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(409,98): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(439,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(450,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(440,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(451,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(441,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(452,54): warning C4244: '=': conversion from 'double' to 'float32_t', possible loss of data
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(457,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(468,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(525,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(536,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(579,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_anpc_control.h(590,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_interrupt_SIMPLIS.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\app_isr1.h(35,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
@@ -5151,10 +5151,10 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\digit_ct
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\lookup_table.h(39,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_pwm_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(32,57): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(197,69): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(202,69): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(208,69): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(32,57): warning C4244: '=': conversion from 'float32_t' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(198,69): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(203,69): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\SIMPLIS\hal\hal_pwm_SIMPLIS.c(209,69): warning C4244: '=': conversion from 'float' to 'SMX_DLL_UINT16', possible loss of data
   hal_system_SIMPLIS.c
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file 'hal/hal_system_SIMPLIS.c')
@@ -5283,82 +5283,82 @@ C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_in
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(23,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(37,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(49,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(51,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(63,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(65,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(77,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(79,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(91,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(93,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(105,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(107,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(119,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(121,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(133,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(135,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(147,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(149,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(161,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(163,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(175,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(177,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(189,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(191,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(203,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(205,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(217,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(219,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(231,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(233,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(245,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(247,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(259,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(261,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(273,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(275,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(287,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(291,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(303,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(307,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(319,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(323,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(335,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(340,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(352,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(357,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(369,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(374,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(386,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(391,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(403,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(408,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\mid\general\mid_general_pwm.h(420,9): warning C4068: unknown pragma 'FUNC_ALWAYS_INLINE'
   (compiling source file 'hal/hal_timer_SIMPLIS.c')
   
   Generating Code...

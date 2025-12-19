@@ -1,0 +1,24 @@
+$$$ 1 11692 17    simplis  DATA FOR PLOTTING,  Thu Dec 18 19:14:02 2025    
+INPUT FILE: C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/PWM function/SIMPLIS_Data/design.deck
+Transient Analysis
+11692 DATA PTS                
+17 VARIABLES                                      
+0   TIME
+1   V(X$U2.#duty1_H)
+2   V(X$U2.#ramp)
+3   V(X$U2.#duty)
+4   V(X$U2.#phase1_1H)
+5   V(X$U4.#PWM_L)
+6   V(X$U4.#duty1_H)
+7   V(X$U4.#PWM_H)
+8   V(X$U4.#ramp)
+9   V(X$U4.#duty)
+10  V(X$U4.#phase1_1H)
+11  V(X$U5.#duty1_H)
+12  V(X$U5.#ramp)
+13  V(X$U5.#duty)
+14  V(X$U5.#phase1_1H)
+15  V(#PWM_HH)
+16  V(#PWM_LL)
+17  V(#HF_Deadband)
+
