@@ -19666,7 +19666,7 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=".simulator SIMPLIS\n*.ac DEC 25 1k 1Meg\n.options  PSP_START=0  PSP_NPT=1000001  POP_ITRMAX=20  POP_OUTPUT_CYCLES=5  SNAPSHOT_INTVL=0  SNAPSHOT_NPT=11  MIN_AVG_TOPOLOGY_DUR=1a  AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128\n*.pop TRIG_GATE={TRIG_GATE} TRIG_COND=0_TO_1 MAX_PERIOD=1u CONVERGENCE=1p CYCLES_BEFORE_LAUNCH=5 TD_RUN_AFTER_POP_FAILS=-1\n.tran 500m 400m\n.simulator DEFAULT\n.var Vin=400\n.var Vin_pk=Vin/1.732*1.414\n.var VLL_pk=Vin*1.414/2"
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=11034 y=-4550 zoomlevel=37 zoom=13 snapgrid=120 offsetX=29043 offsetY=6118
+View x=-3680 y=-6225 zoomlevel=37 zoom=13 snapgrid=120 offsetX=29043 offsetY=6118
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro" type=value
 Property name="CurrentMeasureItem" value="Distortion|0|0|0|||0||||" type=value
 Property name="GUID" value="{b18f6b6a-2205-454f-81e5-1684e6a8fe1d}" type=value
@@ -19700,7 +19700,7 @@ Property name="SYSTEM_DESIGNER_SOC_15" value="0" type=value
 Property name="SYSTEM_DESIGNER_TRIGGER" value="1" type=value
 Property name="SYSTEM_DESIGNER_USE_SCHEM_PROPS" value="1" type=value
 Property name="SYSTEM_DESIGNER_VERSION" value="1.0" type=value
-Property name="UserVersion" value="619" type=value
-Property name="WriteLog" value="619/0/2030542/0" type=value
+Property name="UserVersion" value="620" type=value
+Property name="WriteLog" value="620/0/2031775/0" type=value
 .EndSchematic
 .EndComponent
