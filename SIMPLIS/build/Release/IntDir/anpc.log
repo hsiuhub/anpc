@@ -1,6 +1,6 @@
 ﻿  app_anpc_control.c
-C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   app_anpc_main.c
+C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(107,45): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data
   (compiling source file '../Source/app/app_anpc_control.c')
   
 C:\SIMPLIS simulation\ANPC Phase Loss DLL\anpc\Source\app\math_ctrl_lib\ac_analyzer.h(110,51): warning C4244: '=': conversion from 'double' to 'volatile float32_t', possible loss of data

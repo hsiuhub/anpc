@@ -44,24 +44,24 @@
 #define CTRL_IQ_RATIO           ((float32_t)0.06)
 
 /* Current Per-Phase Control */
-#define CTRL_IA_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IA_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IA_PI_KP_LIGHT     ((float32_t)1.0)
+#define CTRL_IA_PI_KP_HEAVY     ((float32_t)1.0)
 #define CTRL_IA_PI_KI_LIGHT     ((float32_t)0.0)
 #define CTRL_IA_PI_KI_HEAVY     ((float32_t)0.0)
 #define CTRL_IA_PI_KD           ((float32_t)0.0)
 #define CTRL_IA_PI_MAX          ((float32_t)500)
 #define CTRL_IA_PI_MIN          ((float32_t)-500)
 
-#define CTRL_IB_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IB_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IB_PI_KP_LIGHT     ((float32_t)1.0)
+#define CTRL_IB_PI_KP_HEAVY     ((float32_t)1.0)
 #define CTRL_IB_PI_KI_LIGHT     ((float32_t)0.0)
 #define CTRL_IB_PI_KI_HEAVY     ((float32_t)0.0)
 #define CTRL_IB_PI_KD           ((float32_t)0.0)
 #define CTRL_IB_PI_MAX          ((float32_t)500)
 #define CTRL_IB_PI_MIN          ((float32_t)-500)
 
-#define CTRL_IC_PI_KP_LIGHT     ((float32_t)7.0)
-#define CTRL_IC_PI_KP_HEAVY     ((float32_t)7.0)
+#define CTRL_IC_PI_KP_LIGHT     ((float32_t)1.0)
+#define CTRL_IC_PI_KP_HEAVY     ((float32_t)1.0)
 #define CTRL_IC_PI_KI_LIGHT     ((float32_t)0.0)
 #define CTRL_IC_PI_KI_HEAVY     ((float32_t)0.0)
 #define CTRL_IC_PI_KD           ((float32_t)0.0)
@@ -76,8 +76,8 @@
 #define CTRL_VBUS_PI_MAX        ((float32_t)70)
 #define CTRL_VBUS_PI_MIN        ((float32_t)-70)
 
-#define CTRL_VBUS_DELTA_PI_KP   ((float32_t)0.005*10)
-#define CTRL_VBUS_DELTA_PI_KI   ((float32_t)0.00002*10)
+#define CTRL_VBUS_DELTA_PI_KP   ((float32_t)0.005)
+#define CTRL_VBUS_DELTA_PI_KI   ((float32_t)0.00002)
 #define CTRL_VBUS_DELTA_PI_MAX  ((float32_t)0.05)
 #define CTRL_VBUS_DELTA_PI_MIN  ((float32_t)-0.05)
 
