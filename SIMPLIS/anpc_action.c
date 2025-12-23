@@ -6,6 +6,7 @@
 #include "app_physical_parameter.h"
 #include "app_state.h"
 #include "device_config.h"
+#include "app_anpc_control.h"
 
 
 //-----------------------------------------------------------------------------
@@ -111,7 +112,7 @@ void anpc_action(p_smx_dll_simulation_context context_p, p_smx_dll_device device
 		{
 			adc_hal_SampleHold(context_p, device_p);
 			ISR1();
-			
+			ctrl_RunCurrentLoop_PerPhase();
 			PWM_isr_prev = PWM_isr;
 		}
 

@@ -236,7 +236,7 @@ Style name="DefaultSelected" lineColour="16711680" lineThickness="0" lineThickne
 Style name="DefaultWire" lineColour="39168" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
 .EndStyleLibrary
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-3480 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-3480 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -244,7 +244,7 @@ Property name="value" value="SW_Freq" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#SW_Freq"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-3120 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-3120 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -252,7 +252,7 @@ Property name="value" value="HF_Duty" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#HF_Duty"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-2760 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-2760 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -260,7 +260,7 @@ Property name="value" value="LF_PWM_P" autopos=1 normal=Right rotated=Bottom fon
 Netnames pin1="#LF_PWM_P"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-2400 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-2400 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -268,7 +268,7 @@ Property name="value" value="LF_PWM_N" autopos=1 normal=Right rotated=Bottom fon
 Netnames pin1="#LF_PWM_N"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-2040 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-2040 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -276,7 +276,7 @@ Property name="value" value="HF_DB" autopos=1 normal=Right rotated=Bottom font=D
 Netnames pin1="#HF_DB"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-1680 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-1680 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -284,7 +284,7 @@ Property name="value" value="PWM_EN" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#PWM_EN"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=-8400 y=-1320 orient=M0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=-8400 y=-1320 orient=M0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -292,7 +292,7 @@ Property name="value" value="Load" autopos=1 normal=Right rotated=Bottom font=De
 Netnames pin1="#Load"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8400 y=-360 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8400 y=-360 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -300,7 +300,7 @@ Property name="value" value="PWM_EN" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#PWM_EN"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-3480 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-3480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -308,7 +308,7 @@ Property name="value" value="SW_Freq" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#SW_Freq"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-3120 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-3120 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -316,7 +316,7 @@ Property name="value" value="HF_Duty" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#HF_Duty"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-2760 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-2760 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -324,7 +324,7 @@ Property name="value" value="LF_PWM_P" autopos=1 normal=Right rotated=Bottom fon
 Netnames pin1="#LF_PWM_P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-2400 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-2400 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -332,7 +332,7 @@ Property name="value" value="LF_PWM_N" autopos=1 normal=Right rotated=Bottom fon
 Netnames pin1="#LF_PWM_N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-2040 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-2040 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -340,7 +340,7 @@ Property name="value" value="HF_DB" autopos=1 normal=Right rotated=Bottom font=D
 Netnames pin1="#HF_DB"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-1680 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-1680 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -348,7 +348,7 @@ Property name="value" value="PWM_EN" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#PWM_EN"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-8160 y=-1320 orient=M180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-8160 y=-1320 orient=M180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -356,14 +356,14 @@ Property name="value" value="Load" autopos=1 normal=Right rotated=Bottom font=De
 Netnames pin1="#Load"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=-8040 y=120 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=-8040 y=120 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-7440 y=-240 orient=M180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-7440 y=-240 orient=M180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -371,7 +371,7 @@ Property name="value" value="PWM_DIS" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#PWM_DIS"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-6120 y=-3360 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-6120 y=-3360 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -379,14 +379,14 @@ Property name="value" value="LF_PWM_P" autopos=1 normal=Right rotated=Bottom fon
 Netnames pin1="#LF_PWM_P"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=-5760 y=-3000 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=-5760 y=-3000 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-5760 y=-960 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-5760 y=-960 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -394,7 +394,7 @@ Property name="value" value="SW_Freq" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#SW_Freq"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-5760 y=-840 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-5760 y=-840 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -402,7 +402,7 @@ Property name="value" value="HF_Duty" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#HF_Duty"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-5760 y=-600 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-5760 y=-600 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -410,7 +410,7 @@ Property name="value" value="HF_DB" autopos=1 normal=Right rotated=Bottom font=D
 Netnames pin1="#HF_DB"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-5760 y=-240 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-5760 y=-240 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -418,7 +418,7 @@ Property name="value" value="PWM_DIS" autopos=1 normal=Right rotated=Bottom font
 Netnames pin1="#PWM_DIS"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-5400 y=-3480 orient=M180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-5400 y=-3480 orient=M180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -426,14 +426,14 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=-5040 y=120 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=-5040 y=120 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-3960 y=-3360 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=-3960 y=-3360 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -441,14 +441,14 @@ Property name="value" value="LF_PWM_N" autopos=1 normal=Right rotated=Bottom fon
 Netnames pin1="#LF_PWM_N"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=-3600 y=-3000 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=-3600 y=-3000 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-3480 y=-720 orient=M180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-3480 y=-720 orient=M180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -456,7 +456,7 @@ Property name="value" value="D" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#D"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-3480 y=-480 orient=M180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-3480 y=-480 orient=M180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -464,7 +464,7 @@ Property name="value" value="C" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#C"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-3240 y=-3480 orient=M180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-3240 y=-3480 orient=M180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -472,7 +472,7 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-3360 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-3360 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -480,7 +480,7 @@ Property name="value" value="D" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#D"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-3120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-3120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -488,7 +488,7 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-2280 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-2280 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -496,7 +496,7 @@ Property name="value" value="C" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#C"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-2040 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-2040 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -504,7 +504,7 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-1200 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-1200 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -512,7 +512,7 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-960 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-960 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -520,7 +520,7 @@ Property name="value" value="C" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#C"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=-120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=-120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -528,7 +528,7 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=-240 y=120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=-240 y=120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -536,35 +536,35 @@ Property name="value" value="D" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#D"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=240 y=-2760 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=240 y=-2760 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=240 y=-1680 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=240 y=-1680 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=240 y=-600 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=240 y=-600 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=240 y=480 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=240 y=480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=840 y=-3360 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=840 y=-3360 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -572,7 +572,7 @@ Property name="value" value="PD" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#PD"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=840 y=-120 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=840 y=-120 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -580,7 +580,7 @@ Property name="value" value="ND" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#ND"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=2280 y=-3360 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=2280 y=-3360 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -588,7 +588,7 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=2280 y=-2280 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=2280 y=-2280 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -596,7 +596,7 @@ Property name="value" value="ND" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#ND"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=2280 y=-960 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=2280 y=-960 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -604,7 +604,7 @@ Property name="value" value="PD" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#PD"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=2280 y=-120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=2280 y=-120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -612,35 +612,35 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=2760 y=-2760 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=2760 y=-2760 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=2760 y=-1680 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=2760 y=-1680 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=2760 y=-600 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=2760 y=-600 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=2760 y=480 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=2760 y=480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=3360 y=-2280 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=3360 y=-2280 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -648,7 +648,7 @@ Property name="value" value="Q3" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q3"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=3360 y=-1200 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=3360 y=-1200 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -656,7 +656,7 @@ Property name="value" value="Q2" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q2"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=4320 y=-3360 orient=N270 
+Attributes type=symbol name="term" selected=1 protected=0 x=4320 y=-3360 orient=N270 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -664,14 +664,14 @@ Property name="value" value="P01" autopos=1 normal=Right rotated=Bottom font=Def
 Netnames pin1="#P01"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=4320 y=-2760 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=4320 y=-2760 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=4320 y=-2280 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=4320 y=-2280 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -679,14 +679,14 @@ Property name="value" value="N01" autopos=1 normal=Right rotated=Bottom font=Def
 Netnames pin1="#N01"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=4320 y=480 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=4320 y=480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=5280 y=-120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=5280 y=-120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -694,7 +694,7 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=5280 y=120 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=5280 y=120 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -702,7 +702,7 @@ Property name="value" value="N1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#N1"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=5520 y=-1200 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=5520 y=-1200 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -710,7 +710,7 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=5520 y=-960 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=5520 y=-960 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -718,35 +718,35 @@ Property name="value" value="P1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#P1"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=5880 y=-2760 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=5880 y=-2760 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=5880 y=-1680 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=5880 y=-1680 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=5880 y=-600 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=5880 y=-600 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=5880 y=480 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=5880 y=480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=6360 y=-1200 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=6360 y=-1200 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -754,7 +754,7 @@ Property name="value" value="Q1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q1"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=6360 y=-120 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=6360 y=-120 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -762,7 +762,7 @@ Property name="value" value="Q4" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q4"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=7320 y=-3360 orient=N270 
+Attributes type=symbol name="term" selected=1 protected=0 x=7320 y=-3360 orient=N270 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -770,7 +770,7 @@ Property name="value" value="P02" autopos=1 normal=Right rotated=Bottom font=Def
 Netnames pin1="#P02"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=7440 y=-1200 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=7440 y=-1200 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -778,7 +778,7 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=7440 y=-960 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=7440 y=-960 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -786,7 +786,7 @@ Property name="value" value="P1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#P1"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=7440 y=-120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=7440 y=-120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -794,7 +794,7 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=7440 y=120 orient=M0 
+Attributes type=symbol name="term" selected=1 protected=0 x=7440 y=120 orient=M0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -802,35 +802,35 @@ Property name="value" value="N1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#N1"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=7800 y=-2760 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=7800 y=-2760 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=7800 y=-1680 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=7800 y=-1680 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=7800 y=-600 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=7800 y=-600 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=7800 y=480 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=7800 y=480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=8280 y=-120 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=8280 y=-120 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -838,7 +838,7 @@ Property name="value" value="Q5" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q5"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=8520 y=-1200 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=8520 y=-1200 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -846,21 +846,21 @@ Property name="value" value="Q6" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q6"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=8880 y=-2880 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=8880 y=-2880 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="gnd" selected=0 protected=0 x=8880 y=-1800 orient=N0 
+Attributes type=symbol name="gnd" selected=1 protected=0 x=8880 y=-1800 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=9360 y=-3480 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=9360 y=-3480 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -868,7 +868,7 @@ Property name="value" value="P1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#P1"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=9360 y=-2400 orient=N0 
+Attributes type=symbol name="term" selected=1 protected=0 x=9360 y=-2400 orient=N0 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -876,7 +876,7 @@ Property name="value" value="N1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#N1"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-3360 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-3360 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -884,7 +884,7 @@ Property name="value" value="Q1" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q1"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-3000 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-3000 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -892,7 +892,7 @@ Property name="value" value="Q2" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q2"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-2640 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-2640 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -900,7 +900,7 @@ Property name="value" value="Q3" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q3"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-2280 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-2280 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -908,7 +908,7 @@ Property name="value" value="Q4" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q4"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-1920 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-1920 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -916,7 +916,7 @@ Property name="value" value="Q5" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q5"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-1560 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-1560 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -924,7 +924,7 @@ Property name="value" value="Q6" autopos=1 normal=Right rotated=Bottom font=Defa
 Netnames pin1="#Q6"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-1200 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-1200 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -932,7 +932,7 @@ Property name="value" value="P" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-840 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-840 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -940,7 +940,7 @@ Property name="value" value="N" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-480 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-480 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -948,7 +948,7 @@ Property name="value" value="C" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#C"
 .EndInstance
 .Instance
-Attributes type=symbol name="term" selected=0 protected=0 x=10800 y=-120 orient=N180 
+Attributes type=symbol name="term" selected=1 protected=0 x=10800 y=-120 orient=N180 
 Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -956,7 +956,7 @@ Property name="value" value="D" autopos=1 normal=Right rotated=Bottom font=Defau
 Netnames pin1="#D"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-3360 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-3360 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -964,7 +964,7 @@ Property name="value" value="PWM_S1" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#Q1"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-3000 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-3000 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -972,7 +972,7 @@ Property name="value" value="PWM_S2" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#Q2"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-2640 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-2640 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -980,7 +980,7 @@ Property name="value" value="PWM_S3" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#Q3"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-2280 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-2280 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -988,7 +988,7 @@ Property name="value" value="PWM_S4" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#Q4"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-1920 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-1920 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -996,7 +996,7 @@ Property name="value" value="PWM_S5" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#Q5"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-1560 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-1560 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1004,7 +1004,7 @@ Property name="value" value="PWM_S6" autopos=1 normal=Right rotated=Bottom font=
 Netnames pin1="#Q6"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-1200 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-1200 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1012,7 +1012,7 @@ Property name="value" value="LF_P" autopos=1 normal=Right rotated=Bottom font=De
 Netnames pin1="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-840 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-840 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1020,7 +1020,7 @@ Property name="value" value="LF_N" autopos=1 normal=Right rotated=Bottom font=De
 Netnames pin1="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-480 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-480 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1028,7 +1028,7 @@ Property name="value" value="HF_D" autopos=1 normal=Right rotated=Bottom font=De
 Netnames pin1="#C"
 .EndInstance
 .Instance
-Attributes type=symbol name="modport" selected=0 protected=0 x=11040 y=-120 orient=N0 
+Attributes type=symbol name="modport" selected=1 protected=0 x=11040 y=-120 orient=N0 
 Property name="scterm" value="1" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1036,7 +1036,7 @@ Property name="value" value="HF_C" autopos=1 normal=Right rotated=Bottom font=De
 Netnames pin1="#D"
 .EndInstance
 .Instance
-Attributes type=symbol name="cap" selected=0 protected=0 x=4320 y=-3120 orient=N0 
+Attributes type=symbol name="cap" selected=1 protected=0 x=4320 y=-3120 orient=N0 
 Property name="ICANAL" value="0;1;0;0;" autopos=0 x=0 y=660 align=LeftTop visible=0 font=Default order=-1
 Property name="INIT_SCRIPT" value="ic_reactive" autopos=0 x=0 y=840 align=LeftBase visible=0 font=Default order=-1
 Property name="MODEL" value="C" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1045,11 +1045,11 @@ Property name="REF" value="C1" autopos=1 normal=Right rotated=Bottom font=Defaul
 Property name="SIMPLIS_TEMPLATE" value="<ref> <nodelist> %VALUE%" autopos=0 x=0 y=480 align=LeftBase visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="VALUE" value="220n" autopos=1 normal=Right rotated=Top font=Default order=-1
+Property name="VALUE" value="6.8n" autopos=1 normal=Right rotated=Top font=Default order=-1
 Netnames pin1="#P01" pin2="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="cap" selected=0 protected=0 x=4320 y=120 orient=N0 
+Attributes type=symbol name="cap" selected=1 protected=0 x=4320 y=120 orient=N0 
 Property name="ICANAL" value="0;1;0;0;" autopos=0 x=0 y=660 align=LeftTop visible=0 font=Default order=-1
 Property name="INIT_SCRIPT" value="ic_reactive" autopos=0 x=0 y=840 align=LeftBase visible=0 font=Default order=-1
 Property name="MODEL" value="C" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1058,11 +1058,11 @@ Property name="ref" value="C2" autopos=1 normal=Right rotated=Bottom font=Defaul
 Property name="SIMPLIS_TEMPLATE" value="<ref> <nodelist> %VALUE%" autopos=0 x=0 y=480 align=LeftBase visible=0 font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="VALUE" value="220n" autopos=1 normal=Right rotated=Top font=Default order=-1
+Property name="VALUE" value="6.8n" autopos=1 normal=Right rotated=Top font=Default order=-1
 Netnames pin1="#N01" pin2="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="resz" selected=0 protected=0 x=3960 y=-3360 orient=N90 
+Attributes type=symbol name="resz" selected=1 protected=0 x=3960 y=-3360 orient=N90 
 Property name="MODEL" value="R" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="REF" value="R1" autopos=1 normal=Right rotated=Bottom font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1071,7 +1071,7 @@ Property name="value" value="1" autopos=1 normal=Right rotated=Top font=Default 
 Netnames pin1="#P01" pin2="87"
 .EndInstance
 .Instance
-Attributes type=symbol name="resz" selected=0 protected=0 x=3960 y=-120 orient=N90 
+Attributes type=symbol name="resz" selected=1 protected=0 x=3960 y=-120 orient=N90 
 Property name="MODEL" value="R" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="ref" value="R2" autopos=1 normal=Right rotated=Bottom font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
@@ -1080,7 +1080,7 @@ Property name="value" value="1" autopos=1 normal=Right rotated=Top font=Default 
 Netnames pin1="#N01" pin2="110"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=7560 y=-3480 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=7560 y=-3480 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1095,7 +1095,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="88" pin2="95" pin3="0" pin4="#P02" pin5="#P02"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=7560 y=-240 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=7560 y=-240 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1110,7 +1110,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#Q5" pin2="114" pin3="0" pin4="#N" pin5="#N1"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=0 y=-2400 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=0 y=-2400 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1125,7 +1125,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="96" pin2="100" pin3="0" pin4="#C" pin5="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=2520 y=-3480 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=2520 y=-3480 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1140,7 +1140,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="87" pin2="93" pin3="0" pin4="#P" pin5="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=0 y=-3480 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=0 y=-3480 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1155,7 +1155,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#PD" pin2="92" pin3="0" pin4="#D" pin5="#P"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=0 y=-1320 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=0 y=-1320 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1170,7 +1170,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="104" pin2="105" pin3="0" pin4="#N" pin5="#C"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=2520 y=-2400 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=2520 y=-2400 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1185,7 +1185,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#Q3" pin2="101" pin3="0" pin4="#ND" pin5="96"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=2520 y=-1320 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=2520 y=-1320 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1200,7 +1200,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#Q2" pin2="106" pin3="0" pin4="104" pin5="#PD"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=0 y=-240 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=0 y=-240 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1215,7 +1215,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#ND" pin2="111" pin3="0" pin4="#N" pin5="#D"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=2520 y=-240 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=2520 y=-240 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1230,7 +1230,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="110" pin2="112" pin3="0" pin4="#N" pin5="#N"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=0 protected=0 x=-6000 y=-3720 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=1 protected=0 x=-6000 y=-3720 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1245,7 +1245,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#P" pin2="89" pin3="0" pin4="#LF_PWM_P"
 .EndInstance
 .Instance
-Attributes type=component path="PWM_generator_Comp.sxcmp" selected=0 protected=0 x=-4920 y=-840 orient=N0 
+Attributes type=component path="PWM_generator_Comp.sxcmp" selected=1 protected=0 x=-4920 y=-840 orient=N0 
 Property name="Model" value="X" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="ModuleName" value="PWM_generator_Comp" autopos=1 normal=Top rotated=Right font=Default order=-1
 Property name="Ref" value="U2" autopos=1 normal=Top rotated=Right font=Default order=-1
@@ -1254,7 +1254,7 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Netnames pin1="#SW_Freq" pin2="0" pin3="#C" pin4="#D" pin5="#HF_DB" pin6="#HF_DB" pin7="#PWM_DIS" pin8="#PWM_DIS" pin9="0" pin10="#HF_Duty"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=0 protected=0 x=-3840 y=-3720 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=1 protected=0 x=-3840 y=-3720 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1269,7 +1269,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#N" pin2="90" pin3="0" pin4="#LF_PWM_N"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=0 protected=0 x=8640 y=-3720 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=1 protected=0 x=8640 y=-3720 orient=N0 
 Property name="DELAY" value="15n" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1284,7 +1284,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#P1" pin2="91" pin3="0" pin4="88"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=0 protected=0 x=8640 y=-2640 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=1 protected=0 x=8640 y=-2640 orient=N0 
 Property name="DELAY" value="15n" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1299,7 +1299,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#N1" pin2="99" pin3="0" pin4="98"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=7560 y=-2400 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=7560 y=-2400 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1314,7 +1314,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="98" pin2="103" pin3="0" pin4="97" pin5="97"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=5640 y=-3480 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=5640 y=-3480 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="100m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1329,7 +1329,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#P02" pin2="94" pin3="0" pin4="#P01" pin5="#P01"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=0 protected=0 x=7560 y=-1320 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_OR_2I0" selected=1 protected=0 x=7560 y=-1320 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1344,7 +1344,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#Q6" pin2="108" pin3="0" pin4="#P" pin5="#P1"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=5640 y=-2400 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=5640 y=-2400 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="100m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1359,7 +1359,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="97" pin2="102" pin3="0" pin4="#N01" pin5="#N01"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=5640 y=-1320 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=5640 y=-1320 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1374,7 +1374,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#Q1" pin2="107" pin3="0" pin4="#P" pin5="#P1"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=0 protected=0 x=5640 y=-240 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_AND_2I0" selected=1 protected=0 x=5640 y=-240 orient=N0 
 Property name="DELAY" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -1389,7 +1389,7 @@ Property name="VOL" value="0" autopos=1 normal=Top rotated=Top visible=0 font=De
 Netnames pin1="#Q4" pin2="113" pin3="0" pin4="#N" pin5="#N1"
 .EndInstance
 .Instance
-Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=0 protected=0 x=-8280 y=-720 orient=N0 
+Attributes type=symbol name="SIMPLIS_LOGIC_BB_BUF" selected=1 protected=0 x=-8280 y=-720 orient=N0 
 Property name="DELAY" value="15n" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="HYSTWD" value="250m" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
 Property name="IC" value="0" autopos=1 normal=Top rotated=Top visible=0 font=Default displayName=1 order=-1
@@ -2390,12 +2390,12 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=""
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=1321 y=-5349 zoomlevel=30 zoom=8 snapgrid=120 offsetX=9279 offsetY=3752
+View x=1559 y=-4748 zoomlevel=33 zoom=9 snapgrid=120 offsetX=9279 offsetY=4748
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro with DVM" type=value
 Property name="GUID" value="{ce831ad1-1a9d-4a4a-a6be-06be000d69b2}" type=value
 Property name="last_hierarchical_path" value="" type=value
 Property name="PlaceSymbol" value="and2_d" type=value
-Property name="UserVersion" value="248" type=value
-Property name="WriteLog" value="248/0/118487/0" type=value
+Property name="UserVersion" value="250" type=value
+Property name="WriteLog" value="250/0/129735/0" type=value
 .EndSchematic
 .EndComponent

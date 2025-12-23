@@ -157,9 +157,25 @@ static inline void isr1_Run_CompleteSystem(void)
 
         if (StateFlag.bits.soft_start_on == 1)
         {
+            //VICtrl.Ia_amp_ratio_ref = VICtrl.Ia_amp_ratio_cmd;
+            //VICtrl.Ib_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
+            //VICtrl.Ic_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
+
             VICtrl.Ia_amp_ratio_ref = VICtrl.Ia_amp_ratio_cmd;
             VICtrl.Ib_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
             VICtrl.Ic_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
+
+            //if (VICtrl.Vbus_ref < VICtrl.Vbus_cmd)
+            //{
+            //    VICtrl.Vbus_ref += PhyValue.Vbus.raw;
+            //}
+            //else
+            //{
+            //    VICtrl.Vbus_ref = VICtrl.Vbus_cmd;
+            //}
+            //VICtrl.Ia_amp_ratio_ref = CTRL_GV_RUN(&VICtrl.Vbus, VICtrl.Vbus_ref, PhyValue.Vbus.raw);
+            //VICtrl.Ib_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
+            //VICtrl.Ic_amp_ratio_ref = VICtrl.Ia_amp_ratio_ref;
         }
         else
         {
@@ -185,7 +201,8 @@ static inline void isr1_Run_CompleteSystem(void)
 #if SCENARIO_CURRENT_CONTROL == CURRENT_CONTROL_DQ_COUPLING
         ctrl_RunCurrentLoop_DQcoupling();
 #elif SCENARIO_CURRENT_CONTROL == CURRENT_CONTROL_PER_PHASE
-        ctrl_RunCurrentLoop_PerPhase();
+        // TEST FUNCTION
+        //ctrl_RunCurrentLoop_PerPhase();
 #endif
 
 

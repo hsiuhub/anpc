@@ -123,7 +123,7 @@ void anpc_Vbus_PIControl_Change(void)
 void anpc_Current_Control_Change(void)
 {
 
-    if(state_IsNormalOperation())
+    if(0)//(state_IsNormalOperation())
     {
         // ==================================================
         // Phase A
