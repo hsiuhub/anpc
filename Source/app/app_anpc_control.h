@@ -99,9 +99,9 @@
 
 /* PWM Duty */
 #define CTRL_PWM_DUTY_MAX       0.98f
-
+// TEST change CTRL_LFPWM_JUDGE_COUNT  2, fixed to 0
 /* Low-Frequency PWM */
-#define CTRL_LFPWM_JUDGE_COUNT  2
+#define CTRL_LFPWM_JUDGE_COUNT  0
 
 
 //-----------------------------------------------------------------------------
@@ -407,6 +407,10 @@ static inline void ctrl_RunCurrentLoop_PerPhase(void)
     VICtrl.Ia_fdfwd_base = PhyValue.VgridA.raw;
     VICtrl.Ib_fdfwd_base = PhyValue.VgridB.raw;
     VICtrl.Ic_fdfwd_base = PhyValue.VgridC.raw;
+    // TEST 
+    //VICtrl.Ia_fdfwd_VL = (VICtrl.Ia_ref - VICtrl.Ia_ref_prev) * ANPC_INDUCTANCE * ANPC_CTRL_FREQ * 0;
+    //VICtrl.Ib_fdfwd_VL = (VICtrl.Ib_ref - VICtrl.Ib_ref_prev) * ANPC_INDUCTANCE * ANPC_CTRL_FREQ * 0;
+    //VICtrl.Ic_fdfwd_VL = (VICtrl.Ic_ref - VICtrl.Ic_ref_prev) * ANPC_INDUCTANCE * ANPC_CTRL_FREQ * 0;
 
     VICtrl.Ia_fdfwd_VL = (VICtrl.Ia_ref - VICtrl.Ia_ref_prev) * ANPC_INDUCTANCE * ANPC_CTRL_FREQ * 0;
     VICtrl.Ib_fdfwd_VL = (VICtrl.Ib_ref - VICtrl.Ib_ref_prev) * ANPC_INDUCTANCE * ANPC_CTRL_FREQ * 0;

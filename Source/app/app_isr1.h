@@ -202,7 +202,7 @@ static inline void isr1_Run_CompleteSystem(void)
         ctrl_RunCurrentLoop_DQcoupling();
 #elif SCENARIO_CURRENT_CONTROL == CURRENT_CONTROL_PER_PHASE
         // TEST FUNCTION
-        //ctrl_RunCurrentLoop_PerPhase();
+        ctrl_RunCurrentLoop_PerPhase();
 #endif
 
 

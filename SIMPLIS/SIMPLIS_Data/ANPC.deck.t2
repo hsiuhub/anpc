@@ -1,7 +1,7 @@
-$$$ 1 3246163 71    simplis  DATA FOR PLOTTING,  Tue Dec 23 14:34:26 2025  
+$$$ 1 1534464 71    simplis  DATA FOR PLOTTING,  Wed Dec 24 18:04:02 2025  
 INPUT FILE: C:/SIMPLIS simulation/ANPC Phase Loss DLL/anpc/SIMPLIS/SIMPLIS_Data/ANPC.deck
 Transient Analysis
-3246163 DATA PTS              
+1534464 DATA PTS              
 71 VARIABLES                                      
 0   TIME
 1   V(X$U16.X$U2.#PWM_L)

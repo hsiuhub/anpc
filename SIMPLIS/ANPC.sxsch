@@ -5568,7 +5568,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E6" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1.65/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vanpc_c_fb" pin2="0" pin3="#Vanpc_c" pin4="0"
 .EndInstance
 .Instance
@@ -5586,7 +5586,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E8" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1.65/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vanpc_b_fb" pin2="0" pin3="#Vanpc_b" pin4="0"
 .EndInstance
 .Instance
@@ -5595,7 +5595,7 @@ Property name="MODEL" value="E" autopos=1 normal=Left rotated=Left visible=0 fon
 Property name="ref" value="E9" autopos=1 normal=Bottom rotated=Right font=Default order=-1
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
-Property name="value" value="{1/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
+Property name="value" value="{1.65/407}" autopos=1 normal=Top rotated=Right font=Default order=-1
 Netnames pin1="#Vanpc_a_fb" pin2="0" pin3="#Vanpc_a" pin4="0"
 .EndInstance
 .Instance
@@ -19658,12 +19658,12 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Text value=".simulator SIMPLIS\n*.ac DEC 25 1k 1Meg\n.options\n+ PSP_NPT=100001\n+ POP_ITRMAX=20\n+ POP_OUTPUT_CYCLES=5\n+ SNAPSHOT_INTVL=0\n+ SNAPSHOT_NPT=11\n+ MIN_AVG_TOPOLOGY_DUR=1a\n+ AVG_TOPOLOGY_DUR_MEASUREMENT_WINDOW=128\n*.pop TRIG_GATE={TRIG_GATE} TRIG_COND=0_TO_1 MAX_PERIOD=1u CONVERGENCE=1p CYCLES_BEFORE_LAUNCH=5 TD_RUN_AFTER_POP_FAILS=-1\n.tran 1 0\n\n.simulator DEFAULT\n.var Vin=400\n.var Vin_pk=Vin/1.732*1.414\n.var VLL_pk=Vin*1.414/2\n"
 LicenseInfo version="8.40" feats=Basic|Micron|Mcore2|Schematic|Styles|Advanced|Soa|Multistep|Monte|Sim|Plugindevices|Rdif|Scripts|Rtn|SIMPLIS_IF|RemoteSimplis|beta|Va|Dotload|ProModels|Binning|Hspicedotlib|Vl|VerilogHdl|Mcore1|Opt|Snapshot|Sensitivity|Vs|Vx|Dvm|SIMPLIS_Vl|mdm|Mcsp1|Mcsp2|SimplisElite|Dev serial=unknown user="unknown" code=unknown product="SIMetrix/SIMPLIS" binarch=x64 system="WINNT/10.0/x64/16831614976/14/1/20/1218861380"
 SimulatorMode value="Simplis"
-View x=-25666 y=1552 zoomlevel=38 zoom=14 snapgrid=120 offsetX=28723 offsetY=8820
+View x=-11921 y=-581 zoomlevel=33 zoom=10 snapgrid=120 offsetX=28723 offsetY=3936
 Property name="CreateProduct" value="SIMetrix/SIMPLIS Pro" type=value
 Property name="CurrentMeasureItem" value="Distortion|0|0|0|||0||||" type=value
 Property name="GUID" value="{b18f6b6a-2205-454f-81e5-1684e6a8fe1d}" type=value
 Property name="last_hierarchical_path" value="PWM function\\" type=value
-Property name="UserVersion" value="618" type=value
-Property name="WriteLog" value="618/0/2071323/0" type=value
+Property name="UserVersion" value="627" type=value
+Property name="WriteLog" value="627/0/2167670/0" type=value
 .EndSchematic
 .EndComponent
